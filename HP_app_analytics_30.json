@@ -1,0 +1,48 @@
+{
+  "total_reviews": 658,
+  "average_rating": 2.6,
+  "rating_distribution": {
+    "1": {
+      "count": 339,
+      "percentage": 51.5
+    },
+    "2": {
+      "count": 43,
+      "percentage": 6.5
+    },
+    "3": {
+      "count": 37,
+      "percentage": 5.6
+    },
+    "4": {
+      "count": 17,
+      "percentage": 2.6
+    },
+    "5": {
+      "count": 222,
+      "percentage": 33.7
+    }
+  },
+  "country_distribution": {
+    "us": 351,
+    "gb": 62,
+    "de": 39,
+    "ca": 35,
+    "fr": 35,
+    "it": 25,
+    "mx": 24,
+    "br": 18,
+    "au": 17,
+    "es": 17,
+    "nl": 14,
+    "in": 10,
+    "se": 6,
+    "sg": 3,
+    "jp": 2
+  },
+  "top_versions": {
+    "20.2.0": 658
+  },
+  "scrape_date": "2026-01-18T21:52:00.738799",
+  "date_range": "Last 30 days (since 2025-12-19)"
+}

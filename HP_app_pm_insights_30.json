@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-01-18T22:17:19.115540",
+  "total_reviews": 658,
+  "sentiment_summary": {
+    "neutral": 358,
+    "positive": 154,
+    "negative": 146
+  },
+  "rating_distribution": {
+    "5": 222,
+    "3": 37,
+    "2": 43,
+    "1": 339,
+    "4": 17
+  },
+  "categories": {
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 358,
+      "sentiment": {
+        "positive": 96,
+        "negative": 114,
+        "neutral": 148
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "New printer after many years",
+          "snippet": "My old hp printer finally bit the dust. I am amazed at what I can do with my new 4200e series printer can do. It so exceeds my expectations! Thank you",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Ugh. Hateful",
+          "snippet": "I have the app, I’ve hardwired my laptop, I’ve tried all the wizards, I cannot print from my phone or my laptop",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Happy",
+          "snippet": "First time using hp printer and I’m so amazed how fast and convenient it’s",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Poor connection",
+          "snippet": "Printer hardly ever connects correctly, have to reboot it almost every day for it to connect to WiFi.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 308,
+      "sentiment": {
+        "positive": 87,
+        "negative": 84,
+        "neutral": 137
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Ugh. Hateful",
+          "snippet": "I have the app, I’ve hardwired my laptop, I’ve tried all the wizards, I cannot print from my phone or my laptop",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Happy",
+          "snippet": "First time using hp printer and I’m so amazed how fast and convenient it’s",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Installing HP8130",
+          "snippet": "Purchased an 8130 printer from Costco. Good price and easy installation.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "The best printer I’ve owned!",
+          "snippet": "I have the 2800 series printer, and I love it! This has to be the best printer I’ve ever owned. While I don’t like the fact that I have a set number o",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 152,
+      "sentiment": {
+        "positive": 31,
+        "negative": 57,
+        "neutral": 64
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Best printer for a good price",
+          "snippet": "This printer was only 50 dollars and it is the best printer I’ve ever had I use this everyday",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "crooks",
+          "snippet": "I joined where you get a printer that comes to you. I was told that after a two-year trial I would own the printer which the printer is only worth lik",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Installing HP8130",
+          "snippet": "Purchased an 8130 printer from Costco. Good price and easy installation.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "The best printer I’ve owned!",
+          "snippet": "I have the 2800 series printer, and I love it! This has to be the best printer I’ve ever owned. While I don’t like the fact that I have a set number o",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "FINISH PRINTER SET UP ERROR",
+          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 134,
+      "sentiment": {
+        "positive": 32,
+        "negative": 44,
+        "neutral": 58
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "crooks",
+          "snippet": "I joined where you get a printer that comes to you. I was told that after a two-year trial I would own the printer which the printer is only worth lik",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Exceptional",
+          "snippet": "Exceptional service, fast response and convenient. Recommend anyone that has printing needs utilize this service!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "The best printer I’ve owned!",
+          "snippet": "I have the 2800 series printer, and I love it! This has to be the best printer I’ve ever owned. While I don’t like the fact that I have a set number o",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "FINISH PRINTER SET UP ERROR",
+          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Wireless",
+          "snippet": "Love the idea I can print from my phone and don’t need the computer to do it.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 114,
+      "sentiment": {
+        "positive": 18,
+        "negative": 3,
+        "neutral": 93
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 4,
+          "title": "МФУ HP Neverstop 1200w",
+          "snippet": "При сканировании нужно пальцем область выделить, можно же автоматизировать это, но включение авто даёт четырёхугольник неправильной формы и нужно паль",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "HP poor",
+          "snippet": "Works 1% of the time, if that.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Hp sucks",
+          "snippet": "Try to force and trick you",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Terrible.",
+          "snippet": "Rotate just stops working. HP sucks. Never again!!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Muy fácil",
+          "snippet": "Fácil de usar en español",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 112,
+      "sentiment": {
+        "positive": 17,
+        "negative": 45,
+        "neutral": 50
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Poor connection",
+          "snippet": "Printer hardly ever connects correctly, have to reboot it almost every day for it to connect to WiFi.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Wireless",
+          "snippet": "Love the idea I can print from my phone and don’t need the computer to do it.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out o",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 103,
+      "sentiment": {
+        "positive": 33,
+        "negative": 33,
+        "neutral": 37
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Scanning to my PC",
+          "snippet": "Terrible",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "The best printer I’ve owned!",
+          "snippet": "I have the 2800 series printer, and I love it! This has to be the best printer I’ve ever owned. While I don’t like the fact that I have a set number o",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Fantastic!",
+          "snippet": "Very easy to use. This app do create clean easy to read document that able to save as a PDF file and email.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out o",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 81,
+      "sentiment": {
+        "positive": 17,
+        "negative": 24,
+        "neutral": 40
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Great Update!",
+          "snippet": "Love the new UI, though I only have printer so would be good to default to printer actions page",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Really need credit card info",
+          "snippet": "Just tried to download the app to my iPhone and it will not load without credit card info. WHY?????",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Great printer!",
+          "snippet": "Quickly responds to all requests from my iPhone. Exponentially superior to my sluggish Canon.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Awesome that you can scan and fax!",
+          "snippet": "Hadn’t use this app in a long time, but recently rediscovered it due to needing to scan some documents. I didn’t realize just how easily this connects",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 73,
+      "sentiment": {
+        "positive": 6,
+        "negative": 47,
+        "neutral": 20
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "FINISH PRINTER SET UP ERROR",
+          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out o",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Printing slow",
+          "snippet": "It is very slow when printing a doc using the APP",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 4,
+          "title": "WiFi connection",
+          "snippet": "Slow to connect to WiFi . Make it hard for wireless printing",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 61,
+      "sentiment": {
+        "positive": 13,
+        "negative": 24,
+        "neutral": 24
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "FINISH PRINTER SET UP ERROR",
+          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Rey was very helpful",
+          "snippet": "effective",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Human help",
+          "snippet": "Mike Smith was the best rep ever to assist me. He was patient over the hour time to get my phone and laptop to print. I was very emotional and weak as",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Excellent service",
+          "snippet": "Once you get past their AI “Holly”, they provide excellent customer service",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "period": "October 2025 - January 2026",
+  "market": "US Only",
+  "ios": {
+    "total_reviews": 500,
+    "average_rating": 2.56,
+    "1_star_percent": 53.2,
+    "negative_percent": 58.8,
+    "positive_percent": 35.4
+  },
+  "android": {
+    "total_reviews": 1894,
+    "average_rating": 2.04,
+    "1_star_percent": 64.9,
+    "negative_percent": 73.0,
+    "positive_percent": 23.2,
+    "top_5_issues": [
+      {
+        "name": "Printing Problems",
+        "count": 863,
+        "percent": 45.6
+      },
+      {
+        "name": "Connectivity/WiFi",
+        "count": 332,
+        "percent": 17.5
+      },
+      {
+        "name": "App Crashes/Bugs",
+        "count": 201,
+        "percent": 10.6
+      },
+      {
+        "name": "Scanning Issues",
+        "count": 171,
+        "percent": 9.0
+      },
+      {
+        "name": "Setup/Installation",
+        "count": 156,
+        "percent": 8.2
+      }
+    ]
+  },
+  "analysis_date": "2026-01-20T21:08:39.165548"
+}

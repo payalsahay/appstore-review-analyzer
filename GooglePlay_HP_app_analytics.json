@@ -1,0 +1,77 @@
+{
+  "total_reviews": 7128,
+  "average_rating": 2.37,
+  "rating_distribution": {
+    "5": 1878,
+    "4": 365,
+    "3": 327,
+    "2": 476,
+    "1": 4082
+  },
+  "country_distribution": {
+    "us": 500,
+    "gb": 500,
+    "ca": 500,
+    "au": 500,
+    "in": 500,
+    "de": 500,
+    "fr": 500,
+    "br": 500,
+    "mx": 500,
+    "es": 500,
+    "it": 500,
+    "nl": 500,
+    "se": 500,
+    "sg": 500,
+    "jp": 128
+  },
+  "version_distribution": {
+    "20.2.0.6076": 2681,
+    "20.1.0.5822": 1233,
+    "null": 968,
+    "20.1.2.5988": 742,
+    "18.10.0.5530": 230,
+    "20.0.1.5732": 218,
+    "17.35.0.5115": 74,
+    "18.5.1.5470": 54,
+    "17.20.0.4770": 39,
+    "16.10.0.4315": 34
+  },
+  "developer_replies": 0,
+  "reply_rate_percent": 0.0,
+  "app_info": {
+    "title": "HP",
+    "developer": "HP Inc.",
+    "rating": 4.1937404,
+    "reviews_count": 34198,
+    "installs": "100,000,000+",
+    "version": "20.2.0.6076",
+    "updated": 1765306071,
+    "description_short": "Set up, print, and get support—in one place"
+  },
+  "country_stats": {
+    "us": 500,
+    "gb": 500,
+    "ca": 500,
+    "au": 500,
+    "in": 500,
+    "de": 500,
+    "fr": 500,
+    "jp": 128,
+    "br": 500,
+    "mx": 500,
+    "es": 500,
+    "it": 500,
+    "nl": 500,
+    "se": 500,
+    "sg": 500
+  },
+  "scrape_date": "2026-01-20T19:16:06.873732",
+  "app_config": {
+    "package_id": "com.hp.printercontrol",
+    "app_name": "HP Smart",
+    "display_name": "HP Smart",
+    "developer": "HP Inc.",
+    "store": "Google Play"
+  }
+}

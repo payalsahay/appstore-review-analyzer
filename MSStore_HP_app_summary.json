@@ -1,0 +1,12 @@
+{
+  "store": "Microsoft Store",
+  "app_name": "HP Smart",
+  "app_id": "9wzdncrfhwlh",
+  "scrape_date": "2026-01-20T17:18:03.088813",
+  "aggregate_rating": {
+    "rating": 4.8,
+    "total_ratings": 1989595
+  },
+  "comparison_note": "Microsoft Store has 4.8 stars vs iOS App Store 4.7 stars",
+  "scraping_limitation": "MS Store reviews are dynamically loaded and not easily accessible via scraping"
+}

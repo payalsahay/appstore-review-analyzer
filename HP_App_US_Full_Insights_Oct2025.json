@@ -1,0 +1,645 @@
+{
+  "report_info": {
+    "title": "HP App - US Market Full Analysis",
+    "period": "October 2025 - January 2026",
+    "region": "United States",
+    "analysis_date": "2026-01-21T12:14:01.366387",
+    "agent": "CustomerInsight_Review_Agent v1.1"
+  },
+  "summary": {
+    "total_reviews": 2402,
+    "ios_reviews": 500,
+    "gplay_reviews": 1902,
+    "combined_avg_rating": 2.14,
+    "ios_avg_rating": 2.49,
+    "gplay_avg_rating": 2.05
+  },
+  "sentiment": {
+    "positive": 550,
+    "negative": 748,
+    "neutral": 1104
+  },
+  "rating_distribution": {
+    "3": 103,
+    "5": 522,
+    "1": 1507,
+    "4": 92,
+    "2": 178
+  },
+  "top_issues": [
+    {
+      "rank": 1,
+      "category_id": "printing",
+      "name": "Print Quality & Functionality",
+      "mention_count": 1273,
+      "percentage": 53.0,
+      "sentiment": {
+        "positive": 199,
+        "negative": 472,
+        "neutral": 602
+      },
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Great Update!",
+          "snippet": "Love the new UI, though I only have printer so would be good to default to printer actions page",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "This printer will not print",
+          "snippet": "Just bought this printer it direct do anything",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Human help",
+          "snippet": "Mike Smith was the best rep ever to assist me. He was patient over the hour time to get my phone and laptop to print. I was very emotional and weak as I am ill and he persevered.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Hate this printer",
+          "snippet": "This is a replacement printer and I hate it.  Everything is simply so difficult.  All I do is jump through hoops to do a simple print.  I just printed a photo and I said 4x6 and got a full page.  It is awful.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category_id": "mobile_experience",
+      "name": "Mobile App Experience",
+      "mention_count": 1154,
+      "percentage": 48.0,
+      "sentiment": {
+        "positive": 279,
+        "negative": 442,
+        "neutral": 433
+      },
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but there’s no way to agree or advance to the agreement.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great Update!",
+          "snippet": "Love the new UI, though I only have printer so would be good to default to printer actions page",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Hate this printer",
+          "snippet": "This is a replacement printer and I hate it.  Everything is simply so difficult.  All I do is jump through hoops to do a simple print.  I just printed a photo and I said 4x6 and got a full page.  It is awful.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great & easy",
+          "snippet": "The app has what is needed to print,scan and fax. Overall though. One thing I wish this printer has and it’s, being able to connect to my laptop with the cord but no disk came with purchase. Be careful on that end. Wi-Fi wise? Works flawlessly.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category_id": "features",
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 551,
+      "percentage": 22.9,
+      "sentiment": {
+        "positive": 85,
+        "negative": 197,
+        "neutral": 269
+      },
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great & easy",
+          "snippet": "The app has what is needed to print,scan and fax. Overall though. One thing I wish this printer has and it’s, being able to connect to my laptop with the cord but no disk came with purchase. Be careful on that end. Wi-Fi wise? Works flawlessly.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Just doesn’t work",
+          "snippet": "I sent the paper size that I need, but the system does not seem to recognize that and refuses to print out any photographs",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Stop wasting my ink!!!",
+          "snippet": "Difficult to connect to internet along with it constantly wants to print pages and it wastes Ink! Dislike this a lot as it feels very scammy from HP to get you to buy more ink!",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 5,
+          "title": "Best hands down",
+          "snippet": "I’ve had this printer going on 6 years now and this thing is a beast. Never had any issues with it. Connects to my phone seamlessly. The HP app literally shows me the ink levels and does everything I could ever want. The ink cartridges are very commo",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category_id": "value",
+      "name": "Value & Pricing",
+      "mention_count": 506,
+      "percentage": 21.1,
+      "sentiment": {
+        "positive": 71,
+        "negative": 222,
+        "neutral": 213
+      },
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but there’s no way to agree or advance to the agreement.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great & easy",
+          "snippet": "The app has what is needed to print,scan and fax. Overall though. One thing I wish this printer has and it’s, being able to connect to my laptop with the cord but no disk came with purchase. Be careful on that end. Wi-Fi wise? Works flawlessly.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Ink replacement and ease of print is terrible",
+          "snippet": "Why can’t you replace the ink, and move on. Why do you have to waste 1/2 the cartridge before it’s starts printing correctly. This product is terrible.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Excellent service",
+          "snippet": "Once you get past their AI “Holly”, they provide excellent customer service",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category_id": "connectivity",
+      "name": "Connectivity & Setup",
+      "mention_count": 477,
+      "percentage": 19.9,
+      "sentiment": {
+        "positive": 53,
+        "negative": 197,
+        "neutral": 227
+      },
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but there’s no way to agree or advance to the agreement.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great & easy",
+          "snippet": "The app has what is needed to print,scan and fax. Overall though. One thing I wish this printer has and it’s, being able to connect to my laptop with the cord but no disk came with purchase. Be careful on that end. Wi-Fi wise? Works flawlessly.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Stop wasting my ink!!!",
+          "snippet": "Difficult to connect to internet along with it constantly wants to print pages and it wastes Ink! Dislike this a lot as it feels very scammy from HP to get you to buy more ink!",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-14"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "category_id": "reliability",
+      "name": "App Reliability & Stability",
+      "mention_count": 402,
+      "percentage": 16.7,
+      "sentiment": {
+        "positive": 20,
+        "negative": 280,
+        "neutral": 102
+      },
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "Ap Bug?",
+          "snippet": "I like the app and the details. However I have a message that I haven’t completed my setup.  I go to finish it, I get to the HP+ agreement page, but there’s no way to agree or advance to the agreement.",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Printing slow",
+          "snippet": "It is very slow when printing a doc using the APP",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 4,
+          "title": "WiFi connection",
+          "snippet": "Slow to connect to WiFi . Make it hard for wireless printing",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-13"
+        },
+        {
+          "rating": 4,
+          "title": "Slow app",
+          "snippet": "the app is kind of slow",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "category_id": "uncategorized",
+      "name": "uncategorized",
+      "mention_count": 402,
+      "percentage": 16.7,
+      "sentiment": {
+        "positive": 160,
+        "negative": 45,
+        "neutral": 197
+      },
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Excellent!!!",
+          "snippet": "Excellent services! 10/10",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Excelente",
+          "snippet": "Me encanta es lo mejor",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 5,
+          "title": "Omg I love hp",
+          "snippet": "Omg omg omg fr fr no Charlie Kirk",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 1,
+          "title": "Mala Conexión",
+          "snippet": "Mala conexión imposible establecer conexión desde los celulares",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 5,
+          "title": "Hp",
+          "snippet": "Me encanta",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-12"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "category_id": "updates",
+      "name": "Updates & Compatibility",
+      "mention_count": 369,
+      "percentage": 15.4,
+      "sentiment": {
+        "positive": 51,
+        "negative": 144,
+        "neutral": 174
+      },
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Great Update!",
+          "snippet": "Love the new UI, though I only have printer so would be good to default to printer actions page",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Really need credit card info",
+          "snippet": "Just tried to download the app to my iPhone and it will not load without credit card info. WHY?????",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-13"
+        },
+        {
+          "rating": 5,
+          "title": "Great printer!",
+          "snippet": "Quickly responds to all requests from my iPhone. Exponentially superior to my sluggish Canon.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-13"
+        },
+        {
+          "rating": 5,
+          "title": "Awesome that you can scan and fax!",
+          "snippet": "Hadn’t use this app in a long time, but recently rediscovered it due to needing to scan some documents. I didn’t realize just how easily this connects to your HP printer and we’ve had our printer for years so I’m impressed with the backwards compatib",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "category_id": "scanning",
+      "name": "Scanning Features",
+      "mention_count": 285,
+      "percentage": 11.9,
+      "sentiment": {
+        "positive": 67,
+        "negative": 86,
+        "neutral": 132
+      },
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Lifetime problems",
+          "snippet": "HP has got to be the worst printer I’ve ever purchased. Not for printing just for problems. It says Wi-Fi connection error every month two weeks out of the month. I forget the network and re-sign in to the Wi-Fi. It still has an error exclamation ove",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Great & easy",
+          "snippet": "The app has what is needed to print,scan and fax. Overall though. One thing I wish this printer has and it’s, being able to connect to my laptop with the cord but no disk came with purchase. Be careful on that end. Wi-Fi wise? Works flawlessly.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "New Fax",
+          "snippet": "I live in Tallahassee and the lines at Office Depot to get a document faxed or printed usually is ridiculously crazy. I decided to invest in a HP 8135e. Best decision ever! Fax from my phone and instantly the document is sent plus a fax history log/r",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 1,
+          "title": "Print quality",
+          "snippet": "Not good",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 1,
+          "title": "Trouble",
+          "snippet": "Working for a while then suddenly it lost the WiFi and after several hours got it to connect again to the router but now it won’t print from my phone. I can get it to scan and print but I can no longer print a document from my phone. Very frustrating",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "category_id": "support",
+      "name": "Customer Support & Help",
+      "mention_count": 228,
+      "percentage": 9.5,
+      "sentiment": {
+        "positive": 42,
+        "negative": 90,
+        "neutral": 96
+      },
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Human help",
+          "snippet": "Mike Smith was the best rep ever to assist me. He was patient over the hour time to get my phone and laptop to print. I was very emotional and weak as I am ill and he persevered.",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 1,
+          "title": "Setup never works",
+          "snippet": "Every time you try to set up on of these printers it takes hours and ends with calling support",
+          "sentiment": "neutral",
+          "source": "Combined",
+          "date": "2026-01-15"
+        },
+        {
+          "rating": 5,
+          "title": "Excellent service",
+          "snippet": "Once you get past their AI “Holly”, they provide excellent customer service",
+          "sentiment": "positive",
+          "source": "Combined",
+          "date": "2026-01-14"
+        },
+        {
+          "rating": 1,
+          "title": "Difficult to use.",
+          "snippet": "I can use this to log in to my account on my iPad Pro and see my printer, but on my laptop running Win11 I log in and it says I have no printers in my account. There are lengthy directions to troubleshoot how to get this corrected, but of course they",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-10"
+        },
+        {
+          "rating": 1,
+          "title": "HP is Awful",
+          "snippet": "HP are consistently the worst printers I have ever worked with. Their connectivity is spotty at best, their customer support is awful, and their products just don’t work. I am never buying another HP printer ever, and possibly never buying any HP pro",
+          "sentiment": "negative",
+          "source": "Combined",
+          "date": "2026-01-10"
+        }
+      ]
+    }
+  ],
+  "ios_analysis": {
+    "total": 500,
+    "sentiment": {
+      "negative": 151,
+      "positive": 138,
+      "neutral": 211
+    },
+    "rating_distribution": {
+      "3": 31,
+      "5": 155,
+      "1": 276,
+      "4": 13,
+      "2": 25
+    },
+    "top_categories": [
+      [
+        "printing",
+        347
+      ],
+      [
+        "mobile_experience",
+        239
+      ],
+      [
+        "value",
+        153
+      ],
+      [
+        "features",
+        134
+      ],
+      [
+        "connectivity",
+        106
+      ]
+    ]
+  },
+  "gplay_analysis": {
+    "total": 1902,
+    "sentiment": {
+      "neutral": 893,
+      "negative": 597,
+      "positive": 412
+    },
+    "rating_distribution": {
+      "3": 72,
+      "1": 1231,
+      "5": 367,
+      "4": 79,
+      "2": 153
+    },
+    "top_categories": [
+      [
+        "printing",
+        926
+      ],
+      [
+        "mobile_experience",
+        915
+      ],
+      [
+        "features",
+        417
+      ],
+      [
+        "connectivity",
+        371
+      ],
+      [
+        "uncategorized",
+        360
+      ]
+    ]
+  }
+}

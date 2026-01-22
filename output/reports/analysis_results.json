@@ -1,0 +1,59 @@
+{
+  "analysis_date": "2026-01-21T17:00:45.929694",
+  "total_reviews": 1272,
+  "avg_rating": 2.45,
+  "sentiment": {
+    "neutral": 848,
+    "positive": 256,
+    "negative": 168
+  },
+  "ratings": {
+    "1": 702,
+    "5": 370,
+    "2": 92,
+    "4": 53,
+    "3": 55
+  },
+  "top_issues": [
+    [
+      "uncategorized",
+      476
+    ],
+    [
+      "printing",
+      410
+    ],
+    [
+      "mobile_experience",
+      331
+    ],
+    [
+      "connectivity",
+      183
+    ],
+    [
+      "features",
+      104
+    ],
+    [
+      "reliability",
+      90
+    ],
+    [
+      "scanning",
+      81
+    ],
+    [
+      "updates",
+      70
+    ],
+    [
+      "account_cloud",
+      53
+    ],
+    [
+      "support",
+      52
+    ]
+  ]
+}

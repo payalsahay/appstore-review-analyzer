@@ -34,7 +34,7 @@ from collections import Counter, defaultdict
 # ============================================================================
 
 CONFIG = {
-    "app_name": "HP Smart",
+    "app_name": "HP App",
     "ios_app_id": 469284907,
     "android_package": "com.hp.printercontrol",
     "target_country": "us",

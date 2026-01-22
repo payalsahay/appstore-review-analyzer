@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-01-22T12:37:37.131161",
+  "days": 30,
+  "total_reviews": 667,
+  "avg_rating": 2.66,
+  "rating_distribution": {
+    "5": 233,
+    "4": 17,
+    "3": 39,
+    "2": 45,
+    "1": 333
+  },
+  "country_distribution": {
+    "us": 360,
+    "gb": 61,
+    "de": 41,
+    "fr": 36,
+    "ca": 31,
+    "mx": 28,
+    "it": 25,
+    "au": 19,
+    "br": 17,
+    "es": 15,
+    "nl": 13,
+    "in": 9,
+    "se": 7,
+    "sg": 3,
+    "jp": 2
+  },
+  "version_distribution": {
+    "20.2.0": 667
+  },
+  "date_range": {
+    "from": "2025-12-23T13:08:58-07:00",
+    "to": "2026-01-20T04:49:25-07:00"
+  },
+  "platform": "iOS App Store",
+  "view": "All Countries"
+}

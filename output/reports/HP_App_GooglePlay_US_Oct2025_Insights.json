@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-01-21T21:07:55.008713",
+  "total_reviews": 1911,
+  "sentiment_summary": {
+    "negative": 598,
+    "neutral": 897,
+    "positive": 416
+  },
+  "rating_distribution": {
+    "1": 1236,
+    "5": 371,
+    "3": 72,
+    "4": 79,
+    "2": 153
+  },
+  "categories": {
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 930,
+      "sentiment": {
+        "positive": 111,
+        "negative": 351,
+        "neutral": 468
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I really enjoy using HP Deskjet printer",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I don't use my phone to print anything usually but today it was necessary. I had an issue getting to my normal printer dashboard and fumbled around a ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 919,
+      "sentiment": {
+        "positive": 202,
+        "negative": 368,
+        "neutral": 349
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "it is not so easy",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it doesn't navigate like the old app. more simpler.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 419,
+      "sentiment": {
+        "positive": 51,
+        "negative": 156,
+        "neutral": 212
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "App works fine but new UI landing page doesn't actually show any printer functionality.you have to scrol down the page or tap an icon, to do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "rubbish. printer won't talk to new router and app just keeps asking you to join a plan. I just want to print a chuffin document for heavens sake.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 373,
+      "sentiment": {
+        "positive": 35,
+        "negative": 159,
+        "neutral": 179
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "terrible app. terrible printer. always goes offline",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "trying to hook up my WIFI to my envy6000printer on my Chromebook laptop computer it started out working then quit ! try to reset it back upa ndthe app",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 362,
+      "sentiment": {
+        "positive": 151,
+        "negative": 42,
+        "neutral": 169
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never responded 😒 won't open",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "great",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "suppperb",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 345,
+      "sentiment": {
+        "positive": 42,
+        "negative": 147,
+        "neutral": 156
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "It's very reliable and provides clean scans.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I don't use my phone to print anything usually but today it was necessary. I had an issue getting to my normal printer dashboard and fumbled around a ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "app is good but slow. It process scanning slowly",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 341,
+      "sentiment": {
+        "positive": 18,
+        "negative": 239,
+        "neutral": 84
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "app is good but slow. It process scanning slowly",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this app has and bug",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "lag, slow loading",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 287,
+      "sentiment": {
+        "positive": 34,
+        "negative": 119,
+        "neutral": 134
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "new app does not allow full access to scan and copy functions. What kind of upgrade is this.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "with the new updates I can no longer connect to my printer. ridiculous.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "2 stars because it does technically allow me to scan and there are no Android alternatives for my HP AIO. This app is more of an advertisement/upsell ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Not helpful. Instructions not clear. Cannot get a support person on the phone",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I connect via WiFi and App is very intermittent by phone... I only see my ink levels about 1 in 50 times I connect... Initially I moaned about tablet ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 216,
+      "sentiment": {
+        "positive": 46,
+        "negative": 61,
+        "neutral": 109
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "It's very reliable and provides clean scans.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "app is good but slow. It process scanning slowly",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "new app does not allow full access to scan and copy functions. What kind of upgrade is this.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Very poor quality app, has turned me away from HP products entirely. It's overcomplicated and seems to do anything but let you print. Every time I use",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I can't do anything from this app. I just spent 45 minutes trying to print 2 pages of a document. 2 pages!!! and in the end, I still have not gotten t",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 173,
+      "sentiment": {
+        "positive": 27,
+        "negative": 69,
+        "neutral": 77
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Not helped",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "absolute shite ! Incredibly complicated, unnecessarily protracted installion process ... Very poor punter / printer interface .... could not be more u",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "2 stars because it does technically allow me to scan and there are no Android alternatives for my HP AIO. This app is more of an advertisement/upsell ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Convenient, useful, and helpful. I am using this app from 2018. It is one of the best mobile scanning documents to convert your physical documents to ",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  }
+}

@@ -195,7 +195,7 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "never responded 😒 won't open",
+          "snippet": "never responded \ud83d\ude12 won't open",
           "sentiment": "neutral"
         },
         {
@@ -433,6 +433,60 @@
           "sentiment": "positive"
         }
       ]
+    }
+  },
+  "version_analysis": {
+    "total_with_version": 1612,
+    "total_reviews": 1911,
+    "coverage_pct": 84.4,
+    "top_versions": {
+      "20.1.0.5822": 693,
+      "20.1.2.5988": 401,
+      "20.2.0.6076": 385,
+      "18.10.0.5530": 39,
+      "20.0.1.5732": 14,
+      "17.35.0.5115": 12,
+      "18.5.1.5470": 10,
+      "17.20.0.4770": 7,
+      "16.15.1.4410": 4,
+      "17.30.1.5049": 4
+    },
+    "version_ratings": {
+      "20.1.0.5822": {
+        "review_count": 693,
+        "avg_rating": 2.02,
+        "one_star_pct": 64.4
+      },
+      "20.1.2.5988": {
+        "review_count": 401,
+        "avg_rating": 2.01,
+        "one_star_pct": 65.8
+      },
+      "20.2.0.6076": {
+        "review_count": 385,
+        "avg_rating": 2.32,
+        "one_star_pct": 59.7
+      },
+      "18.10.0.5530": {
+        "review_count": 39,
+        "avg_rating": 2.26,
+        "one_star_pct": 51.3
+      },
+      "20.0.1.5732": {
+        "review_count": 14,
+        "avg_rating": 2.5,
+        "one_star_pct": 42.9
+      },
+      "17.35.0.5115": {
+        "review_count": 12,
+        "avg_rating": 2.5,
+        "one_star_pct": 58.3
+      },
+      "18.5.1.5470": {
+        "review_count": 10,
+        "avg_rating": 1.7,
+        "one_star_pct": 70.0
+      }
     }
   }
 }

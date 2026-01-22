@@ -46,6 +46,28 @@
 
 ---
 
+## App Version Analysis
+
+**Coverage:** 1,612 of 1,911 reviews (84.4%) include version information
+
+### Top Versions by Review Count
+
+| Version | Reviews | Avg Rating | 1-Star % | Trend |
+|---------|---------|------------|----------|-------|
+| 20.1.0.5822 | 693 | 2.02 | 64.4% | Problematic |
+| 20.1.2.5988 | 401 | 2.01 | 65.8% | Problematic |
+| 20.2.0.6076 | 385 | 2.32 | 59.7% | Slight improvement |
+| 18.10.0.5530 | 39 | 2.26 | 51.3% | Legacy |
+| 20.0.1.5732 | 14 | 2.50 | 42.9% | Better |
+
+### Version Insights
+- **v20.1.x releases** show consistently poor ratings (~2.0) with 65% 1-star reviews
+- **v20.2.0.6076** (latest) shows slight improvement but still 60% 1-star
+- No significant quality improvement across recent releases
+- **PM Action:** Investigate regression issues introduced in v20.1.x
+
+---
+
 ## Top 10 Customer Issues
 
 | Rank | Issue | Mentions | % of Reviews | Negative % | Severity |

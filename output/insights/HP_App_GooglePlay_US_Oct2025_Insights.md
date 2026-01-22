@@ -46,6 +46,57 @@
 
 ---
 
+## Monthly Trending Report
+
+### Review Volume & Ratings by Month
+
+| Month | Reviews | Avg Rating | 1-Star % | 5-Star % | Top Version |
+|-------|---------|------------|----------|----------|-------------|
+| Oct 2025 | 637 | 1.98 | 66.7% | 17.4% | v20.1.0.5822 |
+| Nov 2025 | 527 | 1.90 | 67.6% | 15.2% | v20.1.2.5988 |
+| Dec 2025 | 427 | 2.14 | 63.2% | 21.1% | v20.1.2.5988 |
+| Jan 2026 | 320 | 2.35 | 57.8% | 28.1% | v20.2.0.6076 |
+
+### Sentiment Trend
+
+| Month | Positive % | Negative % | Trend |
+|-------|------------|------------|-------|
+| Oct 2025 | 21.4% | 74.1% | Baseline |
+| Nov 2025 | 19.5% | 77.0% | ↑ 2.9% worse |
+| Dec 2025 | 26.9% | 71.0% | ↓ 6.0% better |
+| Jan 2026 | 30.0% | 65.0% | ↓ 6.0% better |
+
+### Monthly Insights
+
+1. **November 2025 was the worst month** - Lowest avg rating (1.90), highest 1-star rate (67.6%), highest negative sentiment (77.0%)
+
+2. **Improving trend since December** - Ratings improving from 1.90 → 2.14 → 2.35
+
+3. **v20.2.0.6076 (Jan 2026) shows improvement** - 1-star rate dropped to 57.8% (vs 67.6% in Nov)
+
+4. **Review volume declining** - Oct: 637 → Jan: 320 (50% drop). Could indicate:
+   - Fewer new users
+   - Less engagement
+   - Or users giving up on feedback
+
+### Trend Visualization
+
+```
+Avg Rating Trend:
+Oct 2025: ████████████████████ 1.98
+Nov 2025: ███████████████████  1.90 ← Lowest
+Dec 2025: █████████████████████ 2.14
+Jan 2026: ████████████████████████ 2.35 ← Improving
+
+1-Star Rate Trend:
+Oct 2025: ██████████████████████████████████ 66.7%
+Nov 2025: ██████████████████████████████████ 67.6% ← Peak
+Dec 2025: ████████████████████████████████ 63.2%
+Jan 2026: █████████████████████████████ 57.8% ← Improving
+```
+
+---
+
 ## App Version Analysis
 
 **Coverage:** 1,612 of 1,911 reviews (84.4%) include version information

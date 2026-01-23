@@ -1,7 +1,7 @@
-# HP_App_iOS_US_Last30Days - Customer Insights Report
+# HP_App_iOS_US_Last500 - Customer Insights Report
 
 **Generated:** 2026-01-22 17:22
-**Source:** HP_App_iOS_US_Last30Days.json
+**Source:** HP_App_iOS_US_Last500.json
 **Total Reviews:** 360
 
 ---

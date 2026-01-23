@@ -1,0 +1,25 @@
+{
+  "scrape_date": "2026-01-22T17:22:44.897481",
+  "total_reviews": 360,
+  "avg_rating": 2.64,
+  "rating_distribution": {
+    "5": 124,
+    "4": 11,
+    "3": 20,
+    "2": 21,
+    "1": 184
+  },
+  "version_distribution": {
+    "20.2.0": 360
+  },
+  "one_star_count": 184,
+  "one_star_pct": 51.1,
+  "five_star_count": 124,
+  "five_star_pct": 34.4,
+  "platform": "iOS App Store",
+  "country": "US",
+  "date_range": {
+    "from": "2025-12-23",
+    "to": "2026-01-19"
+  }
+}

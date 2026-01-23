@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-01-22T17:14:18.915264",
-  "total_reviews": 360,
+  "generated_at": "2026-01-22T17:14:18.980127",
+  "total_reviews": 774,
   "sentiment_summary": {
-    "positive": 111,
-    "negative": 101,
-    "neutral": 148
+    "positive": 220,
+    "negative": 213,
+    "neutral": 341
   },
   "rating_distribution": {
-    "5": 124,
-    "2": 21,
-    "1": 184,
-    "4": 11,
-    "3": 20
+    "5": 225,
+    "2": 52,
+    "1": 430,
+    "4": 27,
+    "3": 40
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 241,
+      "mention_count": 447,
       "sentiment": {
-        "positive": 76,
-        "negative": 80,
-        "neutral": 85
+        "positive": 107,
+        "negative": 148,
+        "neutral": 192
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 166,
+      "mention_count": 344,
       "sentiment": {
-        "positive": 60,
-        "negative": 55,
-        "neutral": 51
+        "positive": 113,
+        "negative": 118,
+        "neutral": 113
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 99,
+      "mention_count": 179,
       "sentiment": {
-        "positive": 20,
-        "negative": 43,
-        "neutral": 36
+        "positive": 36,
+        "negative": 71,
+        "neutral": 72
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 89,
+      "mention_count": 177,
       "sentiment": {
-        "positive": 26,
-        "negative": 30,
-        "neutral": 33
+        "positive": 42,
+        "negative": 57,
+        "neutral": 78
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 77,
+      "mention_count": 166,
       "sentiment": {
-        "positive": 17,
-        "negative": 28,
-        "neutral": 32
+        "positive": 24,
+        "negative": 66,
+        "neutral": 76
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -224,55 +224,55 @@
         }
       ]
     },
-    "scanning": {
-      "name": "Scanning Features",
-      "mention_count": 44,
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 124,
       "sentiment": {
-        "positive": 14,
-        "negative": 19,
-        "neutral": 11
+        "positive": 47,
+        "negative": 13,
+        "neutral": 64
       },
-      "pm_focus": "Secondary feature adoption, scan workflow",
+      "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Terrible- never connects",
-          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "title": "No sirve para nada",
+          "snippet": "0 estrellas",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "You can’t buy knock off ink cartridges. What a scu",
-          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Super",
+          "snippet": "Super qué efficient",
+          "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "Envy",
-          "snippet": "Scanning feature is terrible and confusing",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Love It!!!",
+          "snippet": "This is such a convenient system that HP Smart has made!!",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Garbage Just Like The Printer",
-          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Excelente calidad",
+          "snippet": "Me encanta mucho es súper práctico",
+          "sentiment": "neutral"
         },
         {
-          "rating": 3,
-          "title": "Wonky",
-          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "rating": 5,
+          "title": "Muy buena",
+          "snippet": "Perfecto",
           "sentiment": "positive"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 43,
+      "mention_count": 101,
       "sentiment": {
-        "positive": 3,
-        "negative": 27,
-        "neutral": 13
+        "positive": 9,
+        "negative": 68,
+        "neutral": 24
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -308,13 +308,55 @@
         }
       ]
     },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 91,
+      "sentiment": {
+        "positive": 28,
+        "negative": 26,
+        "neutral": 37
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Terrible- never connects",
+          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "You can’t buy knock off ink cartridges. What a scu",
+          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Envy",
+          "snippet": "Scanning feature is terrible and confusing",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Garbage Just Like The Printer",
+          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
+        }
+      ]
+    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 41,
+      "mention_count": 87,
       "sentiment": {
-        "positive": 10,
-        "negative": 10,
-        "neutral": 21
+        "positive": 19,
+        "negative": 25,
+        "neutral": 43
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -352,11 +394,11 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 40,
+      "mention_count": 82,
       "sentiment": {
-        "positive": 13,
-        "negative": 14,
-        "neutral": 13
+        "positive": 23,
+        "negative": 29,
+        "neutral": 30
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
@@ -389,48 +431,6 @@
           "title": "FINISH PRINTER SET UP ERROR",
           "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
           "sentiment": "neutral"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 40,
-      "sentiment": {
-        "positive": 11,
-        "negative": 2,
-        "neutral": 27
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "No sirve para nada",
-          "snippet": "0 estrellas",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Super",
-          "snippet": "Super qué efficient",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Love It!!!",
-          "snippet": "This is such a convenient system that HP Smart has made!!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Excelente calidad",
-          "snippet": "Me encanta mucho es súper práctico",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Muy buena",
-          "snippet": "Perfecto",
-          "sentiment": "positive"
         }
       ]
     }

@@ -59,34 +59,47 @@ jobs:
         run: |
           echo "Running CustomerInsight_Review_Agent on collected data..."
 
-          # Run on iOS US 30-day
+          # iOS datasets
           if [ -f "data/ios/HP_App_iOS_US_Last30Days.json" ]; then
             echo "Analyzing iOS US Last 30 Days..."
             python CustomerInsight_Review_Agent.py data/ios/HP_App_iOS_US_Last30Days.json || true
           fi
 
-          # Run on iOS All Countries 30-day
           if [ -f "data/ios/HP_App_iOS_AllCountries_Last30Days.json" ]; then
             echo "Analyzing iOS All Countries Last 30 Days..."
             python CustomerInsight_Review_Agent.py data/ios/HP_App_iOS_AllCountries_Last30Days.json || true
           fi
 
-          # Run on iOS US Last 500
           if [ -f "data/ios/HP_App_iOS_US_Last500.json" ]; then
             echo "Analyzing iOS US Last 500..."
             python CustomerInsight_Review_Agent.py data/ios/HP_App_iOS_US_Last500.json || true
           fi
 
-          # Run on Android US Last 500
+          # Android datasets
+          if [ -f "data/googleplay/HP_App_Android_US_Last30Days.json" ]; then
+            echo "Analyzing Android US Last 30 Days..."
+            python CustomerInsight_Review_Agent.py data/googleplay/HP_App_Android_US_Last30Days.json || true
+          fi
+
+          if [ -f "data/googleplay/HP_App_Android_AllCountries_Last30Days.json" ]; then
+            echo "Analyzing Android All Countries Last 30 Days..."
+            python CustomerInsight_Review_Agent.py data/googleplay/HP_App_Android_AllCountries_Last30Days.json || true
+          fi
+
           if [ -f "data/googleplay/HP_App_Android_US_Last500.json" ]; then
             echo "Analyzing Android US Last 500..."
             python CustomerInsight_Review_Agent.py data/googleplay/HP_App_Android_US_Last500.json || true
           fi
 
-          # Run on Combined US
-          if [ -f "data/HP_App_Combined_US_Latest.json" ]; then
-            echo "Analyzing Combined iOS + Android US..."
-            python CustomerInsight_Review_Agent.py data/HP_App_Combined_US_Latest.json || true
+          # Combined datasets
+          if [ -f "data/HP_App_Combined_US_Last30Days.json" ]; then
+            echo "Analyzing Combined iOS + Android US Last 30 Days..."
+            python CustomerInsight_Review_Agent.py data/HP_App_Combined_US_Last30Days.json || true
+          fi
+
+          if [ -f "data/HP_App_Combined_AllCountries_Last30Days.json" ]; then
+            echo "Analyzing Combined iOS + Android All Countries Last 30 Days..."
+            python CustomerInsight_Review_Agent.py data/HP_App_Combined_AllCountries_Last30Days.json || true
           fi
 
       - name: Generate Visualizations (if pipeline exists)
@@ -115,11 +128,14 @@ jobs:
           - iOS US: Last 30 days rolling
           - iOS All Countries: Last 30 days rolling
           - iOS US: Last 500 reviews
+          - Android US: Last 30 days rolling
+          - Android All Countries: Last 30 days rolling
           - Android US: Last 500 reviews
 
           Analysis generated:
           - CustomerInsight reports for all datasets
-          - Combined iOS + Android US analysis
+          - Combined iOS + Android US (30-day rolling)
+          - Combined iOS + Android All Countries (30-day rolling)
 
           Co-Authored-By: CustomerInsight_Review_Agent <noreply@github.com>
           Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
@@ -186,6 +202,31 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
           fi
 
+          # Android US Last 30 Days
+          if [ -f "data/googleplay/HP_App_Android_US_Last30Days_Analytics.json" ]; then
+            echo "#### Android US - Last 30 Days" >> $GITHUB_STEP_SUMMARY
+            cat data/googleplay/HP_App_Android_US_Last30Days_Analytics.json | python -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          print(f\"- **Total Reviews:** {data.get('total_reviews', 'N/A')}\")
+          print(f\"- **Average Rating:** {data.get('avg_rating', 'N/A')}\")
+          print(f\"- **1-Star:** {data.get('one_star_pct', 'N/A')}%\")
+          " >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          # Android All Countries Last 30 Days
+          if [ -f "data/googleplay/HP_App_Android_AllCountries_Last30Days_Analytics.json" ]; then
+            echo "#### Android All Countries - Last 30 Days" >> $GITHUB_STEP_SUMMARY
+            cat data/googleplay/HP_App_Android_AllCountries_Last30Days_Analytics.json | python -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          print(f\"- **Total Reviews:** {data.get('total_reviews', 'N/A')}\")
+          print(f\"- **Average Rating:** {data.get('avg_rating', 'N/A')}\")
+          " >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
           # Android US Last 500
           if [ -f "data/googleplay/HP_App_Android_US_Last500_Analytics.json" ]; then
             echo "#### Android US - Last 500" >> $GITHUB_STEP_SUMMARY
@@ -199,11 +240,19 @@ jobs:
           fi
 
           echo "### Files Generated" >> $GITHUB_STEP_SUMMARY
+          echo "#### iOS" >> $GITHUB_STEP_SUMMARY
           echo "- iOS US Last 30 Days Insights Report" >> $GITHUB_STEP_SUMMARY
           echo "- iOS All Countries Last 30 Days Insights Report" >> $GITHUB_STEP_SUMMARY
           echo "- iOS US Last 500 Insights Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### Android" >> $GITHUB_STEP_SUMMARY
+          echo "- Android US Last 30 Days Insights Report" >> $GITHUB_STEP_SUMMARY
+          echo "- Android All Countries Last 30 Days Insights Report" >> $GITHUB_STEP_SUMMARY
           echo "- Android US Last 500 Insights Report" >> $GITHUB_STEP_SUMMARY
-          echo "- Combined iOS + Android US Analysis" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### Combined" >> $GITHUB_STEP_SUMMARY
+          echo "- Combined iOS + Android US (30-day rolling)" >> $GITHUB_STEP_SUMMARY
+          echo "- Combined iOS + Android All Countries (30-day rolling)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
           echo "*Automated by Weekly Friday Scraper + CustomerInsight_Review_Agent*" >> $GITHUB_STEP_SUMMARY

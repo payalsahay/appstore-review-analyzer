@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-01-22T17:14:18.962197",
-  "total_reviews": 500,
+  "generated_at": "2026-01-22T17:14:18.938571",
+  "total_reviews": 414,
   "sentiment_summary": {
-    "neutral": 233,
-    "negative": 135,
-    "positive": 132
+    "neutral": 193,
+    "negative": 112,
+    "positive": 109
   },
   "rating_distribution": {
-    "1": 298,
-    "2": 35,
-    "5": 129,
-    "3": 21,
-    "4": 17
+    "1": 246,
+    "2": 31,
+    "5": 101,
+    "3": 20,
+    "4": 16
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 247,
+      "mention_count": 206,
       "sentiment": {
-        "positive": 36,
-        "negative": 83,
-        "neutral": 128
+        "positive": 31,
+        "negative": 68,
+        "neutral": 107
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 214,
+      "mention_count": 178,
       "sentiment": {
-        "positive": 63,
-        "negative": 77,
-        "neutral": 74
+        "positive": 53,
+        "negative": 63,
+        "neutral": 62
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -98,55 +98,13 @@
         }
       ]
     },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 106,
-      "sentiment": {
-        "positive": 46,
-        "negative": 12,
-        "neutral": 48
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "okok",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "muy facil de usar y hace todo lo que una imprimidora grande aria y tdo funciona muy bien👍",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "never responded 😒 won't open",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "great",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "good",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 105,
+      "mention_count": 89,
       "sentiment": {
-        "positive": 10,
-        "negative": 43,
-        "neutral": 52
+        "positive": 7,
+        "negative": 38,
+        "neutral": 44
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -184,11 +142,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 105,
+      "mention_count": 88,
       "sentiment": {
-        "positive": 18,
-        "negative": 32,
-        "neutral": 55
+        "positive": 16,
+        "negative": 27,
+        "neutral": 45
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -224,13 +182,55 @@
         }
       ]
     },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 84,
+      "sentiment": {
+        "positive": 36,
+        "negative": 11,
+        "neutral": 37
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "okok",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "muy facil de usar y hace todo lo que una imprimidora grande aria y tdo funciona muy bien👍",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never responded 😒 won't open",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "great",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good",
+          "sentiment": "positive"
+        }
+      ]
+    },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 94,
+      "mention_count": 80,
       "sentiment": {
-        "positive": 18,
-        "negative": 34,
-        "neutral": 42
+        "positive": 16,
+        "negative": 28,
+        "neutral": 36
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 67,
+      "mention_count": 58,
       "sentiment": {
         "positive": 6,
-        "negative": 48,
-        "neutral": 13
+        "negative": 41,
+        "neutral": 11
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -310,11 +310,11 @@
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 56,
+      "mention_count": 47,
       "sentiment": {
-        "positive": 15,
-        "negative": 12,
-        "neutral": 29
+        "positive": 14,
+        "negative": 7,
+        "neutral": 26
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -352,11 +352,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 55,
+      "mention_count": 46,
       "sentiment": {
         "positive": 9,
-        "negative": 18,
-        "neutral": 28
+        "negative": 15,
+        "neutral": 22
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -392,45 +392,45 @@
         }
       ]
     },
-    "account_cloud": {
-      "name": "Account & Cloud Services",
-      "mention_count": 49,
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 42,
       "sentiment": {
-        "positive": 4,
-        "negative": 20,
-        "neutral": 25
+        "positive": 10,
+        "negative": 15,
+        "neutral": 17
       },
-      "pm_focus": "Account funnel, cloud integration",
+      "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 2,
           "title": "",
-          "snippet": "2 stars because it does technically allow me to scan and there are no Android alternatives for my HP AIO. This app is more of an advertisement/upsell ",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "It was a massive pain from the beginning. Why does it only use 2.4Ghz? After eventually getting it connect I find out that I can't even scan without c",
+          "snippet": "poor instructions for a novice.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "worst app and worst printer the app is really slow, always takes you to the website and you have to sign in every time you have to anything",
+          "snippet": "printer goes to sleep and does not wake up unless I physically turn off power and turn back on. it gets really frustrating! I like hp print service, e",
           "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "wonderful app has lots of expansion it allows you to take a simple document and put it into your phone to the scanner on the printer or take things of",
+          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
           "sentiment": "positive"
         },
         {
-          "rating": 3,
+          "rating": 1,
           "title": "",
-          "snippet": "I connect via WiFi and App is very intermittent by phone... I only see my ink levels about 1 in 50 times I connect... Initially I moaned about tablet ",
+          "snippet": "Not helped",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "absolute shite ! Incredibly complicated, unnecessarily protracted installion process ... Very poor punter / printer interface .... could not be more u",
+          "sentiment": "negative"
         }
       ]
     }

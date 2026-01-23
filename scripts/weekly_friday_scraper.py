@@ -9,7 +9,10 @@ COLLECTS:
 1. iOS US - Last 30 days rolling
 2. iOS All Countries - Last 30 days rolling
 3. iOS US - Last 500 reviews
-4. Android US - Last 500 reviews
+4. Android US - Last 30 days rolling
+5. Android All Countries - Last 30 days rolling
+6. Android US - Last 500 reviews
+7. Combined iOS + Android US
 
 FEATURES:
 - Deduplication: Appends new reviews, removes duplicates by review ID
@@ -18,7 +21,7 @@ FEATURES:
 - Commits all changes to GitHub
 
 Author: Payal
-Version: 1.0
+Version: 1.1
 Created: January 2026
 
 ================================================================================
@@ -329,6 +332,17 @@ def scrape_android_reviews(country="us", max_reviews=500):
         return all_reviews
 
 
+def scrape_android_all_countries(max_reviews_per_country=500):
+    """Scrape Android reviews from all configured countries"""
+    all_reviews = []
+
+    for country in ALL_COUNTRIES:
+        reviews = scrape_android_reviews(country, max_reviews=max_reviews_per_country)
+        all_reviews.extend(reviews)
+
+    return all_reviews
+
+
 # ============================================================================
 # INSIGHTS AGENT
 # ============================================================================
@@ -466,7 +480,10 @@ def run_weekly_scrape():
     1. iOS US - Last 30 days rolling
     2. iOS All Countries - Last 30 days rolling
     3. iOS US - Last 500 reviews
-    4. Android US - Last 500 reviews
+    4. Android US - Last 30 days rolling
+    5. Android All Countries - Last 30 days rolling
+    6. Android US - Last 500 reviews
+    7. Combined iOS + Android US
     """
     print("\n" + "="*70)
     print("  WEEKLY FRIDAY SCRAPER")
@@ -479,7 +496,7 @@ def run_weekly_scrape():
     # 1. iOS US - Last 30 Days Rolling
     # -------------------------------------------------------------------------
     print("\n" + "-"*70)
-    print("  [1/4] iOS US - Last 30 Days Rolling")
+    print("  [1/7] iOS US - Last 30 Days Rolling")
     print("-"*70)
 
     ios_us_30d_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last30Days.json")
@@ -504,7 +521,7 @@ def run_weekly_scrape():
     # 2. iOS All Countries - Last 30 Days Rolling
     # -------------------------------------------------------------------------
     print("\n" + "-"*70)
-    print("  [2/4] iOS All Countries - Last 30 Days Rolling")
+    print("  [2/7] iOS All Countries - Last 30 Days Rolling")
     print("-"*70)
 
     ios_all_30d_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_AllCountries_Last30Days.json")
@@ -516,6 +533,7 @@ def run_weekly_scrape():
         merged = deduplicate_reviews(existing_ios_all_30d, new_ios_all)
         filtered = filter_reviews_by_date(merged, 30)
         save_reviews(filtered, ios_all_30d_file)
+        save_to_csv(filtered, ios_all_30d_file.replace('.json', '.csv'))
         analytics = generate_analytics(filtered, "iOS App Store", "AllCountries", days=30)
         save_reviews(analytics, ios_all_30d_file.replace('.json', '_Analytics.json'))
         results['ios_all_30d'] = len(filtered)
@@ -524,7 +542,7 @@ def run_weekly_scrape():
     # 3. iOS US - Last 500 Reviews
     # -------------------------------------------------------------------------
     print("\n" + "-"*70)
-    print("  [3/4] iOS US - Last 500 Reviews")
+    print("  [3/7] iOS US - Last 500 Reviews")
     print("-"*70)
 
     ios_us_500_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last500.json")
@@ -542,17 +560,58 @@ def run_weekly_scrape():
         results['ios_us_500'] = len(latest_500)
 
     # -------------------------------------------------------------------------
-    # 4. Android US - Last 500 Reviews
+    # 4. Android US - Last 30 Days Rolling
     # -------------------------------------------------------------------------
     print("\n" + "-"*70)
-    print("  [4/4] Android US - Last 500 Reviews")
+    print("  [4/7] Android US - Last 30 Days Rolling")
+    print("-"*70)
+
+    android_us_30d_file = os.path.join(ANDROID_DATA_DIR, "HP_App_Android_US_Last30Days.json")
+    existing_android_us_30d = load_existing_reviews(android_us_30d_file)
+
+    new_android_us = scrape_android_reviews(country="us", max_reviews=3000)
+
+    if new_android_us:
+        merged = deduplicate_reviews(existing_android_us_30d, new_android_us)
+        filtered = filter_reviews_by_date(merged, 30)
+        save_reviews(filtered, android_us_30d_file)
+        save_to_csv(filtered, android_us_30d_file.replace('.json', '.csv'))
+        analytics = generate_analytics(filtered, "Google Play", "US", days=30)
+        save_reviews(analytics, android_us_30d_file.replace('.json', '_Analytics.json'))
+        results['android_us_30d'] = len(filtered)
+
+    # -------------------------------------------------------------------------
+    # 5. Android All Countries - Last 30 Days Rolling
+    # -------------------------------------------------------------------------
+    print("\n" + "-"*70)
+    print("  [5/7] Android All Countries - Last 30 Days Rolling")
+    print("-"*70)
+
+    android_all_30d_file = os.path.join(ANDROID_DATA_DIR, "HP_App_Android_AllCountries_Last30Days.json")
+    existing_android_all_30d = load_existing_reviews(android_all_30d_file)
+
+    new_android_all = scrape_android_all_countries(max_reviews_per_country=500)
+
+    if new_android_all:
+        merged = deduplicate_reviews(existing_android_all_30d, new_android_all)
+        filtered = filter_reviews_by_date(merged, 30)
+        save_reviews(filtered, android_all_30d_file)
+        save_to_csv(filtered, android_all_30d_file.replace('.json', '.csv'))
+        analytics = generate_analytics(filtered, "Google Play", "AllCountries", days=30)
+        save_reviews(analytics, android_all_30d_file.replace('.json', '_Analytics.json'))
+        results['android_all_30d'] = len(filtered)
+
+    # -------------------------------------------------------------------------
+    # 6. Android US - Last 500 Reviews
+    # -------------------------------------------------------------------------
+    print("\n" + "-"*70)
+    print("  [6/7] Android US - Last 500 Reviews")
     print("-"*70)
 
     android_us_500_file = os.path.join(ANDROID_DATA_DIR, "HP_App_Android_US_Last500.json")
     existing_android_500 = load_existing_reviews(android_us_500_file)
 
-    new_android_us = scrape_android_reviews(country="us", max_reviews=500)
-
+    # Use reviews already fetched in step 4
     if new_android_us:
         merged = deduplicate_reviews(existing_android_500, new_android_us)
         latest_500 = merged[:500]
@@ -563,13 +622,14 @@ def run_weekly_scrape():
         results['android_us_500'] = len(latest_500)
 
     # -------------------------------------------------------------------------
-    # 5. Run Insights Agent on All Data
+    # 7. Run Insights Agent on All Data
     # -------------------------------------------------------------------------
     print("\n" + "-"*70)
-    print("  [5/5] Running CustomerInsight_Review_Agent")
+    print("  [7/7] Running CustomerInsight_Review_Agent")
     print("-"*70)
 
     # Run insights on each dataset
+    # iOS datasets
     if os.path.exists(ios_us_30d_file):
         run_insights_agent(ios_us_30d_file, "HP_App_iOS_US_Last30Days")
 
@@ -579,22 +639,43 @@ def run_weekly_scrape():
     if os.path.exists(ios_us_500_file):
         run_insights_agent(ios_us_500_file, "HP_App_iOS_US_Last500")
 
+    # Android datasets
+    if os.path.exists(android_us_30d_file):
+        run_insights_agent(android_us_30d_file, "HP_App_Android_US_Last30Days")
+
+    if os.path.exists(android_all_30d_file):
+        run_insights_agent(android_all_30d_file, "HP_App_Android_AllCountries_Last30Days")
+
     if os.path.exists(android_us_500_file):
         run_insights_agent(android_us_500_file, "HP_App_Android_US_Last500")
 
-    # Combined iOS + Android US analysis
-    combined_file = os.path.join(DATA_DIR, "HP_App_Combined_US_Latest.json")
+    # Combined iOS + Android US analysis (using 30-day rolling data)
+    combined_file = os.path.join(DATA_DIR, "HP_App_Combined_US_Last30Days.json")
     combined_reviews = []
 
-    if os.path.exists(ios_us_500_file):
-        combined_reviews.extend(load_existing_reviews(ios_us_500_file))
-    if os.path.exists(android_us_500_file):
-        combined_reviews.extend(load_existing_reviews(android_us_500_file))
+    if os.path.exists(ios_us_30d_file):
+        combined_reviews.extend(load_existing_reviews(ios_us_30d_file))
+    if os.path.exists(android_us_30d_file):
+        combined_reviews.extend(load_existing_reviews(android_us_30d_file))
 
     if combined_reviews:
         save_reviews(combined_reviews, combined_file)
-        run_insights_agent(combined_file, "HP_App_Combined_US")
-        results['combined_us'] = len(combined_reviews)
+        run_insights_agent(combined_file, "HP_App_Combined_US_Last30Days")
+        results['combined_us_30d'] = len(combined_reviews)
+
+    # Combined All Countries analysis
+    combined_all_file = os.path.join(DATA_DIR, "HP_App_Combined_AllCountries_Last30Days.json")
+    combined_all_reviews = []
+
+    if os.path.exists(ios_all_30d_file):
+        combined_all_reviews.extend(load_existing_reviews(ios_all_30d_file))
+    if os.path.exists(android_all_30d_file):
+        combined_all_reviews.extend(load_existing_reviews(android_all_30d_file))
+
+    if combined_all_reviews:
+        save_reviews(combined_all_reviews, combined_all_file)
+        run_insights_agent(combined_all_file, "HP_App_Combined_AllCountries_Last30Days")
+        results['combined_all_30d'] = len(combined_all_reviews)
 
     # -------------------------------------------------------------------------
     # Summary
@@ -640,12 +721,20 @@ if __name__ == "__main__":
     if args.insights_only:
         # Just run insights on existing data
         print("Running insights only...")
-        for data_file in [
+        data_files = [
+            # iOS datasets
             os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last30Days.json"),
             os.path.join(IOS_DATA_DIR, "HP_App_iOS_AllCountries_Last30Days.json"),
             os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last500.json"),
+            # Android datasets
+            os.path.join(ANDROID_DATA_DIR, "HP_App_Android_US_Last30Days.json"),
+            os.path.join(ANDROID_DATA_DIR, "HP_App_Android_AllCountries_Last30Days.json"),
             os.path.join(ANDROID_DATA_DIR, "HP_App_Android_US_Last500.json"),
-        ]:
+            # Combined datasets
+            os.path.join(DATA_DIR, "HP_App_Combined_US_Last30Days.json"),
+            os.path.join(DATA_DIR, "HP_App_Combined_AllCountries_Last30Days.json"),
+        ]
+        for data_file in data_files:
             if os.path.exists(data_file):
                 name = os.path.basename(data_file).replace('.json', '')
                 run_insights_agent(data_file, name)

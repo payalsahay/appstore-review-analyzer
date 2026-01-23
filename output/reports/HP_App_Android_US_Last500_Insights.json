@@ -1,29 +1,41 @@
 {
-  "generated_at": "2026-01-22T18:18:56.844528",
+  "generated_at": "2026-01-23T08:10:32.600696",
   "total_reviews": 500,
   "sentiment_summary": {
-    "neutral": 233,
-    "negative": 135,
-    "positive": 132
+    "neutral": 234,
+    "positive": 133,
+    "negative": 133
   },
   "rating_distribution": {
-    "1": 298,
-    "2": 35,
+    "1": 299,
     "5": 129,
+    "2": 35,
     "3": 21,
-    "4": 17
+    "4": 16
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 247,
+      "mention_count": 246,
       "sentiment": {
         "positive": 36,
-        "negative": 83,
-        "neutral": 128
+        "negative": 81,
+        "neutral": 129
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good printer",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 1,
           "title": "",
@@ -41,31 +53,31 @@
           "title": "",
           "snippet": "won't print in color all the sudden, despite color settings on and plenty of ink",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "printer goes to sleep and does not wake up unless I physically turn off power and turn back on. it gets really frustrating! I like hp print service, e",
-          "sentiment": "negative"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 214,
+      "mention_count": 212,
       "sentiment": {
-        "positive": 63,
-        "negative": 77,
-        "neutral": 74
+        "positive": 62,
+        "negative": 75,
+        "neutral": 75
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 2,
           "title": "",
@@ -83,31 +95,31 @@
           "title": "",
           "snippet": "after update printer cant be connected and the app was slow",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
-          "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 106,
+      "mention_count": 107,
       "sentiment": {
-        "positive": 46,
+        "positive": 47,
         "negative": 12,
         "neutral": 48
       },
       "pm_focus": "",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "sometimes I can send and a lot of times I can't",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "excellent",
+          "sentiment": "positive"
+        },
         {
           "rating": 1,
           "title": "",
@@ -125,18 +137,6 @@
           "title": "",
           "snippet": "never responded 😒 won't open",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "great",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "good",
-          "sentiment": "positive"
         }
       ]
     },
@@ -144,12 +144,18 @@
       "name": "Connectivity & Setup",
       "mention_count": 105,
       "sentiment": {
-        "positive": 10,
+        "positive": 9,
         "negative": 43,
-        "neutral": 52
+        "neutral": 53
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "susah gila nak guna. menyusahkan... pakai cable lg senang. bayar mahal² utk wireless... buat rasa sakit hati...",
+          "sentiment": "neutral"
+        },
         {
           "rating": 2,
           "title": "",
@@ -173,25 +179,25 @@
           "title": "",
           "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
-          "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 105,
+      "mention_count": 104,
       "sentiment": {
         "positive": 18,
-        "negative": 32,
+        "negative": 31,
         "neutral": 55
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "sentiment": "positive"
+        },
         {
           "rating": 2,
           "title": "",
@@ -215,22 +221,16 @@
           "title": "",
           "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
-          "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 94,
+      "mention_count": 91,
       "sentiment": {
-        "positive": 18,
-        "negative": 34,
-        "neutral": 42
+        "positive": 17,
+        "negative": 33,
+        "neutral": 41
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -313,11 +313,17 @@
       "mention_count": 56,
       "sentiment": {
         "positive": 15,
-        "negative": 12,
-        "neutral": 29
+        "negative": 11,
+        "neutral": 30
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 5,
           "title": "",
@@ -341,12 +347,6 @@
           "title": "",
           "snippet": "Very poor quality app, has turned me away from HP products entirely. It's overcomplicated and seems to do anything but let you print. Every time I use",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I can't do anything from this app. I just spent 45 minutes trying to print 2 pages of a document. 2 pages!!! and in the end, I still have not gotten t",
-          "sentiment": "neutral"
         }
       ]
     },

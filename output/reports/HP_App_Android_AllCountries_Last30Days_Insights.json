@@ -1,113 +1,131 @@
 {
-  "generated_at": "2026-01-22T18:18:56.836071",
-  "total_reviews": 871,
+  "generated_at": "2026-01-23T08:10:32.592552",
+  "total_reviews": 873,
   "sentiment_summary": {
     "neutral": 611,
-    "negative": 126,
-    "positive": 134
+    "positive": 138,
+    "negative": 124
   },
   "rating_distribution": {
-    "1": 474,
-    "5": 268,
-    "2": 53,
-    "4": 40,
+    "1": 475,
+    "5": 272,
+    "2": 52,
+    "4": 38,
     "3": 36
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 342,
+      "mention_count": 347,
       "sentiment": {
-        "positive": 69,
+        "positive": 71,
         "negative": 71,
-        "neutral": 202
+        "neutral": 205
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 5,
           "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "con quest ultimo aggiornamento l app non mi scannerizza più in formato standard ma scannerizza in gigante preferivo la vecchia versione",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Es lenta, farragosa, tarda en cargar aunque sea la única aplicación abierta con 16gb de RAM físicos para ella sola. Increíble suscribirse a un product",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "une honte , devoir s'inscrire pour utiliser une fonction de l'imprimante , c'est tout simplement honteux , je met une étoile car il est impossible d'e",
+          "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "awesome app 💯",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "l'applicazione non funziona sempre stampante. non disponibile eppure è connessa",
+          "snippet": "klappt immer alles perfekt, Vorraussetzung ist, daß man sich mit dem Gerät und dessen vollumfänglichen Funktionen auseinander setzt",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "after update printer cant be connected and the app was slow",
-          "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 306,
+      "mention_count": 303,
       "sentiment": {
         "positive": 43,
-        "negative": 12,
-        "neutral": 251
+        "negative": 11,
+        "neutral": 249
       },
       "pm_focus": "",
       "sample_reviews": [
         {
+          "rating": 1,
+          "title": "",
+          "snippet": "sometimes I can send and a lot of times I can't",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "goed",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "excelente.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "excellent",
+          "sentiment": "positive"
+        },
+        {
           "rating": 5,
           "title": "",
           "snippet": "Excelente!!! A impressora é ótima!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "pesima aplicación, se queda pensando, dice que la impresora esta apagada cuando esta prendida, se queda pensando, no conecta rapido, muy lenta !!! en ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Buena Aplicación",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "okok",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Que bom que vocês corrigiram os drives agora está funcionando normalmente.",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 235,
+      "mention_count": 236,
       "sentiment": {
-        "positive": 31,
-        "negative": 69,
-        "neutral": 135
+        "positive": 32,
+        "negative": 68,
+        "neutral": 136
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good printer",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 1,
           "title": "",
@@ -119,37 +137,31 @@
           "title": "",
           "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
           "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "won't print in color all the sudden, despite color settings on and plenty of ink",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "printer goes to sleep and does not wake up unless I physically turn off power and turn back on. it gets really frustrating! I like hp print service, e",
-          "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 124,
+      "mention_count": 125,
       "sentiment": {
         "positive": 12,
         "negative": 40,
-        "neutral": 72
+        "neutral": 73
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "susah gila nak guna. menyusahkan... pakai cable lg senang. bayar mahal² utk wireless... buat rasa sakit hati...",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
         {
           "rating": 2,
           "title": "",
@@ -166,18 +178,6 @@
           "rating": 1,
           "title": "",
           "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "O app tá muito ruim, leva horas, dias, ou até mesmo, semanas pra configurar a conta. Se não puderem resolver isso, então voltem a fazer impressoras co",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
           "sentiment": "neutral"
         }
       ]
@@ -195,6 +195,12 @@
         {
           "rating": 1,
           "title": "",
+          "snippet": "Es lenta, farragosa, tarda en cargar aunque sea la única aplicación abierta con 16gb de RAM físicos para ella sola. Increíble suscribirse a un product",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
           "snippet": "all the monopoly and subscription you can't print unless you are paying a monthly subscription",
           "sentiment": "neutral"
         },
@@ -215,12 +221,6 @@
           "title": "",
           "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "O app tá muito ruim, leva horas, dias, ou até mesmo, semanas pra configurar a conta. Se não puderem resolver isso, então voltem a fazer impressoras co",
-          "sentiment": "positive"
         }
       ]
     },
@@ -228,12 +228,18 @@
       "name": "Feature Requests & Missing Features",
       "mention_count": 92,
       "sentiment": {
-        "positive": 16,
-        "negative": 28,
+        "positive": 17,
+        "negative": 27,
         "neutral": 48
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "sentiment": "positive"
+        },
         {
           "rating": 2,
           "title": "",
@@ -257,25 +263,37 @@
           "title": "",
           "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Simply not working. Need to restart the app and or the printer 3 times to print one page. Never ever buying a HP product",
-          "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 86,
+      "mention_count": 89,
       "sentiment": {
-        "positive": 14,
+        "positive": 15,
         "negative": 8,
-        "neutral": 64
+        "neutral": 66
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Doppelseitiges Scannen wäre noch chic, ansonsten alles top! Update: seit einiger Zeit bricht fast jeder Scanversuch ab. Meldung \"kein Scannen möglich\"",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 1,
           "title": "",
@@ -286,24 +304,6 @@
           "rating": 5,
           "title": "",
           "snippet": "Excelente calidad de escaneo",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "absoluter Scan man kann nicht mal scannen ohne ein Konto anzulegen was brauche ich ein Konto wenn ich nur scannen will somit absoluter Schrott kauft e",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "It's very reliable and provides clean scans.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Necesitas cuenta para escanear... mal rollo",
           "sentiment": "neutral"
         }
       ]
@@ -352,14 +352,20 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 73,
+      "mention_count": 72,
       "sentiment": {
-        "positive": 10,
+        "positive": 11,
         "negative": 16,
-        "neutral": 47
+        "neutral": 45
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Doppelseitiges Scannen wäre noch chic, ansonsten alles top! Update: seit einiger Zeit bricht fast jeder Scanversuch ab. Meldung \"kein Scannen möglich\"",
+          "sentiment": "positive"
+        },
         {
           "rating": 2,
           "title": "",
@@ -383,21 +389,15 @@
           "title": "",
           "snippet": "Impossible d'avoir la nouvelle version à moins de changer de téléphone portable. C'est honteux",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "da quando ho fatto l'aggiornamento forzato a questa nuova versione la stampante rileva ad ogni stampa un nuovo problema,in ultimo sembra che perde la ",
-          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 49,
+      "mention_count": 48,
       "sentiment": {
         "positive": 10,
-        "negative": 16,
+        "negative": 15,
         "neutral": 23
       },
       "pm_focus": "Support deflection, self-service success",

@@ -34,6 +34,14 @@ import sys
 from datetime import datetime, timedelta
 from collections import Counter
 
+# Optional: matplotlib for chart generation
+try:
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+    MATPLOTLIB_AVAILABLE = True
+except ImportError:
+    MATPLOTLIB_AVAILABLE = False
+
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
@@ -77,8 +85,11 @@ REPORTS_DIR = os.path.join(OUTPUT_DIR, "reports")
 # Historical rating data file
 RATING_HISTORY_FILE = os.path.join(DATA_DIR, "app_rating_history.json")
 
+# Visualizations directory
+VISUALIZATIONS_DIR = os.path.join(OUTPUT_DIR, "visualizations")
+
 # Ensure directories exist
-for d in [IOS_DATA_DIR, ANDROID_DATA_DIR, INSIGHTS_DIR, REPORTS_DIR]:
+for d in [IOS_DATA_DIR, ANDROID_DATA_DIR, INSIGHTS_DIR, REPORTS_DIR, VISUALIZATIONS_DIR]:
     os.makedirs(d, exist_ok=True)
 
 
@@ -441,6 +452,128 @@ def get_rating_trend(platform, days=30):
     }
 
 
+def generate_rating_history_chart(days=30):
+    """
+    Generate a line chart showing iOS and Android rating history for the last N days.
+    Returns the path to the saved chart image, or None if chart couldn't be generated.
+    """
+    if not MATPLOTLIB_AVAILABLE:
+        print("  Warning: matplotlib not available, skipping chart generation")
+        return None
+
+    history = load_rating_history()
+
+    # Get data for both platforms
+    cutoff = datetime.now() - timedelta(days=days)
+
+    ios_dates = []
+    ios_ratings = []
+    android_dates = []
+    android_ratings = []
+
+    # Process iOS history
+    for entry in history.get("ios", []):
+        try:
+            entry_date = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
+            if entry_date >= cutoff and entry.get('rating'):
+                ios_dates.append(entry_date)
+                ios_ratings.append(entry['rating'])
+        except (ValueError, TypeError):
+            continue
+
+    # Process Android history
+    for entry in history.get("android", []):
+        try:
+            entry_date = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
+            if entry_date >= cutoff and entry.get('rating'):
+                android_dates.append(entry_date)
+                android_ratings.append(entry['rating'])
+        except (ValueError, TypeError):
+            continue
+
+    # Check if we have any data to plot
+    if not ios_dates and not android_dates:
+        print("  No rating history data available for chart")
+        return None
+
+    # Create the chart
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    # Plot iOS ratings
+    if ios_dates:
+        ax.plot(ios_dates, ios_ratings, '-o', label='iOS App Store',
+                linewidth=2, markersize=8, color='#007AFF')
+        # Add data labels for iOS
+        for i, (date, rating) in enumerate(zip(ios_dates, ios_ratings)):
+            ax.annotate(f'{rating:.2f}', (date, rating),
+                       textcoords="offset points", xytext=(0, 10),
+                       ha='center', fontsize=9, color='#007AFF')
+
+    # Plot Android ratings
+    if android_dates:
+        ax.plot(android_dates, android_ratings, '-s', label='Google Play',
+                linewidth=2, markersize=8, color='#34A853')
+        # Add data labels for Android
+        for i, (date, rating) in enumerate(zip(android_dates, android_ratings)):
+            ax.annotate(f'{rating:.2f}', (date, rating),
+                       textcoords="offset points", xytext=(0, -15),
+                       ha='center', fontsize=9, color='#34A853')
+
+    # Customize the chart
+    ax.set_xlabel('Date', fontsize=12)
+    ax.set_ylabel('Rating (out of 5.0)', fontsize=12)
+    ax.set_title(f'App Store Ratings - Last {days} Days', fontsize=14, fontweight='bold')
+
+    # Set y-axis limits (ratings are 1-5)
+    ax.set_ylim(3.5, 5.0)
+
+    # Format x-axis dates
+    all_dates = ios_dates + android_dates
+    if all_dates:
+        min_date = min(all_dates)
+        max_date = max(all_dates)
+        date_range = (max_date - min_date).days
+
+        # Set x-axis limits with padding
+        if date_range == 0:
+            # Single day of data - show a week range centered on that date
+            ax.set_xlim(min_date - timedelta(days=3), max_date + timedelta(days=3))
+            ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))
+        elif date_range <= 7:
+            ax.set_xlim(min_date - timedelta(days=1), max_date + timedelta(days=1))
+            ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))
+        elif date_range <= 30:
+            ax.set_xlim(min_date - timedelta(days=1), max_date + timedelta(days=1))
+            ax.xaxis.set_major_locator(mdates.DayLocator(interval=max(1, date_range // 7)))
+        else:
+            ax.set_xlim(min_date - timedelta(days=1), max_date + timedelta(days=1))
+            ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=1))
+
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
+    plt.xticks(rotation=45, ha='right')
+
+    # Add grid
+    ax.grid(True, linestyle='--', alpha=0.7)
+
+    # Add legend
+    ax.legend(loc='lower right', fontsize=10)
+
+    # Add horizontal reference lines
+    ax.axhline(y=4.5, color='gray', linestyle=':', alpha=0.5, label='4.5 reference')
+    ax.axhline(y=4.0, color='gray', linestyle=':', alpha=0.5, label='4.0 reference')
+
+    # Tight layout
+    plt.tight_layout()
+
+    # Save the chart
+    chart_path = os.path.join(VISUALIZATIONS_DIR, f"rating_history_{days}d.png")
+    plt.savefig(chart_path, dpi=150, bbox_inches='tight', facecolor='white')
+    plt.close()
+
+    print(f"  Generated rating history chart: {os.path.basename(chart_path)}")
+    return chart_path
+
+
 def generate_rating_history_report():
     """
     Generate a markdown report showing rating history and trends for both platforms.
@@ -448,6 +581,21 @@ def generate_rating_history_report():
     history = load_rating_history()
     ios_trend = get_rating_trend("ios", days=90)
     android_trend = get_rating_trend("android", days=90)
+
+    # Generate the 30-day rating history chart
+    chart_path = generate_rating_history_chart(days=30)
+    chart_section = ""
+    if chart_path:
+        # Use relative path for markdown
+        rel_chart_path = os.path.relpath(chart_path, INSIGHTS_DIR)
+        chart_section = f"""
+---
+
+## 30-Day Rating Trend Chart
+
+![Rating History Chart]({rel_chart_path})
+
+"""
 
     report = f"""# App Rating History Report
 
@@ -488,6 +636,10 @@ def generate_rating_history_report():
         report += f"| Google Play | {android_trend['current']:.2f} | {trend_indicator} | {change:+.2f} |\n"
     else:
         report += "| Google Play | N/A | N/A | N/A |\n"
+
+    # Add chart section if available
+    if chart_section:
+        report += chart_section
 
     # iOS History Section
     report += """

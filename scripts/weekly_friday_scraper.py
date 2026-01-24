@@ -574,6 +574,74 @@ def generate_rating_history_chart(days=30):
     return chart_path
 
 
+def generate_rating_history_json():
+    """
+    Generate a JSON file with rating history data and trends for both platforms.
+    Returns the path to the saved JSON file.
+    """
+    history = load_rating_history()
+    ios_trend_30d = get_rating_trend("ios", days=30)
+    ios_trend_90d = get_rating_trend("ios", days=90)
+    android_trend_30d = get_rating_trend("android", days=30)
+    android_trend_90d = get_rating_trend("android", days=90)
+
+    # Get current ratings
+    current_ratings = {}
+    current_ratings_file = os.path.join(DATA_DIR, "current_app_ratings.json")
+    if os.path.exists(current_ratings_file):
+        try:
+            with open(current_ratings_file, 'r') as f:
+                current_ratings = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    # Build the JSON report
+    report_data = {
+        "generated_at": datetime.now().isoformat(),
+        "generated_date": datetime.now().strftime('%Y-%m-%d'),
+        "summary": {
+            "ios": {
+                "current_rating": current_ratings.get("ios", {}).get("us", {}).get("rating"),
+                "rating_count": current_ratings.get("ios", {}).get("us", {}).get("rating_count"),
+                "current_version": current_ratings.get("ios", {}).get("us", {}).get("version"),
+                "current_version_rating": current_ratings.get("ios", {}).get("us", {}).get("current_version_rating"),
+            },
+            "android": {
+                "current_rating": current_ratings.get("android", {}).get("us", {}).get("rating"),
+                "rating_count": current_ratings.get("android", {}).get("us", {}).get("rating_count"),
+                "installs": current_ratings.get("android", {}).get("us", {}).get("installs"),
+                "histogram": current_ratings.get("android", {}).get("us", {}).get("histogram"),
+            }
+        },
+        "trends": {
+            "ios": {
+                "30_day": ios_trend_30d,
+                "90_day": ios_trend_90d,
+            },
+            "android": {
+                "30_day": android_trend_30d,
+                "90_day": android_trend_90d,
+            }
+        },
+        "history": {
+            "ios": history.get("ios", []),
+            "android": history.get("android", []),
+        },
+        "data_points": {
+            "ios_count": len(history.get("ios", [])),
+            "android_count": len(history.get("android", [])),
+        }
+    }
+
+    # Save the JSON report
+    json_path = os.path.join(REPORTS_DIR, "rating_history_report.json")
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(report_data, f, indent=2, ensure_ascii=False, default=str)
+
+    print(f"  Generated rating history JSON: {os.path.basename(json_path)}")
+    return json_path
+
+
 def generate_rating_history_report():
     """
     Generate a markdown report showing rating history and trends for both platforms.
@@ -712,6 +780,9 @@ def generate_rating_history_report():
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write(report)
     print(f"  Generated Rating History Report: {os.path.basename(report_file)}")
+
+    # Also generate JSON report
+    generate_rating_history_json()
 
     return report
 

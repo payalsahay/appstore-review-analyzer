@@ -1,0 +1,44 @@
+{
+  "ios": [
+    {
+      "date": "2026-01-24",
+      "timestamp": "2026-01-24T13:40:17.233702",
+      "country": "us",
+      "rating": 4.74174,
+      "rating_count": 3961463,
+      "current_version_rating": 4.74174
+    }
+  ],
+  "android": [
+    {
+      "date": "2026-01-24",
+      "timestamp": "2026-01-24T13:39:33.001977",
+      "country": "us",
+      "rating": 4.192363,
+      "rating_count": 867472,
+      "installs": "100,000,000+",
+      "histogram": [
+        129654,
+        19967,
+        25950,
+        70160,
+        621728
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "timestamp": "2026-01-24T13:40:17.233702",
+      "country": "us",
+      "rating": 4.192363,
+      "rating_count": 867472,
+      "installs": "100,000,000+",
+      "histogram": [
+        129654,
+        19967,
+        25950,
+        70160,
+        621728
+      ]
+    }
+  ]
+}

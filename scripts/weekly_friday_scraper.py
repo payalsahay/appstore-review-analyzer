@@ -74,6 +74,9 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 INSIGHTS_DIR = os.path.join(OUTPUT_DIR, "insights")
 REPORTS_DIR = os.path.join(OUTPUT_DIR, "reports")
 
+# Historical rating data file
+RATING_HISTORY_FILE = os.path.join(DATA_DIR, "app_rating_history.json")
+
 # Ensure directories exist
 for d in [IOS_DATA_DIR, ANDROID_DATA_DIR, INSIGHTS_DIR, REPORTS_DIR]:
     os.makedirs(d, exist_ok=True)
@@ -209,6 +212,356 @@ def generate_analytics(reviews, platform, country, days=None):
         analytics["days"] = days
 
     return analytics
+
+
+# ============================================================================
+# APP STORE RATING FETCHERS
+# ============================================================================
+
+def fetch_ios_app_rating(country="us"):
+    """
+    Fetch the current iOS App Store rating for the app using iTunes API.
+    Returns dict with rating info or None on error.
+    """
+    print(f"  Fetching iOS App Store rating for {country.upper()}...")
+
+    import urllib.request
+    import urllib.error
+
+    app_id = APP_CONFIG["ios"]["app_id"]
+    url = f"https://itunes.apple.com/lookup?id={app_id}&country={country}"
+
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode('utf-8'))
+
+        if data.get('resultCount', 0) > 0:
+            app_info = data['results'][0]
+
+            rating_info = {
+                "rating": app_info.get('averageUserRating'),
+                "rating_count": app_info.get('userRatingCount'),
+                "current_version_rating": app_info.get('averageUserRatingForCurrentVersion'),
+                "current_version_rating_count": app_info.get('userRatingCountForCurrentVersion'),
+                "version": app_info.get('version'),
+                "app_name": app_info.get('trackName'),
+            }
+
+            print(f"  iOS {country.upper()} rating: {rating_info.get('rating', 'N/A')}")
+            return rating_info
+        else:
+            print(f"  No iOS app found for ID {app_id}")
+            return None
+
+    except urllib.error.URLError as e:
+        print(f"  Error fetching iOS rating for {country}: {e}")
+        return None
+    except Exception as e:
+        print(f"  Error fetching iOS rating for {country}: {e}")
+        return None
+
+
+def fetch_android_app_rating(country="us"):
+    """
+    Fetch the current Google Play Store rating for the app.
+    Returns dict with rating info or None on error.
+    """
+    print(f"  Fetching Android Play Store rating for {country.upper()}...")
+
+    try:
+        from google_play_scraper import app as get_app_details
+    except ImportError:
+        print("  ERROR: google-play-scraper not installed")
+        return None
+
+    lang = COUNTRY_LANGUAGE_MAP.get(country, "en")
+
+    try:
+        app_details = get_app_details(
+            APP_CONFIG["android"]["package_id"],
+            lang=lang,
+            country=country
+        )
+
+        rating_info = {
+            "rating": app_details.get('score'),
+            "rating_count": app_details.get('ratings'),
+            "installs": app_details.get('installs'),
+            "reviews_count": app_details.get('reviews'),
+            "histogram": app_details.get('histogram'),  # [1-star, 2-star, 3-star, 4-star, 5-star counts]
+        }
+
+        print(f"  Android {country.upper()} rating: {rating_info.get('rating', 'N/A')}")
+        return rating_info
+
+    except Exception as e:
+        print(f"  Error fetching Android rating for {country}: {e}")
+        return None
+
+
+def load_rating_history():
+    """Load existing rating history from file"""
+    if os.path.exists(RATING_HISTORY_FILE):
+        try:
+            with open(RATING_HISTORY_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            return {"ios": [], "android": []}
+    return {"ios": [], "android": []}
+
+
+def save_rating_history(history):
+    """Save rating history to file"""
+    with open(RATING_HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2, ensure_ascii=False, default=str)
+    print(f"  Saved rating history to {os.path.basename(RATING_HISTORY_FILE)}")
+
+
+def record_app_ratings():
+    """
+    Fetch current app ratings for iOS and Android and append to history.
+    Returns the current ratings dict.
+    """
+    print("\n  Recording App Store Ratings...")
+
+    timestamp = datetime.now().isoformat()
+    date_str = datetime.now().strftime('%Y-%m-%d')
+
+    # Fetch ratings for key countries
+    ios_us_rating = fetch_ios_app_rating("us")
+    android_us_rating = fetch_android_app_rating("us")
+
+    # Load existing history
+    history = load_rating_history()
+
+    # Create today's record
+    current_ratings = {
+        "date": date_str,
+        "timestamp": timestamp,
+        "ios": {
+            "us": ios_us_rating
+        },
+        "android": {
+            "us": android_us_rating
+        }
+    }
+
+    # Append iOS history entry
+    if ios_us_rating and ios_us_rating.get("rating"):
+        ios_entry = {
+            "date": date_str,
+            "timestamp": timestamp,
+            "country": "us",
+            "rating": ios_us_rating.get("rating"),
+            "rating_count": ios_us_rating.get("rating_count"),
+            "current_version_rating": ios_us_rating.get("current_version_rating"),
+        }
+        history["ios"].append(ios_entry)
+
+    # Append Android history entry
+    if android_us_rating and android_us_rating.get("rating"):
+        android_entry = {
+            "date": date_str,
+            "timestamp": timestamp,
+            "country": "us",
+            "rating": android_us_rating.get("rating"),
+            "rating_count": android_us_rating.get("rating_count"),
+            "installs": android_us_rating.get("installs"),
+            "histogram": android_us_rating.get("histogram"),
+        }
+        history["android"].append(android_entry)
+
+    # Save updated history
+    save_rating_history(history)
+
+    # Also save a current snapshot for easy access
+    current_ratings_file = os.path.join(DATA_DIR, "current_app_ratings.json")
+    with open(current_ratings_file, 'w', encoding='utf-8') as f:
+        json.dump(current_ratings, f, indent=2, ensure_ascii=False, default=str)
+    print(f"  Saved current ratings to current_app_ratings.json")
+
+    return current_ratings
+
+
+def get_rating_trend(platform, days=30):
+    """
+    Get rating trend for the specified platform over the last N days.
+    Returns dict with trend analysis.
+    """
+    history = load_rating_history()
+    entries = history.get(platform, [])
+
+    if not entries:
+        return None
+
+    # Filter to last N days
+    cutoff = datetime.now() - timedelta(days=days)
+    recent_entries = []
+    for entry in entries:
+        try:
+            entry_date = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
+            if entry_date >= cutoff:
+                recent_entries.append(entry)
+        except (ValueError, TypeError):
+            continue
+
+    if not recent_entries:
+        return None
+
+    # Calculate trend
+    ratings = [e.get('rating') for e in recent_entries if e.get('rating')]
+    if len(ratings) < 2:
+        return {
+            "current": ratings[-1] if ratings else None,
+            "entries": len(recent_entries),
+            "trend": "insufficient_data"
+        }
+
+    oldest_rating = ratings[0]
+    newest_rating = ratings[-1]
+    change = newest_rating - oldest_rating
+
+    if change > 0.1:
+        trend = "improving"
+    elif change < -0.1:
+        trend = "declining"
+    else:
+        trend = "stable"
+
+    return {
+        "current": newest_rating,
+        "oldest": oldest_rating,
+        "change": round(change, 2),
+        "trend": trend,
+        "entries": len(recent_entries),
+        "avg_rating": round(sum(ratings) / len(ratings), 2),
+        "min_rating": min(ratings),
+        "max_rating": max(ratings),
+    }
+
+
+def generate_rating_history_report():
+    """
+    Generate a markdown report showing rating history and trends for both platforms.
+    """
+    history = load_rating_history()
+    ios_trend = get_rating_trend("ios", days=90)
+    android_trend = get_rating_trend("android", days=90)
+
+    report = f"""# App Rating History Report
+
+**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
+
+---
+
+## Current Ratings Overview
+
+| Platform | Current Rating | 90-Day Trend | Change |
+|----------|---------------|--------------|--------|
+"""
+
+    # iOS row
+    if ios_trend and ios_trend.get("current"):
+        trend_indicator = ""
+        if ios_trend["trend"] == "improving":
+            trend_indicator = "Improving"
+        elif ios_trend["trend"] == "declining":
+            trend_indicator = "Declining"
+        else:
+            trend_indicator = "Stable"
+        change = ios_trend.get("change", 0)
+        report += f"| iOS App Store | {ios_trend['current']:.2f} | {trend_indicator} | {change:+.2f} |\n"
+    else:
+        report += "| iOS App Store | N/A | N/A | N/A |\n"
+
+    # Android row
+    if android_trend and android_trend.get("current"):
+        trend_indicator = ""
+        if android_trend["trend"] == "improving":
+            trend_indicator = "Improving"
+        elif android_trend["trend"] == "declining":
+            trend_indicator = "Declining"
+        else:
+            trend_indicator = "Stable"
+        change = android_trend.get("change", 0)
+        report += f"| Google Play | {android_trend['current']:.2f} | {trend_indicator} | {change:+.2f} |\n"
+    else:
+        report += "| Google Play | N/A | N/A | N/A |\n"
+
+    # iOS History Section
+    report += """
+---
+
+## iOS App Store Rating History
+
+| Date | Rating | Rating Count |
+|------|--------|--------------|
+"""
+    ios_entries = history.get("ios", [])[-20:]  # Last 20 entries
+    for entry in reversed(ios_entries):
+        date = entry.get("date", "N/A")
+        rating = entry.get("rating", "N/A")
+        rating_count = entry.get("rating_count", "N/A")
+        if rating != "N/A":
+            rating = f"{rating:.2f}"
+        if rating_count != "N/A" and isinstance(rating_count, (int, float)):
+            rating_count = f"{rating_count:,}"
+        report += f"| {date} | {rating} | {rating_count} |\n"
+
+    # Android History Section
+    report += """
+---
+
+## Google Play Store Rating History
+
+| Date | Rating | Rating Count | Installs |
+|------|--------|--------------|----------|
+"""
+    android_entries = history.get("android", [])[-20:]  # Last 20 entries
+    for entry in reversed(android_entries):
+        date = entry.get("date", "N/A")
+        rating = entry.get("rating", "N/A")
+        rating_count = entry.get("rating_count", "N/A")
+        installs = entry.get("installs", "N/A")
+        if rating != "N/A":
+            rating = f"{rating:.2f}"
+        if rating_count != "N/A" and isinstance(rating_count, (int, float)):
+            rating_count = f"{rating_count:,}"
+        report += f"| {date} | {rating} | {rating_count} | {installs} |\n"
+
+    # Rating Distribution (Android histogram if available)
+    if android_entries:
+        latest_android = android_entries[-1]
+        histogram = latest_android.get("histogram")
+        if histogram and len(histogram) == 5:
+            report += """
+---
+
+## Google Play Rating Distribution (Current)
+
+| Stars | Count | Percentage |
+|-------|-------|------------|
+"""
+            total_ratings = sum(histogram)
+            for i, count in enumerate(reversed(histogram), 1):
+                star = 6 - i
+                pct = (count / total_ratings * 100) if total_ratings > 0 else 0
+                report += f"| {star} | {count:,} | {pct:.1f}% |\n"
+
+    report += """
+---
+
+*Generated by Weekly Friday Scraper - Rating History Module*
+"""
+
+    # Save the report
+    report_file = os.path.join(INSIGHTS_DIR, "Rating_History_Report.md")
+    with open(report_file, 'w', encoding='utf-8') as f:
+        f.write(report)
+    print(f"  Generated Rating History Report: {os.path.basename(report_file)}")
+
+    return report
 
 
 # ============================================================================
@@ -389,12 +742,79 @@ def generate_insights_markdown(analysis, source_file, output_file, title):
 
     avg_rating = sum(r * c for r, c in ratings.items()) / total if total > 0 else 0
 
+    # Determine platform from title for rating history
+    platform = None
+    if "iOS" in title:
+        platform = "ios"
+    elif "Android" in title:
+        platform = "android"
+
+    # Get current app store rating and trend
+    current_ratings = {}
+    rating_trend = None
+    if os.path.exists(os.path.join(DATA_DIR, "current_app_ratings.json")):
+        try:
+            with open(os.path.join(DATA_DIR, "current_app_ratings.json"), 'r') as f:
+                current_ratings = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    if platform:
+        rating_trend = get_rating_trend(platform, days=30)
+
+    # Build App Store Rating section
+    app_store_rating_section = ""
+    if platform and current_ratings:
+        platform_ratings = current_ratings.get(platform, {}).get("us", {})
+        if platform_ratings and platform_ratings.get("rating"):
+            store_rating = platform_ratings.get("rating")
+            rating_count = platform_ratings.get("rating_count", "N/A")
+            store_name = "App Store" if platform == "ios" else "Play Store"
+
+            app_store_rating_section = f"""
+---
+
+## {store_name} Rating
+
+| Metric | Value |
+|--------|-------|
+| Current Store Rating | **{store_rating:.2f}** / 5.0 |
+| Total Ratings | {rating_count:,} |
+"""
+            if platform == "ios" and platform_ratings.get("current_version_rating"):
+                app_store_rating_section += f"| Current Version Rating | {platform_ratings.get('current_version_rating'):.2f} |\n"
+
+            if platform == "android" and platform_ratings.get("installs"):
+                app_store_rating_section += f"| Total Installs | {platform_ratings.get('installs')} |\n"
+
+            # Add trend information
+            if rating_trend and rating_trend.get("trend") != "insufficient_data":
+                trend_emoji = ""
+                if rating_trend["trend"] == "improving":
+                    trend_emoji = "(trending up)"
+                elif rating_trend["trend"] == "declining":
+                    trend_emoji = "(trending down)"
+                else:
+                    trend_emoji = "(stable)"
+
+                app_store_rating_section += f"""
+### 30-Day Rating Trend
+
+| Metric | Value |
+|--------|-------|
+| Trend | {rating_trend['trend'].title()} {trend_emoji} |
+| Change | {rating_trend['change']:+.2f} |
+| Average (30 days) | {rating_trend['avg_rating']:.2f} |
+| Range | {rating_trend['min_rating']:.2f} - {rating_trend['max_rating']:.2f} |
+| Data Points | {rating_trend['entries']} |
+"""
+
     report = f"""# {title} - Customer Insights Report
 
 **Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
 **Source:** {os.path.basename(source_file)}
 **Total Reviews:** {total}
-
+{app_store_rating_section}
 ---
 
 ## Executive Summary
@@ -402,7 +822,7 @@ def generate_insights_markdown(analysis, source_file, output_file, title):
 | Metric | Value |
 |--------|-------|
 | Total Reviews | {total} |
-| Average Rating | {avg_rating:.2f} / 5.0 |
+| Average Rating (from reviews) | {avg_rating:.2f} / 5.0 |
 | Positive Sentiment | {pos_pct:.1f}% |
 | Negative Sentiment | {neg_pct:.1f}% |
 | 1-Star Reviews | {ratings.get(1, 0)} ({ratings.get(1, 0)/total*100:.1f}%) |
@@ -491,6 +911,15 @@ def run_weekly_scrape():
     print("="*70)
 
     results = {}
+
+    # -------------------------------------------------------------------------
+    # 0. Record Current App Store Ratings (Historical Tracking)
+    # -------------------------------------------------------------------------
+    print("\n" + "-"*70)
+    print("  [0/7] Recording App Store Ratings (iOS & Android)")
+    print("-"*70)
+
+    current_ratings = record_app_ratings()
 
     # -------------------------------------------------------------------------
     # 1. iOS US - Last 30 Days Rolling
@@ -688,11 +1117,32 @@ def run_weekly_scrape():
     for key, count in results.items():
         print(f"    {key}: {count} reviews")
 
+    # Print current ratings
+    if current_ratings:
+        print("\n  App Store Ratings:")
+        ios_rating = current_ratings.get("ios", {}).get("us", {})
+        android_rating = current_ratings.get("android", {}).get("us", {})
+        if ios_rating and ios_rating.get("rating"):
+            print(f"    iOS (US): {ios_rating['rating']:.2f} / 5.0")
+        if android_rating and android_rating.get("rating"):
+            print(f"    Android (US): {android_rating['rating']:.2f} / 5.0")
+
+    # Generate Rating History Report
+    generate_rating_history_report()
+
     # Save summary for GitHub Actions
     summary = {
         "scrape_date": datetime.now().isoformat(),
         "results": results,
         "total_reviews": sum(results.values()),
+        "app_ratings": {
+            "ios_us": current_ratings.get("ios", {}).get("us", {}).get("rating") if current_ratings else None,
+            "android_us": current_ratings.get("android", {}).get("us", {}).get("rating") if current_ratings else None,
+        },
+        "rating_trends": {
+            "ios": get_rating_trend("ios", days=30),
+            "android": get_rating_trend("android", days=30),
+        }
     }
     summary_file = os.path.join(REPORTS_DIR, "weekly_summary.json")
     save_reviews(summary, summary_file)
@@ -715,10 +1165,30 @@ if __name__ == "__main__":
     parser.add_argument("--ios-only", action="store_true", help="Scrape iOS only")
     parser.add_argument("--android-only", action="store_true", help="Scrape Android only")
     parser.add_argument("--insights-only", action="store_true", help="Run insights only (no scraping)")
+    parser.add_argument("--ratings-only", action="store_true", help="Record app store ratings only")
+    parser.add_argument("--rating-report", action="store_true", help="Generate rating history report only")
 
     args = parser.parse_args()
 
-    if args.insights_only:
+    if args.ratings_only:
+        # Just record current app ratings
+        print("Recording app store ratings...")
+        current_ratings = record_app_ratings()
+        if current_ratings:
+            ios_r = current_ratings.get("ios", {}).get("us", {})
+            android_r = current_ratings.get("android", {}).get("us", {})
+            if ios_r and ios_r.get("rating"):
+                print(f"  iOS (US): {ios_r['rating']:.2f}")
+            if android_r and android_r.get("rating"):
+                print(f"  Android (US): {android_r['rating']:.2f}")
+        generate_rating_history_report()
+        print("Done!")
+    elif args.rating_report:
+        # Just generate the rating history report
+        print("Generating rating history report...")
+        generate_rating_history_report()
+        print("Done!")
+    elif args.insights_only:
         # Just run insights on existing data
         print("Running insights only...")
         data_files = [
@@ -738,6 +1208,8 @@ if __name__ == "__main__":
             if os.path.exists(data_file):
                 name = os.path.basename(data_file).replace('.json', '')
                 run_insights_agent(data_file, name)
+        # Also generate rating history report
+        generate_rating_history_report()
     else:
         # Run full weekly scrape
         run_weekly_scrape()

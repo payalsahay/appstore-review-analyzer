@@ -1,0 +1,125 @@
+name: Daily App Rating Tracker
+
+on:
+  # Run daily at 8AM PST (4PM UTC)
+  schedule:
+    - cron: '0 16 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  collect-ratings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-play-scraper matplotlib numpy
+
+      - name: Collect App Store Ratings
+        run: |
+          echo "Collecting App Store Ratings..."
+          echo "Date: $(date +'%Y-%m-%d %H:%M %Z')"
+          echo ""
+          python scripts/weekly_friday_scraper.py --ratings-only
+
+      - name: Commit and Push Ratings
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Add rating data files
+          git add data/app_rating_history.json
+          git add data/current_app_ratings.json
+          git add output/reports/rating_history_report.json
+          git add output/insights/Rating_History_Report.md
+          git add output/visualizations/rating_history_30d.png
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily Rating: $(date +'%Y-%m-%d')
+
+          App Store Ratings collected:
+          - iOS App Store (US)
+          - Google Play Store (US)
+
+          Co-Authored-By: GitHub Action <action@github.com>"
+
+            git push
+          fi
+
+      - name: Create GitHub Summary
+        run: |
+          echo "## Daily App Rating Collection" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date +'%Y-%m-%d %H:%M %Z')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "data/current_app_ratings.json" ]; then
+            echo "### Current Ratings" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat data/current_app_ratings.json | python -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          ios = data.get('ios', {}).get('us', {})
+          android = data.get('android', {}).get('us', {})
+
+          print('| Platform | Rating | Total Ratings |')
+          print('|----------|--------|---------------|')
+
+          if ios and ios.get('rating'):
+              print(f\"| iOS App Store | {ios['rating']:.2f} | {ios.get('rating_count', 'N/A'):,} |\")
+          else:
+              print('| iOS App Store | N/A | N/A |')
+
+          if android and android.get('rating'):
+              print(f\"| Google Play | {android['rating']:.2f} | {android.get('rating_count', 'N/A'):,} |\")
+          else:
+              print('| Google Play | N/A | N/A |')
+          " >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "output/reports/rating_history_report.json" ]; then
+            echo "### Rating Trends" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat output/reports/rating_history_report.json | python -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          ios_trend = data.get('trends', {}).get('ios', {}).get('30_day', {})
+          android_trend = data.get('trends', {}).get('android', {}).get('30_day', {})
+
+          print('| Platform | 30-Day Trend | Change | Data Points |')
+          print('|----------|--------------|--------|-------------|')
+
+          if ios_trend:
+              trend = ios_trend.get('trend', 'N/A').title()
+              change = ios_trend.get('change', 0)
+              entries = ios_trend.get('entries', 0)
+              print(f'| iOS | {trend} | {change:+.2f} | {entries} |')
+
+          if android_trend:
+              trend = android_trend.get('trend', 'N/A').title()
+              change = android_trend.get('change', 0)
+              entries = android_trend.get('entries', 0)
+              print(f'| Android | {trend} | {change:+.2f} | {entries} |')
+          " >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "*Automated by Daily Rating Tracker*" >> $GITHUB_STEP_SUMMARY

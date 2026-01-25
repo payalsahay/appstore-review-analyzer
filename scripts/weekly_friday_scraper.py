@@ -471,22 +471,30 @@ def generate_rating_history_chart(days=30):
     android_dates = []
     android_ratings = []
 
-    # Process iOS history
+    # Process iOS history (use timestamp for finer granularity)
     for entry in history.get("ios", []):
         try:
-            entry_date = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
-            if entry_date >= cutoff and entry.get('rating'):
-                ios_dates.append(entry_date)
+            timestamp_str = entry.get('timestamp', '')
+            if timestamp_str:
+                entry_datetime = datetime.fromisoformat(timestamp_str)
+            else:
+                entry_datetime = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
+            if entry_datetime >= cutoff and entry.get('rating'):
+                ios_dates.append(entry_datetime)
                 ios_ratings.append(entry['rating'])
         except (ValueError, TypeError):
             continue
 
-    # Process Android history
+    # Process Android history (use timestamp for finer granularity)
     for entry in history.get("android", []):
         try:
-            entry_date = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
-            if entry_date >= cutoff and entry.get('rating'):
-                android_dates.append(entry_date)
+            timestamp_str = entry.get('timestamp', '')
+            if timestamp_str:
+                entry_datetime = datetime.fromisoformat(timestamp_str)
+            else:
+                entry_datetime = datetime.strptime(entry.get('date', ''), '%Y-%m-%d')
+            if entry_datetime >= cutoff and entry.get('rating'):
+                android_dates.append(entry_datetime)
                 android_ratings.append(entry['rating'])
         except (ValueError, TypeError):
             continue
@@ -549,7 +557,11 @@ def generate_rating_history_chart(days=30):
             ax.set_xlim(min_date - timedelta(days=1), max_date + timedelta(days=1))
             ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=1))
 
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
+    # Use datetime format that shows time if data spans less than 2 days
+    if all_dates and date_range <= 1:
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d %H:%M'))
+    else:
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
     plt.xticks(rotation=45, ha='right')
 
     # Add grid

@@ -20,6 +20,9 @@ on:
           - android_only
           - insights_only
 
+permissions:
+  contents: write
+
 jobs:
   weekly-analysis:
     runs-on: ubuntu-latest

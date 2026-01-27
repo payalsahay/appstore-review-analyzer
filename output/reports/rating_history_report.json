@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-27T15:18:26.925621",
+  "generated_at": "2026-01-27T23:28:18.047221",
   "generated_date": "2026-01-27",
   "summary": {
     "ios": {
@@ -28,7 +28,7 @@
         "oldest": 4.74174,
         "change": -0.0,
         "trend": "stable",
-        "entries": 4,
+        "entries": 5,
         "avg_rating": 4.74,
         "min_rating": 4.74163,
         "max_rating": 4.74174
@@ -38,7 +38,7 @@
         "oldest": 4.74174,
         "change": -0.0,
         "trend": "stable",
-        "entries": 4,
+        "entries": 5,
         "avg_rating": 4.74,
         "min_rating": 4.74163,
         "max_rating": 4.74174
@@ -50,7 +50,7 @@
         "oldest": 4.192363,
         "change": 0.0,
         "trend": "stable",
-        "entries": 5,
+        "entries": 6,
         "avg_rating": 4.19,
         "min_rating": 4.192363,
         "max_rating": 4.193698
@@ -60,7 +60,7 @@
         "oldest": 4.192363,
         "change": 0.0,
         "trend": "stable",
-        "entries": 5,
+        "entries": 6,
         "avg_rating": 4.19,
         "min_rating": 4.192363,
         "max_rating": 4.193698
@@ -96,6 +96,14 @@
       {
         "date": "2026-01-27",
         "timestamp": "2026-01-27T15:18:25.909485",
+        "country": "us",
+        "rating": 4.74163,
+        "rating_count": 3965628,
+        "current_version_rating": 4.74163
+      },
+      {
+        "date": "2026-01-27",
+        "timestamp": "2026-01-27T23:28:17.527417",
         "country": "us",
         "rating": 4.74163,
         "rating_count": 3965628,
@@ -177,11 +185,26 @@
           70053,
           622804
         ]
+      },
+      {
+        "date": "2026-01-27",
+        "timestamp": "2026-01-27T23:28:17.527417",
+        "country": "us",
+        "rating": 4.193698,
+        "rating_count": 868273,
+        "installs": "100,000,000+",
+        "histogram": [
+          129571,
+          20070,
+          25756,
+          70053,
+          622804
+        ]
       }
     ]
   },
   "data_points": {
-    "ios_count": 4,
-    "android_count": 5
+    "ios_count": 5,
+    "android_count": 6
   }
 }

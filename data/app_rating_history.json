@@ -47,6 +47,14 @@
       "rating": 4.74163,
       "rating_count": 3965628,
       "current_version_rating": 4.74163
+    },
+    {
+      "date": "2026-01-29",
+      "timestamp": "2026-01-29T16:32:41.643554",
+      "country": "us",
+      "rating": 4.74163,
+      "rating_count": 3965628,
+      "current_version_rating": 4.74163
     }
   ],
   "android": [
@@ -153,6 +161,21 @@
         25756,
         70070,
         623201
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "timestamp": "2026-01-29T16:32:41.643554",
+      "country": "us",
+      "rating": 4.194092,
+      "rating_count": 868823,
+      "installs": "100,000,000+",
+      "histogram": [
+        129568,
+        20147,
+        25602,
+        70236,
+        623252
       ]
     }
   ]

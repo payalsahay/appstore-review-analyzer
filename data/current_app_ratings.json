@@ -1,28 +1,28 @@
 {
-  "date": "2026-01-29",
-  "timestamp": "2026-01-29T16:32:41.643554",
+  "date": "2026-01-30",
+  "timestamp": "2026-01-30T16:27:49.644472",
   "ios": {
     "us": {
-      "rating": 4.74163,
-      "rating_count": 3965628,
-      "current_version_rating": 4.74163,
-      "current_version_rating_count": 3965628,
+      "rating": 4.74148,
+      "rating_count": 3969677,
+      "current_version_rating": 4.74148,
+      "current_version_rating_count": 3969677,
       "version": "20.2.0",
       "app_name": "HP"
     }
   },
   "android": {
     "us": {
-      "rating": 4.194092,
-      "rating_count": 868823,
+      "rating": 4.193289,
+      "rating_count": 869168,
       "installs": "100,000,000+",
-      "reviews_count": 34263,
+      "reviews_count": 34271,
       "histogram": [
-        129568,
-        20147,
-        25602,
-        70236,
-        623252
+        129764,
+        20213,
+        25549,
+        70363,
+        623271
       ]
     }
   }

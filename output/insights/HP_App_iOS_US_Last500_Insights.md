@@ -1,8 +1,28 @@
 # HP_App_iOS_US_Last500 - Customer Insights Report
 
-**Generated:** 2026-01-23 08:10
+**Generated:** 2026-01-30 16:39
 **Source:** HP_App_iOS_US_Last500.json
 **Total Reviews:** 360
+
+---
+
+## App Store Rating
+
+| Metric | Value |
+|--------|-------|
+| Current Store Rating | **4.74** / 5.0 |
+| Total Ratings | 3,969,677 |
+| Current Version Rating | 4.74 |
+
+### 30-Day Rating Trend
+
+| Metric | Value |
+|--------|-------|
+| Trend | Stable (stable) |
+| Change | -0.00 |
+| Average (30 days) | 4.74 |
+| Range | 4.74 - 4.74 |
+| Data Points | 9 |
 
 ---
 
@@ -11,7 +31,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Reviews | 360 |
-| Average Rating | 2.64 / 5.0 |
+| Average Rating (from reviews) | 2.64 / 5.0 |
 | Positive Sentiment | 30.8% |
 | Negative Sentiment | 28.1% |
 | 1-Star Reviews | 184 (51.1%) |

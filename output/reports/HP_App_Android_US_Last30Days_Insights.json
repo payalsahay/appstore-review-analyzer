@@ -1,393 +1,351 @@
 {
-  "generated_at": "2026-01-23T08:10:32.579015",
-  "total_reviews": 415,
+  "generated_at": "2026-01-30T16:39:55.400750",
+  "total_reviews": 441,
   "sentiment_summary": {
-    "neutral": 194,
-    "positive": 111,
-    "negative": 110
+    "negative": 119,
+    "positive": 127,
+    "neutral": 195
   },
   "rating_distribution": {
-    "1": 245,
-    "5": 105,
-    "2": 30,
-    "3": 20,
-    "4": 15
+    "1": 253,
+    "5": 122,
+    "2": 37,
+    "4": 10,
+    "3": 19
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 206,
+      "mention_count": 209,
       "sentiment": {
-        "positive": 32,
-        "negative": 67,
-        "neutral": 107
+        "positive": 34,
+        "negative": 70,
+        "neutral": 105
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "good printer",
+          "snippet": "My Envy 120 will no longer print using this app, I have spent hours trying what was suggested by HP in an attempt to get it working but it won't. I kn",
           "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "snippet": "enjoy my HP Printer scan,print ,copy ink refills a plus",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "all the monopoly and subscription you can't print unless you are paying a monthly subscription",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
-          "sentiment": "positive"
+          "snippet": "I have never in my entire life felt more frustrated or exhausted trying to set up a printer. HP printers are actual garbage. Just save yourself hours ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "won't print in color all the sudden, despite color settings on and plenty of ink",
+          "snippet": "disappointed prints come out large and I can't find a way to change it no matter what I read, try, watch or do. waste of money",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "First of all I would like to say I used HP Smart for several years, due to the fact of the lawsuit going on with HP they change their app now from HP ",
           "sentiment": "neutral"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 179,
+      "mention_count": 198,
       "sentiment": {
-        "positive": 54,
-        "negative": 63,
-        "neutral": 62
+        "positive": 63,
+        "negative": 69,
+        "neutral": 66
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "snippet": "app not working",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "My Envy 120 will no longer print using this app, I have spent hours trying what was suggested by HP in an attempt to get it working but it won't. I kn",
           "sentiment": "positive"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "snippet": "nunca mais compro nada da hp, só pelo fato de ser obrigatório baixar esse app pra fazer qualquer coisa. acho que vcs precisam de uma equipe nova de ux",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 5,
           "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "snippet": "easy effective user friendly app 😉",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it's slow and over complicated. plus it's constantly asking me to buy supplies. I already subscribe, leave me alone",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 95,
+      "sentiment": {
+        "positive": 19,
+        "negative": 30,
+        "neutral": 46
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "My Envy 120 will no longer print using this app, I have spent hours trying what was suggested by HP in an attempt to get it working but it won't. I kn",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "First of all I would like to say I used HP Smart for several years, due to the fact of the lawsuit going on with HP they change their app now from HP ",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "awesome app 💯",
+          "snippet": "very smooth and hassle free. Hopefully all will be good",
           "sentiment": "positive"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "after update printer cant be connected and the app was slow",
+          "snippet": "I use to like this app before they updated it I give it 5 stars now if I could give it 0 stars I would they made it so much more complicated",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Need to create an account to scan from my own printer/scanner on my own network. They have also been trying this on the computer, but you just install",
           "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 89,
+      "mention_count": 93,
       "sentiment": {
-        "positive": 7,
-        "negative": 38,
-        "neutral": 44
+        "positive": 10,
+        "negative": 36,
+        "neutral": 47
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "susah gila nak guna. menyusahkan... pakai cable lg senang. bayar mahal² utk wireless... buat rasa sakit hati...",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "snippet": "My Envy 120 will no longer print using this app, I have spent hours trying what was suggested by HP in an attempt to get it working but it won't. I kn",
           "sentiment": "positive"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "after update printer cant be connected and the app was slow",
+          "snippet": "I have been trying to connect my cell phone to the printer for 3 days. I'm not any farther than I was when I started. I am furious. currently I'm usin",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Need to create an account to scan from my own printer/scanner on my own network. They have also been trying this on the computer, but you just install",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app takes long time to work and connect with my printer!!! 3 hours to get it connected! hard to use",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 88,
-      "sentiment": {
-        "positive": 17,
-        "negative": 26,
-        "neutral": 45
-      },
-      "pm_focus": "Product roadmap, feature prioritization",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Just got this printer and the app is simply horrible. Returning the printer to get a better and easier brand and logical app! Zero star was not an opt",
+          "snippet": "Horrible..HP failed me again, does not connect to my mobile android phone. Tried rebooting restarting unplugging adding new printer...nothing. support",
           "sentiment": "negative"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 84,
-      "sentiment": {
-        "positive": 36,
-        "negative": 10,
-        "neutral": 38
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "sometimes I can send and a lot of times I can't",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "excellent",
-          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "okok",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "muy facil de usar y hace todo lo que una imprimidora grande aria y tdo funciona muy bien👍",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "never responded 😒 won't open",
+          "snippet": "Being an IT engineer, spent 6 hours trying to update wifi pw without success ! Deserves a 0",
           "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 79,
+      "mention_count": 93,
       "sentiment": {
-        "positive": 16,
-        "negative": 28,
-        "neutral": 35
+        "positive": 21,
+        "negative": 30,
+        "neutral": 42
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "all the monopoly and subscription you can't print unless you are paying a monthly subscription",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "snippet": "My Envy 120 will no longer print using this app, I have spent hours trying what was suggested by HP in an attempt to get it working but it won't. I kn",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
+          "snippet": "nunca mais compro nada da hp, só pelo fato de ser obrigatório baixar esse app pra fazer qualquer coisa. acho que vcs precisam de uma equipe nova de ux",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
+          "snippet": "it's slow and over complicated. plus it's constantly asking me to buy supplies. I already subscribe, leave me alone",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I have never in my entire life felt more frustrated or exhausted trying to set up a printer. HP printers are actual garbage. Just save yourself hours ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "selfish and greedy company, will never buy any products from HP.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 88,
+      "sentiment": {
+        "positive": 39,
+        "negative": 12,
+        "neutral": 37
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "very good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "to hard",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "It's very reliable and provides clean scans.",
+          "snippet": "great",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "literally the worst",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "terrible to operate",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 58,
+      "mention_count": 65,
       "sentiment": {
-        "positive": 6,
-        "negative": 41,
-        "neutral": 11
+        "positive": 7,
+        "negative": 46,
+        "neutral": 12
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "after update printer cant be connected and the app was slow",
+          "snippet": "app not working",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "snippet": "it's slow and over complicated. plus it's constantly asking me to buy supplies. I already subscribe, leave me alone",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "disappointed prints come out large and I can't find a way to change it no matter what I read, try, watch or do. waste of money",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "First of all I would like to say I used HP Smart for several years, due to the fact of the lawsuit going on with HP they change their app now from HP ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "app is good but slow. It process scanning slowly",
+          "snippet": "after update it's lagging more",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this app has and bug",
-          "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 48,
+      "mention_count": 43,
       "sentiment": {
         "positive": 14,
         "negative": 7,
-        "neutral": 27
+        "neutral": 22
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 5,
           "title": "",
-          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "It's very reliable and provides clean scans.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "app is good but slow. It process scanning slowly",
+          "snippet": "enjoy my HP Printer scan,print ,copy ink refills a plus",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "new app does not allow full access to scan and copy functions. What kind of upgrade is this.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Very poor quality app, has turned me away from HP products entirely. It's overcomplicated and seems to do anything but let you print. Every time I use",
+          "snippet": "Need to create an account to scan from my own printer/scanner on my own network. They have also been trying this on the computer, but you just install",
           "sentiment": "negative"
-        }
-      ]
-    },
-    "updates": {
-      "name": "Updates & Compatibility",
-      "mention_count": 46,
-      "sentiment": {
-        "positive": 9,
-        "negative": 15,
-        "neutral": 22
-      },
-      "pm_focus": "Release management, OS compatibility",
-      "sample_reviews": [
+        },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "snippet": "I am officially convinced that hewlett packards.Printer division has utterly failed. all of the nineties and partly into the two thousands did I love ",
           "sentiment": "positive"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "after update printer cant be connected and the app was slow",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "new app does not allow full access to scan and copy functions. What kind of upgrade is this.",
+          "snippet": "thereshould be a way to use the document feeder through the app..",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "with the new updates I can no longer connect to my printer. ridiculous.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "2 stars because it does technically allow me to scan and there are no Android alternatives for my HP AIO. This app is more of an advertisement/upsell ",
+          "snippet": "does not do a great job as a scanner. I'm not able to figure out why it jumbling up all the texts",
           "sentiment": "positive"
         }
       ]
@@ -396,41 +354,83 @@
       "name": "Customer Support & Help",
       "mention_count": 41,
       "sentiment": {
-        "positive": 10,
+        "positive": 15,
         "negative": 14,
-        "neutral": 17
+        "neutral": 12
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 2,
-          "title": "",
-          "snippet": "poor instructions for a novice.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "printer goes to sleep and does not wake up unless I physically turn off power and turn back on. it gets really frustrating! I like hp print service, e",
-          "sentiment": "negative"
-        },
-        {
           "rating": 5,
           "title": "",
-          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
-          "sentiment": "positive"
+          "snippet": "I like that HP has an app for me to manage my account without having to call in.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "Don't like that the machine waste my paper and ink printing the same instructions again and again.",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Not helped",
+          "snippet": "Horrible..HP failed me again, does not connect to my mobile android phone. Tried rebooting restarting unplugging adding new printer...nothing. support",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I am officially convinced that hewlett packards.Printer division has utterly failed. all of the nineties and partly into the two thousands did I love ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "I really hate this app, if you can just go with another brand of printer. This app is slow, solves nothing and doesn't help with anything. It takes mu",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 40,
+      "sentiment": {
+        "positive": 11,
+        "negative": 13,
+        "neutral": 16
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "after update it's lagging more",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "absolute shite ! Incredibly complicated, unnecessarily protracted installion process ... Very poor punter / printer interface .... could not be more u",
+          "snippet": "I use to like this app before they updated it I give it 5 stars now if I could give it 0 stars I would they made it so much more complicated",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Horrible..HP failed me again, does not connect to my mobile android phone. Tried rebooting restarting unplugging adding new printer...nothing. support",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Being an IT engineer, spent 6 hours trying to update wifi pw without success ! Deserves a 0",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I am officially convinced that hewlett packards.Printer division has utterly failed. all of the nineties and partly into the two thousands did I love ",
+          "sentiment": "positive"
         }
       ]
     }

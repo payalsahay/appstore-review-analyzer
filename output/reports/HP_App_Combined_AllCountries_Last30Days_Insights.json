@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-01-30T16:39:55.544199",
-  "total_reviews": 1608,
+  "generated_at": "2026-02-06T16:44:21.893030",
+  "total_reviews": 1635,
   "sentiment_summary": {
-    "positive": 314,
-    "negative": 279,
-    "neutral": 1015
+    "positive": 325,
+    "negative": 286,
+    "neutral": 1024
   },
   "rating_distribution": {
-    "5": 551,
-    "2": 106,
-    "1": 822,
-    "4": 53,
-    "3": 76
+    "5": 578,
+    "2": 96,
+    "1": 830,
+    "4": 60,
+    "3": 71
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 685,
+      "mention_count": 700,
       "sentiment": {
-        "positive": 172,
-        "negative": 163,
-        "neutral": 350
+        "positive": 175,
+        "negative": 170,
+        "neutral": 355
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 598,
+      "mention_count": 612,
       "sentiment": {
-        "positive": 141,
-        "negative": 190,
-        "neutral": 267
+        "positive": 147,
+        "negative": 192,
+        "neutral": 273
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 469,
+      "mention_count": 485,
       "sentiment": {
-        "positive": 62,
+        "positive": 69,
         "negative": 17,
-        "neutral": 390
+        "neutral": 399
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 283,
+      "mention_count": 297,
       "sentiment": {
         "positive": 57,
-        "negative": 89,
-        "neutral": 137
+        "negative": 100,
+        "neutral": 140
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -182,55 +182,13 @@
         }
       ]
     },
-    "connectivity": {
-      "name": "Connectivity & Setup",
-      "mention_count": 240,
-      "sentiment": {
-        "positive": 34,
-        "negative": 81,
-        "neutral": 125
-      },
-      "pm_focus": "First-time user experience, connectivity reliability",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "GREAT SUPPORT",
-          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Terrible- never connects",
-          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Great App",
-          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Horrible",
-          "snippet": "I have printed one time on my brand new HP Deskjet 2852e and can no longer connect anything to the printer. The app says connected and ready. I can se",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Pretty good printer",
-          "snippet": "I had a bit of trouble with the setup. Mostly because I’m old and technology doesn’t like me. But, I managed to work it out and things are good now. I",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 232,
+      "mention_count": 245,
       "sentiment": {
-        "positive": 53,
-        "negative": 79,
-        "neutral": 100
+        "positive": 54,
+        "negative": 84,
+        "neutral": 107
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -266,13 +224,55 @@
         }
       ]
     },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 243,
+      "sentiment": {
+        "positive": 34,
+        "negative": 81,
+        "neutral": 128
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "GREAT SUPPORT",
+          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Terrible- never connects",
+          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Great App",
+          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Horrible",
+          "snippet": "I have printed one time on my brand new HP Deskjet 2852e and can no longer connect anything to the printer. The app says connected and ready. I can se",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 4,
+          "title": "Pretty good printer",
+          "snippet": "I had a bit of trouble with the setup. Mostly because I’m old and technology doesn’t like me. But, I managed to work it out and things are good now. I",
+          "sentiment": "positive"
+        }
+      ]
+    },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 177,
+      "mention_count": 176,
       "sentiment": {
         "positive": 46,
-        "negative": 39,
-        "neutral": 92
+        "negative": 40,
+        "neutral": 90
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -310,11 +310,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 154,
+      "mention_count": 158,
       "sentiment": {
-        "positive": 15,
-        "negative": 97,
-        "neutral": 42
+        "positive": 14,
+        "negative": 101,
+        "neutral": 43
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -352,11 +352,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 141,
+      "mention_count": 138,
       "sentiment": {
         "positive": 29,
-        "negative": 36,
-        "neutral": 76
+        "negative": 40,
+        "neutral": 69
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -394,11 +394,11 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 107,
+      "mention_count": 117,
       "sentiment": {
-        "positive": 32,
-        "negative": 38,
-        "neutral": 37
+        "positive": 34,
+        "negative": 41,
+        "neutral": 42
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

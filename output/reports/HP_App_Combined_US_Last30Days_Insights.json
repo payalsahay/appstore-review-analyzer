@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-01-30T16:39:55.474122",
-  "total_reviews": 801,
+  "generated_at": "2026-02-06T16:44:21.820738",
+  "total_reviews": 829,
   "sentiment_summary": {
-    "positive": 238,
-    "negative": 220,
-    "neutral": 343
+    "positive": 256,
+    "negative": 227,
+    "neutral": 346
   },
   "rating_distribution": {
-    "5": 246,
-    "2": 58,
-    "1": 437,
-    "4": 21,
-    "3": 39
+    "5": 261,
+    "2": 55,
+    "1": 450,
+    "4": 27,
+    "3": 36
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 450,
+      "mention_count": 464,
       "sentiment": {
-        "positive": 110,
-        "negative": 150,
-        "neutral": 190
+        "positive": 116,
+        "negative": 152,
+        "neutral": 196
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 364,
+      "mention_count": 379,
       "sentiment": {
-        "positive": 123,
-        "negative": 124,
-        "neutral": 117
+        "positive": 129,
+        "negative": 132,
+        "neutral": 118
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 192,
+      "mention_count": 206,
       "sentiment": {
-        "positive": 41,
-        "negative": 73,
-        "neutral": 78
+        "positive": 42,
+        "negative": 84,
+        "neutral": 80
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 184,
+      "mention_count": 198,
       "sentiment": {
-        "positive": 45,
-        "negative": 60,
-        "neutral": 79
+        "positive": 46,
+        "negative": 65,
+        "neutral": 87
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 170,
+      "mention_count": 172,
       "sentiment": {
-        "positive": 27,
+        "positive": 28,
         "negative": 64,
-        "neutral": 79
+        "neutral": 80
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 128,
+      "mention_count": 144,
       "sentiment": {
-        "positive": 50,
+        "positive": 61,
         "negative": 14,
-        "neutral": 64
+        "neutral": 69
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 108,
+      "mention_count": 115,
       "sentiment": {
-        "positive": 10,
-        "negative": 73,
-        "neutral": 25
+        "positive": 9,
+        "negative": 77,
+        "neutral": 29
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -308,13 +308,55 @@
         }
       ]
     },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 90,
+      "sentiment": {
+        "positive": 30,
+        "negative": 31,
+        "neutral": 29
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "GREAT SUPPORT",
+          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "You can’t buy knock off ink cartridges. What a scu",
+          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Great App",
+          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "Not quite as good",
+          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "FINISH PRINTER SET UP ERROR",
+          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
     "scanning": {
       "name": "Scanning Features",
       "mention_count": 87,
       "sentiment": {
         "positive": 28,
-        "negative": 26,
-        "neutral": 33
+        "negative": 27,
+        "neutral": 32
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -352,11 +394,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 81,
+      "mention_count": 83,
       "sentiment": {
         "positive": 21,
-        "negative": 23,
-        "neutral": 37
+        "negative": 27,
+        "neutral": 35
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -388,48 +430,6 @@
           "rating": 1,
           "title": "Cannot print from IPhone",
           "snippet": "Printer will not print directly from IPhone. I have to go into app. This is a huge inconvenience.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "support": {
-      "name": "Customer Support & Help",
-      "mention_count": 81,
-      "sentiment": {
-        "positive": 28,
-        "negative": 28,
-        "neutral": 25
-      },
-      "pm_focus": "Support deflection, self-service success",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "GREAT SUPPORT",
-          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "You can’t buy knock off ink cartridges. What a scu",
-          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "Great App",
-          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 3,
-          "title": "Not quite as good",
-          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "FINISH PRINTER SET UP ERROR",
-          "snippet": "No one can seem to help this is a 2-3year old printer and out of nowhere shows this error doesn’t want to print because of some APP change I’ve spent ",
           "sentiment": "neutral"
         }
       ]

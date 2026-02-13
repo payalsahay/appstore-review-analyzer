@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-02-06T16:44:21.820738",
-  "total_reviews": 829,
+  "generated_at": "2026-02-13T16:46:45.787741",
+  "total_reviews": 822,
   "sentiment_summary": {
-    "positive": 256,
-    "negative": 227,
-    "neutral": 346
+    "positive": 250,
+    "negative": 232,
+    "neutral": 340
   },
   "rating_distribution": {
-    "5": 261,
-    "2": 55,
-    "1": 450,
-    "4": 27,
-    "3": 36
+    "5": 259,
+    "2": 56,
+    "1": 444,
+    "4": 29,
+    "3": 34
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 464,
+      "mention_count": 458,
       "sentiment": {
-        "positive": 116,
+        "positive": 110,
         "negative": 152,
         "neutral": 196
       },
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 379,
+      "mention_count": 375,
       "sentiment": {
-        "positive": 129,
-        "negative": 132,
-        "neutral": 118
+        "positive": 121,
+        "negative": 139,
+        "neutral": 115
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,10 +100,10 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 206,
+      "mention_count": 200,
       "sentiment": {
-        "positive": 42,
-        "negative": 84,
+        "positive": 40,
+        "negative": 80,
         "neutral": 80
       },
       "pm_focus": "Monetization, value perception",
@@ -142,11 +142,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 198,
+      "mention_count": 197,
       "sentiment": {
-        "positive": 46,
-        "negative": 65,
-        "neutral": 87
+        "positive": 42,
+        "negative": 70,
+        "neutral": 85
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 172,
+      "mention_count": 162,
       "sentiment": {
-        "positive": 28,
-        "negative": 64,
-        "neutral": 80
+        "positive": 29,
+        "negative": 62,
+        "neutral": 71
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 144,
+      "mention_count": 151,
       "sentiment": {
-        "positive": 61,
-        "negative": 14,
-        "neutral": 69
+        "positive": 65,
+        "negative": 15,
+        "neutral": 71
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -268,10 +268,10 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 115,
+      "mention_count": 110,
       "sentiment": {
-        "positive": 9,
-        "negative": 77,
+        "positive": 6,
+        "negative": 75,
         "neutral": 29
       },
       "pm_focus": "Technical debt, app stability metrics",
@@ -310,11 +310,11 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 90,
+      "mention_count": 92,
       "sentiment": {
-        "positive": 30,
-        "negative": 31,
-        "neutral": 29
+        "positive": 27,
+        "negative": 35,
+        "neutral": 30
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
@@ -355,8 +355,8 @@
       "mention_count": 87,
       "sentiment": {
         "positive": 28,
-        "negative": 27,
-        "neutral": 32
+        "negative": 29,
+        "neutral": 30
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -394,10 +394,10 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 83,
+      "mention_count": 85,
       "sentiment": {
-        "positive": 21,
-        "negative": 27,
+        "positive": 19,
+        "negative": 31,
         "neutral": 35
       },
       "pm_focus": "Release management, OS compatibility",

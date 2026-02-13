@@ -1,13 +1,13 @@
 {
   "date": "2026-02-13",
-  "timestamp": "2026-02-13T16:34:31.546782",
+  "timestamp": "2026-02-13T16:46:15.070632",
   "ios": {
     "us": {
       "rating": 4.74085,
       "rating_count": 3986513,
       "current_version_rating": 4.74085,
       "current_version_rating_count": 3986513,
-      "version": "26.0.0",
+      "version": "20.2.0",
       "app_name": "HP"
     }
   },

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-06T16:44:21.893030",
+  "generated_at": "2026-02-13T16:46:45.859236",
   "total_reviews": 1635,
   "sentiment_summary": {
-    "positive": 325,
-    "negative": 286,
+    "positive": 318,
+    "negative": 293,
     "neutral": 1024
   },
   "rating_distribution": {
-    "5": 578,
-    "2": 96,
-    "1": 830,
-    "4": 60,
+    "5": 587,
+    "2": 102,
+    "1": 820,
+    "4": 55,
     "3": 71
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 700,
+      "mention_count": 698,
       "sentiment": {
-        "positive": 175,
-        "negative": 170,
-        "neutral": 355
+        "positive": 168,
+        "negative": 179,
+        "neutral": 351
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 612,
+      "mention_count": 611,
       "sentiment": {
-        "positive": 147,
+        "positive": 143,
         "negative": 192,
-        "neutral": 273
+        "neutral": 276
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 485,
+      "mention_count": 498,
       "sentiment": {
-        "positive": 69,
-        "negative": 17,
-        "neutral": 399
+        "positive": 73,
+        "negative": 19,
+        "neutral": 406
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 297,
+      "mention_count": 287,
       "sentiment": {
-        "positive": 57,
-        "negative": 100,
-        "neutral": 140
+        "positive": 54,
+        "negative": 97,
+        "neutral": 136
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 245,
+      "mention_count": 244,
       "sentiment": {
-        "positive": 54,
-        "negative": 84,
-        "neutral": 107
+        "positive": 50,
+        "negative": 89,
+        "neutral": 105
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 243,
+      "mention_count": 234,
       "sentiment": {
         "positive": 34,
-        "negative": 81,
-        "neutral": 128
+        "negative": 79,
+        "neutral": 121
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 176,
+      "mention_count": 174,
       "sentiment": {
-        "positive": 46,
-        "negative": 40,
-        "neutral": 90
+        "positive": 48,
+        "negative": 42,
+        "neutral": 84
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -310,11 +310,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 158,
+      "mention_count": 152,
       "sentiment": {
-        "positive": 14,
-        "negative": 101,
-        "neutral": 43
+        "positive": 11,
+        "negative": 100,
+        "neutral": 41
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -352,11 +352,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 138,
+      "mention_count": 137,
       "sentiment": {
-        "positive": 29,
-        "negative": 40,
-        "neutral": 69
+        "positive": 27,
+        "negative": 44,
+        "neutral": 66
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -396,9 +396,9 @@
       "name": "Customer Support & Help",
       "mention_count": 117,
       "sentiment": {
-        "positive": 34,
-        "negative": 41,
-        "neutral": 42
+        "positive": 31,
+        "negative": 45,
+        "neutral": 41
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

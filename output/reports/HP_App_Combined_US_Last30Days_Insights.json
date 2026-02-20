@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-13T16:46:45.787741",
-  "total_reviews": 822,
+  "generated_at": "2026-02-20T16:39:34.067238",
+  "total_reviews": 840,
   "sentiment_summary": {
-    "positive": 250,
-    "negative": 232,
-    "neutral": 340
+    "positive": 248,
+    "negative": 248,
+    "neutral": 344
   },
   "rating_distribution": {
     "5": 259,
-    "2": 56,
-    "1": 444,
+    "2": 57,
+    "1": 462,
     "4": 29,
-    "3": 34
+    "3": 33
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 458,
+      "mention_count": 460,
       "sentiment": {
         "positive": 110,
-        "negative": 152,
-        "neutral": 196
+        "negative": 160,
+        "neutral": 190
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 375,
+      "mention_count": 393,
       "sentiment": {
-        "positive": 121,
-        "negative": 139,
-        "neutral": 115
+        "positive": 118,
+        "negative": 148,
+        "neutral": 127
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 200,
+      "mention_count": 203,
       "sentiment": {
-        "positive": 40,
-        "negative": 80,
-        "neutral": 80
+        "positive": 36,
+        "negative": 86,
+        "neutral": 81
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 197,
+      "mention_count": 195,
       "sentiment": {
-        "positive": 42,
-        "negative": 70,
-        "neutral": 85
+        "positive": 41,
+        "negative": 72,
+        "neutral": 82
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 162,
+      "mention_count": 155,
       "sentiment": {
         "positive": 29,
-        "negative": 62,
-        "neutral": 71
+        "negative": 61,
+        "neutral": 65
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 151,
+      "mention_count": 153,
       "sentiment": {
-        "positive": 65,
+        "positive": 66,
         "negative": 15,
-        "neutral": 71
+        "neutral": 72
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 110,
+      "mention_count": 117,
       "sentiment": {
-        "positive": 6,
-        "negative": 75,
-        "neutral": 29
+        "positive": 7,
+        "negative": 79,
+        "neutral": 31
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -310,10 +310,10 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 92,
+      "mention_count": 89,
       "sentiment": {
-        "positive": 27,
-        "negative": 35,
+        "positive": 23,
+        "negative": 36,
         "neutral": 30
       },
       "pm_focus": "Support deflection, self-service success",
@@ -350,55 +350,13 @@
         }
       ]
     },
-    "scanning": {
-      "name": "Scanning Features",
-      "mention_count": 87,
-      "sentiment": {
-        "positive": 28,
-        "negative": 29,
-        "neutral": 30
-      },
-      "pm_focus": "Secondary feature adoption, scan workflow",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "Terrible- never connects",
-          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "You can’t buy knock off ink cartridges. What a scu",
-          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Envy",
-          "snippet": "Scanning feature is terrible and confusing",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Garbage Just Like The Printer",
-          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "Wonky",
-          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 85,
+      "mention_count": 87,
       "sentiment": {
-        "positive": 19,
-        "negative": 31,
-        "neutral": 35
+        "positive": 18,
+        "negative": 35,
+        "neutral": 34
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -431,6 +389,48 @@
           "title": "Cannot print from IPhone",
           "snippet": "Printer will not print directly from IPhone. I have to go into app. This is a huge inconvenience.",
           "sentiment": "neutral"
+        }
+      ]
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 87,
+      "sentiment": {
+        "positive": 26,
+        "negative": 30,
+        "neutral": 31
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Terrible- never connects",
+          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "You can’t buy knock off ink cartridges. What a scu",
+          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Envy",
+          "snippet": "Scanning feature is terrible and confusing",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Garbage Just Like The Printer",
+          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
         }
       ]
     }

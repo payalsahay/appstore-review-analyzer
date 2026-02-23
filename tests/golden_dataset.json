@@ -1,0 +1,272 @@
+[
+  {
+    "id": "pos_001",
+    "content": "Absolutely love this app! It works perfectly every time and makes printing so easy.",
+    "title": "Perfect printing app",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["mobile_experience", "printing"],
+    "notes": "Clear positive sentiment with multiple positive keywords"
+  },
+  {
+    "id": "pos_002",
+    "content": "Amazing app, seamless WiFi connection and excellent print quality. Highly recommend!",
+    "title": "Best printer app",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["connectivity", "printing"],
+    "notes": "Strong positive with connectivity and printing themes"
+  },
+  {
+    "id": "pos_003",
+    "content": "Simple and intuitive interface. Easy to scan documents and send to cloud storage.",
+    "title": "Great user experience",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["mobile_experience", "scanning", "account_cloud"],
+    "notes": "Positive UX review with multiple categories"
+  },
+  {
+    "id": "pos_004",
+    "content": "Works great on my new iPhone after the iOS update. Fast and reliable printing.",
+    "title": "Excellent after update",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["updates", "printing", "reliability"],
+    "notes": "Positive update experience"
+  },
+  {
+    "id": "pos_005",
+    "content": "The best free printing app I've found. Great value and all features work perfectly.",
+    "title": "Worth every penny",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["value", "printing", "features"],
+    "notes": "Positive value perception"
+  },
+  {
+    "id": "neg_001",
+    "content": "Terrible app! Crashes every time I try to print. Complete waste of storage space.",
+    "title": "Worst app ever",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["reliability", "printing"],
+    "notes": "Clear negative with crash issues"
+  },
+  {
+    "id": "neg_002",
+    "content": "Cannot connect to WiFi at all. Bluetooth is broken too. Frustrating experience!",
+    "title": "Connection nightmare",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["connectivity"],
+    "notes": "Connectivity complaints"
+  },
+  {
+    "id": "neg_003",
+    "content": "Awful update broke everything. Now the app is slow and freezes constantly.",
+    "title": "Update ruined it",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["updates", "reliability"],
+    "notes": "Negative update experience"
+  },
+  {
+    "id": "neg_004",
+    "content": "Useless app. Poor print quality and horrible scanning. Don't waste your time.",
+    "title": "Garbage",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["printing", "scanning"],
+    "notes": "Multiple negative themes"
+  },
+  {
+    "id": "neg_005",
+    "content": "Customer support is pathetic. Can't login and nobody helps. Disappointing!",
+    "title": "No help at all",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["support", "account_cloud"],
+    "notes": "Support and account issues"
+  },
+  {
+    "id": "neu_001",
+    "content": "The app is okay. Does basic printing but nothing special.",
+    "title": "Average app",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["printing"],
+    "notes": "Neutral assessment"
+  },
+  {
+    "id": "neu_002",
+    "content": "Works fine for what I need. Standard functionality.",
+    "title": "Does the job",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["uncategorized"],
+    "notes": "Generic neutral review"
+  },
+  {
+    "id": "neu_003",
+    "content": "Acceptable app. WiFi setup took a while but it works now.",
+    "title": "It's decent",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["connectivity"],
+    "notes": "Neutral with connectivity mention"
+  },
+  {
+    "id": "neu_004",
+    "content": "Normal printer app. The interface is basic but functional.",
+    "title": "Basic app",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["mobile_experience"],
+    "notes": "Neutral UX comment"
+  },
+  {
+    "id": "neu_005",
+    "content": "It prints. Nothing more, nothing less.",
+    "title": "Just ok",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["printing"],
+    "notes": "Minimal neutral review"
+  },
+  {
+    "id": "edge_001",
+    "content": "Not bad at all! The app doesn't crash and isn't slow like other apps.",
+    "title": "No complaints",
+    "rating": 4,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["reliability"],
+    "notes": "Negation - 'not bad', 'doesn't crash' should be positive but keyword matching sees negative words"
+  },
+  {
+    "id": "edge_002",
+    "content": "Oh great, another update that breaks everything. Thanks a lot HP!",
+    "title": "Sarcasm intended",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["updates"],
+    "notes": "Sarcasm - 'great' used negatively, actual sentiment is negative"
+  },
+  {
+    "id": "edge_003",
+    "content": "Love the concept but hate the execution. Print quality is excellent but the app is terrible.",
+    "title": "Mixed feelings",
+    "rating": 2,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["printing", "mobile_experience"],
+    "notes": "Mixed sentiment with both positive and negative keywords"
+  },
+  {
+    "id": "edge_004",
+    "content": "Would be perfect if it didn't crash. When it works, it's amazing!",
+    "title": "So close",
+    "rating": 3,
+    "expected_sentiment": "positive",
+    "expected_categories": ["reliability"],
+    "notes": "Conditional positive - positive sentiment despite crash mention"
+  },
+  {
+    "id": "edge_005",
+    "content": "TERRIBLE TERRIBLE TERRIBLE!!! WORST APP EVER!!!",
+    "title": "AVOID",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["uncategorized"],
+    "notes": "All caps emphasis, multiple repetitions"
+  },
+  {
+    "id": "multi_001",
+    "content": "WiFi setup was easy but scanning is slow. Print quality is good when connected.",
+    "title": "Hit or miss",
+    "rating": 3,
+    "expected_sentiment": "positive",
+    "expected_categories": ["connectivity", "scanning", "printing"],
+    "notes": "Multi-category with mixed signals"
+  },
+  {
+    "id": "multi_002",
+    "content": "After the update, cloud sync works but bluetooth is broken. Customer support couldn't help.",
+    "title": "Partial fix",
+    "rating": 2,
+    "expected_sentiment": "negative",
+    "expected_categories": ["updates", "account_cloud", "connectivity", "support"],
+    "notes": "Four categories in one review"
+  },
+  {
+    "id": "multi_003",
+    "content": "The interface is confusing but once you figure it out, printing and scanning work great.",
+    "title": "Learning curve",
+    "rating": 4,
+    "expected_sentiment": "positive",
+    "expected_categories": ["mobile_experience", "printing", "scanning"],
+    "notes": "Negative UX but positive core functionality"
+  },
+  {
+    "id": "multi_004",
+    "content": "Login issues at first but support helped. Now it connects to wifi perfectly and prints fast.",
+    "title": "Good after help",
+    "rating": 4,
+    "expected_sentiment": "positive",
+    "expected_categories": ["account_cloud", "support", "connectivity", "printing"],
+    "notes": "Journey from problem to resolution"
+  },
+  {
+    "id": "multi_005",
+    "content": "Would be nice to add more features. The app needs duplex printing option and better scan resolution.",
+    "title": "Feature wishlist",
+    "rating": 3,
+    "expected_sentiment": "neutral",
+    "expected_categories": ["features", "printing", "scanning"],
+    "notes": "Feature request touching multiple areas"
+  },
+  {
+    "id": "single_001",
+    "content": "The WiFi connection drops constantly. Every single time!",
+    "title": "WiFi issues",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["connectivity"],
+    "notes": "Single category - connectivity only"
+  },
+  {
+    "id": "single_002",
+    "content": "Excellent photo printing quality. Colors are vibrant and sharp.",
+    "title": "Photo printing",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["printing"],
+    "notes": "Single category - printing only"
+  },
+  {
+    "id": "single_003",
+    "content": "App crashes on startup every time since iOS 17 update.",
+    "title": "Broken on iOS 17",
+    "rating": 1,
+    "expected_sentiment": "negative",
+    "expected_categories": ["updates", "reliability"],
+    "notes": "Update-related crash"
+  },
+  {
+    "id": "single_004",
+    "content": "Quick and reliable scanning. OCR works perfectly for documents.",
+    "title": "Scanning works",
+    "rating": 5,
+    "expected_sentiment": "positive",
+    "expected_categories": ["scanning"],
+    "notes": "Single category - scanning only"
+  },
+  {
+    "id": "single_005",
+    "content": "Too expensive for what it offers. The subscription model is ridiculous.",
+    "title": "Overpriced",
+    "rating": 2,
+    "expected_sentiment": "negative",
+    "expected_categories": ["value"],
+    "notes": "Single category - value/pricing only"
+  }
+]

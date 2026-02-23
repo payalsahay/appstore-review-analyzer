@@ -94,7 +94,8 @@
       "country": "us",
       "rating": 4.74137,
       "rating_count": 3973087,
-      "current_version_rating": 4.74137
+      "current_version_rating": 4.74137,
+      "histogram": [184, 21, 20, 11, 124]
     },
     {
       "date": "2026-02-03",

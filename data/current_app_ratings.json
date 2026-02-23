@@ -8,7 +8,8 @@
       "current_version_rating": 4.74031,
       "current_version_rating_count": 3999725,
       "version": "26.0.0",
-      "app_name": "HP"
+      "app_name": "HP",
+      "histogram": [184, 21, 20, 11, 124]
     }
   },
   "android": {

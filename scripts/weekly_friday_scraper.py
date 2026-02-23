@@ -130,6 +130,21 @@ def save_to_csv(reviews, filepath):
     print(f"  Saved CSV to {os.path.basename(filepath)}")
 
 
+def compute_histogram_from_reviews(reviews):
+    """
+    Compute a rating histogram [1-star, 2-star, 3-star, 4-star, 5-star] from reviews.
+    Returns a 5-element list or None if no valid ratings found.
+    """
+    counts = [0, 0, 0, 0, 0]
+    valid = 0
+    for review in reviews:
+        rating = review.get("rating")
+        if isinstance(rating, (int, float)) and 1 <= rating <= 5:
+            counts[int(rating) - 1] += 1
+            valid += 1
+    return counts if valid > 0 else None
+
+
 def deduplicate_reviews(existing, new_reviews):
     """
     Merge reviews: add new, keep unique by ID.
@@ -343,6 +358,13 @@ def record_app_ratings():
     ios_us_rating = fetch_ios_app_rating("us")
     android_us_rating = fetch_android_app_rating("us")
 
+    # Compute iOS histogram from scraped reviews
+    if ios_us_rating:
+        ios_reviews_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last30Days.json")
+        ios_reviews = load_existing_reviews(ios_reviews_file)
+        if ios_reviews:
+            ios_us_rating["histogram"] = compute_histogram_from_reviews(ios_reviews)
+
     # Load existing history
     history = load_rating_history()
 
@@ -367,6 +389,7 @@ def record_app_ratings():
             "rating": ios_us_rating.get("rating"),
             "rating_count": ios_us_rating.get("rating_count"),
             "current_version_rating": ios_us_rating.get("current_version_rating"),
+            "histogram": ios_us_rating.get("histogram"),
         }
         history["ios"].append(ios_entry)
 
@@ -617,6 +640,7 @@ def generate_rating_history_json():
                 "rating_count": current_ratings.get("ios", {}).get("us", {}).get("rating_count"),
                 "current_version": current_ratings.get("ios", {}).get("us", {}).get("version"),
                 "current_version_rating": current_ratings.get("ios", {}).get("us", {}).get("current_version_rating"),
+                "histogram": current_ratings.get("ios", {}).get("us", {}).get("histogram"),
             },
             "android": {
                 "current_rating": current_ratings.get("android", {}).get("us", {}).get("rating"),
@@ -779,6 +803,25 @@ def generate_rating_history_report():
             for i, count in enumerate(reversed(histogram), 1):
                 star = 6 - i
                 pct = (count / total_ratings * 100) if total_ratings > 0 else 0
+                report += f"| {star} | {count:,} | {pct:.1f}% |\n"
+
+    # Rating Distribution (iOS histogram from reviews if available)
+    if ios_entries:
+        latest_ios = ios_entries[-1]
+        ios_histogram = latest_ios.get("histogram")
+        if ios_histogram and len(ios_histogram) == 5:
+            report += """
+---
+
+## iOS App Store Rating Distribution (from Reviews)
+
+| Stars | Count | Percentage |
+|-------|-------|------------|
+"""
+            total_ios_ratings = sum(ios_histogram)
+            for i, count in enumerate(reversed(ios_histogram), 1):
+                star = 6 - i
+                pct = (count / total_ios_ratings * 100) if total_ios_ratings > 0 else 0
                 report += f"| {star} | {count:,} | {pct:.1f}% |\n"
 
     report += """
@@ -1389,6 +1432,120 @@ def run_weekly_scrape():
 
 
 # ============================================================================
+# TEST RUNNER
+# ============================================================================
+
+def run_tests(verbose=True):
+    """
+    Run the test suite for CustomerInsight_Review_Agent.
+    Returns True if all tests pass, False otherwise.
+    """
+    print("\n" + "="*70)
+    print("  RUNNING TEST SUITE")
+    print("="*70)
+
+    import subprocess
+
+    tests_dir = os.path.join(PROJECT_ROOT, "tests")
+
+    if not os.path.exists(tests_dir):
+        print("  ERROR: tests/ directory not found")
+        return False
+
+    # Build pytest command
+    cmd = [sys.executable, "-m", "pytest", tests_dir]
+    if verbose:
+        cmd.append("-v")
+    cmd.append("--tb=short")
+
+    try:
+        result = subprocess.run(cmd, cwd=PROJECT_ROOT, capture_output=True, text=True)
+
+        # Print output
+        if result.stdout:
+            print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+
+        if result.returncode == 0:
+            print("\n  All tests PASSED")
+            return True
+        else:
+            print(f"\n  Some tests FAILED (exit code: {result.returncode})")
+            return False
+
+    except FileNotFoundError:
+        print("  ERROR: pytest not installed. Run: pip install pytest")
+        return False
+    except Exception as e:
+        print(f"  ERROR running tests: {e}")
+        return False
+
+
+def run_accuracy_tests():
+    """
+    Run only the accuracy evaluation tests with detailed output.
+    Returns dict with accuracy metrics.
+    """
+    print("\n" + "="*70)
+    print("  RUNNING ACCURACY EVALUATION")
+    print("="*70)
+
+    import subprocess
+
+    tests_dir = os.path.join(PROJECT_ROOT, "tests")
+    accuracy_test = os.path.join(tests_dir, "test_accuracy.py")
+
+    if not os.path.exists(accuracy_test):
+        print("  ERROR: test_accuracy.py not found")
+        return None
+
+    cmd = [sys.executable, "-m", "pytest", accuracy_test, "-v", "-s"]
+
+    try:
+        result = subprocess.run(cmd, cwd=PROJECT_ROOT, capture_output=True, text=True)
+
+        # Print output
+        if result.stdout:
+            print(result.stdout)
+
+        # Parse accuracy metrics from output
+        metrics = {
+            "tests_passed": result.returncode == 0,
+            "sentiment_accuracy": None,
+            "category_precision": None,
+            "category_recall": None,
+        }
+
+        # Extract metrics from output
+        for line in result.stdout.split('\n'):
+            if "Overall Accuracy:" in line:
+                try:
+                    pct = line.split(':')[1].strip().split('%')[0].strip()
+                    metrics["sentiment_accuracy"] = float(pct)
+                except (IndexError, ValueError):
+                    pass
+            elif "Overall Precision:" in line:
+                try:
+                    pct = line.split(':')[1].strip().split('%')[0].strip()
+                    metrics["category_precision"] = float(pct)
+                except (IndexError, ValueError):
+                    pass
+            elif "Overall Recall:" in line:
+                try:
+                    pct = line.split(':')[1].strip().split('%')[0].strip()
+                    metrics["category_recall"] = float(pct)
+                except (IndexError, ValueError):
+                    pass
+
+        return metrics
+
+    except Exception as e:
+        print(f"  ERROR running accuracy tests: {e}")
+        return None
+
+
+# ============================================================================
 # CLI
 # ============================================================================
 
@@ -1402,10 +1559,26 @@ if __name__ == "__main__":
     parser.add_argument("--insights-only", action="store_true", help="Run insights only (no scraping)")
     parser.add_argument("--ratings-only", action="store_true", help="Record app store ratings only")
     parser.add_argument("--rating-report", action="store_true", help="Generate rating history report only")
+    parser.add_argument("--run-tests", action="store_true", help="Run test suite before scraping")
+    parser.add_argument("--tests-only", action="store_true", help="Run test suite only (no scraping)")
+    parser.add_argument("--accuracy-only", action="store_true", help="Run accuracy evaluation only")
 
     args = parser.parse_args()
 
-    if args.ratings_only:
+    if args.tests_only:
+        # Run test suite only
+        success = run_tests(verbose=True)
+        sys.exit(0 if success else 1)
+    elif args.accuracy_only:
+        # Run accuracy evaluation only
+        metrics = run_accuracy_tests()
+        if metrics:
+            print("\n  Accuracy Metrics Summary:")
+            print(f"    Sentiment Accuracy: {metrics.get('sentiment_accuracy', 'N/A')}%")
+            print(f"    Category Precision: {metrics.get('category_precision', 'N/A')}%")
+            print(f"    Category Recall: {metrics.get('category_recall', 'N/A')}%")
+        sys.exit(0 if metrics and metrics.get('tests_passed') else 1)
+    elif args.ratings_only:
         # Just record current app ratings
         print("Recording app store ratings...")
         current_ratings = record_app_ratings()
@@ -1445,6 +1618,13 @@ if __name__ == "__main__":
                 run_insights_agent(data_file, name)
         # Also generate rating history report
         generate_rating_history_report()
+    elif args.run_tests:
+        # Run tests first, then weekly scrape
+        print("Running tests before weekly scrape...")
+        test_success = run_tests(verbose=True)
+        if not test_success:
+            print("\n  WARNING: Some tests failed. Continuing with scrape anyway...")
+        run_weekly_scrape()
     else:
         # Run full weekly scrape
         run_weekly_scrape()

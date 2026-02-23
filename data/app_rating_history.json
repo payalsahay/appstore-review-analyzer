@@ -95,7 +95,13 @@
       "rating": 4.74137,
       "rating_count": 3973087,
       "current_version_rating": 4.74137,
-      "histogram": [184, 21, 20, 11, 124]
+      "histogram": [
+        184,
+        21,
+        20,
+        11,
+        124
+      ]
     },
     {
       "date": "2026-02-03",
@@ -280,6 +286,21 @@
       "rating": 4.74031,
       "rating_count": 3999725,
       "current_version_rating": 4.74031
+    },
+    {
+      "date": "2026-02-23",
+      "timestamp": "2026-02-23T14:13:58.783578",
+      "country": "us",
+      "rating": 4.74031,
+      "rating_count": 3999725,
+      "current_version_rating": 4.74031,
+      "histogram": [
+        184,
+        21,
+        20,
+        11,
+        124
+      ]
     }
   ],
   "android": [
@@ -821,6 +842,21 @@
         24657,
         69594,
         626795
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "timestamp": "2026-02-23T14:13:58.783578",
+      "country": "us",
+      "rating": 4.180312,
+      "rating_count": 876045,
+      "installs": "100,000,000+",
+      "histogram": [
+        134561,
+        20254,
+        24635,
+        69768,
+        626808
       ]
     }
   ]

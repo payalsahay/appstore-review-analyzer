@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-02-23T14:13:58.783578",
+  "platforms": ["iOS App Store", "Google Play"],
+  "scope": "US",
+  "all_time_data": {
+    "ios": {
+      "app_name": "HP Smart",
+      "app_id": "469284907",
+      "bundle_id": "com.hp.hpsmart",
+      "platform": "iOS App Store",
+      "overall_rating": 4.74031,
+      "total_ratings": 4066359,
+      "version": "26.0.0",
+      "developer": "HP Inc.",
+      "histogram": [134006, 32536, 78789, 264469, 3556559],
+      "histogram_pct": [3.3, 0.8, 1.9, 6.5, 87.5],
+      "histogram_source": "Apple storefront API (fetched 2026-02-23)"
+    },
+    "android": {
+      "app_name": "HP Smart",
+      "app_id": "com.hp.printercontrol",
+      "platform": "Google Play",
+      "overall_rating": 4.180312,
+      "total_ratings": 876045,
+      "total_reviews": 34483,
+      "installs": "100,000,000+",
+      "version": "20.2.0.6076",
+      "developer": "HP Inc.",
+      "histogram": [134561, 20254, 24635, 69768, 626808],
+      "histogram_pct": [15.4, 2.3, 2.8, 8.0, 71.6]
+    },
+    "combined": {
+      "overall_rating": 4.64,
+      "total_ratings": 4942404,
+      "histogram": [268567, 52790, 103424, 334237, 4183367],
+      "histogram_pct": [5.4, 1.1, 2.1, 6.8, 84.6],
+      "positive_pct": 91.4,
+      "negative_pct": 6.5
+    }
+  },
+  "last_30_days_data": {
+    "ios": {
+      "platform": "iOS App Store",
+      "country": "US",
+      "total_reviews": 360,
+      "average_rating": 2.64,
+      "histogram": [184, 21, 20, 11, 124],
+      "histogram_pct": [51.1, 5.8, 5.6, 3.1, 34.4],
+      "positive_pct": 37.5,
+      "negative_pct": 56.9,
+      "date_range": {
+        "earliest": "2025-12-23",
+        "latest": "2026-01-19"
+      },
+      "rating_counts": {
+        "1": 184,
+        "2": 21,
+        "3": 20,
+        "4": 11,
+        "5": 124
+      }
+    },
+    "android": {
+      "platform": "Google Play",
+      "country": "US",
+      "total_reviews": 480,
+      "average_rating": 2.37,
+      "histogram": [278, 36, 13, 18, 135],
+      "histogram_pct": [57.9, 7.5, 2.7, 3.8, 28.1],
+      "positive_pct": 31.9,
+      "negative_pct": 65.4,
+      "date_range": {
+        "earliest": "2026-01-21",
+        "latest": "2026-02-19"
+      },
+      "rating_counts": {
+        "1": 278,
+        "2": 36,
+        "3": 13,
+        "4": 18,
+        "5": 135
+      }
+    },
+    "combined": {
+      "total_reviews": 840,
+      "average_rating": 2.49,
+      "histogram": [462, 57, 33, 29, 259],
+      "histogram_pct": [55.0, 6.8, 3.9, 3.5, 30.8],
+      "positive_pct": 34.3,
+      "negative_pct": 61.8,
+      "rating_counts": {
+        "1": 462,
+        "2": 57,
+        "3": 33,
+        "4": 29,
+        "5": 259
+      },
+      "sentiment": {
+        "positive": 248,
+        "neutral": 344,
+        "negative": 248,
+        "positive_pct": 29.5,
+        "neutral_pct": 41.0,
+        "negative_pct": 29.5
+      }
+    }
+  },
+  "analysis": {
+    "generated_at": "2026-02-23T14:13:58.783578",
+    "comparison_period": "Last 30 Days vs All-Time",
+    "rating_comparison": {
+      "all_time_rating": 4.64,
+      "recent_rating": 2.49,
+      "delta": -2.15,
+      "trend": "declining",
+      "ios_all_time": 4.74031,
+      "ios_recent": 2.64,
+      "ios_delta": -2.10,
+      "android_all_time": 4.180312,
+      "android_recent": 2.37,
+      "android_delta": -1.81
+    },
+    "distribution_comparison": {
+      "5_star": {
+        "all_time": 84.6,
+        "recent": 30.8,
+        "delta": -53.8
+      },
+      "4_star": {
+        "all_time": 6.8,
+        "recent": 3.5,
+        "delta": -3.3
+      },
+      "3_star": {
+        "all_time": 2.1,
+        "recent": 3.9,
+        "delta": 1.8
+      },
+      "2_star": {
+        "all_time": 1.1,
+        "recent": 6.8,
+        "delta": 5.7
+      },
+      "1_star": {
+        "all_time": 5.4,
+        "recent": 55.0,
+        "delta": 49.6
+      }
+    },
+    "sentiment_summary": {
+      "all_time_positive_pct": 91.4,
+      "all_time_negative_pct": 6.5,
+      "recent_positive_pct": 34.3,
+      "recent_negative_pct": 61.8,
+      "positive_delta": -57.1,
+      "negative_delta": 55.3
+    },
+    "engagement": {
+      "ios_total_ratings": 4066359,
+      "android_total_ratings": 876045,
+      "android_total_reviews": 34483,
+      "android_review_rate_pct": 3.94,
+      "android_silent_raters_pct": 96.06
+    },
+    "top_issue_categories": [
+      {"rank": 1, "name": "Print Quality & Functionality", "mentions": 460, "pct_of_reviews": 54.8, "positive": 110, "negative": 160},
+      {"rank": 2, "name": "Mobile App Experience", "mentions": 393, "pct_of_reviews": 46.8, "positive": 118, "negative": 148},
+      {"rank": 3, "name": "Value & Pricing", "mentions": 203, "pct_of_reviews": 24.2, "positive": 36, "negative": 86},
+      {"rank": 4, "name": "Feature Requests & Missing Features", "mentions": 195, "pct_of_reviews": 23.2, "positive": 41, "negative": 72},
+      {"rank": 5, "name": "Connectivity & Setup", "mentions": 155, "pct_of_reviews": 18.5, "positive": 29, "negative": 61},
+      {"rank": 6, "name": "App Reliability & Stability", "mentions": 117, "pct_of_reviews": 13.9, "positive": 7, "negative": 79},
+      {"rank": 7, "name": "Customer Support & Help", "mentions": 89, "pct_of_reviews": 10.6, "positive": 23, "negative": 36},
+      {"rank": 8, "name": "Updates & Compatibility", "mentions": 87, "pct_of_reviews": 10.4, "positive": 18, "negative": 35},
+      {"rank": 9, "name": "Scanning Features", "mentions": 87, "pct_of_reviews": 10.4, "positive": 26, "negative": 30}
+    ],
+    "trend": {
+      "status": "critical_decline",
+      "icon": "🔴",
+      "message": "Recent reviews 2.15 stars LOWER than all-time combined average - Critical attention needed across both platforms"
+    }
+  }
+}

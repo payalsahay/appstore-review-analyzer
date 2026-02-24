@@ -288,6 +288,47 @@ def fetch_ios_app_rating(country="us"):
         return None
 
 
+def fetch_ios_all_time_histogram(country="us"):
+    """
+    Fetch the all-time iOS star histogram from Apple's storefront API.
+    Returns [1star, 2star, 3star, 4star, 5star] counts, or None on error.
+    iTunes lookup API does not expose the histogram; this uses the customer
+    reviews endpoint which includes ratingCountList.
+    """
+    import urllib.request
+    import urllib.error
+
+    app_id = APP_CONFIG["ios"]["app_id"]
+    url = (
+        f"https://itunes.apple.com/{country}/customer-reviews/id{app_id}"
+        f"?displayable-kind=11&media=software&page=1&sort-by=mostRecent"
+    )
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "X-Apple-Store-Front": "143441-1,32",
+        "Accept": "application/json",
+    }
+
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode("utf-8"))
+
+        histogram = data.get("ratingCountList")  # [1★, 2★, 3★, 4★, 5★]
+        total = data.get("ratingCount")
+        if histogram and len(histogram) == 5:
+            print(f"  iOS all-time histogram fetched: total={total:,}")
+            return {
+                "histogram": histogram,
+                "histogram_total": total,
+                "histogram_source": f"Apple storefront API (fetched {datetime.now().strftime('%Y-%m-%d')})",
+            }
+        return None
+    except Exception as e:
+        print(f"  Error fetching iOS all-time histogram: {e}")
+        return None
+
+
 def fetch_android_app_rating(country="us"):
     """
     Fetch the current Google Play Store rating for the app.
@@ -358,12 +399,13 @@ def record_app_ratings():
     ios_us_rating = fetch_ios_app_rating("us")
     android_us_rating = fetch_android_app_rating("us")
 
-    # Compute iOS histogram from scraped reviews
+    # Fetch real all-time iOS histogram from Apple's storefront API
     if ios_us_rating:
-        ios_reviews_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last30Days.json")
-        ios_reviews = load_existing_reviews(ios_reviews_file)
-        if ios_reviews:
-            ios_us_rating["histogram"] = compute_histogram_from_reviews(ios_reviews)
+        ios_histogram_data = fetch_ios_all_time_histogram("us")
+        if ios_histogram_data:
+            ios_us_rating["histogram"] = ios_histogram_data["histogram"]
+            ios_us_rating["histogram_total"] = ios_histogram_data["histogram_total"]
+            ios_us_rating["histogram_source"] = ios_histogram_data["histogram_source"]
 
     # Load existing history
     history = load_rating_history()
@@ -1167,6 +1209,495 @@ def generate_insights_markdown(analysis, source_file, output_file, title):
 
 
 # ============================================================================
+# COMBINED SENTIMENT VIEW (iOS + Android)
+# ============================================================================
+
+def generate_combined_sentiment_view(current_ratings):
+    """
+    Generate HP_App_Combined_Sentiment_View.md and .json in output/.
+    Uses current_ratings for all-time data and analytics files for last 30d.
+    """
+    print("\n  Generating Combined Sentiment View (iOS + Android)...")
+
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    iso_now = datetime.now().isoformat()
+
+    # ------------------------------------------------------------------
+    # All-time data from current_ratings
+    # ------------------------------------------------------------------
+    ios_at = current_ratings.get("ios", {}).get("us", {}) or {}
+    android_at = current_ratings.get("android", {}).get("us", {}) or {}
+
+    ios_rating_at = ios_at.get("rating") or 0
+    ios_total_at = ios_at.get("histogram_total") or ios_at.get("rating_count") or 0
+    ios_hist_at = ios_at.get("histogram") or []          # [1★,2★,3★,4★,5★]
+
+    android_rating_at = android_at.get("rating") or 0
+    android_total_at = android_at.get("rating_count") or 0
+    android_hist_at = android_at.get("histogram") or []  # [1★,2★,3★,4★,5★]
+
+    def hist_pct(h):
+        t = sum(h)
+        return [round(c / t * 100, 1) if t else 0 for c in h]
+
+    def positive_pct(h):
+        t = sum(h)
+        return round((h[3] + h[4]) / t * 100, 1) if t and len(h) == 5 else 0
+
+    def negative_pct(h):
+        t = sum(h)
+        return round((h[0] + h[1]) / t * 100, 1) if t and len(h) == 5 else 0
+
+    ios_hist_at_pct = hist_pct(ios_hist_at) if len(ios_hist_at) == 5 else []
+    android_hist_at_pct = hist_pct(android_hist_at) if len(android_hist_at) == 5 else []
+
+    # Combined all-time histogram
+    combined_hist_at = []
+    combined_total_at = 0
+    combined_rating_at = 0
+    if len(ios_hist_at) == 5 and len(android_hist_at) == 5:
+        combined_hist_at = [ios_hist_at[i] + android_hist_at[i] for i in range(5)]
+        combined_total_at = ios_total_at + android_total_at
+        combined_rating_at = round(
+            (ios_rating_at * ios_total_at + android_rating_at * android_total_at) / combined_total_at, 2
+        ) if combined_total_at else 0
+
+    combined_hist_at_pct = hist_pct(combined_hist_at) if combined_hist_at else []
+    combined_pos_at = positive_pct(combined_hist_at) if combined_hist_at else 0
+    combined_neg_at = negative_pct(combined_hist_at) if combined_hist_at else 0
+    ios_pos_at = positive_pct(ios_hist_at) if ios_hist_at else 0
+    ios_neg_at = negative_pct(ios_hist_at) if ios_hist_at else 0
+    android_pos_at = positive_pct(android_hist_at) if android_hist_at else 0
+    android_neg_at = negative_pct(android_hist_at) if android_hist_at else 0
+
+    # ------------------------------------------------------------------
+    # Last 30 days from analytics files
+    # ------------------------------------------------------------------
+    ios_30d_analytics_file = os.path.join(IOS_DATA_DIR, "HP_App_iOS_US_Last30Days_Analytics.json")
+    android_30d_analytics_file = os.path.join(ANDROID_DATA_DIR, "HP_App_Android_US_Last30Days_Analytics.json")
+    combined_insights_file = os.path.join(REPORTS_DIR, "HP_App_Combined_US_Last30Days_Insights.json")
+
+    ios_30d = {}
+    android_30d = {}
+    combined_insights = {}
+
+    if os.path.exists(ios_30d_analytics_file):
+        with open(ios_30d_analytics_file) as f:
+            ios_30d = json.load(f)
+    if os.path.exists(android_30d_analytics_file):
+        with open(android_30d_analytics_file) as f:
+            android_30d = json.load(f)
+    if os.path.exists(combined_insights_file):
+        with open(combined_insights_file) as f:
+            combined_insights = json.load(f)
+
+    def analytics_to_hist(analytics):
+        """Convert analytics rating_distribution dict to [1★,2★,3★,4★,5★] list."""
+        rd = analytics.get("rating_distribution", {})
+        return [int(rd.get(str(i), 0)) for i in range(1, 6)]
+
+    ios_hist_30d = analytics_to_hist(ios_30d)
+    android_hist_30d = analytics_to_hist(android_30d)
+    combined_hist_30d = [ios_hist_30d[i] + android_hist_30d[i] for i in range(5)]
+
+    ios_total_30d = sum(ios_hist_30d)
+    android_total_30d = sum(android_hist_30d)
+    combined_total_30d = ios_total_30d + android_total_30d
+
+    ios_avg_30d = round(ios_30d.get("avg_rating", 0), 2)
+    android_avg_30d = round(android_30d.get("avg_rating", 0), 2)
+    combined_avg_30d = round(
+        (ios_avg_30d * ios_total_30d + android_avg_30d * android_total_30d) / combined_total_30d, 2
+    ) if combined_total_30d else 0
+
+    ios_hist_30d_pct = hist_pct(ios_hist_30d)
+    android_hist_30d_pct = hist_pct(android_hist_30d)
+    combined_hist_30d_pct = hist_pct(combined_hist_30d)
+
+    ios_pos_30d = positive_pct(ios_hist_30d)
+    ios_neg_30d = negative_pct(ios_hist_30d)
+    android_pos_30d = positive_pct(android_hist_30d)
+    android_neg_30d = negative_pct(android_hist_30d)
+    combined_pos_30d = positive_pct(combined_hist_30d)
+    combined_neg_30d = negative_pct(combined_hist_30d)
+
+    ios_date_range = ios_30d.get("date_range", {})
+    android_date_range = android_30d.get("date_range", {})
+
+    # Sentiment from combined insights
+    sentiment = combined_insights.get("sentiment_summary", {})
+    sent_pos = sentiment.get("positive", 0)
+    sent_neg = sentiment.get("negative", 0)
+    sent_neu = sentiment.get("neutral", 0)
+    sent_total = sent_pos + sent_neg + sent_neu
+    sent_pos_pct = round(sent_pos / sent_total * 100, 1) if sent_total else 0
+    sent_neg_pct = round(sent_neg / sent_total * 100, 1) if sent_total else 0
+    sent_neu_pct = round(sent_neu / sent_total * 100, 1) if sent_total else 0
+
+    # Deltas
+    delta_avg = round(combined_avg_30d - combined_rating_at, 2)
+    delta_pos = round(combined_pos_30d - combined_pos_at, 1)
+    delta_neg = round(combined_neg_30d - combined_neg_at, 1)
+
+    def bar(pct, width=40):
+        filled = round(pct / 100 * width)
+        return "█" * filled + "░" * (width - filled)
+
+    trend_status = "critical_decline" if delta_avg <= -1.5 else "declining" if delta_avg < 0 else "stable"
+    trend_icon = "🔴" if delta_avg <= -1.5 else "🟠" if delta_avg < -0.5 else "🟢"
+
+    # ------------------------------------------------------------------
+    # Top categories from combined insights
+    # ------------------------------------------------------------------
+    categories_raw = combined_insights.get("categories", {})
+    top_categories = []
+    for cat_id, cat_data in categories_raw.items():
+        if cat_id == "uncategorized":
+            continue
+        top_categories.append({
+            "name": cat_data.get("name", cat_id),
+            "mentions": cat_data.get("mention_count", 0),
+            "pct_of_reviews": round(cat_data.get("mention_count", 0) / combined_total_30d * 100, 1) if combined_total_30d else 0,
+            "positive": cat_data.get("sentiment", {}).get("positive", 0),
+            "negative": cat_data.get("sentiment", {}).get("negative", 0),
+        })
+    top_categories.sort(key=lambda x: x["mentions"], reverse=True)
+
+    # ------------------------------------------------------------------
+    # Write JSON
+    # ------------------------------------------------------------------
+    output_json = {
+        "generated_at": iso_now,
+        "platforms": ["iOS App Store", "Google Play"],
+        "scope": "US",
+        "all_time_data": {
+            "ios": {
+                "app_name": "HP Smart",
+                "app_id": str(APP_CONFIG["ios"]["app_id"]),
+                "platform": "iOS App Store",
+                "overall_rating": ios_rating_at,
+                "total_ratings": ios_total_at,
+                "version": ios_at.get("version"),
+                "developer": "HP Inc.",
+                "histogram": ios_hist_at,
+                "histogram_pct": ios_hist_at_pct,
+                "histogram_source": ios_at.get("histogram_source", "Apple storefront API"),
+            },
+            "android": {
+                "app_name": "HP Smart",
+                "app_id": APP_CONFIG["android"]["package_id"],
+                "platform": "Google Play",
+                "overall_rating": android_rating_at,
+                "total_ratings": android_total_at,
+                "total_reviews": android_at.get("reviews_count"),
+                "installs": android_at.get("installs"),
+                "developer": "HP Inc.",
+                "histogram": android_hist_at,
+                "histogram_pct": android_hist_at_pct,
+            },
+            "combined": {
+                "overall_rating": combined_rating_at,
+                "total_ratings": combined_total_at,
+                "histogram": combined_hist_at,
+                "histogram_pct": combined_hist_at_pct,
+                "positive_pct": combined_pos_at,
+                "negative_pct": combined_neg_at,
+            },
+        },
+        "last_30_days_data": {
+            "ios": {
+                "platform": "iOS App Store",
+                "country": "US",
+                "total_reviews": ios_total_30d,
+                "average_rating": ios_avg_30d,
+                "histogram": ios_hist_30d,
+                "histogram_pct": ios_hist_30d_pct,
+                "positive_pct": ios_pos_30d,
+                "negative_pct": ios_neg_30d,
+                "date_range": ios_date_range,
+                "rating_counts": {str(i + 1): ios_hist_30d[i] for i in range(5)},
+            },
+            "android": {
+                "platform": "Google Play",
+                "country": "US",
+                "total_reviews": android_total_30d,
+                "average_rating": android_avg_30d,
+                "histogram": android_hist_30d,
+                "histogram_pct": android_hist_30d_pct,
+                "positive_pct": android_pos_30d,
+                "negative_pct": android_neg_30d,
+                "date_range": android_date_range,
+                "rating_counts": {str(i + 1): android_hist_30d[i] for i in range(5)},
+            },
+            "combined": {
+                "total_reviews": combined_total_30d,
+                "average_rating": combined_avg_30d,
+                "histogram": combined_hist_30d,
+                "histogram_pct": combined_hist_30d_pct,
+                "positive_pct": combined_pos_30d,
+                "negative_pct": combined_neg_30d,
+                "rating_counts": {str(i + 1): combined_hist_30d[i] for i in range(5)},
+                "sentiment": {
+                    "positive": sent_pos,
+                    "neutral": sent_neu,
+                    "negative": sent_neg,
+                    "positive_pct": sent_pos_pct,
+                    "neutral_pct": sent_neu_pct,
+                    "negative_pct": sent_neg_pct,
+                },
+            },
+        },
+        "analysis": {
+            "generated_at": iso_now,
+            "comparison_period": "Last 30 Days vs All-Time",
+            "rating_comparison": {
+                "all_time_rating": combined_rating_at,
+                "recent_rating": combined_avg_30d,
+                "delta": delta_avg,
+                "trend": "declining" if delta_avg < 0 else "stable",
+                "ios_all_time": ios_rating_at,
+                "ios_recent": ios_avg_30d,
+                "ios_delta": round(ios_avg_30d - ios_rating_at, 2),
+                "android_all_time": android_rating_at,
+                "android_recent": android_avg_30d,
+                "android_delta": round(android_avg_30d - android_rating_at, 2),
+            },
+            "distribution_comparison": {
+                f"{5 - i}_star": {
+                    "all_time": combined_hist_at_pct[4 - i] if combined_hist_at_pct else 0,
+                    "recent": combined_hist_30d_pct[4 - i] if combined_hist_30d_pct else 0,
+                    "delta": round(
+                        (combined_hist_30d_pct[4 - i] if combined_hist_30d_pct else 0)
+                        - (combined_hist_at_pct[4 - i] if combined_hist_at_pct else 0), 1
+                    ),
+                }
+                for i in range(5)
+            },
+            "sentiment_summary": {
+                "all_time_positive_pct": combined_pos_at,
+                "all_time_negative_pct": combined_neg_at,
+                "recent_positive_pct": combined_pos_30d,
+                "recent_negative_pct": combined_neg_30d,
+                "positive_delta": delta_pos,
+                "negative_delta": delta_neg,
+            },
+            "engagement": {
+                "ios_total_ratings": ios_total_at,
+                "android_total_ratings": android_total_at,
+                "android_total_reviews": android_at.get("reviews_count"),
+            },
+            "top_issue_categories": [
+                {
+                    "rank": i + 1,
+                    "name": c["name"],
+                    "mentions": c["mentions"],
+                    "pct_of_reviews": c["pct_of_reviews"],
+                    "positive": c["positive"],
+                    "negative": c["negative"],
+                }
+                for i, c in enumerate(top_categories[:9])
+            ],
+            "trend": {
+                "status": trend_status,
+                "icon": trend_icon,
+                "message": (
+                    f"Recent reviews {abs(delta_avg):.2f} stars LOWER than all-time combined average"
+                    " - Critical attention needed across both platforms"
+                    if delta_avg < 0
+                    else "Sentiment stable or improving"
+                ),
+            },
+        },
+    }
+
+    json_out = os.path.join(OUTPUT_DIR, "HP_App_Combined_Sentiment_View.json")
+    with open(json_out, "w", encoding="utf-8") as f:
+        json.dump(output_json, f, indent=2, ensure_ascii=False)
+    print(f"  Saved {os.path.basename(json_out)}")
+
+    # ------------------------------------------------------------------
+    # Write Markdown
+    # ------------------------------------------------------------------
+    def fmt_delta(d, invert=False):
+        if invert:
+            return f"+{abs(d):.1f}%" if d > 0 else f"{d:.1f}%"
+        return f"+{abs(d):.1f}%" if d > 0 else f"-{abs(d):.1f}%"
+
+    ios_period = (
+        f"{ios_date_range.get('from', 'N/A')} – {ios_date_range.get('to', 'N/A')}"
+        if ios_date_range else "N/A"
+    )
+    android_period = (
+        f"{android_date_range.get('from', 'N/A')} – {android_date_range.get('to', 'N/A')}"
+        if android_date_range else "N/A"
+    )
+
+    def dist_table_row(star_label, at_pct, recent_pct, at_count, recent_count):
+        d = round(recent_pct - at_pct, 1)
+        trend = "📉" if d < -1 else "📈" if d > 1 else "➡️"
+        return (
+            f"| {star_label} | {at_count:,} | {at_pct:.1f}% "
+            f"| {recent_count:,} | {recent_pct:.1f}% | {d:+.1f}% | {trend} |"
+        )
+
+    cat_rows = ""
+    for i, c in enumerate(top_categories[:9]):
+        net = "🔴 Critical" if c["negative"] > c["positive"] * 5 else (
+            "🔴 Negative" if c["negative"] > c["positive"] else "🟢 Positive"
+        )
+        cat_rows += (
+            f"| {i+1} | {c['name']} | {c['mentions']} | {c['pct_of_reviews']:.1f}% "
+            f"| {net} ({c['positive']}P / {c['negative']}N) |\n"
+        )
+
+    md = f"""# HP Smart App - Combined Sentiment View (iOS + Android)
+
+**Generated:** {now_str}
+**App:** HP Smart (iOS: com.hp.hpsmart | Android: com.hp.printercontrol)
+
+---
+
+## {trend_icon} Sentiment Trend: {"CRITICAL DECLINE" if trend_status == "critical_decline" else "DECLINING" if trend_status == "declining" else "STABLE"}
+
+> **Recent reviews {abs(delta_avg):.2f} stars {"LOWER" if delta_avg < 0 else "HIGHER"} than all-time combined average{"— Critical attention needed across both platforms" if delta_avg <= -1.5 else ""}**
+
+---
+
+## Quick Comparison — Combined (iOS + Android US)
+
+| Metric | All-Time Combined | Last 30 Days Combined | Delta |
+|--------|-------------------|-----------------------|-------|
+| **Average Rating** | {combined_rating_at:.2f} ⭐ | {combined_avg_30d:.2f} ⭐ | {delta_avg:+.2f} |
+| **Positive (4-5★)** | {combined_pos_at:.1f}% | {combined_pos_30d:.1f}% | {delta_pos:+.1f}% |
+| **Negative (1-2★)** | {combined_neg_at:.1f}% | {combined_neg_30d:.1f}% | {delta_neg:+.1f}% |
+| **Total Count** | {combined_total_at:,} ratings | {combined_total_30d:,} reviews | — |
+
+---
+
+## Platform Breakdown
+
+### All-Time Ratings
+
+| Platform | Rating | Rating Count | Positive (4-5★) | Negative (1-2★) |
+|----------|--------|-------------|-----------------|-----------------|
+| **iOS App Store** | {ios_rating_at:.2f} ⭐ | {ios_total_at:,} | {ios_pos_at:.1f}% | {ios_neg_at:.1f}% |
+| **Google Play (US)** | {android_rating_at:.2f} ⭐ | {android_total_at:,} | {android_pos_at:.1f}% | {android_neg_at:.1f}% |
+| **Combined (Weighted)** | **{combined_rating_at:.2f} ⭐** | **{combined_total_at:,}** | **{combined_pos_at:.1f}%** | **{combined_neg_at:.1f}%** |
+
+### Last 30 Days Reviews
+
+| Platform | Avg Rating | Reviews | Positive (4-5★) | Negative (1-2★) | Period |
+|----------|------------|---------|-----------------|-----------------|--------|
+| **iOS (US)** | {ios_avg_30d:.2f} ⭐ | {ios_total_30d:,} | {ios_pos_30d:.1f}% | {ios_neg_30d:.1f}% | {ios_period} |
+| **Android (US)** | {android_avg_30d:.2f} ⭐ | {android_total_30d:,} | {android_pos_30d:.1f}% | {android_neg_30d:.1f}% | {android_period} |
+| **Combined** | **{combined_avg_30d:.2f} ⭐** | **{combined_total_30d:,}** | **{combined_pos_30d:.1f}%** | **{combined_neg_30d:.1f}%** | — |
+
+---
+
+## Rating Distribution Comparison
+
+### All-Time vs Last 30 Days (Combined iOS + Android)
+
+| Rating | All-Time Count | All-Time % | Last 30d Count | Last 30d % | Delta | Trend |
+|--------|---------------|------------|----------------|------------|-------|-------|
+{dist_table_row("5 ⭐", combined_hist_at_pct[4] if combined_hist_at_pct else 0, combined_hist_30d_pct[4], combined_hist_at[4] if combined_hist_at else 0, combined_hist_30d[4])}
+{dist_table_row("4 ⭐", combined_hist_at_pct[3] if combined_hist_at_pct else 0, combined_hist_30d_pct[3], combined_hist_at[3] if combined_hist_at else 0, combined_hist_30d[3])}
+{dist_table_row("3 ⭐", combined_hist_at_pct[2] if combined_hist_at_pct else 0, combined_hist_30d_pct[2], combined_hist_at[2] if combined_hist_at else 0, combined_hist_30d[2])}
+{dist_table_row("2 ⭐", combined_hist_at_pct[1] if combined_hist_at_pct else 0, combined_hist_30d_pct[1], combined_hist_at[1] if combined_hist_at else 0, combined_hist_30d[1])}
+{dist_table_row("1 ⭐", combined_hist_at_pct[0] if combined_hist_at_pct else 0, combined_hist_30d_pct[0], combined_hist_at[0] if combined_hist_at else 0, combined_hist_30d[0])}
+
+### Visual Distribution
+
+**Combined — All-Time:**
+```
+5⭐ {bar(combined_hist_at_pct[4] if combined_hist_at_pct else 0)} {combined_hist_at_pct[4] if combined_hist_at_pct else 0:.1f}%
+4⭐ {bar(combined_hist_at_pct[3] if combined_hist_at_pct else 0)} {combined_hist_at_pct[3] if combined_hist_at_pct else 0:.1f}%
+3⭐ {bar(combined_hist_at_pct[2] if combined_hist_at_pct else 0)} {combined_hist_at_pct[2] if combined_hist_at_pct else 0:.1f}%
+2⭐ {bar(combined_hist_at_pct[1] if combined_hist_at_pct else 0)} {combined_hist_at_pct[1] if combined_hist_at_pct else 0:.1f}%
+1⭐ {bar(combined_hist_at_pct[0] if combined_hist_at_pct else 0)} {combined_hist_at_pct[0] if combined_hist_at_pct else 0:.1f}%
+```
+
+**iOS — Last 30 Days:**
+```
+5⭐ {bar(ios_hist_30d_pct[4])} {ios_hist_30d_pct[4]:.1f}%
+4⭐ {bar(ios_hist_30d_pct[3])} {ios_hist_30d_pct[3]:.1f}%
+3⭐ {bar(ios_hist_30d_pct[2])} {ios_hist_30d_pct[2]:.1f}%
+2⭐ {bar(ios_hist_30d_pct[1])} {ios_hist_30d_pct[1]:.1f}%
+1⭐ {bar(ios_hist_30d_pct[0])} {ios_hist_30d_pct[0]:.1f}%
+```
+
+**Android — Last 30 Days:**
+```
+5⭐ {bar(android_hist_30d_pct[4])} {android_hist_30d_pct[4]:.1f}%
+4⭐ {bar(android_hist_30d_pct[3])} {android_hist_30d_pct[3]:.1f}%
+3⭐ {bar(android_hist_30d_pct[2])} {android_hist_30d_pct[2]:.1f}%
+2⭐ {bar(android_hist_30d_pct[1])} {android_hist_30d_pct[1]:.1f}%
+1⭐ {bar(android_hist_30d_pct[0])} {android_hist_30d_pct[0]:.1f}%
+```
+
+**Combined iOS + Android — Last 30 Days:**
+```
+5⭐ {bar(combined_hist_30d_pct[4])} {combined_hist_30d_pct[4]:.1f}%
+4⭐ {bar(combined_hist_30d_pct[3])} {combined_hist_30d_pct[3]:.1f}%
+3⭐ {bar(combined_hist_30d_pct[2])} {combined_hist_30d_pct[2]:.1f}%
+2⭐ {bar(combined_hist_30d_pct[1])} {combined_hist_30d_pct[1]:.1f}%
+1⭐ {bar(combined_hist_30d_pct[0])} {combined_hist_30d_pct[0]:.1f}%
+```
+
+---
+
+## Sentiment Analysis (Combined US Last 30 Days — {combined_total_30d:,} Reviews)
+
+| Sentiment | Count | % |
+|-----------|-------|---|
+| Positive | {sent_pos:,} | {sent_pos_pct:.1f}% |
+| Neutral | {sent_neu:,} | {sent_neu_pct:.1f}% |
+| Negative | {sent_neg:,} | {sent_neg_pct:.1f}% |
+
+---
+
+## Top Issue Categories (Combined iOS + Android US Last 30 Days)
+
+| Rank | Category | Mentions | % of Reviews | Net Sentiment |
+|------|----------|----------|--------------|---------------|
+{cat_rows.rstrip()}
+
+---
+
+## App Information
+
+| Property | iOS App Store | Google Play |
+|----------|--------------|-------------|
+| App Name | HP Smart | HP Smart |
+| App ID | com.hp.hpsmart ({APP_CONFIG["ios"]["app_id"]}) | {APP_CONFIG["android"]["package_id"]} |
+| Current Version | {ios_at.get("version", "N/A")} | {android_at.get("version", "N/A") if android_at else "N/A"} |
+| All-Time Avg Rating | {ios_rating_at:.2f} ⭐ | {android_rating_at:.2f} ⭐ |
+| Total Ratings | {ios_total_at:,} | {android_total_at:,} |
+| Total Installs | — | {android_at.get("installs", "N/A") if android_at else "N/A"} |
+| Developer | HP Inc. | HP Inc. |
+
+---
+
+## Data Sources
+
+| Data Set | Platform | Count | Source |
+|----------|----------|-------|--------|
+| All-Time iOS Ratings + Histogram | App Store (US) | {ios_total_at:,} ratings | {ios_at.get("histogram_source", "Apple storefront API")} |
+| All-Time Android Ratings + Histogram | Google Play (US) | {android_total_at:,} ratings | google-play-scraper |
+| Last 30 Days iOS Reviews | App Store (US) | {ios_total_30d:,} reviews | {ios_period} |
+| Last 30 Days Android Reviews | Google Play (US) | {android_total_30d:,} reviews | {android_period} |
+
+---
+*Generated automatically by weekly_friday_scraper.py*
+"""
+
+    md_out = os.path.join(OUTPUT_DIR, "HP_App_Combined_Sentiment_View.md")
+    with open(md_out, "w", encoding="utf-8") as f:
+        f.write(md)
+    print(f"  Saved {os.path.basename(md_out)}")
+
+
+# ============================================================================
 # MAIN WEEKLY SCRAPER
 # ============================================================================
 
@@ -1404,6 +1935,9 @@ def run_weekly_scrape():
             print(f"    iOS (US): {ios_rating['rating']:.2f} / 5.0")
         if android_rating and android_rating.get("rating"):
             print(f"    Android (US): {android_rating['rating']:.2f} / 5.0")
+
+    # Generate Combined Sentiment View (iOS + Android)
+    generate_combined_sentiment_view(current_ratings)
 
     # Generate Rating History Report
     generate_rating_history_report()

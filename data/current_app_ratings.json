@@ -10,12 +10,14 @@
       "version": "26.0.0",
       "app_name": "HP",
       "histogram": [
-        184,
-        21,
-        20,
-        11,
-        124
-      ]
+        134006,
+        32536,
+        78789,
+        264469,
+        3556559
+      ],
+      "histogram_total": 4066359,
+      "histogram_source": "Apple storefront API (itunes.apple.com customer-reviews, fetched 2026-02-23)"
     }
   },
   "android": {

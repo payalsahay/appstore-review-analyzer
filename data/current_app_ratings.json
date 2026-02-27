@@ -1,12 +1,12 @@
 {
   "date": "2026-02-27",
-  "timestamp": "2026-02-27T16:30:24.867248",
+  "timestamp": "2026-02-27T16:40:40.407567",
   "ios": {
     "us": {
-      "rating": 4.74019,
-      "rating_count": 4002865,
-      "current_version_rating": 4.74019,
-      "current_version_rating_count": 4002865,
+      "rating": 4.74014,
+      "rating_count": 4004373,
+      "current_version_rating": 4.74014,
+      "current_version_rating_count": 4004373,
       "version": "26.0.0",
       "app_name": "HP",
       "histogram": [

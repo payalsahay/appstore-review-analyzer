@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-02",
-  "timestamp": "2026-03-02T16:33:07.674049",
+  "date": "2026-03-03",
+  "timestamp": "2026-03-03T16:36:12.356973",
   "ios": {
     "us": {
       "rating": 4.74003,
@@ -17,21 +17,21 @@
         3562300
       ],
       "histogram_total": 4073169,
-      "histogram_source": "Apple storefront API (fetched 2026-03-02)"
+      "histogram_source": "Apple storefront API (fetched 2026-03-03)"
     }
   },
   "android": {
     "us": {
-      "rating": 4.1761603,
-      "rating_count": 878150,
+      "rating": 4.176098,
+      "rating_count": 878427,
       "installs": "100,000,000+",
-      "reviews_count": 34545,
+      "reviews_count": 34550,
       "histogram": [
-        135881,
-        19992,
-        25096,
-        69722,
-        627440
+        135867,
+        19998,
+        25146,
+        69947,
+        627455
       ]
     }
   }

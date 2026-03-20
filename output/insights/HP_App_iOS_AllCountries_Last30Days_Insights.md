@@ -1,6 +1,6 @@
 # HP_App_iOS_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-03-13 16:40
+**Generated:** 2026-03-20 16:43
 **Source:** HP_App_iOS_AllCountries_Last30Days.json
 **Total Reviews:** 667
 
@@ -11,7 +11,7 @@
 | Metric | Value |
 |--------|-------|
 | Current Store Rating | **4.74** / 5.0 |
-| Total Ratings | 4,018,690 |
+| Total Ratings | 4,026,368 |
 | Current Version Rating | 4.74 |
 
 ### 30-Day Rating Trend

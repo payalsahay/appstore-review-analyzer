@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-20T16:43:28.151316",
+  "generated_at": "2026-03-27T16:55:52.385176",
   "total_reviews": 968,
   "sentiment_summary": {
-    "positive": 221,
-    "negative": 315,
-    "neutral": 432
+    "positive": 230,
+    "negative": 304,
+    "neutral": 434
   },
   "rating_distribution": {
-    "5": 236,
-    "2": 56,
-    "1": 598,
-    "4": 33,
-    "3": 45
+    "5": 240,
+    "2": 59,
+    "1": 585,
+    "4": 34,
+    "3": 50
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 521,
+      "mention_count": 515,
       "sentiment": {
-        "positive": 116,
-        "negative": 179,
-        "neutral": 226
+        "positive": 115,
+        "negative": 176,
+        "neutral": 224
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 474,
+      "mention_count": 484,
       "sentiment": {
-        "positive": 113,
-        "negative": 181,
-        "neutral": 180
+        "positive": 121,
+        "negative": 172,
+        "neutral": 191
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -98,55 +98,13 @@
         }
       ]
     },
-    "value": {
-      "name": "Value & Pricing",
-      "mention_count": 225,
-      "sentiment": {
-        "positive": 30,
-        "negative": 100,
-        "neutral": 95
-      },
-      "pm_focus": "Monetization, value perception",
-      "sample_reviews": [
-        {
-          "rating": 2,
-          "title": "printing works, but very slow",
-          "snippet": "The HP remote printers do not play nice with printing apps from your phone. They only work from within the HP app consistently.    If there’s a proble",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Terrible- never connects",
-          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Now I can print",
-          "snippet": "For some reason, I was no longer able to print directly from my cell phone. I was directed to use the app which solved the problem.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "You can’t buy knock off ink cartridges. What a scu",
-          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "Great App",
-          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 223,
+      "mention_count": 231,
       "sentiment": {
-        "positive": 41,
-        "negative": 76,
-        "neutral": 106
+        "positive": 43,
+        "negative": 79,
+        "neutral": 109
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -182,13 +140,55 @@
         }
       ]
     },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 220,
+      "sentiment": {
+        "positive": 32,
+        "negative": 91,
+        "neutral": 97
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "printing works, but very slow",
+          "snippet": "The HP remote printers do not play nice with printing apps from your phone. They only work from within the HP app consistently.    If there’s a proble",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Terrible- never connects",
+          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Now I can print",
+          "snippet": "For some reason, I was no longer able to print directly from my cell phone. I was directed to use the app which solved the problem.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "You can’t buy knock off ink cartridges. What a scu",
+          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Great App",
+          "snippet": "It works like a charm. I’ve had no problems since I’ve been using it because my printer won’t automatically connect to my tablet no matter what I try.",
+          "sentiment": "positive"
+        }
+      ]
+    },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 182,
+      "mention_count": 180,
       "sentiment": {
-        "positive": 30,
-        "negative": 69,
-        "neutral": 83
+        "positive": 28,
+        "negative": 68,
+        "neutral": 84
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 165,
+      "mention_count": 163,
       "sentiment": {
-        "positive": 12,
-        "negative": 113,
-        "neutral": 40
+        "positive": 11,
+        "negative": 109,
+        "neutral": 43
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 152,
+      "mention_count": 149,
       "sentiment": {
-        "positive": 49,
-        "negative": 22,
-        "neutral": 81
+        "positive": 51,
+        "negative": 19,
+        "neutral": 79
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -308,55 +308,13 @@
         }
       ]
     },
-    "scanning": {
-      "name": "Scanning Features",
-      "mention_count": 109,
-      "sentiment": {
-        "positive": 31,
-        "negative": 35,
-        "neutral": 43
-      },
-      "pm_focus": "Secondary feature adoption, scan workflow",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "Terrible- never connects",
-          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "You can’t buy knock off ink cartridges. What a scu",
-          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Envy",
-          "snippet": "Scanning feature is terrible and confusing",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Garbage Just Like The Printer",
-          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "Wonky",
-          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 108,
+      "mention_count": 113,
       "sentiment": {
-        "positive": 15,
-        "negative": 41,
-        "neutral": 52
+        "positive": 17,
+        "negative": 43,
+        "neutral": 53
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -392,13 +350,55 @@
         }
       ]
     },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 107,
+      "sentiment": {
+        "positive": 33,
+        "negative": 33,
+        "neutral": 41
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Terrible- never connects",
+          "snippet": "I have literally set up and re setup this damn thing 100+ times and still, every other time I try to print, it doesn’t connect. Can never do something",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "You can’t buy knock off ink cartridges. What a scu",
+          "snippet": "Never purchase your printer from this brand. It is a HASSLE to set up, they don’t give you the instructions properly so you have otl ok them up, and t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Envy",
+          "snippet": "Scanning feature is terrible and confusing",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Garbage Just Like The Printer",
+          "snippet": "Works once in a blue moon. Scanning documents for the first time in months. I scanned and sent 3 documents for about 15 minutes, then the next time I ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Wonky",
+          "snippet": "The quality of the printing is very good, but getting the printer to operate is not easy. It will not work from my laptop, only my phone. And just now",
+          "sentiment": "positive"
+        }
+      ]
+    },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 87,
+      "mention_count": 97,
       "sentiment": {
-        "positive": 23,
-        "negative": 33,
-        "neutral": 31
+        "positive": 25,
+        "negative": 35,
+        "neutral": 37
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

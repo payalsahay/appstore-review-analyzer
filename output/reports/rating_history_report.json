@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T16:43:03.358800",
+  "generated_at": "2026-03-27T16:55:52.851625",
   "generated_date": "2026-03-27",
   "summary": {
     "ios": {
@@ -35,7 +35,7 @@
         "oldest": 4.74019,
         "change": -0.0,
         "trend": "stable",
-        "entries": 34,
+        "entries": 35,
         "avg_rating": 4.74,
         "min_rating": 4.73898,
         "max_rating": 4.74019
@@ -45,7 +45,7 @@
         "oldest": 4.74174,
         "change": -0.0,
         "trend": "stable",
-        "entries": 72,
+        "entries": 73,
         "avg_rating": 4.74,
         "min_rating": 4.73898,
         "max_rating": 4.74174
@@ -57,7 +57,7 @@
         "oldest": 4.1772895,
         "change": -0.03,
         "trend": "stable",
-        "entries": 34,
+        "entries": 35,
         "avg_rating": 4.17,
         "min_rating": 4.1514926,
         "max_rating": 4.1781564
@@ -67,7 +67,7 @@
         "oldest": 4.192363,
         "change": -0.04,
         "trend": "stable",
-        "entries": 73,
+        "entries": 74,
         "avg_rating": 4.18,
         "min_rating": 4.1514926,
         "max_rating": 4.1948433
@@ -906,6 +906,21 @@
       {
         "date": "2026-03-27",
         "timestamp": "2026-03-27T16:43:02.419265",
+        "country": "us",
+        "rating": 4.73898,
+        "rating_count": 4033175,
+        "current_version_rating": 4.73898,
+        "histogram": [
+          136425,
+          32864,
+          79428,
+          266354,
+          3584108
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "timestamp": "2026-03-27T16:55:26.360700",
         "country": "us",
         "rating": 4.73898,
         "rating_count": 4033175,
@@ -2014,11 +2029,26 @@
           71106,
           626433
         ]
+      },
+      {
+        "date": "2026-03-27",
+        "timestamp": "2026-03-27T16:55:26.360700",
+        "country": "us",
+        "rating": 4.1514926,
+        "rating_count": 885448,
+        "installs": "100,000,000+",
+        "histogram": [
+          142094,
+          20196,
+          25600,
+          71106,
+          626433
+        ]
       }
     ]
   },
   "data_points": {
-    "ios_count": 72,
-    "android_count": 73
+    "ios_count": 73,
+    "android_count": 74
   }
 }

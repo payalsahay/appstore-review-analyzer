@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-27T16:55:52.385176",
-  "total_reviews": 968,
+  "generated_at": "2026-04-03T16:40:28.755067",
+  "total_reviews": 985,
   "sentiment_summary": {
-    "positive": 230,
-    "negative": 304,
-    "neutral": 434
+    "positive": 224,
+    "negative": 309,
+    "neutral": 452
   },
   "rating_distribution": {
     "5": 240,
-    "2": 59,
-    "1": 585,
-    "4": 34,
-    "3": 50
+    "2": 63,
+    "1": 605,
+    "4": 26,
+    "3": 51
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 515,
+      "mention_count": 521,
       "sentiment": {
-        "positive": 115,
-        "negative": 176,
-        "neutral": 224
+        "positive": 108,
+        "negative": 182,
+        "neutral": 231
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 484,
+      "mention_count": 494,
       "sentiment": {
-        "positive": 121,
-        "negative": 172,
-        "neutral": 191
+        "positive": 113,
+        "negative": 181,
+        "neutral": 200
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 231,
+      "mention_count": 230,
       "sentiment": {
-        "positive": 43,
-        "negative": 79,
-        "neutral": 109
+        "positive": 44,
+        "negative": 80,
+        "neutral": 106
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 220,
+      "mention_count": 218,
       "sentiment": {
-        "positive": 32,
-        "negative": 91,
-        "neutral": 97
+        "positive": 30,
+        "negative": 89,
+        "neutral": 99
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 180,
+      "mention_count": 190,
       "sentiment": {
-        "positive": 28,
-        "negative": 68,
-        "neutral": 84
+        "positive": 25,
+        "negative": 78,
+        "neutral": 87
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 163,
+      "mention_count": 170,
       "sentiment": {
-        "positive": 11,
-        "negative": 109,
-        "neutral": 43
+        "positive": 10,
+        "negative": 116,
+        "neutral": 44
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 149,
+      "mention_count": 148,
       "sentiment": {
         "positive": 51,
-        "negative": 19,
-        "neutral": 79
+        "negative": 15,
+        "neutral": 82
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -308,55 +308,13 @@
         }
       ]
     },
-    "updates": {
-      "name": "Updates & Compatibility",
-      "mention_count": 113,
-      "sentiment": {
-        "positive": 17,
-        "negative": 43,
-        "neutral": 53
-      },
-      "pm_focus": "Release management, OS compatibility",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "GREAT SUPPORT",
-          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Update",
-          "snippet": "After update on Apple  changes made w no guidance to how to use update for Snr use.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "setting not correct",
-          "snippet": "I guess the new updates have pushed off the print settings so if you want to print both sides, it is no longer available",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "Not quite as good",
-          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Cannot print from IPhone",
-          "snippet": "Printer will not print directly from IPhone. I have to go into app. This is a huge inconvenience.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 107,
+      "mention_count": 119,
       "sentiment": {
         "positive": 33,
-        "negative": 33,
-        "neutral": 41
+        "negative": 37,
+        "neutral": 49
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -392,13 +350,55 @@
         }
       ]
     },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 115,
+      "sentiment": {
+        "positive": 17,
+        "negative": 41,
+        "neutral": 57
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "GREAT SUPPORT",
+          "snippet": "Found/received very clear information and instructions to get my printer and devices networked",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Update",
+          "snippet": "After update on Apple  changes made w no guidance to how to use update for Snr use.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "setting not correct",
+          "snippet": "I guess the new updates have pushed off the print settings so if you want to print both sides, it is no longer available",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Not quite as good",
+          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Cannot print from IPhone",
+          "snippet": "Printer will not print directly from IPhone. I have to go into app. This is a huge inconvenience.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 97,
+      "mention_count": 92,
       "sentiment": {
-        "positive": 25,
-        "negative": 35,
-        "neutral": 37
+        "positive": 21,
+        "negative": 33,
+        "neutral": 38
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

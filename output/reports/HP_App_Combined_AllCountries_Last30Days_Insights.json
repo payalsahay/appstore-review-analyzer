@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-04-03T16:40:28.852066",
-  "total_reviews": 2063,
+  "generated_at": "2026-04-09T10:41:43.187233",
+  "total_reviews": 2076,
   "sentiment_summary": {
-    "positive": 309,
-    "negative": 379,
-    "neutral": 1375
+    "positive": 315,
+    "negative": 373,
+    "neutral": 1388
   },
   "rating_distribution": {
-    "5": 539,
-    "2": 156,
-    "1": 1215,
-    "4": 52,
-    "3": 101
+    "5": 535,
+    "2": 151,
+    "1": 1229,
+    "4": 56,
+    "3": 105
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 983,
+      "mention_count": 990,
       "sentiment": {
-        "positive": 168,
-        "negative": 223,
-        "neutral": 592
+        "positive": 175,
+        "negative": 228,
+        "neutral": 587
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 701,
+      "mention_count": 698,
       "sentiment": {
         "positive": 143,
-        "negative": 225,
-        "neutral": 333
+        "negative": 229,
+        "neutral": 326
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 567,
+      "mention_count": 563,
       "sentiment": {
-        "positive": 68,
-        "negative": 19,
-        "neutral": 480
+        "positive": 64,
+        "negative": 15,
+        "neutral": 484
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 355,
+      "mention_count": 352,
       "sentiment": {
-        "positive": 47,
-        "negative": 108,
-        "neutral": 200
+        "positive": 48,
+        "negative": 112,
+        "neutral": 192
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 283,
+      "mention_count": 292,
       "sentiment": {
-        "positive": 53,
-        "negative": 102,
-        "neutral": 128
+        "positive": 58,
+        "negative": 101,
+        "neutral": 133
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 263,
+      "mention_count": 258,
       "sentiment": {
         "positive": 30,
-        "negative": 94,
-        "neutral": 139
+        "negative": 88,
+        "neutral": 140
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -266,55 +266,13 @@
         }
       ]
     },
-    "reliability": {
-      "name": "App Reliability & Stability",
-      "mention_count": 235,
-      "sentiment": {
-        "positive": 15,
-        "negative": 152,
-        "neutral": 68
-      },
-      "pm_focus": "Technical debt, app stability metrics",
-      "sample_reviews": [
-        {
-          "rating": 2,
-          "title": "printing works, but very slow",
-          "snippet": "The HP remote printers do not play nice with printing apps from your phone. They only work from within the HP app consistently.    If there’s a proble",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "Update",
-          "snippet": "After update on Apple  changes made w no guidance to how to use update for Snr use.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Printing is a struggle",
-          "snippet": "The printer always seems to get an error after a a job is sent. No reason for the error nor description. It works slightly better from mobile devices ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "Not quite as good",
-          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "So bugged app",
-          "snippet": "It’s so hard trying to print something",
-          "sentiment": "negative"
-        }
-      ]
-    },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 233,
+      "mention_count": 236,
       "sentiment": {
-        "positive": 54,
-        "negative": 50,
-        "neutral": 129
+        "positive": 51,
+        "negative": 55,
+        "neutral": 130
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -350,13 +308,55 @@
         }
       ]
     },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 229,
+      "sentiment": {
+        "positive": 16,
+        "negative": 150,
+        "neutral": 63
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "printing works, but very slow",
+          "snippet": "The HP remote printers do not play nice with printing apps from your phone. They only work from within the HP app consistently.    If there’s a proble",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Update",
+          "snippet": "After update on Apple  changes made w no guidance to how to use update for Snr use.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Printing is a struggle",
+          "snippet": "The printer always seems to get an error after a a job is sent. No reason for the error nor description. It works slightly better from mobile devices ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Not quite as good",
+          "snippet": "When the app is working, it works well.  When you are trying to make any changes to your account or which printer is supported, buckle up for the frus",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "So bugged app",
+          "snippet": "It’s so hard trying to print something",
+          "sentiment": "negative"
+        }
+      ]
+    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 185,
+      "mention_count": 180,
       "sentiment": {
-        "positive": 26,
-        "negative": 57,
-        "neutral": 102
+        "positive": 29,
+        "negative": 53,
+        "neutral": 98
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -394,11 +394,11 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 122,
+      "mention_count": 121,
       "sentiment": {
-        "positive": 25,
-        "negative": 44,
-        "neutral": 53
+        "positive": 27,
+        "negative": 39,
+        "neutral": 55
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

@@ -1,8 +1,8 @@
 # HP_App_Combined_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-03 16:40
+**Generated:** 2026-04-09 10:41
 **Source:** HP_App_Combined_AllCountries_Last30Days.json
-**Total Reviews:** 2063
+**Total Reviews:** 2076
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 2063 |
+| Total Reviews | 2076 |
 | Average Rating (from reviews) | 2.29 / 5.0 |
-| Positive Sentiment | 15.0% |
-| Negative Sentiment | 18.4% |
-| 1-Star Reviews | 1215 (58.9%) |
-| 5-Star Reviews | 539 (26.1%) |
+| Positive Sentiment | 15.2% |
+| Negative Sentiment | 18.0% |
+| 1-Star Reviews | 1229 (59.2%) |
+| 5-Star Reviews | 535 (25.8%) |
 
 ---
 
@@ -23,11 +23,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 539 | 26.1% |
-| 4 | 52 | 2.5% |
-| 3 | 101 | 4.9% |
-| 2 | 156 | 7.6% |
-| 1 | 1215 | 58.9% |
+| 5 | 535 | 25.8% |
+| 4 | 56 | 2.7% |
+| 3 | 105 | 5.1% |
+| 2 | 151 | 7.3% |
+| 1 | 1229 | 59.2% |
 
 ---
 
@@ -35,22 +35,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 983 | 47.6% |
-| 2 | Print Quality & Functionality | 701 | 34.0% |
-| 3 | Other | 567 | 27.5% |
-| 4 | Value & Pricing | 355 | 17.2% |
-| 5 | Feature Requests & Missing Features | 283 | 13.7% |
-| 6 | Connectivity & Setup | 263 | 12.7% |
-| 7 | App Reliability & Stability | 235 | 11.4% |
-| 8 | Scanning Features | 233 | 11.3% |
-| 9 | Updates & Compatibility | 185 | 9.0% |
-| 10 | Customer Support & Help | 122 | 5.9% |
+| 1 | Mobile App Experience | 990 | 47.7% |
+| 2 | Print Quality & Functionality | 698 | 33.6% |
+| 3 | Other | 563 | 27.1% |
+| 4 | Value & Pricing | 352 | 17.0% |
+| 5 | Feature Requests & Missing Features | 292 | 14.1% |
+| 6 | Connectivity & Setup | 258 | 12.4% |
+| 7 | Scanning Features | 236 | 11.4% |
+| 8 | App Reliability & Stability | 229 | 11.0% |
+| 9 | Updates & Compatibility | 180 | 8.7% |
+| 10 | Customer Support & Help | 121 | 5.8% |
 
 ---
 
 ## Critical Pain Points
 
-- **App Reliability & Stability**: 65% negative sentiment (235 mentions)
+- **App Reliability & Stability**: 66% negative sentiment (229 mentions)
 
 ---
 

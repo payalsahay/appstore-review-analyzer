@@ -158,14 +158,13 @@ def deduplicate_reviews(existing, new_reviews):
         if review_id:
             reviews_by_id[review_id] = review
 
-    # Add/update with new reviews
+    # Add new reviews — do NOT overwrite existing to preserve original country tag
     added_count = 0
     for review in new_reviews:
         review_id = str(review.get('id', ''))
         if review_id and review_id not in reviews_by_id:
-            added_count += 1
-        if review_id:
             reviews_by_id[review_id] = review
+            added_count += 1
 
     # Sort by date (newest first)
     all_reviews = list(reviews_by_id.values())

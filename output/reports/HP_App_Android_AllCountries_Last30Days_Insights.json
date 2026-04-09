@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-04-09T10:41:43.107010",
-  "total_reviews": 1409,
+  "generated_at": "2026-04-09T11:00:39.946346",
+  "total_reviews": 1259,
   "sentiment_summary": {
-    "neutral": 1033,
-    "negative": 225,
-    "positive": 151
+    "neutral": 959,
+    "negative": 175,
+    "positive": 125
   },
   "rating_distribution": {
-    "1": 896,
-    "5": 302,
-    "3": 66,
-    "4": 39,
-    "2": 106
+    "1": 793,
+    "5": 273,
+    "3": 60,
+    "4": 36,
+    "2": 97
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 676,
+      "mention_count": 600,
       "sentiment": {
-        "positive": 81,
-        "negative": 142,
-        "neutral": 453
+        "positive": 66,
+        "negative": 111,
+        "neutral": 423
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 439,
+      "mention_count": 409,
       "sentiment": {
-        "positive": 46,
-        "negative": 11,
-        "neutral": 382
+        "positive": 39,
+        "negative": 9,
+        "neutral": 361
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 335,
+      "mention_count": 270,
       "sentiment": {
-        "positive": 36,
-        "negative": 110,
-        "neutral": 189
+        "positive": 28,
+        "negative": 84,
+        "neutral": 158
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 207,
+      "mention_count": 171,
       "sentiment": {
-        "positive": 16,
-        "negative": 55,
-        "neutral": 136
+        "positive": 11,
+        "negative": 40,
+        "neutral": 120
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -182,55 +182,13 @@
         }
       ]
     },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 159,
-      "sentiment": {
-        "positive": 24,
-        "negative": 53,
-        "neutral": 82
-      },
-      "pm_focus": "Product roadmap, feature prioritization",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "è inutilizzabile. non si apre. la stampante la posso usare solo per stampare. scanner e merge pdf addio.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Everything worked fine for years, but lately the app crashes and almost alwsys says \"printer unavailable.\" I can't use the features I need for work an",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The app is more interested in pushing ink subscriptions than using the physical features I've already paid for like my scanner. Never buying HP produc",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "HP used to be so awesome. nOw, its a tiny scanner and no duplex. HP smart ap crashes when you need to do work. HP makes copying/scanning rough goings.",
-          "sentiment": "positive"
-        }
-      ]
-    },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 155,
+      "mention_count": 127,
       "sentiment": {
-        "positive": 9,
-        "negative": 103,
-        "neutral": 43
+        "positive": 7,
+        "negative": 84,
+        "neutral": 36
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -266,55 +224,13 @@
         }
       ]
     },
-    "connectivity": {
-      "name": "Connectivity & Setup",
-      "mention_count": 150,
-      "sentiment": {
-        "positive": 11,
-        "negative": 45,
-        "neutral": 94
-      },
-      "pm_focus": "First-time user experience, connectivity reliability",
-      "sample_reviews": [
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Horrible app! I can connect to my printer and print, but I can't connect to instant ink to update usage. This has been happening for a while now. Used",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "çant hook up my printer to my wifi",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Junk, constant network issues just like all HP products. my fault for buying another HP",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "nul nul et renul. déjà le principe d'être obligé d'être connecté pour pouvoir utiliser l'imprimante est un concept que j'ai beaucoup de mal à comprend",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 143,
+      "mention_count": 125,
       "sentiment": {
-        "positive": 21,
-        "negative": 23,
-        "neutral": 99
+        "positive": 14,
+        "negative": 19,
+        "neutral": 92
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -350,13 +266,97 @@
         }
       ]
     },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 125,
+      "sentiment": {
+        "positive": 22,
+        "negative": 39,
+        "neutral": 64
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "è inutilizzabile. non si apre. la stampante la posso usare solo per stampare. scanner e merge pdf addio.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Everything worked fine for years, but lately the app crashes and almost alwsys says \"printer unavailable.\" I can't use the features I need for work an",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app is more interested in pushing ink subscriptions than using the physical features I've already paid for like my scanner. Never buying HP produc",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP used to be so awesome. nOw, its a tiny scanner and no duplex. HP smart ap crashes when you need to do work. HP makes copying/scanning rough goings.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 123,
+      "sentiment": {
+        "positive": 9,
+        "negative": 33,
+        "neutral": 81
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Horrible app! I can connect to my printer and print, but I can't connect to instant ink to update usage. This has been happening for a while now. Used",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "çant hook up my printer to my wifi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Junk, constant network issues just like all HP products. my fault for buying another HP",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "nul nul et renul. déjà le principe d'être obligé d'être connecté pour pouvoir utiliser l'imprimante est un concept que j'ai beaucoup de mal à comprend",
+          "sentiment": "neutral"
+        }
+      ]
+    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 103,
+      "mention_count": 93,
       "sentiment": {
-        "positive": 12,
-        "negative": 31,
-        "neutral": 60
+        "positive": 11,
+        "negative": 27,
+        "neutral": 55
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -394,11 +394,11 @@
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 66,
+      "mention_count": 55,
       "sentiment": {
-        "positive": 4,
-        "negative": 15,
-        "neutral": 47
+        "positive": 3,
+        "negative": 12,
+        "neutral": 40
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [

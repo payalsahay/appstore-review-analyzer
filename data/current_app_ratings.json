@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "timestamp": "2026-04-09T10:40:58.590949",
+  "timestamp": "2026-04-09T11:00:00.047274",
   "ios": {
     "us": {
       "rating": 4.73847,
@@ -10,13 +10,13 @@
       "version": "26.0.0",
       "app_name": "HP",
       "histogram": [
-        137322,
-        33010,
-        79698,
-        267049,
-        3594225
+        137335,
+        33012,
+        79700,
+        267057,
+        3594397
       ],
-      "histogram_total": 4111304,
+      "histogram_total": 4111501,
       "histogram_source": "Apple storefront API (fetched 2026-04-09)"
     }
   },

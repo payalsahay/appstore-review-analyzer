@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T10:41:43.188332",
+  "generated_at": "2026-04-09T11:00:40.023380",
   "platforms": [
     "iOS App Store",
     "Google Play"
@@ -11,15 +11,15 @@
       "app_id": "469284907",
       "platform": "iOS App Store",
       "overall_rating": 4.73847,
-      "total_ratings": 4111304,
+      "total_ratings": 4111501,
       "version": "26.0.0",
       "developer": "HP Inc.",
       "histogram": [
-        137322,
-        33010,
-        79698,
-        267049,
-        3594225
+        137335,
+        33012,
+        79700,
+        267057,
+        3594397
       ],
       "histogram_pct": [
         3.3,
@@ -56,13 +56,13 @@
     },
     "combined": {
       "overall_rating": 4.63,
-      "total_ratings": 5000056,
+      "total_ratings": 5000253,
       "histogram": [
-        284831,
-        53673,
-        104933,
-        338367,
-        4218238
+        284844,
+        53675,
+        104935,
+        338375,
+        4218410
       ],
       "histogram_pct": [
         5.7,
@@ -112,10 +112,10 @@
     "android": {
       "platform": "Google Play",
       "country": "US",
-      "total_reviews": 637,
+      "total_reviews": 636,
       "average_rating": 2.01,
       "histogram": [
-        423,
+        422,
         42,
         35,
         17,
@@ -126,7 +126,7 @@
         6.6,
         5.5,
         2.7,
-        18.8
+        18.9
       ],
       "positive_pct": 21.5,
       "negative_pct": 73.0,
@@ -135,7 +135,7 @@
         "to": "2026-04-08"
       },
       "rating_counts": {
-        "1": 423,
+        "1": 422,
         "2": 42,
         "3": 35,
         "4": 17,
@@ -143,17 +143,17 @@
       }
     },
     "combined": {
-      "total_reviews": 997,
+      "total_reviews": 996,
       "average_rating": 2.24,
       "histogram": [
-        607,
+        606,
         63,
         55,
         28,
         244
       ],
       "histogram_pct": [
-        60.9,
+        60.8,
         6.3,
         5.5,
         2.8,
@@ -162,7 +162,7 @@
       "positive_pct": 27.3,
       "negative_pct": 67.2,
       "rating_counts": {
-        "1": 607,
+        "1": 606,
         "2": 63,
         "3": 55,
         "4": 28,
@@ -170,7 +170,7 @@
       },
       "sentiment": {
         "positive": 231,
-        "neutral": 467,
+        "neutral": 466,
         "negative": 299,
         "positive_pct": 23.2,
         "neutral_pct": 46.8,
@@ -179,7 +179,7 @@
     }
   },
   "analysis": {
-    "generated_at": "2026-04-09T10:41:43.188332",
+    "generated_at": "2026-04-09T11:00:40.023380",
     "comparison_period": "Last 30 Days vs All-Time",
     "rating_comparison": {
       "all_time_rating": 4.63,
@@ -216,8 +216,8 @@
       },
       "1_star": {
         "all_time": 5.7,
-        "recent": 60.9,
-        "delta": 55.2
+        "recent": 60.8,
+        "delta": 55.1
       }
     },
     "sentiment_summary": {
@@ -229,7 +229,7 @@
       "negative_delta": 60.4
     },
     "engagement": {
-      "ios_total_ratings": 4111304,
+      "ios_total_ratings": 4111501,
       "android_total_ratings": 888752,
       "android_total_reviews": 34937
     },
@@ -246,7 +246,7 @@
         "rank": 2,
         "name": "Mobile App Experience",
         "mentions": 497,
-        "pct_of_reviews": 49.8,
+        "pct_of_reviews": 49.9,
         "positive": 119,
         "negative": 183
       },
@@ -261,8 +261,8 @@
       {
         "rank": 4,
         "name": "Value & Pricing",
-        "mentions": 223,
-        "pct_of_reviews": 22.4,
+        "mentions": 222,
+        "pct_of_reviews": 22.3,
         "positive": 31,
         "negative": 94
       },
@@ -278,7 +278,7 @@
         "rank": 6,
         "name": "App Reliability & Stability",
         "mentions": 164,
-        "pct_of_reviews": 16.4,
+        "pct_of_reviews": 16.5,
         "positive": 10,
         "negative": 113
       },

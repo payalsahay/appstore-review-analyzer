@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-09T10:41:43.084188",
-  "total_reviews": 637,
+  "generated_at": "2026-04-09T11:00:39.925544",
+  "total_reviews": 636,
   "sentiment_summary": {
-    "neutral": 319,
+    "neutral": 318,
     "negative": 198,
     "positive": 120
   },
   "rating_distribution": {
-    "1": 423,
+    "1": 422,
     "3": 35,
     "5": 120,
     "4": 17,
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 124,
+      "mention_count": 123,
       "sentiment": {
         "positive": 11,
         "negative": 51,
-        "neutral": 62
+        "neutral": 61
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [

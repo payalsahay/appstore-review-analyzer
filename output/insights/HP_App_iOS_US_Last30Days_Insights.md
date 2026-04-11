@@ -1,6 +1,6 @@
 # HP_App_iOS_US_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-10 16:51
+**Generated:** 2026-04-10 22:59
 **Source:** HP_App_iOS_US_Last30Days.json
 **Total Reviews:** 360
 
@@ -22,7 +22,7 @@
 | Change | -0.00 |
 | Average (30 days) | 4.74 |
 | Range | 4.74 - 4.74 |
-| Data Points | 38 |
+| Data Points | 37 |
 
 ---
 

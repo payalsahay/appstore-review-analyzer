@@ -1,8 +1,8 @@
 # HP_App_Combined_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-10 16:51
+**Generated:** 2026-04-10 22:59
 **Source:** HP_App_Combined_AllCountries_Last30Days.json
-**Total Reviews:** 1939
+**Total Reviews:** 1928
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1939 |
+| Total Reviews | 1928 |
 | Average Rating (from reviews) | 2.32 / 5.0 |
 | Positive Sentiment | 15.1% |
-| Negative Sentiment | 16.9% |
-| 1-Star Reviews | 1128 (58.2%) |
-| 5-Star Reviews | 512 (26.4%) |
+| Negative Sentiment | 16.6% |
+| 1-Star Reviews | 1123 (58.2%) |
+| 5-Star Reviews | 513 (26.6%) |
 
 ---
 
@@ -23,11 +23,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 512 | 26.4% |
-| 4 | 53 | 2.7% |
-| 3 | 101 | 5.2% |
-| 2 | 145 | 7.5% |
-| 1 | 1128 | 58.2% |
+| 5 | 513 | 26.6% |
+| 4 | 52 | 2.7% |
+| 3 | 99 | 5.1% |
+| 2 | 141 | 7.3% |
+| 1 | 1123 | 58.2% |
 
 ---
 
@@ -35,16 +35,16 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 918 | 47.3% |
-| 2 | Print Quality & Functionality | 641 | 33.1% |
-| 3 | Other | 535 | 27.6% |
-| 4 | Value & Pricing | 316 | 16.3% |
-| 5 | Feature Requests & Missing Features | 261 | 13.5% |
-| 6 | Connectivity & Setup | 233 | 12.0% |
-| 7 | Scanning Features | 221 | 11.4% |
+| 1 | Mobile App Experience | 912 | 47.3% |
+| 2 | Print Quality & Functionality | 632 | 32.8% |
+| 3 | Other | 534 | 27.7% |
+| 4 | Value & Pricing | 313 | 16.2% |
+| 5 | Feature Requests & Missing Features | 253 | 13.1% |
+| 6 | Connectivity & Setup | 236 | 12.2% |
+| 7 | Scanning Features | 218 | 11.3% |
 | 8 | App Reliability & Stability | 205 | 10.6% |
-| 9 | Updates & Compatibility | 169 | 8.7% |
-| 10 | Customer Support & Help | 114 | 5.9% |
+| 9 | Updates & Compatibility | 164 | 8.5% |
+| 10 | Customer Support & Help | 110 | 5.7% |
 
 ---
 

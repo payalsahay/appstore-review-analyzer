@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-04-10T16:51:54.902210",
-  "total_reviews": 1939,
+  "generated_at": "2026-04-10T22:59:51.921350",
+  "total_reviews": 1928,
   "sentiment_summary": {
-    "positive": 293,
-    "negative": 327,
-    "neutral": 1319
+    "positive": 292,
+    "negative": 320,
+    "neutral": 1316
   },
   "rating_distribution": {
-    "5": 512,
-    "2": 145,
-    "1": 1128,
-    "4": 53,
-    "3": 101
+    "5": 513,
+    "2": 141,
+    "1": 1123,
+    "4": 52,
+    "3": 99
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 918,
+      "mention_count": 912,
       "sentiment": {
-        "positive": 164,
-        "negative": 199,
-        "neutral": 555
+        "positive": 163,
+        "negative": 196,
+        "neutral": 553
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 641,
+      "mention_count": 632,
       "sentiment": {
         "positive": 136,
-        "negative": 206,
-        "neutral": 299
+        "negative": 203,
+        "neutral": 293
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -100,11 +100,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 535,
+      "mention_count": 534,
       "sentiment": {
         "positive": 58,
-        "negative": 14,
-        "neutral": 463
+        "negative": 12,
+        "neutral": 464
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -142,10 +142,10 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 316,
+      "mention_count": 313,
       "sentiment": {
         "positive": 43,
-        "negative": 96,
+        "negative": 93,
         "neutral": 177
       },
       "pm_focus": "Monetization, value perception",
@@ -184,11 +184,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 261,
+      "mention_count": 253,
       "sentiment": {
         "positive": 56,
-        "negative": 89,
-        "neutral": 116
+        "negative": 87,
+        "neutral": 110
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 233,
+      "mention_count": 236,
       "sentiment": {
         "positive": 28,
-        "negative": 77,
-        "neutral": 128
+        "negative": 81,
+        "neutral": 127
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 221,
+      "mention_count": 218,
       "sentiment": {
         "positive": 44,
-        "negative": 52,
-        "neutral": 125
+        "negative": 50,
+        "neutral": 124
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -352,11 +352,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 169,
+      "mention_count": 164,
       "sentiment": {
         "positive": 28,
-        "negative": 49,
-        "neutral": 92
+        "negative": 45,
+        "neutral": 91
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -394,11 +394,11 @@
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 114,
+      "mention_count": 110,
       "sentiment": {
         "positive": 26,
-        "negative": 36,
-        "neutral": 52
+        "negative": 33,
+        "neutral": 51
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-04-10T16:51:54.817483",
-  "total_reviews": 981,
+  "generated_at": "2026-04-10T22:59:51.872636",
+  "total_reviews": 989,
   "sentiment_summary": {
     "positive": 228,
-    "negative": 295,
-    "neutral": 458
+    "negative": 300,
+    "neutral": 461
   },
   "rating_distribution": {
     "5": 244,
-    "2": 62,
-    "1": 593,
+    "2": 61,
+    "1": 601,
     "4": 27,
-    "3": 55
+    "3": 56
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 505,
+      "mention_count": 509,
       "sentiment": {
         "positive": 105,
-        "negative": 182,
-        "neutral": 218
+        "negative": 184,
+        "neutral": 220
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -58,11 +58,11 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 486,
+      "mention_count": 491,
       "sentiment": {
-        "positive": 118,
-        "negative": 180,
-        "neutral": 188
+        "positive": 117,
+        "negative": 184,
+        "neutral": 190
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -100,10 +100,10 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 232,
+      "mention_count": 230,
       "sentiment": {
         "positive": 49,
-        "negative": 79,
+        "negative": 77,
         "neutral": 104
       },
       "pm_focus": "Product roadmap, feature prioritization",
@@ -142,11 +142,11 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 217,
+      "mention_count": 222,
       "sentiment": {
         "positive": 29,
-        "negative": 93,
-        "neutral": 95
+        "negative": 95,
+        "neutral": 98
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -184,11 +184,11 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 180,
+      "mention_count": 184,
       "sentiment": {
         "positive": 27,
-        "negative": 70,
-        "neutral": 83
+        "negative": 73,
+        "neutral": 84
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -226,11 +226,11 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 163,
+      "mention_count": 167,
       "sentiment": {
         "positive": 10,
-        "negative": 113,
-        "neutral": 40
+        "negative": 116,
+        "neutral": 41
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -268,11 +268,11 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 145,
+      "mention_count": 144,
       "sentiment": {
-        "positive": 50,
+        "positive": 51,
         "negative": 10,
-        "neutral": 85
+        "neutral": 83
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -310,9 +310,9 @@
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 119,
+      "mention_count": 118,
       "sentiment": {
-        "positive": 30,
+        "positive": 29,
         "negative": 42,
         "neutral": 47
       },

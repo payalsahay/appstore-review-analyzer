@@ -1,151 +1,151 @@
 {
-  "generated_at": "2026-04-10T16:51:54.760366",
-  "total_reviews": 1272,
+  "generated_at": "2026-04-10T22:59:51.838433",
+  "total_reviews": 1261,
   "sentiment_summary": {
-    "neutral": 964,
-    "negative": 179,
-    "positive": 129
+    "neutral": 961,
+    "negative": 172,
+    "positive": 128
   },
   "rating_distribution": {
-    "1": 795,
-    "5": 279,
-    "2": 100,
-    "3": 62,
-    "4": 36
+    "1": 790,
+    "5": 280,
+    "2": 96,
+    "3": 60,
+    "4": 35
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 604,
+      "mention_count": 598,
       "sentiment": {
-        "positive": 70,
-        "negative": 113,
-        "neutral": 421
+        "positive": 69,
+        "negative": 110,
+        "neutral": 419
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "App doet het niet meer, opent niet eens meer. Doe er alsjeblieft iets aan.",
+          "snippet": "Die App ist der Grund, warum mein nächster Drucker kein HP mehr wird. Mal abgesehen von den sehr limitierten Einstellungsmöglichkeiten beim Druck oder",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "app will not open hasnt for days",
+          "snippet": "o app não tá abrindo só fica carregando",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "genuinely bs that I have to use an app. when the app itself is acting up, there's no other way for me to use it because it will not allow me to direct",
+          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
           "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "easy to use",
-          "sentiment": "positive"
+          "snippet": "nunca abre y tengo que solucionar un problema desde la app pero vaya sorpresa no funciona la aplicasion como siempre, verdaderamente me arrepiento de ",
+          "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "App hat mal super auf meinem Chromebook funktioniert,jetzt geht sie gar nicht mehr zu installieren,was mich ärgert.Kein Scannen oder sonstiges mehr mö",
-          "sentiment": "neutral"
+          "snippet": "never buying and HP product again. Brand new printer won't pair with anything or connect to WiFi, app does not work and just crashes. Awful experience",
+          "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 411,
+      "mention_count": 410,
       "sentiment": {
         "positive": 40,
-        "negative": 10,
-        "neutral": 361
+        "negative": 8,
+        "neutral": 362
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "very okay 👍",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Parfait 👍",
+          "snippet": "La aplicación no funciona. Y cuando lo hace, las opciones que tiene son muy básicas",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "faccagare",
+          "snippet": "Pouco resolutivo e acesso difícil para a funcionabilidade.",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 5,
           "title": "",
-          "snippet": "Não abre nada !!",
+          "snippet": "AWESOME",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "buena",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "la verdad un asco nunca te deja abrir es super lenta la desinstale y l volví a instalar y lo mismo a ver si actualizan a una versión nueva y q funcion",
+          "snippet": "Va super bien ! 👍🏼",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 278,
+      "mention_count": 269,
       "sentiment": {
         "positive": 29,
-        "negative": 87,
-        "neutral": 162
+        "negative": 84,
+        "neutral": 156
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "genuinely bs that I have to use an app. when the app itself is acting up, there's no other way for me to use it because it will not allow me to direct",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I use the HP printer 3830. I'm about to change to another Hp as soon as I remember my ink # when I shop. Respectfully Submitted Gloria J KEITH. ACTION",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "VOY A IR EDITANDO HASTA QUE FUNCIONE 24/03 Super lenta. Acabo de actualizarla creyendo que era el problema y no. No abre, queda cargando y la app jama",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "very poor app. takes a lot of time to connect to printer. highly unreliable app. if there is an emergency and u want to take a print, better go to nea",
+          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since this app replaced the old one I've had nothing but trouble.It printed 40 pages of blank papers in the middle of the night which I was charged 3 ",
+          "snippet": "0 stars, Rarely works. Keeps having to uninstall and reinstall only to work for 1 print job. How else can I use this printer? Wifi/Bluetooth connectio",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never buying and HP product again. Brand new printer won't pair with anything or connect to WiFi, app does not work and just crashes. Awful experience",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "hp 2855 wont connect on laptop- + hp app on phone will NOT perform on my phone (hp blames my phone) - going to go buy a CANON Printer",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Just ads for insta ink, cant find anything",
           "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 171,
+      "mention_count": 168,
       "sentiment": {
         "positive": 11,
-        "negative": 39,
+        "negative": 36,
         "neutral": 121
       },
       "pm_focus": "Monetization, value perception",
@@ -153,32 +153,32 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "VOY A IR EDITANDO HASTA QUE FUNCIONE 24/03 Super lenta. Acabo de actualizarla creyendo que era el problema y no. No abre, queda cargando y la app jama",
+          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "nunca abre y tengo que solucionar un problema desde la app pero vaya sorpresa no funciona la aplicasion como siempre, verdaderamente me arrepiento de ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since this app replaced the old one I've had nothing but trouble.It printed 40 pages of blank papers in the middle of the night which I was charged 3 ",
+          "snippet": "never buying and HP product again. Brand new printer won't pair with anything or connect to WiFi, app does not work and just crashes. Awful experience",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "hp 2855 wont connect on laptop- + hp app on phone will NOT perform on my phone (hp blames my phone) - going to go buy a CANON Printer",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "nothing but issues. nothing ever loads, can't print a single thing to save my life.",
+          "snippet": "Just ads for insta ink, cant find anything",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Non stampa!!! Potessi darei 0!! Account collegato,tutto pronto x stampare,ma non stampa un tubo!! A cosa serve quest'app?? A niente! Mai più HP ,neanc",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Para que tener una app simple, intuitiva con varias opciones útiles para imprimir, visualmente linda limpia y ordenada ¡si jamás muestra conectada a l",
-          "sentiment": "positive"
         }
       ]
     },
@@ -195,42 +195,84 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "genuinely bs that I have to use an app. when the app itself is acting up, there's no other way for me to use it because it will not allow me to direct",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I use the HP printer 3830. I'm about to change to another Hp as soon as I remember my ink # when I shop. Respectfully Submitted Gloria J KEITH. ACTION",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "sometimes works great. sometimes it shows my printer as connected not nothing works. very frustrating when it doesn't work.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "slow when transferring from phone to printer",
+          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Everything worked fine for years, but lately the app crashes and almost alwsys says \"printer unavailable.\" I can't use the features I need for work an",
+          "snippet": "never buying and HP product again. Brand new printer won't pair with anything or connect to WiFi, app does not work and just crashes. Awful experience",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Suite au changement de notre routeur, il nous est impossible de connecter notre imprimante au routeur. Après avoir suivi les instructions, notre impri",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "slow loading",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this app crashes constantly. every time I open the app it will either take forever to load or not load at all.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 128,
+      "sentiment": {
+        "positive": 9,
+        "negative": 38,
+        "neutral": 81
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "0 stars, Rarely works. Keeps having to uninstall and reinstall only to work for 1 print job. How else can I use this printer? Wifi/Bluetooth connectio",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never buying and HP product again. Brand new printer won't pair with anything or connect to WiFi, app does not work and just crashes. Awful experience",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Suite au changement de notre routeur, il nous est impossible de connecter notre imprimante au routeur. Après avoir suivi les instructions, notre impri",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "hp 2855 wont connect on laptop- + hp app on phone will NOT perform on my phone (hp blames my phone) - going to go buy a CANON Printer",
+          "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 128,
+      "mention_count": 125,
       "sentiment": {
         "positive": 14,
-        "negative": 20,
-        "neutral": 94
+        "negative": 18,
+        "neutral": 93
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -268,11 +310,11 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 128,
+      "mention_count": 120,
       "sentiment": {
         "positive": 22,
-        "negative": 41,
-        "neutral": 65
+        "negative": 39,
+        "neutral": 59
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -308,58 +350,22 @@
         }
       ]
     },
-    "connectivity": {
-      "name": "Connectivity & Setup",
-      "mention_count": 125,
-      "sentiment": {
-        "positive": 9,
-        "negative": 34,
-        "neutral": 82
-      },
-      "pm_focus": "First-time user experience, connectivity reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "very poor app. takes a lot of time to connect to printer. highly unreliable app. if there is an emergency and u want to take a print, better go to nea",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "since this app replaced the old one I've had nothing but trouble.It printed 40 pages of blank papers in the middle of the night which I was charged 3 ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "sometimes works great. sometimes it shows my printer as connected not nothing works. very frustrating when it doesn't work.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Horrible app! I can connect to my printer and print, but I can't connect to instant ink to update usage. This has been happening for a while now. Used",
-          "sentiment": "negative"
-        }
-      ]
-    },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 92,
+      "mention_count": 87,
       "sentiment": {
         "positive": 11,
-        "negative": 27,
-        "neutral": 54
+        "negative": 23,
+        "neutral": 53
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Lenta, tediosa,poco intuitiva y no abre. No sirve.",
+          "sentiment": "neutral"
+        },
         {
           "rating": 1,
           "title": "",
@@ -383,22 +389,16 @@
           "title": "",
           "snippet": "Horrible app! I can connect to my printer and print, but I can't connect to instant ink to update usage. This has been happening for a while now. Used",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "estava funcionando e eu só tinha elogios, mas agora do nada parou de abrir o aplicativo, simplesmente não sai da tela branca de início .",
-          "sentiment": "positive"
         }
       ]
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 56,
+      "mention_count": 54,
       "sentiment": {
         "positive": 3,
         "negative": 12,
-        "neutral": 41
+        "neutral": 39
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [

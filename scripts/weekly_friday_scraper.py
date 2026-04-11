@@ -1005,11 +1005,16 @@ def scrape_android_reviews(country="us", max_reviews=500):
 
 
 def scrape_android_all_countries(max_reviews_per_country=500):
-    """Scrape Android reviews from all configured countries"""
+    """Scrape Android reviews from all configured countries.
+    Country tag is set to 'global' since google_play_scraper does not
+    reflect the reviewer's actual location — only the storefront scraped.
+    """
     all_reviews = []
 
     for country in ALL_COUNTRIES:
         reviews = scrape_android_reviews(country, max_reviews=max_reviews_per_country)
+        for r in reviews:
+            r['country'] = 'global'
         all_reviews.extend(reviews)
 
     return all_reviews

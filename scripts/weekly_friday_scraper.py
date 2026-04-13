@@ -945,13 +945,16 @@ def scrape_ios_reviews(country="us", max_reviews=500):
 def scrape_ios_all_countries(max_reviews_per_country=500):
     """Scrape iOS reviews from all configured countries.
 
-    Country tag reflects storefront scraped (same caveat as Android —
-    Apple does not filter by reviewer location).
+    Country tag is set to 'global' since the iTunes RSS API country param
+    selects the storefront, not the reviewer's actual location — same
+    caveat as Android's google_play_scraper.
     """
     all_reviews = []
 
     for country in ALL_COUNTRIES:
         reviews = scrape_ios_reviews(country, max_reviews=max_reviews_per_country)
+        for r in reviews:
+            r['country'] = 'global'
         all_reviews.extend(reviews)
 
     return all_reviews

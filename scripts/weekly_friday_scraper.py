@@ -31,6 +31,8 @@ import json
 import csv
 import os
 import sys
+import time
+import requests
 from datetime import datetime, timedelta
 from collections import Counter
 
@@ -887,51 +889,65 @@ def generate_rating_history_report():
 # iOS SCRAPERS
 # ============================================================================
 
-def scrape_ios_reviews(country="us", max_reviews=3000):
-    """Scrape iOS App Store reviews using app-store-scraper"""
+def scrape_ios_reviews(country="us", max_reviews=500):
+    """Scrape iOS App Store reviews using Apple iTunes RSS API.
+
+    The app-store-scraper library (v0.3.5) is broken since Jan 2026 — Apple
+    changed their amp-api auth flow. This uses the public iTunes RSS feed
+    which returns up to 500 reviews (10 pages × 50) per country storefront.
+    """
     print(f"\n  Scraping iOS reviews for {country.upper()}...")
 
-    try:
-        from app_store_scraper import AppStore
-    except ImportError:
-        print("  ERROR: app-store-scraper not installed")
-        return []
+    app_id = APP_CONFIG["ios"]["app_id"]
+    fetched = []
 
     try:
-        app = AppStore(
-            country=country,
-            app_name=APP_CONFIG["ios"]["app_name"],
-            app_id=APP_CONFIG["ios"]["app_id"]
-        )
+        for page in range(1, 11):  # pages 1-10, 50 reviews each = 500 max
+            if len(fetched) >= max_reviews:
+                break
+            url = (
+                f"https://itunes.apple.com/{country}/rss/customerreviews"
+                f"/page={page}/id={app_id}/sortBy=mostRecent/json"
+            )
+            resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+            if resp.status_code != 200 or not resp.text.strip():
+                break
+            data = resp.json()
+            entries = data.get("feed", {}).get("entry", [])
+            if not entries:
+                break
+            for entry in entries:
+                if len(fetched) >= max_reviews:
+                    break
+                fetched.append({
+                    "id": str(entry.get("id", {}).get("label", "")),
+                    "author": entry.get("author", {}).get("name", {}).get("label", "Unknown"),
+                    "rating": int(entry.get("im:rating", {}).get("label", 0)),
+                    "title": entry.get("title", {}).get("label", ""),
+                    "content": entry.get("content", {}).get("label", ""),
+                    "version": entry.get("im:version", {}).get("label", ""),
+                    "date": entry.get("updated", {}).get("label", ""),
+                    "country": country,
+                    "platform": "iOS App Store",
+                    "vote_count": int(entry.get("im:voteCount", {}).get("label", 0)),
+                    "vote_sum": int(entry.get("im:voteSum", {}).get("label", 0)),
+                })
+            time.sleep(0.5)
 
-        app.review(how_many=max_reviews)
-
-        reviews = []
-        for review in app.reviews:
-            review_date = review.get('date')
-            reviews.append({
-                "id": str(review.get('id', '')),
-                "author": review.get('userName', 'Unknown'),
-                "rating": review.get('rating', 0),
-                "title": review.get('title', ''),
-                "content": review.get('review', ''),
-                "version": review.get('version', ''),
-                "date": review_date.isoformat() if review_date else '',
-                "country": country,
-                "platform": "iOS App Store",
-                "vote_count": review.get('voteCount', 0),
-            })
-
-        print(f"  Fetched {len(reviews)} iOS reviews from {country.upper()}")
-        return reviews
+        print(f"  Fetched {len(fetched)} iOS reviews from {country.upper()}")
+        return fetched
 
     except Exception as e:
         print(f"  Error scraping iOS {country}: {e}")
-        return []
+        return fetched
 
 
 def scrape_ios_all_countries(max_reviews_per_country=500):
-    """Scrape iOS reviews from all configured countries"""
+    """Scrape iOS reviews from all configured countries.
+
+    Country tag reflects storefront scraped (same caveat as Android —
+    Apple does not filter by reviewer location).
+    """
     all_reviews = []
 
     for country in ALL_COUNTRIES:

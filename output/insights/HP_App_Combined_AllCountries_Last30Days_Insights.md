@@ -1,8 +1,8 @@
 # HP_App_Combined_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-12 17:27
+**Generated:** 2026-04-12 17:58
 **Source:** HP_App_Combined_AllCountries_Last30Days.json
-**Total Reviews:** 1965
+**Total Reviews:** 1964
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1965 |
+| Total Reviews | 1964 |
 | Average Rating (from reviews) | 2.28 / 5.0 |
 | Positive Sentiment | 16.0% |
 | Negative Sentiment | 17.7% |
-| 1-Star Reviews | 1176 (59.8%) |
+| 1-Star Reviews | 1175 (59.8%) |
 | 5-Star Reviews | 501 (25.5%) |
 
 ---
@@ -27,7 +27,7 @@
 | 4 | 65 | 3.3% |
 | 3 | 90 | 4.6% |
 | 2 | 133 | 6.8% |
-| 1 | 1176 | 59.8% |
+| 1 | 1175 | 59.8% |
 
 ---
 
@@ -43,7 +43,7 @@
 | 6 | Connectivity & Setup | 255 | 13.0% |
 | 7 | Scanning Features | 251 | 12.8% |
 | 8 | App Reliability & Stability | 214 | 10.9% |
-| 9 | Updates & Compatibility | 159 | 8.1% |
+| 9 | Updates & Compatibility | 158 | 8.0% |
 | 10 | Customer Support & Help | 107 | 5.4% |
 
 ---

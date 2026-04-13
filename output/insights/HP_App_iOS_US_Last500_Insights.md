@@ -1,6 +1,6 @@
 # HP_App_iOS_US_Last500 - Customer Insights Report
 
-**Generated:** 2026-04-12 17:27
+**Generated:** 2026-04-12 17:58
 **Source:** HP_App_iOS_US_Last500.json
 **Total Reviews:** 500
 
@@ -22,7 +22,7 @@
 | Change | -0.00 |
 | Average (30 days) | 4.74 |
 | Range | 4.74 - 4.74 |
-| Data Points | 35 |
+| Data Points | 37 |
 
 ---
 

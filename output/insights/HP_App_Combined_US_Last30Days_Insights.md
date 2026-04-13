@@ -1,8 +1,8 @@
 # HP_App_Combined_US_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-12 17:27
+**Generated:** 2026-04-12 17:58
 **Source:** HP_App_Combined_US_Last30Days.json
-**Total Reviews:** 978
+**Total Reviews:** 977
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 978 |
+| Total Reviews | 977 |
 | Average Rating (from reviews) | 2.20 / 5.0 |
-| Positive Sentiment | 24.2% |
+| Positive Sentiment | 24.3% |
 | Negative Sentiment | 31.4% |
-| 1-Star Reviews | 609 (62.3%) |
+| 1-Star Reviews | 608 (62.2%) |
 | 5-Star Reviews | 231 (23.6%) |
 
 ---
@@ -27,7 +27,7 @@
 | 4 | 29 | 3.0% |
 | 3 | 53 | 5.4% |
 | 2 | 56 | 5.7% |
-| 1 | 609 | 62.3% |
+| 1 | 608 | 62.2% |
 
 ---
 
@@ -35,15 +35,15 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Print Quality & Functionality | 511 | 52.2% |
-| 2 | Mobile App Experience | 510 | 52.1% |
-| 3 | Feature Requests & Missing Features | 237 | 24.2% |
+| 1 | Print Quality & Functionality | 511 | 52.3% |
+| 2 | Mobile App Experience | 510 | 52.2% |
+| 3 | Feature Requests & Missing Features | 237 | 24.3% |
 | 4 | Value & Pricing | 222 | 22.7% |
 | 5 | Connectivity & Setup | 175 | 17.9% |
 | 6 | App Reliability & Stability | 165 | 16.9% |
 | 7 | Scanning Features | 146 | 14.9% |
 | 8 | Other | 138 | 14.1% |
-| 9 | Updates & Compatibility | 108 | 11.0% |
+| 9 | Updates & Compatibility | 107 | 11.0% |
 | 10 | Customer Support & Help | 84 | 8.6% |
 
 ---
@@ -53,7 +53,7 @@
 - **Value & Pricing**: 41% negative sentiment (222 mentions)
 - **Connectivity & Setup**: 42% negative sentiment (175 mentions)
 - **App Reliability & Stability**: 70% negative sentiment (165 mentions)
-- **Updates & Compatibility**: 44% negative sentiment (108 mentions)
+- **Updates & Compatibility**: 44% negative sentiment (107 mentions)
 
 ---
 

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-12T17:27:41.172678",
-  "total_reviews": 978,
+  "generated_at": "2026-04-12T17:58:05.257835",
+  "total_reviews": 977,
   "sentiment_summary": {
-    "neutral": 434,
+    "neutral": 433,
     "positive": 237,
     "negative": 307
   },
   "rating_distribution": {
-    "1": 609,
+    "1": 608,
     "5": 231,
     "4": 29,
     "2": 56,
@@ -352,11 +352,11 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 108,
+      "mention_count": 107,
       "sentiment": {
         "positive": 14,
         "negative": 47,
-        "neutral": 47
+        "neutral": 46
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [

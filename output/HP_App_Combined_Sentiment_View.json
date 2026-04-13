@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T17:27:41.218968",
+  "generated_at": "2026-04-12T17:58:05.305145",
   "platforms": [
     "iOS App Store",
     "Google Play"
@@ -35,16 +35,16 @@
       "app_id": "com.hp.printercontrol",
       "platform": "Google Play",
       "overall_rating": 4.1247416,
-      "total_ratings": 889610,
-      "total_reviews": 34967,
+      "total_ratings": 889609,
+      "total_reviews": 34969,
       "installs": "100,000,000+",
       "developer": "HP Inc.",
       "histogram": [
         148633,
         20696,
-        25499,
+        25500,
         70990,
-        623773
+        623771
       ],
       "histogram_pct": [
         16.7,
@@ -56,13 +56,13 @@
     },
     "combined": {
       "overall_rating": 4.63,
-      "total_ratings": 5003842,
+      "total_ratings": 5003841,
       "histogram": [
         286164,
         53751,
-        105255,
+        105256,
         338210,
-        4220443
+        4220441
       ],
       "histogram_pct": [
         5.7,
@@ -79,30 +79,30 @@
     "ios": {
       "platform": "iOS App Store",
       "country": "US",
-      "total_reviews": 358,
+      "total_reviews": 357,
       "average_rating": 2.52,
       "histogram": [
-        198,
+        197,
         18,
         16,
         11,
         115
       ],
       "histogram_pct": [
-        55.3,
+        55.2,
         5.0,
         4.5,
         3.1,
-        32.1
+        32.2
       ],
-      "positive_pct": 35.2,
-      "negative_pct": 60.3,
+      "positive_pct": 35.3,
+      "negative_pct": 60.2,
       "date_range": {
         "from": "2026-03-13",
         "to": "2026-04-11"
       },
       "rating_counts": {
-        "1": 198,
+        "1": 197,
         "2": 18,
         "3": 16,
         "4": 11,
@@ -143,17 +143,17 @@
       }
     },
     "combined": {
-      "total_reviews": 978,
+      "total_reviews": 977,
       "average_rating": 2.2,
       "histogram": [
-        609,
+        608,
         56,
         53,
         29,
         231
       ],
       "histogram_pct": [
-        62.3,
+        62.2,
         5.7,
         5.4,
         3.0,
@@ -162,7 +162,7 @@
       "positive_pct": 26.6,
       "negative_pct": 68.0,
       "rating_counts": {
-        "1": 609,
+        "1": 608,
         "2": 56,
         "3": 53,
         "4": 29,
@@ -170,16 +170,16 @@
       },
       "sentiment": {
         "positive": 237,
-        "neutral": 434,
+        "neutral": 433,
         "negative": 307,
-        "positive_pct": 24.2,
-        "neutral_pct": 44.4,
+        "positive_pct": 24.3,
+        "neutral_pct": 44.3,
         "negative_pct": 31.4
       }
     }
   },
   "analysis": {
-    "generated_at": "2026-04-12T17:27:41.218968",
+    "generated_at": "2026-04-12T17:58:05.305145",
     "comparison_period": "Last 30 Days vs All-Time",
     "rating_comparison": {
       "all_time_rating": 4.63,
@@ -216,8 +216,8 @@
       },
       "1_star": {
         "all_time": 5.7,
-        "recent": 62.3,
-        "delta": 56.6
+        "recent": 62.2,
+        "delta": 56.5
       }
     },
     "sentiment_summary": {
@@ -230,15 +230,15 @@
     },
     "engagement": {
       "ios_total_ratings": 4114232,
-      "android_total_ratings": 889610,
-      "android_total_reviews": 34967
+      "android_total_ratings": 889609,
+      "android_total_reviews": 34969
     },
     "top_issue_categories": [
       {
         "rank": 1,
         "name": "Print Quality & Functionality",
         "mentions": 511,
-        "pct_of_reviews": 52.2,
+        "pct_of_reviews": 52.3,
         "positive": 96,
         "negative": 197
       },
@@ -246,7 +246,7 @@
         "rank": 2,
         "name": "Mobile App Experience",
         "mentions": 510,
-        "pct_of_reviews": 52.1,
+        "pct_of_reviews": 52.2,
         "positive": 128,
         "negative": 195
       },
@@ -254,7 +254,7 @@
         "rank": 3,
         "name": "Feature Requests & Missing Features",
         "mentions": 237,
-        "pct_of_reviews": 24.2,
+        "pct_of_reviews": 24.3,
         "positive": 51,
         "negative": 86
       },
@@ -293,7 +293,7 @@
       {
         "rank": 8,
         "name": "Updates & Compatibility",
-        "mentions": 108,
+        "mentions": 107,
         "pct_of_reviews": 11.0,
         "positive": 14,
         "negative": 47

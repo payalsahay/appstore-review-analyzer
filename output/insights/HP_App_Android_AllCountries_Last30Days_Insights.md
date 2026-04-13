@@ -1,6 +1,6 @@
 # HP_App_Android_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-12 17:27
+**Generated:** 2026-04-12 17:58
 **Source:** HP_App_Android_AllCountries_Last30Days.json
 **Total Reviews:** 1279
 
@@ -11,7 +11,7 @@
 | Metric | Value |
 |--------|-------|
 | Current Store Rating | **4.12** / 5.0 |
-| Total Ratings | 889,610 |
+| Total Ratings | 889,609 |
 | Total Installs | 100,000,000+ |
 
 ### 30-Day Rating Trend
@@ -20,9 +20,9 @@
 |--------|-------|
 | Trend | Stable (stable) |
 | Change | -0.04 |
-| Average (30 days) | 4.15 |
+| Average (30 days) | 4.14 |
 | Range | 4.12 - 4.17 |
-| Data Points | 35 |
+| Data Points | 37 |
 
 ---
 

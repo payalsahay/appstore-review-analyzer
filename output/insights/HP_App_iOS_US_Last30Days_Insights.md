@@ -1,8 +1,8 @@
 # HP_App_iOS_US_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-12 17:27
+**Generated:** 2026-04-12 17:58
 **Source:** HP_App_iOS_US_Last30Days.json
-**Total Reviews:** 358
+**Total Reviews:** 357
 
 ---
 
@@ -22,7 +22,7 @@
 | Change | -0.00 |
 | Average (30 days) | 4.74 |
 | Range | 4.74 - 4.74 |
-| Data Points | 35 |
+| Data Points | 37 |
 
 ---
 
@@ -30,12 +30,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 358 |
+| Total Reviews | 357 |
 | Average Rating (from reviews) | 2.52 / 5.0 |
-| Positive Sentiment | 32.7% |
-| Negative Sentiment | 32.1% |
-| 1-Star Reviews | 198 (55.3%) |
-| 5-Star Reviews | 115 (32.1%) |
+| Positive Sentiment | 32.8% |
+| Negative Sentiment | 32.2% |
+| 1-Star Reviews | 197 (55.2%) |
+| 5-Star Reviews | 115 (32.2%) |
 
 ---
 
@@ -43,11 +43,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 115 | 32.1% |
+| 5 | 115 | 32.2% |
 | 4 | 11 | 3.1% |
 | 3 | 16 | 4.5% |
 | 2 | 18 | 5.0% |
-| 1 | 198 | 55.3% |
+| 1 | 197 | 55.2% |
 
 ---
 
@@ -55,14 +55,14 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Print Quality & Functionality | 250 | 69.8% |
-| 2 | Mobile App Experience | 190 | 53.1% |
+| 1 | Print Quality & Functionality | 250 | 70.0% |
+| 2 | Mobile App Experience | 190 | 53.2% |
 | 3 | Value & Pricing | 104 | 29.1% |
-| 4 | Feature Requests & Missing Features | 97 | 27.1% |
-| 5 | Connectivity & Setup | 75 | 20.9% |
-| 6 | Scanning Features | 72 | 20.1% |
+| 4 | Feature Requests & Missing Features | 97 | 27.2% |
+| 5 | Connectivity & Setup | 75 | 21.0% |
+| 6 | Scanning Features | 72 | 20.2% |
 | 7 | App Reliability & Stability | 44 | 12.3% |
-| 8 | Updates & Compatibility | 42 | 11.7% |
+| 8 | Updates & Compatibility | 41 | 11.5% |
 | 9 | Customer Support & Help | 36 | 10.1% |
 | 10 | Other | 36 | 10.1% |
 
@@ -72,7 +72,7 @@
 
 - **Value & Pricing**: 42% negative sentiment (104 mentions)
 - **App Reliability & Stability**: 68% negative sentiment (44 mentions)
-- **Updates & Compatibility**: 52% negative sentiment (42 mentions)
+- **Updates & Compatibility**: 54% negative sentiment (41 mentions)
 - **Customer Support & Help**: 56% negative sentiment (36 mentions)
 
 ---

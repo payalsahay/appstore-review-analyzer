@@ -1,309 +1,309 @@
 {
-  "generated_at": "2026-04-12T17:58:05.228535",
+  "generated_at": "2026-04-17T16:56:41.979899",
   "total_reviews": 500,
   "sentiment_summary": {
     "neutral": 255,
-    "negative": 146,
-    "positive": 99
+    "negative": 151,
+    "positive": 94
   },
   "rating_distribution": {
-    "2": 31,
-    "1": 335,
-    "5": 94,
-    "3": 25,
-    "4": 15
+    "1": 347,
+    "5": 85,
+    "4": 17,
+    "2": 30,
+    "3": 21
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 259,
+      "mention_count": 269,
       "sentiment": {
-        "positive": 45,
-        "negative": 98,
+        "positive": 46,
+        "negative": 107,
         "neutral": 116
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "The screen to indicate that it's me, doesn't indicate what to enter.",
+          "snippet": "The program shows a blank screen when opened.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the app is completely broken",
+          "snippet": "This app does not work with printers which are included in the support list. Turns out printers don't have wifi and the app doesn't work with otg cabl",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "not a very functional app when it does not load it's just a loading screen with a circle I have to use an app called print adjuster to print anything.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "why do i have to pay for hp printer apps.",
+          "snippet": "can't find app",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app does not open,have been tried many times. No help from support... reviews from other buyers are the same.... Help!!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "not easy to find correct site locating in search on internet. but mobile phone was accessible",
+          "sentiment": "positive"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 209,
+      "mention_count": 206,
       "sentiment": {
-        "positive": 23,
-        "negative": 81,
-        "neutral": 105
+        "positive": 25,
+        "negative": 77,
+        "neutral": 104
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "not a very functional app when it does not load it's just a loading screen with a circle I have to use an app called print adjuster to print anything.",
+          "snippet": "This app does not work with printers which are included in the support list. Turns out printers don't have wifi and the app doesn't work with otg cabl",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "why do i have to pay for hp printer apps.",
+          "snippet": "HP printers sucks",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "No longer can print from phone. App and printer are unreliable/useless. I will never purchase a HP printer again.",
+          "snippet": "I hate it when I have to delete app data and re-add the printer whenever I want to print, otherwise the app will load indefinitely.",
           "sentiment": "negative"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "I absolutely like my Hp printer app. Very easy to work with and has many uses. I appreciate the service of automatic ink renewal delivery so I don't h",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "missing the most basic information, if I have a hp printer plan, show how many pages with rollover I have, why are you making it this hard to find thi",
-          "sentiment": "positive"
+          "snippet": "1 start is too much already, I really wonder how is it rated 4+ trash, useless frustating app, unstable, easte of space, just keeps loading on preview",
+          "sentiment": "negative"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 111,
+      "mention_count": 102,
       "sentiment": {
-        "positive": 23,
-        "negative": 36,
-        "neutral": 52
+        "positive": 22,
+        "negative": 32,
+        "neutral": 48
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
+          "snippet": "I hate it when I have to delete app data and re-add the printer whenever I want to print, otherwise the app will load indefinitely.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Why do I need to have Internet to use basic functions like scanning?",
+          "snippet": "What a garbage application that creates a frustrating experience. I need to make an account just to print? Seriously? I love it when company greed jus",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "absolutely the worst app. absolutely the worst printer ever to buy. never purchase an HP printer. this thing is awful and so is this app. no one to he",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "couldn't save as docx after scanning",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "missing the most basic information, if I have a hp printer plan, show how many pages with rollover I have, why are you making it this hard to find thi",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Please be a little serious, for sometime now, my printer (newly bought Envy 6155e) only prints when it wants to, while I keep paying for my instant in",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I am always having trouble with the app. Whenever I will print something important and in a hurry the app won't even load. Clearing cache doesn't work",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    "reliability": {
-      "name": "App Reliability & Stability",
-      "mention_count": 88,
-      "sentiment": {
-        "positive": 4,
-        "negative": 64,
-        "neutral": 20
-      },
-      "pm_focus": "Technical debt, app stability metrics",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "the app is completely broken",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I'm really mad at myself for not looking at the reviews before getting this printer and subscription. I have been trying to sync my phone and this stu",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I am always having trouble with the app. Whenever I will print something important and in a hurry the app won't even load. Clearing cache doesn't work",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I had HP app for many years on my device and then suddenly the company changes everything and their app is totally different and not only is it differ",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
+          "snippet": "the app does not connect to the printer well. it's frustrating because I can never print when I need to. it also blows my phone up with notifications ",
           "sentiment": "negative"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 87,
+      "mention_count": 94,
       "sentiment": {
-        "positive": 6,
-        "negative": 35,
-        "neutral": 46
+        "positive": 8,
+        "negative": 39,
+        "neutral": 47
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "scan isn't working properly",
+          "snippet": "The program shows a blank screen when opened.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "No longer can print from phone. App and printer are unreliable/useless. I will never purchase a HP printer again.",
-          "sentiment": "negative"
+          "snippet": "The app does not open,have been tried many times. No help from support... reviews from other buyers are the same.... Help!!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "I absolutely like my Hp printer app. Very easy to work with and has many uses. I appreciate the service of automatic ink renewal delivery so I don't h",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I'm really mad at myself for not looking at the reviews before getting this printer and subscription. I have been trying to sync my phone and this stu",
-          "sentiment": "negative"
+          "snippet": "When I consent to cancel my subscription, don't tell me you're going to charge me again. \"Here's your financial track: Today you applied to cancel you",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "No longer opens, no longer get support via WhatsApp yet you still take my money",
+          "snippet": "constant problems",
           "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 83,
+      "mention_count": 92,
       "sentiment": {
         "positive": 6,
-        "negative": 37,
-        "neutral": 40
+        "negative": 42,
+        "neutral": 44
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
+          "snippet": "This app does not work with printers which are included in the support list. Turns out printers don't have wifi and the app doesn't work with otg cabl",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "I'm really mad at myself for not looking at the reviews before getting this printer and subscription. I have been trying to sync my phone and this stu",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "lost 2h to discover this app is too dumb to print in raw 9100 in a cp1025 printer and obviously it find the printer and 1 second, yet displays 'no net",
+          "snippet": "keeps giving different a different PIN each time I try to finish setup and then says it's incorrect",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "A horrible, glitchy app. Don't buy any wireless printer from HP.",
+          "snippet": "What a garbage application that creates a frustrating experience. I need to make an account just to print? Seriously? I love it when company greed jus",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "0 stars, Rarely works. Keeps having to uninstall and reinstall only to work for 1 print job. How else can I use this printer? Wifi/Bluetooth connectio",
+          "snippet": "Two weeks ago, the printer stopped being recognized on the Wi-Fi network. The router is on and the printer is connected, but when I try to print, the ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "absolutely the worst app. absolutely the worst printer ever to buy. never purchase an HP printer. this thing is awful and so is this app. no one to he",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 84,
+      "sentiment": {
+        "positive": 3,
+        "negative": 66,
+        "neutral": 15
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app does not work with printers which are included in the support list. Turns out printers don't have wifi and the app doesn't work with otg cabl",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "downgraded kn stars. dont even open anymore. tried restarting an nothing. very frustrating. please sort it out",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app was always slow compared to other apps, but now it just hangs on the loading screen forever",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "the application is very slow",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app is white. doesn't stop being white. app doesn't work.",
           "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 81,
+      "mention_count": 77,
       "sentiment": {
-        "positive": 35,
-        "negative": 4,
-        "neutral": 42
+        "positive": 29,
+        "negative": 7,
+        "neutral": 41
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "it has been good",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Excellent",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "nice",
-          "sentiment": "positive"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "won't open. keeps circling",
+          "snippet": "hardly ever works",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "😞😞",
+          "snippet": "just keep loading",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "💜🖨️🫆",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "absolutely useless",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "does not open",
           "sentiment": "neutral"
         }
       ]
@@ -312,125 +312,125 @@
       "name": "Scanning Features",
       "mention_count": 61,
       "sentiment": {
-        "positive": 13,
+        "positive": 10,
         "negative": 18,
-        "neutral": 30
+        "neutral": 33
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "",
-          "snippet": "scan isn't working properly",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "Why do I need to have Internet to use basic functions like scanning?",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Please be a little serious, for sometime now, my printer (newly bought Envy 6155e) only prints when it wants to, while I keep paying for my instant in",
+          "snippet": "absolutely the worst app. absolutely the worst printer ever to buy. never purchase an HP printer. this thing is awful and so is this app. no one to he",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "couldn't save as docx after scanning",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Need an account to scan/use my printer in my local (private) network. Everything gets sent over HP servers, no idea how that is even allowes in the EU",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Easy and precise. I love the mobile scanning feature.",
+          "snippet": "so far so good. easy printing and scanning to my samsung galaxy a15",
           "sentiment": "positive"
         },
         {
-          "rating": 4,
+          "rating": 5,
           "title": "",
-          "snippet": "Love that I can scan, print or email from my phone. My Chromebook has issues and cannot print unless my phone is synced with it. that's the ready for ",
-          "sentiment": "positive"
+          "snippet": "quick scan, ink consumption average, no complaints",
+          "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 52,
+      "mention_count": 46,
       "sentiment": {
-        "positive": 7,
-        "negative": 16,
-        "neutral": 29
+        "positive": 5,
+        "negative": 14,
+        "neutral": 27
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "app is constantly losing connection with printer even though devices are able to connect and print. selecting any option that requires connection with",
+          "snippet": "This app does not work with printers which are included in the support list. Turns out printers don't have wifi and the app doesn't work with otg cabl",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "No longer opens, no longer get support via WhatsApp yet you still take my money",
+          "snippet": "The app does not open,have been tried many times. No help from support... reviews from other buyers are the same.... Help!!!",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "not compatible with android 15 tablet",
-          "sentiment": "neutral"
+          "snippet": "What a garbage application that creates a frustrating experience. I need to make an account just to print? Seriously? I love it when company greed jus",
+          "sentiment": "negative"
         },
         {
-          "rating": 3,
+          "rating": 2,
           "title": "",
-          "snippet": "please add a feature to add printer with IP address, it's available in iOS but not in android app. it very inconvenient. I have recently switch from i",
-          "sentiment": "neutral"
+          "snippet": "HP should know better! Works great on my phone however hp allows older apps that don't work to coexist with the new app. created all kinds of confusio",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "Horrible app! I can connect to my printer and print, but I can't connect to instant ink to update usage. This has been happening for a while now. Used",
+          "snippet": "This app is literally garbage. Does not work outside the house, it disconnects every single time where I would have to go back into the other HP servi",
           "sentiment": "negative"
         }
       ]
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 39,
+      "mention_count": 40,
       "sentiment": {
-        "positive": 3,
-        "negative": 12,
-        "neutral": 24
+        "positive": 2,
+        "negative": 16,
+        "neutral": 22
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "not a very functional app when it does not load it's just a loading screen with a circle I have to use an app called print adjuster to print anything.",
+          "snippet": "What a garbage application that creates a frustrating experience. I need to make an account just to print? Seriously? I love it when company greed jus",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "login again!",
+          "snippet": "Need an account to scan/use my printer in my local (private) network. Everything gets sent over HP servers, no idea how that is even allowes in the EU",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I'm really mad at myself for not looking at the reviews before getting this printer and subscription. I have been trying to sync my phone and this stu",
+          "snippet": "I will never use this trash ever again because you are requiring me to sign in just to use my printer! 0/10 worst app ever!",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I WILL NEVER MAKE AN ACCOUNT. HAHAHAHAHAHAHAHAHAHAHAHA",
-          "sentiment": "neutral"
+          "snippet": "Awful. Have to create an account just to print documents on my own printer that lives in my own house on my own network? Can only print PDF and Pictur",
+          "sentiment": "negative"
         },
         {
-          "rating": 4,
+          "rating": 1,
           "title": "",
-          "snippet": "Love that I can scan, print or email from my phone. My Chromebook has issues and cannot print unless my phone is synced with it. that's the ready for ",
-          "sentiment": "positive"
+          "snippet": "HP app not working. I emailed support team with no response back.",
+          "sentiment": "negative"
         }
       ]
     }

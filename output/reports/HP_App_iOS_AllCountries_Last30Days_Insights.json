@@ -1,435 +1,435 @@
 {
-  "generated_at": "2026-04-17T16:56:41.902833",
-  "total_reviews": 686,
+  "generated_at": "2026-04-20T20:54:29.180934",
+  "total_reviews": 707,
   "sentiment_summary": {
-    "neutral": 350,
-    "positive": 179,
-    "negative": 157
+    "neutral": 362,
+    "positive": 181,
+    "negative": 164
   },
   "rating_distribution": {
-    "3": 30,
-    "1": 367,
-    "5": 227,
-    "2": 33,
-    "4": 29
+    "5": 234,
+    "1": 379,
+    "4": 28,
+    "2": 32,
+    "3": 34
   },
   "categories": {
-    "printing": {
-      "name": "Print Quality & Functionality",
-      "mention_count": 358,
-      "sentiment": {
-        "positive": 99,
-        "negative": 114,
-        "neutral": 145
-      },
-      "pm_focus": "Core value proposition, print reliability",
-      "sample_reviews": [
-        {
-          "rating": 3,
-          "title": "Printer good but App very clunky",
-          "snippet": "I have had two HP printers and subscribed to instant ink and this seems to work well\nIt is however a really slow App which takes ages to get you to th",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "HP 5106",
-          "snippet": "Very easy to use. Ink supplied makes cheaper printers a false economy.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 3,
-          "title": "Manque instant ink dans l’appli",
-          "snippet": "La nouvelle application HP est super belle j’adore le design et l’interface.  Je regrette cependant qu’on ne puisse pas avoir les paramètres instant i",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "I hate printers",
-          "snippet": "Nothing work",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Beware",
-          "snippet": "Hijacked my printer.  The only I could print anything was to enroll in insta ink. Insta Ink stopped working when I bought HP Ink from staples.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 344,
+      "mention_count": 360,
       "sentiment": {
         "positive": 100,
-        "negative": 98,
-        "neutral": 146
+        "negative": 104,
+        "neutral": 156
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Printer good but App very clunky",
-          "snippet": "I have had two HP printers and subscribed to instant ink and this seems to work well\nIt is however a really slow App which takes ages to get you to th",
+          "rating": 5,
+          "title": "Recomendable!",
+          "snippet": "Buen Dispositivo, Fácil de\nUtilizar y su app es muy intuitiva y útil! Recomiendo la Gama Smart Tank 585",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Version 26.1.0 funktioniert nicht mehr",
-          "snippet": "Beim Start habe ich einen weißen Bildschirm. IOS ist auf dem neuesten Stand. Warum testet niemand die Software, bevor sie ausgerollt wird?\nSchade, ich",
+          "title": "Subscription BS",
+          "snippet": "HP requires a subscription to print. The home printer industry was already a scam, it’s just even more evident now.",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "HP 5106",
-          "snippet": "Very easy to use. Ink supplied makes cheaper printers a false economy.",
+          "title": "Easy install",
+          "snippet": "It’s an easy install.\n\nI usually suffer from great fright while dealing with printers.\n\nI look forward to using the Hewlett-Packard 6555E printer.",
           "sentiment": "positive"
         },
         {
-          "rating": 3,
-          "title": "Manque instant ink dans l’appli",
-          "snippet": "La nouvelle application HP est super belle j’adore le design et l’interface.  Je regrette cependant qu’on ne puisse pas avoir les paramètres instant i",
+          "rating": 1,
+          "title": "White text color on white background",
+          "snippet": "Who thought it was a good idea to put white text over a white background? I can’t read anything unless I squint and put my phone up to my face. (I’m i",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "Wonderful",
+          "snippet": "Only thing that disappointed that its not printing jpeg image from I phone 15",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 352,
+      "sentiment": {
+        "positive": 98,
+        "negative": 113,
+        "neutral": 141
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Subscription BS",
+          "snippet": "HP requires a subscription to print. The home printer industry was already a scam, it’s just even more evident now.",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Todo bien e imprime bien",
-          "snippet": "No hace falta suscribirse y no te cobran, hay que leer todas las pantallas que aparecen y seleccionar lo que uno quiere.. después no hay vuelta atrás…",
+          "title": "Easy install",
+          "snippet": "It’s an easy install.\n\nI usually suffer from great fright while dealing with printers.\n\nI look forward to using the Hewlett-Packard 6555E printer.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Just Print !!!",
+          "snippet": "I just want to print !!!  \n***  NO PRIVATE PICKUP etc.  *** I COULD NOT FIND THE COPIES???",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Printing",
+          "snippet": "Good progress",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "White text color on white background",
+          "snippet": "Who thought it was a good idea to put white text over a white background? I can’t read anything unless I squint and put my phone up to my face. (I’m i",
+          "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 167,
+      "mention_count": 158,
       "sentiment": {
-        "positive": 36,
-        "negative": 53,
-        "neutral": 78
+        "positive": 32,
+        "negative": 51,
+        "neutral": 75
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Printer good but App very clunky",
-          "snippet": "I have had two HP printers and subscribed to instant ink and this seems to work well\nIt is however a really slow App which takes ages to get you to th",
+          "rating": 1,
+          "title": "Subscription BS",
+          "snippet": "HP requires a subscription to print. The home printer industry was already a scam, it’s just even more evident now.",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "HP 5106",
-          "snippet": "Very easy to use. Ink supplied makes cheaper printers a false economy.",
+          "title": "Printing",
+          "snippet": "Good progress",
           "sentiment": "positive"
         },
         {
           "rating": 1,
+          "title": "Pb avec la mise à jour 26.1.0",
+          "snippet": "Avec un iPhone 15 Pro, depuis la dernière mise à jour :\n1) l’appli me dit qu’il n’y a plus de papier A4 dans l’imprimante alors que le bac est plein. ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "App davvero pessima",
+          "snippet": "Una app da una UI troppo pesante e poco usabile: avviare la app richiede più di un minuto, le stampanti si collegano dopo svariati minuti, il collegam",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
           "title": "Doesn’t work",
-          "snippet": "After updating to the HP app, the app will not launch. All I get is a blank white screen. My iOS version is up to date, I’ve restarted the phone (iPho",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Dernière MAJ 15/04 ne se lance pas",
-          "snippet": "Tout buggé, écran gris. Déjà qu’avant ça fonctionnait mal … \niPhone 17 pro max à jour.",
+          "snippet": "App loads to a white screen and then freezes. Useless",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Not wot",
-          "snippet": "Updated software to a BLANK screen when opened ~ reboot and installed software ~ still does not properly load",
-          "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 135,
+      "mention_count": 122,
       "sentiment": {
-        "positive": 32,
-        "negative": 46,
-        "neutral": 57
+        "positive": 30,
+        "negative": 41,
+        "neutral": 51
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Printer good but App very clunky",
-          "snippet": "I have had two HP printers and subscribed to instant ink and this seems to work well\nIt is however a really slow App which takes ages to get you to th",
+          "rating": 1,
+          "title": "Just Print !!!",
+          "snippet": "I just want to print !!!  \n***  NO PRIVATE PICKUP etc.  *** I COULD NOT FIND THE COPIES???",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Beware",
-          "snippet": "Hijacked my printer.  The only I could print anything was to enroll in insta ink. Insta Ink stopped working when I bought HP Ink from staples.",
+          "title": "Why doesn’t HP have this nailed?",
+          "snippet": "OK setting up a new printer should be smoothe as butter… how long have they been at this?  Eventually found the i button the printer and had to print ",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Set up way too complicated",
-          "snippet": "I just wanted to be able to send a print job via Wi-Fi. I need it all kind of apps and invites. Still have the box thinking about sending it back.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Needs more functionality",
-          "snippet": "This app cannot handle transparent .png’s, it’ll print checked background of .png. No specialty paper selection. Has to have total access to your phot",
-          "sentiment": "positive"
         },
         {
           "rating": 5,
-          "title": "amazing",
-          "snippet": "I’ve always wanted a printer and this app does the works, I love how I can print anything (including posters , stickers, etc) I just wanted to say I l",
+          "title": "Excellent",
+          "snippet": "Features",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Printing",
+          "snippet": "The most stupid printing system and printer both. Your company should be banned to create this kind of stupid printer",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "HP Printers—2nd to None!",
+          "snippet": "Today I installed my new HP Envy Photo 7260r. It was almost too easy. HP has been my choice for the last 15 to 20 years, and there is no way I’d chang",
           "sentiment": "positive"
         }
       ]
     },
-    "connectivity": {
-      "name": "Connectivity & Setup",
-      "mention_count": 124,
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 121,
       "sentiment": {
-        "positive": 17,
-        "negative": 44,
-        "neutral": 63
+        "positive": 23,
+        "negative": 5,
+        "neutral": 93
       },
-      "pm_focus": "First-time user experience, connectivity reliability",
+      "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Set up way too complicated",
-          "snippet": "I just wanted to be able to send a print job via Wi-Fi. I need it all kind of apps and invites. Still have the box thinking about sending it back.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Issue with connecting WiFi",
-          "snippet": "Not easy at all past 4 hours trying",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Printer setup complicated and customer service hor",
-          "snippet": "Tay Tay",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "Trop lent",
-          "snippet": "10 minutes pour imprimer 2 pages !! Pourtant tout mon Wifi, mon imprimante etc fonctionnent parfaitement",
+          "rating": 5,
+          "title": "Fonctionnel",
+          "snippet": "Très pratique et complet",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Alerte !!!",
-          "snippet": "Impossible de connecter à votre imprimante même en suivant parfaitement les multiples critères…\nPourquoi ?",
+          "title": "Good",
+          "snippet": "Good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Qualité HP",
+          "snippet": "Qualité HP",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Great",
+          "snippet": "It is good for doing reviews and homework",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Prática",
+          "snippet": "Impressora prática e eficiente.",
           "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 122,
+      "mention_count": 119,
       "sentiment": {
-        "positive": 33,
-        "negative": 27,
-        "neutral": 62
+        "positive": 35,
+        "negative": 26,
+        "neutral": 58
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Scansione impossibile",
-          "snippet": "Quando avvio la scansione di una pagina inizia a caricare ma poi si impalla. Inutile e frustrante.\nSistematela!",
+          "rating": 5,
+          "title": "Scansione fotocamera",
+          "snippet": "Efficiente",
           "sentiment": "neutral"
         },
         {
+          "rating": 4,
+          "title": "Wonderful",
+          "snippet": "Only thing that disappointed that its not printing jpeg image from I phone 15",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
-          "title": "Smart Tank 5102",
-          "snippet": "Whenever I try to print or scan something, I always suspect my HP will foul up and I’ll be forced to do tons of troubleshooting. I’m right about half ",
+          "title": "Terrible app with no Scan function",
+          "snippet": "I cannot scan since the last update. Please bring back the “scan” button!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "HP Printers—2nd to None!",
+          "snippet": "Today I installed my new HP Envy Photo 7260r. It was almost too easy. HP has been my choice for the last 15 to 20 years, and there is no way I’d chang",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Dreadful",
+          "snippet": "Trying to force the only way to scan in using the camera scan, no longer allows me to use the app to scan using the printer. It’s a joke",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Scanner fail",
-          "snippet": "I spent about half an hour scanning 50 something pages of a passport into the scanner and saved it as the smallest possible file. It did not tell me t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Not compatible with Windows 11",
-          "snippet": "Can’t get it to print on my laptop. Keeps going into standby, it prints a test page then doesn’t print documents which then just goes to error. Most f",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "App needs work!!",
-          "snippet": "The app keeps crashing during a scan process.",
-          "sentiment": "negative"
         }
       ]
     },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 115,
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 116,
       "sentiment": {
-        "positive": 20,
-        "negative": 6,
-        "neutral": 89
+        "positive": 15,
+        "negative": 46,
+        "neutral": 55
       },
-      "pm_focus": "",
+      "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "Puedo imprimir desde el teléfono",
-          "snippet": "Excelente \nGracias",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "Terrible service",
+          "snippet": "No phone number to customer service \nMy printer is not connecting to phone\nCant print ANYTHING",
+          "sentiment": "negative"
         },
         {
           "rating": 5,
-          "title": "Muy buena",
-          "snippet": "Muy fácil de instalar y imprimir",
+          "title": "HP Printers—2nd to None!",
+          "snippet": "Today I installed my new HP Envy Photo 7260r. It was almost too easy. HP has been my choice for the last 15 to 20 years, and there is no way I’d chang",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "Ultra pénible pour les nerfs",
+          "snippet": "Eh bien je vais laisser mon avis ! Si l’imprimante en soi (Envy) est bien meilleure que mon ancienne deskjet, la connection est un enfer et je me reti",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
-          "title": "Fait le taf",
-          "snippet": "Facile à utiliser",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "Terrible printers",
+          "snippet": "These are over engineered garbage and overly complicated. The app is useless in trouble shooting and printer itself is useless your already connected ",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
-          "title": "Ótima",
-          "snippet": "Adorei",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Kopia",
-          "snippet": "Jätte smidigt",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "Just no",
+          "snippet": "Complicated, slow, barely works most of the time. Zero connection through PC, had to use mobile device to even get it working.",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 81,
+      "mention_count": 79,
       "sentiment": {
         "positive": 5,
-        "negative": 54,
-        "neutral": 22
+        "negative": 57,
+        "neutral": 17
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Printer good but App very clunky",
-          "snippet": "I have had two HP printers and subscribed to instant ink and this seems to work well\nIt is however a really slow App which takes ages to get you to th",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "No",
+          "snippet": "Too slow and no response",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "Doesn’t work",
-          "snippet": "After updating to the HP app, the app will not launch. All I get is a blank white screen. My iOS version is up to date, I’ve restarted the phone (iPho",
-          "sentiment": "neutral"
+          "snippet": "App loads to a white screen and then freezes. Useless",
+          "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Dernière MAJ 15/04 ne se lance pas",
-          "snippet": "Tout buggé, écran gris. Déjà qu’avant ça fonctionnait mal … \niPhone 17 pro max à jour.",
+          "rating": 5,
+          "title": "HP Printers—2nd to None!",
+          "snippet": "Today I installed my new HP Envy Photo 7260r. It was almost too easy. HP has been my choice for the last 15 to 20 years, and there is no way I’d chang",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "Bugue",
+          "snippet": "Depuis la dernière mise à jour de l'application, l'imprimante est là et fonctionne, mais il n'est plus possible de voir les options de cette dernière,",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Printing failed",
-          "snippet": "Very slow print job through app",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Nothing but problems never works",
-          "snippet": "Awful printer error after error",
-          "sentiment": "negative"
+          "title": "Not great",
+          "snippet": "I have to change paper size to get it to print.",
+          "sentiment": "positive"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 73,
+      "mention_count": 76,
       "sentiment": {
-        "positive": 11,
-        "negative": 26,
-        "neutral": 36
+        "positive": 12,
+        "negative": 25,
+        "neutral": 39
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Version 26.1.0 funktioniert nicht mehr",
-          "snippet": "Beim Start habe ich einen weißen Bildschirm. IOS ist auf dem neuesten Stand. Warum testet niemand die Software, bevor sie ausgerollt wird?\nSchade, ich",
+          "rating": 2,
+          "title": "Perpetual Updates",
+          "snippet": "This update has left the App completely inoperable.  Nothing but a white screen.  Not wasting time on it.  This review is enough",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Issue",
-          "snippet": "Can’t open the app after update",
+          "title": "Pb avec la mise à jour 26.1.0",
+          "snippet": "Avec un iPhone 15 Pro, depuis la dernière mise à jour :\n1) l’appli me dit qu’il n’y a plus de papier A4 dans l’imprimante alors que le bac est plein. ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Doesn’t work",
-          "snippet": "After updating to the HP app, the app will not launch. All I get is a blank white screen. My iOS version is up to date, I’ve restarted the phone (iPho",
-          "sentiment": "neutral"
+          "title": "Doesn’t work anymore",
+          "snippet": "App used to work fine, not great but fine. Just updated it and won’t load, get the blue hp logo but then white screen, does not go any further. So wha",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "No longer functions",
-          "snippet": "App updated today and now just displays a white screen.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Dernière MAJ 15/04 ne se lance pas",
-          "snippet": "Tout buggé, écran gris. Déjà qu’avant ça fonctionnait mal … \niPhone 17 pro max à jour.",
+          "title": "Terrible",
+          "snippet": "You can’t even launch the app after update",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "App davvero pessima",
+          "snippet": "Una app da una UI troppo pesante e poco usabile: avviare la app richiede più di un minuto, le stampanti si collegano dopo svariati minuti, il collegam",
+          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 57,
+      "mention_count": 61,
       "sentiment": {
-        "positive": 11,
+        "positive": 13,
         "negative": 26,
-        "neutral": 20
+        "neutral": 22
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 2,
-          "title": "Printer setup complicated and customer service hor",
-          "snippet": "Tay Tay",
+          "rating": 1,
+          "title": "Terrible service",
+          "snippet": "No phone number to customer service \nMy printer is not connecting to phone\nCant print ANYTHING",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Dont recommend",
-          "snippet": "App is horrendous and does not help with resolving any issues you have",
+          "title": "App davvero pessima",
+          "snippet": "Una app da una UI troppo pesante e poco usabile: avviare la app richiede più di un minuto, le stampanti si collegano dopo svariati minuti, il collegam",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Smart Tank 5102",
-          "snippet": "Whenever I try to print or scan something, I always suspect my HP will foul up and I’ll be forced to do tons of troubleshooting. I’m right about half ",
+          "title": "Why doesn’t HP have this nailed?",
+          "snippet": "OK setting up a new printer should be smoothe as butter… how long have they been at this?  Eventually found the i button the printer and had to print ",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Fast HP app scanning",
-          "snippet": "Scanning and printing with HP printer is fast and comfortable using HP app. \nInstructions are clear and easy to use , for eg reorder in scanning .",
-          "sentiment": "positive"
+          "title": "Mr. B.",
+          "snippet": "Thanks for your help.",
+          "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "Abzocke",
-          "snippet": "Der Drucker musste schon einmal komplett getauscht werden, weil er ständig die Verbindung verloren hat und komplett laut gesummt hatte. Ich habe einig",
+          "rating": 5,
+          "title": "Looooove",
+          "snippet": "Has helped tremendously with home schooling and my psychiatric clinic !!",
           "sentiment": "neutral"
         }
       ]

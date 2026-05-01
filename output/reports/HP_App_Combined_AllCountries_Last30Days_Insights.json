@@ -1,226 +1,226 @@
 {
-  "generated_at": "2026-04-24T16:58:50.702444",
-  "total_reviews": 2051,
+  "generated_at": "2026-05-01T16:59:30.751685",
+  "total_reviews": 1992,
   "sentiment_summary": {
-    "neutral": 1355,
-    "negative": 380,
-    "positive": 316
+    "neutral": 1300,
+    "negative": 385,
+    "positive": 307
   },
   "rating_distribution": {
-    "1": 1250,
-    "5": 494,
-    "3": 88,
-    "2": 148,
-    "4": 71
+    "1": 1242,
+    "2": 141,
+    "3": 85,
+    "5": 455,
+    "4": 69
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 1004,
+      "mention_count": 1005,
       "sentiment": {
-        "positive": 171,
-        "negative": 244,
-        "neutral": 589
+        "positive": 175,
+        "negative": 243,
+        "neutral": 587
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "White screen",
-          "snippet": "App won’t load. White screen",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "Stay Smart",
-          "snippet": "I hate this new version on the HP device app. The other was far simpler and easier to use … and I rarely had to re identify my printer. Maybe time to ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "Ne fonctionne plus depuis Maj",
-          "snippet": "Ne fonctionne plus depuis Maj",
+          "title": "Stop working",
+          "snippet": "Was okey,now only white screen.Absolutely rubbish",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "The app does NOT WORK",
-          "snippet": "Im trying to open the app and it just stops on a white screen.",
+          "title": "White Screen?",
+          "snippet": "Used to work, but now only a white screen opens and that’s it. Nothing.",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
-          "title": "Application facile",
-          "snippet": "Facile à mettre en œuvre, rapidement pu installer mes imprimantes et gérer via mon telephone",
+          "rating": 2,
+          "title": "Intermittent Connection",
+          "snippet": "App loses connection frequently and has to constantly reconnect.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Not happy",
+          "snippet": "Too many malfunctions, never wants to print from my phone, I’m forced to open Ho app and go to saves photos to print out papers for work. Constant pro",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Nothing",
+          "snippet": "Have been on this plan for few years now the app isn’t working just a blank",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 648,
+      "mention_count": 637,
       "sentiment": {
-        "positive": 132,
-        "negative": 215,
-        "neutral": 301
+        "positive": 141,
+        "negative": 218,
+        "neutral": 278
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Annoying",
-          "snippet": "Never can print with ease it is always an issue I hate it!",
-          "sentiment": "negative"
+          "rating": 3,
+          "title": "HP",
+          "snippet": "Why weekly charges for software to use my printer?",
+          "sentiment": "neutral"
         },
         {
-          "rating": 3,
-          "title": "Stay Smart",
-          "snippet": "I hate this new version on the HP device app. The other was far simpler and easier to use … and I rarely had to re identify my printer. Maybe time to ",
+          "rating": 1,
+          "title": "Not happy",
+          "snippet": "Too many malfunctions, never wants to print from my phone, I’m forced to open Ho app and go to saves photos to print out papers for work. Constant pro",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "User Friendly Printer",
+          "snippet": "I wanted to scan some documents to a file. Finding out how to do it was quite a task because you need another device to interface the HP printer that ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Cata",
+          "snippet": "Impossible à utiliser page blanche au lancement de l’application aussi sur iPhone que Mac ! Gros big empêchant de prendre l’abonnement instant ink",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
-          "title": "Photo sur CV",
-          "snippet": "Des taches sont présentes sur la photo. Je n’attends pas un résultat professionnel mais pas des taches … dommage !!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Bad connectivity",
-          "snippet": "Bad connectivity. Sending things to print form phone or iPad is a nightmare.",
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Omslachtig",
-          "snippet": "Wat een gedoe om iets te printen!!",
-          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 541,
+      "mention_count": 482,
       "sentiment": {
-        "positive": 61,
-        "negative": 20,
-        "neutral": 460
+        "positive": 49,
+        "negative": 22,
+        "neutral": 411
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Tela branca ao iniciar",
-          "snippet": "Não consigo sequer usá-lo. Fala branca. Ja reiniciei celular, desinstalei, reinstalei e sempre acontece o mesmo",
+          "title": "Won’t work",
+          "snippet": "Horrible. Who are the people that like this????",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Love It!",
+          "snippet": "I just absolutely love it!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Horrível",
+          "snippet": "2",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Impresora HP",
-          "snippet": "Rápida y fácil configuración.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "non va",
-          "snippet": "dopo aggiornamento non si apre rimane pagina bianca",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Schlecht",
-          "snippet": "Verbindet sich nicht und man kann auch nicht drucken per WLAN",
+          "title": "Excelente soporte",
+          "snippet": "Conexión inmediata y sin complicaciones lo recomiendo",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Smidigt och trevligt!",
-          "snippet": "Så lätt och smidigt!",
+          "title": "Impresora laser multifuncional",
+          "snippet": "Está increíble!!! Me encanta!",
           "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 360,
+      "mention_count": 361,
       "sentiment": {
-        "positive": 47,
-        "negative": 112,
-        "neutral": 201
+        "positive": 48,
+        "negative": 124,
+        "neutral": 189
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Stay Smart",
-          "snippet": "I hate this new version on the HP device app. The other was far simpler and easier to use … and I rarely had to re identify my printer. Maybe time to ",
+          "rating": 1,
+          "title": "Not happy",
+          "snippet": "Too many malfunctions, never wants to print from my phone, I’m forced to open Ho app and go to saves photos to print out papers for work. Constant pro",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
-          "title": "Photo sur CV",
-          "snippet": "Des taches sont présentes sur la photo. Je n’attends pas un résultat professionnel mais pas des taches … dommage !!",
-          "sentiment": "neutral"
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Déçu",
-          "snippet": "Toujours des problèmes pour imprimer elle se déconnecte tout le temps vraiment je recommande pas si vous avais pas de patience déçu de la commande 😭😭",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Broken",
-          "snippet": "Absolute bricked the app.  White screen that never loads or changes. Good work.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Exhausting",
-          "snippet": "For years it was great. Simple format. Easy to use. Functional. Then came the fancy updates which made a mess. The Mac app never works so I gave up & ",
+          "title": "Dumb Processes",
+          "snippet": "Why is scanning a document harder than engineering a space rocket. Printers use to be simple: insert doc, scan, send. Now I need the stupid HP app on ",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Stay away from hp",
+          "snippet": "Nothing but problem after problem",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Bella peccato …",
+          "snippet": "L’app è comoda da usare,  come nelle precedenti versioni; peccato che in alcune schermate non si vedono le scritte (iPhone 13). Non so se è un problem",
+          "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 262,
+      "mention_count": 249,
       "sentiment": {
         "positive": 20,
-        "negative": 99,
-        "neutral": 143
+        "negative": 95,
+        "neutral": 134
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Bad connectivity",
-          "snippet": "Bad connectivity. Sending things to print form phone or iPad is a nightmare.",
+          "rating": 2,
+          "title": "Intermittent Connection",
+          "snippet": "App loses connection frequently and has to constantly reconnect.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
           "sentiment": "negative"
         },
         {
-          "rating": 3,
-          "title": "Très intuitif et convivial.",
-          "snippet": "Mise à jour 2026 :\nPar la suite c’est moins rose: autant les impressions sont de bonne qualité, autant c’est souvent une galère avant de pouvoir en la",
+          "rating": 1,
+          "title": "Huge disappointment",
+          "snippet": "Am unable to open this App and cannot connect it to my printer to complete setup of Instant Ink",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Does not connect",
-          "snippet": "Does not connect to windows computer or iPhone. Says connected to phone but does not print",
+          "title": "Precisa arrumar",
+          "snippet": "O app conectar o Wi-Fi gerado pelo app, fazendo seu smartphone desconectar seu WI-FI e e não finaliza ou envia a impressão pois o sinal de rede do chi",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Déçu",
-          "snippet": "Toujours des problèmes pour imprimer elle se déconnecte tout le temps vraiment je recommande pas si vous avais pas de patience déçu de la commande 😭😭",
+          "title": "Hp 6010e",
+          "snippet": "Do questo voto non per la qualità della stampa ma per il vero motivo che ogni volta che devo stampare devo connettermi e fare tutta la procedura dal i",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Difficult to install Wi-Fi",
-          "snippet": "I struggled lot to install Wi-Fi",
-          "sentiment": "negative"
         }
       ]
     },
@@ -228,209 +228,209 @@
       "name": "Scanning Features",
       "mention_count": 247,
       "sentiment": {
-        "positive": 53,
+        "positive": 63,
         "negative": 50,
-        "neutral": 144
+        "neutral": 134
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Exhausting",
-          "snippet": "For years it was great. Simple format. Easy to use. Functional. Then came the fancy updates which made a mess. The Mac app never works so I gave up & ",
-          "sentiment": "positive"
+          "title": "¡No abre!",
+          "snippet": "Se queda la pantalla en blanco al abrir la aplicación, por lo tanto no puedo escanear.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "User Friendly Printer",
+          "snippet": "I wanted to scan some documents to a file. Finding out how to do it was quite a task because you need another device to interface the HP printer that ",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Datenkraken HP",
-          "snippet": "Ich möchte die App zum Scannen für meine HP Multifunktionsgerät nutzen. Wieso muss ich mir ein HP Konto erstellen und mich einloggen wenn ich die loka",
+          "title": "Não funciona digitalização do scanner",
+          "snippet": "Há anos este lixo de aplicativo dificultava para escanear no celular utilizando o scanner da multifuncional. Agora ferraram de vez querendo que você e",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
-          "title": "🖨️",
-          "snippet": "Super friendly user, complete package including scanner,printer for docs and photos!! Many more. Would definitely recommend💯👌👌",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
-          "title": "Printer/scanner",
-          "snippet": "Once we figured out how to work it it works great!!!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 3,
-          "title": "Can’t easily print of photos",
-          "snippet": "First of all, can’t print off multiple photos on one page without using a third party app. And also can’t resize an image to fill the entire paper.",
+          "rating": 1,
+          "title": "Doesn’t work",
+          "snippet": "My brand new printer doesn’t work. It doesn’t print, scan or anything else. I have ordered new ink, thinking that the ink it came with was dry. Still ",
           "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 245,
+      "mention_count": 230,
       "sentiment": {
-        "positive": 58,
-        "negative": 83,
-        "neutral": 104
+        "positive": 60,
+        "negative": 80,
+        "neutral": 90
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Très intuitif et convivial.",
-          "snippet": "Mise à jour 2026 :\nPar la suite c’est moins rose: autant les impressions sont de bonne qualité, autant c’est souvent une galère avant de pouvoir en la",
+          "rating": 1,
+          "title": "Not happy",
+          "snippet": "Too many malfunctions, never wants to print from my phone, I’m forced to open Ho app and go to saves photos to print out papers for work. Constant pro",
           "sentiment": "neutral"
         },
         {
+          "rating": 4,
+          "title": "User Friendly Printer",
+          "snippet": "I wanted to scan some documents to a file. Finding out how to do it was quite a task because you need another device to interface the HP printer that ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
+          "sentiment": "negative"
+        },
+        {
           "rating": 1,
-          "title": "Exhausting",
-          "snippet": "For years it was great. Simple format. Easy to use. Functional. Then came the fancy updates which made a mess. The Mac app never works so I gave up & ",
+          "title": "Dumb Processes",
+          "snippet": "Why is scanning a document harder than engineering a space rocket. Printers use to be simple: insert doc, scan, send. Now I need the stupid HP app on ",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Not working and supported app",
-          "snippet": "I needed urgently to set up and print today. I wasn’t expecting the app to just show me white screen with no response. Ruined morning. Thanks develope",
+          "title": "What CAN this app do?",
+          "snippet": "my printer is on. It is not on sleep. my laptops app recognizes that my printer is on. then why can’t this useless app? I don’t want to turn on my lap",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "BUG FOR IPHONE AIR?",
-          "snippet": "Just wanted to see if you guys will send out a hot fix for the app every time I try to turn it on it will not load properly and will show a white scre",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "No dark mode support",
-          "snippet": "What about visually challenge ,,,need dark mode",
-          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 218,
+      "mention_count": 226,
       "sentiment": {
-        "positive": 11,
-        "negative": 154,
-        "neutral": 53
+        "positive": 12,
+        "negative": 162,
+        "neutral": 52
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Broken",
-          "snippet": "Absolute bricked the app.  White screen that never loads or changes. Good work.",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Very Annoying",
+          "snippet": "I am having trouble changing the size of a document to smaller . My old printer had ability to punch in the % larger or smaller sized copy as desired ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Exhausting",
-          "snippet": "For years it was great. Simple format. Easy to use. Functional. Then came the fancy updates which made a mess. The Mac app never works so I gave up & ",
+          "title": "Complete dogends",
+          "snippet": "App immediately crashes to a white screen on startup.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Good for nothing",
+          "snippet": "Glitches and more glitches .. it goes blank after opening the app. Doesn’t work good with apple products",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "No funciona me dan ganas de romper la impresora nu",
-          "snippet": "No puedo conectar mi impresora a mi wifi me da error me cansa incluso a dejar una reseña pero espero que alguien lo lea y volved a crear una aplicació",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Slow app",
-          "snippet": "This app used to be great, but lately it’s slow!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Terrible app",
-          "snippet": "Never had a printer and app so slow in my life",
+          "title": "Useless",
+          "snippet": "App is totally broken. Just a blank screen and won’t print.",
           "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Print problem",
+          "snippet": "Had awesome lot of trouble getting it to print and then when it did print it was terribly SLOW",
+          "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 192,
+      "mention_count": 197,
       "sentiment": {
-        "positive": 27,
-        "negative": 46,
-        "neutral": 119
+        "positive": 28,
+        "negative": 48,
+        "neutral": 121
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Update hat es unbrauchbar gemacht.",
-          "snippet": "Tja schade. Seit dem letzten Update nur noch ein weißer Bildschirm beim öffnen.",
+          "title": "White Screen",
+          "snippet": "Seit dem letzten Update wird nur noch ein weißer Bildschirm angezeigt… total unbrauchbar!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Não funciona digitalização do scanner",
+          "snippet": "Há anos este lixo de aplicativo dificultava para escanear no celular utilizando o scanner da multifuncional. Agora ferraram de vez querendo que você e",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Cata",
+          "snippet": "Impossible à utiliser page blanche au lancement de l’application aussi sur iPhone que Mac ! Gros big empêchant de prendre l’abonnement instant ink",
           "sentiment": "neutral"
         },
         {
           "rating": 3,
-          "title": "Stay Smart",
-          "snippet": "I hate this new version on the HP device app. The other was far simpler and easier to use … and I rarely had to re identify my printer. Maybe time to ",
+          "title": "Bella peccato …",
+          "snippet": "L’app è comoda da usare,  come nelle precedenti versioni; peccato che in alcune schermate non si vedono le scritte (iPhone 13). Non so se è un problem",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Bad connectivity",
-          "snippet": "Bad connectivity. Sending things to print form phone or iPad is a nightmare.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Does not connect",
-          "snippet": "Does not connect to windows computer or iPhone. Says connected to phone but does not print",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Blank",
-          "snippet": "I updated the app now it goes blank and stays blank.",
+          "title": "起動しないうちに",
+          "snippet": "今まで一度もバグったことは無く、あまり意味が理解出来ない大幅なデザイン変更を伴うアップデート後に起動が遅くなって凄く使いずらいくらいで済んでいたが、起動させても、いつまで経っても真っ白い画面のままになる。日常使いしているので、早急に改善を乞う。iPhone SE 2nd iOS 26.4.2",
           "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 121,
+      "mention_count": 112,
       "sentiment": {
-        "positive": 22,
+        "positive": 20,
         "negative": 44,
-        "neutral": 55
+        "neutral": 48
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Not working and supported app",
-          "snippet": "I needed urgently to set up and print today. I wasn’t expecting the app to just show me white screen with no response. Ruined morning. Thanks develope",
+          "rating": 3,
+          "title": "Print Instructions could be better",
+          "snippet": "Used the app just now and had the most difficult time trying to print a two sided document. Not sure why there is not an option to print single or dou",
           "sentiment": "negative"
         },
         {
-          "rating": 3,
-          "title": "No dark mode support",
-          "snippet": "What about visually challenge ,,,need dark mode",
+          "rating": 1,
+          "title": "Scanner option from printer not available",
+          "snippet": "I have HP Office Jet 3830 that has scanner. I used to use HP Smart app before to print and to scan but HP has discontinued that app and now we are stu",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "HP envy6000 all in one printer series",
+          "snippet": "I have tried everything and I still cannot get it to work I’m getting no help even though I have got warranty with it the help is no help",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Worst app in history",
-          "snippet": "HP updated their app without telling me or updating automatically. So I just spent an hour trying to print a letter on an unresponsive HP DeskJet 2721",
+          "title": "worst printer",
+          "snippet": "horrible company no support and yet I’m paying for a subscription. Scammers.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Over complicated",
-          "snippet": "Took forever to setup way to many steps and just constant problems wouldn’t let me prom its brand new and on top of that it’s only usable when connect",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Unbelievably not user friendly",
-          "snippet": "Literally have to pay to call and if your printer ever gets disconnected from WiFi a literal disaster to re connect. Steer clear from buying this kind",
-          "sentiment": "negative"
+          "title": "Improvement  made using app COMPLICATED!",
+          "snippet": "Worked better before improvement much simpler to navigate before the improvements   Before improvements with the old app I could  find how many pages ",
+          "sentiment": "neutral"
         }
       ]
     }

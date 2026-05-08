@@ -1,184 +1,142 @@
 {
-  "generated_at": "2026-05-01T16:59:30.567903",
-  "total_reviews": 562,
+  "generated_at": "2026-05-08T17:18:58.507445",
+  "total_reviews": 512,
   "sentiment_summary": {
-    "neutral": 262,
-    "negative": 198,
-    "positive": 102
+    "negative": 196,
+    "neutral": 237,
+    "positive": 79
   },
   "rating_distribution": {
-    "1": 404,
-    "2": 35,
-    "5": 85,
-    "3": 20,
-    "4": 18
+    "2": 33,
+    "1": 379,
+    "3": 21,
+    "5": 68,
+    "4": 11
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 296,
+      "mention_count": 273,
       "sentiment": {
-        "positive": 52,
-        "negative": 133,
-        "neutral": 111
+        "positive": 37,
+        "negative": 127,
+        "neutral": 109
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "TERRIBLE APP!!! Constant errors, freezes and showing as printer unavailable!! Having to keep closing and opening app to print!! Can't get anything pri",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The most useless app ever. Can't even execute a scan through the app.",
+          "snippet": "This has to be the most offensive printer & printer app in human history. Setup process is clunky & non-working. Stalls on printer head installation e",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I'm almost out of ink and I keep trying to get into the app to order more since I dont see it's auto shipped since I updated my payment method but the",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "worked fine for the first 6 months I had the printer now I can't even use it. never loads. terrible app and now a totally useless printer!!!",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "sure wish the app actually worked. the whole point of having an app is to not rely on my computer 100% of the time....yet here I go yet again to the c",
+          "snippet": "you guys need to work on your app it just doesn't give the next option after printer install instructions",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "follow trend out of business use your phone to scan so stupid, i can't even scan a single document come out blurry,can't understand stupid go back to ",
+          "snippet": "never able to print, always offline, pop ups, multiple apps they want you to download. pops up to buy ink but I can never print so I always have ink",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 235,
+      "mention_count": 217,
       "sentiment": {
-        "positive": 35,
-        "negative": 104,
-        "neutral": 96
+        "positive": 30,
+        "negative": 100,
+        "neutral": 87
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "Garbage ! Never stays connected to the internet. Everything else in these house does, BUT NOT THIS PRINTER.",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "TERRIBLE APP!!! Constant errors, freezes and showing as printer unavailable!! Having to keep closing and opening app to print!! Can't get anything pri",
+          "snippet": "poor reliability and a scam to make you buy ink",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "worked fine for the first 6 months I had the printer now I can't even use it. never loads. terrible app and now a totally useless printer!!!",
+          "snippet": "This has to be the most offensive printer & printer app in human history. Setup process is clunky & non-working. Stalls on printer head installation e",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "sure wish the app actually worked. the whole point of having an app is to not rely on my computer 100% of the time....yet here I go yet again to the c",
-          "sentiment": "neutral"
+          "snippet": "hp printer 🖨️ and scan good working",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "follow trend out of business use your phone to scan so stupid, i can't even scan a single document come out blurry,can't understand stupid go back to ",
-          "sentiment": "neutral"
+          "snippet": "Horrible experience! Cannot set up printer. I already returned one and I'm now having the same issue with the new one. Same error code.",
+          "sentiment": "negative"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 121,
+      "mention_count": 119,
       "sentiment": {
-        "positive": 12,
-        "negative": 61,
-        "neutral": 48
+        "positive": 14,
+        "negative": 59,
+        "neutral": 46
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "TERRIBLE APP!!! Constant errors, freezes and showing as printer unavailable!! Having to keep closing and opening app to print!! Can't get anything pri",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "worked fine for the first 6 months I had the printer now I can't even use it. never loads. terrible app and now a totally useless printer!!!",
+          "snippet": "poor reliability and a scam to make you buy ink",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I've had an HP printer for years that works completely fine. No mechanical issues. Big tech is trying to nickle and dime consumers and forcing us to b",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App fails to open. This has happened a few times over the years. And now when I need the app the most to scan important documents, and email the .pdf ",
+          "snippet": "This has to be the most offensive printer & printer app in human history. Setup process is clunky & non-working. Stalls on printer head installation e",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just purchased a 8128e. A total messed up app to setup the devise. The phone will not allow you to scan until you load up the paper. Once you load t",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 112,
-      "sentiment": {
-        "positive": 28,
-        "negative": 42,
-        "neutral": 42
-      },
-      "pm_focus": "Product roadmap, feature prioritization",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "sure wish the app actually worked. the whole point of having an app is to not rely on my computer 100% of the time....yet here I go yet again to the c",
+          "snippet": "never able to print, always offline, pop ups, multiple apps they want you to download. pops up to buy ink but I can never print so I always have ink",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "follow trend out of business use your phone to scan so stupid, i can't even scan a single document come out blurry,can't understand stupid go back to ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I've had an HP printer for years that works completely fine. No mechanical issues. Big tech is trying to nickle and dime consumers and forcing us to b",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I don't want to pay monthly for printing in my own house. this sucks.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "For some reason the \"BRILLIANT\" devs at HP has decided to make an app not compatible with older devices. For literally no reason at all. It's a PRINTE",
-          "sentiment": "positive"
+          "snippet": "brought one of your printers, can't use it because i need to buy a subscription. so you want me to buy the printer then monthly pay you to use the pri",
+          "sentiment": "negative"
         }
       ]
     },
@@ -186,251 +144,293 @@
       "name": "App Reliability & Stability",
       "mention_count": 107,
       "sentiment": {
-        "positive": 3,
+        "positive": 4,
         "negative": 83,
-        "neutral": 21
+        "neutral": 20
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "TERRIBLE APP!!! Constant errors, freezes and showing as printer unavailable!! Having to keep closing and opening app to print!! Can't get anything pri",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "it was very slow and now is not working anymore!!!",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app not working",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
           "sentiment": "negative"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "very slow and not responding some time",
+          "snippet": "at times.es not working to scan.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Well though out but painfully slow and fails at times. It's a wasted marketing opportunity to show off HP servers...",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App fails to open. This has happened a few times over the years. And now when I need the app the most to scan important documents, and email the .pdf ",
+          "snippet": "Horrible experience! Cannot set up printer. I already returned one and I'm now having the same issue with the new one. Same error code.",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this is a horrible app. too many bugs. all files scanned end up empty or corrupted.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 104,
+      "sentiment": {
+        "positive": 20,
+        "negative": 48,
+        "neutral": 36
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "poor reliability and a scam to make you buy ink",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I'm almost out of ink and I keep trying to get into the app to order more since I dont see it's auto shipped since I updated my payment method but the",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "you guys need to work on your app it just doesn't give the next option after printer install instructions",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never able to print, always offline, pop ups, multiple apps they want you to download. pops up to buy ink but I can never print so I always have ink",
+          "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 97,
+      "mention_count": 89,
       "sentiment": {
-        "positive": 6,
-        "negative": 46,
-        "neutral": 45
+        "positive": 4,
+        "negative": 49,
+        "neutral": 36
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it doesn't help me connect to wifi",
+          "snippet": "This has to be the most offensive printer & printer app in human history. Setup process is clunky & non-working. Stalls on printer head installation e",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Basically useless: barely able to use it to help connect to wifi.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never able to print, always offline, pop ups, multiple apps they want you to download. pops up to buy ink but I can never print so I always have ink",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Garbage ! Never stays connected to the internet. Everything else in these house does, BUT NOT THIS PRINTER.",
+          "snippet": "works less than half the time now. the new update makes it work less than half the time if your even able to make it connect. it shouldnt take 5+min t",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "horrible it did not work unsecured wifi to boot.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App fails to open. This has happened a few times over the years. And now when I need the app the most to scan important documents, and email the .pdf ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I just purchased a 8128e. A total messed up app to setup the devise. The phone will not allow you to scan until you load up the paper. Once you load t",
+          "snippet": "hp fax doesn't work. always says no internet connection.",
           "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 84,
+      "mention_count": 86,
       "sentiment": {
-        "positive": 25,
-        "negative": 13,
-        "neutral": 46
+        "positive": 21,
+        "negative": 17,
+        "neutral": 48
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "total waste of time, will not load",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "pathetic piece of software, pure rage against the machine",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "service bad...not responding",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "terrible",
-          "sentiment": "negative"
+          "snippet": "no idea why you would tell me this and then send more to the review page?",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "very good",
+          "snippet": "Works Great!",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Not interested,",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "very very very very Bad",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "thes is warking",
+          "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 63,
+      "mention_count": 57,
       "sentiment": {
-        "positive": 17,
-        "negative": 23,
-        "neutral": 23
+        "positive": 14,
+        "negative": 21,
+        "neutral": 22
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "The most useless app ever. Can't even execute a scan through the app.",
+          "snippet": "I'm not sure whether it's the app or the printer (envy pro 6432), but there are quite a lot of bugs. I very often need to restart the printer to be ab",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "follow trend out of business use your phone to scan so stupid, i can't even scan a single document come out blurry,can't understand stupid go back to ",
-          "sentiment": "neutral"
+          "snippet": "at times.es not working to scan.",
+          "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "can't scan without paying $8 a month",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "For some reason the \"BRILLIANT\" devs at HP has decided to make an app not compatible with older devices. For literally no reason at all. It's a PRINTE",
+          "snippet": "hp printer 🖨️ and scan good working",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App fails to open. This has happened a few times over the years. And now when I need the app the most to scan important documents, and email the .pdf ",
+          "snippet": "this is a horrible app. too many bugs. all files scanned end up empty or corrupted.",
           "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "update is failing Every time I open the app to do anything like scan a page it will not perform or load. There is a spinning blue load type sign that ",
+          "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 53,
+      "mention_count": 55,
       "sentiment": {
-        "positive": 11,
-        "negative": 16,
-        "neutral": 26
+        "positive": 10,
+        "negative": 21,
+        "neutral": 24
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "I've had an HP printer for years that works completely fine. No mechanical issues. Big tech is trying to nickle and dime consumers and forcing us to b",
-          "sentiment": "positive"
+          "snippet": "This has to be the most offensive printer & printer app in human history. Setup process is clunky & non-working. Stalls on printer head installation e",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I'm almost out of ink and I keep trying to get into the app to order more since I dont see it's auto shipped since I updated my payment method but the",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "And yet again the loading ring of death HP man so many fake good reviews even people at IT hate hp stuff. How hard is to just make a printer work, plu",
-          "sentiment": "neutral"
+          "snippet": "works less than half the time now. the new update makes it work less than half the time if your even able to make it connect. it shouldnt take 5+min t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "glitchy... hopefully the update fixes this. My monthly subscription bill was due and A week later I finally was able to log in! It just would not load",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "For some reason the \"BRILLIANT\" devs at HP has decided to make an app not compatible with older devices. For literally no reason at all. It's a PRINTE",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Not compatible with Chromebook.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "printer is always offline. The developers needs to look at the IOS version and figure out why the android version is always showing printer offline.",
-          "sentiment": "neutral"
+          "snippet": "the app won't connect to my printer, the website for support is useless, & when you call they want MORE money to assist you! absolutely USELESS!! I ne",
+          "sentiment": "negative"
         }
       ]
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 49,
+      "mention_count": 52,
       "sentiment": {
-        "positive": 4,
+        "positive": 3,
         "negative": 26,
-        "neutral": 19
+        "neutral": 23
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Weak server, their website you can't even type your sign in password on Android tablet",
+          "snippet": "Embarrassment of an app. Can't even use the functions unless you create an HP account.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "And yet again the loading ring of death HP man so many fake good reviews even people at IT hate hp stuff. How hard is to just make a printer work, plu",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App fails to open. This has happened a few times over the years. And now when I need the app the most to scan important documents, and email the .pdf ",
+          "snippet": "works less than half the time now. the new update makes it work less than half the time if your even able to make it connect. it shouldnt take 5+min t",
           "sentiment": "negative"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "I constantly have issues with my printer disconnecting and having to call customer service on multiple occasions. also I can barely even open the app ",
+          "snippet": "wont let me sign in all of a sudden. Gives me an error code of 520- unknown error org aware token failed.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this app never opens up, but I got an email that my bill is past due go-to pay it and they are double-charging me for a late fee.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "this app is the bane of my existence. I find it ridiculous that I should need an app to use a printer for its basic function. I cannot print without s",
-          "sentiment": "negative"
+          "snippet": "Cannot use the printer through the app without needing to create an HP account.",
+          "sentiment": "neutral"
         }
       ]
     }

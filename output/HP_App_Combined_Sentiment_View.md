@@ -1,13 +1,13 @@
 # HP Smart App - Combined Sentiment View (iOS + Android)
 
-**Generated:** 2026-05-29 18:34
+**Generated:** 2026-06-05 17:56
 **App:** HP Smart (iOS: com.hp.hpsmart | Android: com.hp.printercontrol)
 
 ---
 
 ## 🔴 Sentiment Trend: CRITICAL DECLINE
 
-> **Recent reviews 2.34 stars LOWER than all-time combined average— Critical attention needed across both platforms**
+> **Recent reviews 2.26 stars LOWER than all-time combined average— Critical attention needed across both platforms**
 
 ---
 
@@ -15,10 +15,10 @@
 
 | Metric | All-Time Combined | Last 30 Days Combined | Delta |
 |--------|-------------------|-----------------------|-------|
-| **Average Rating** | 4.62 ⭐ | 2.28 ⭐ | -2.34 |
-| **Positive (4-5★)** | 90.9% | 27.8% | -63.1% |
-| **Negative (1-2★)** | 7.0% | 65.9% | +58.9% |
-| **Total Count** | 5,056,554 ratings | 776 reviews | — |
+| **Average Rating** | 4.62 ⭐ | 2.36 ⭐ | -2.26 |
+| **Positive (4-5★)** | 90.9% | 30.2% | -60.7% |
+| **Negative (1-2★)** | 7.0% | 63.9% | +56.9% |
+| **Total Count** | 5,064,978 ratings | 745 reviews | — |
 
 ---
 
@@ -28,17 +28,17 @@
 
 | Platform | Rating | Rating Count | Positive (4-5★) | Negative (1-2★) |
 |----------|--------|-------------|-----------------|-----------------|
-| **iOS App Store** | 4.74 ⭐ | 4,157,081 | 93.9% | 4.2% |
-| **Google Play (US)** | 4.09 ⭐ | 899,473 | 77.1% | 19.9% |
-| **Combined (Weighted)** | **4.62 ⭐** | **5,056,554** | **90.9%** | **7.0%** |
+| **iOS App Store** | 4.74 ⭐ | 4,163,702 | 93.9% | 4.2% |
+| **Google Play (US)** | 4.09 ⭐ | 901,276 | 77.0% | 19.9% |
+| **Combined (Weighted)** | **4.62 ⭐** | **5,064,978** | **90.9%** | **7.0%** |
 
 ### Last 30 Days Reviews
 
 | Platform | Avg Rating | Reviews | Positive (4-5★) | Negative (1-2★) | Period |
 |----------|------------|---------|-----------------|-----------------|--------|
-| **iOS (US)** | 2.55 ⭐ | 363 | 34.7% | 58.7% | 2026-04-29 – 2026-05-28 |
-| **Android (US)** | 2.04 ⭐ | 413 | 21.8% | 72.2% | 2026-04-29 – 2026-05-28 |
-| **Combined** | **2.28 ⭐** | **776** | **27.8%** | **65.9%** | — |
+| **iOS (US)** | 2.57 ⭐ | 357 | 35.6% | 58.8% | 2026-05-06 – 2026-06-04 |
+| **Android (US)** | 2.17 ⭐ | 388 | 25.3% | 68.6% | 2026-05-06 – 2026-06-04 |
+| **Combined** | **2.36 ⭐** | **745** | **30.2%** | **63.9%** | — |
 
 ---
 
@@ -48,17 +48,17 @@
 
 | Rating | All-Time Count | All-Time % | Last 30d Count | Last 30d % | Delta | Trend |
 |--------|---------------|------------|----------------|------------|-------|-------|
-| 5 ⭐ | 4,255,397 | 84.2% | 195 | 25.1% | -59.1% | 📉 |
-| 4 ⭐ | 340,348 | 6.7% | 21 | 2.7% | -4.0% | 📉 |
-| 3 ⭐ | 107,836 | 2.1% | 49 | 6.3% | +4.2% | 📈 |
-| 2 ⭐ | 55,344 | 1.1% | 54 | 7.0% | +5.9% | 📈 |
-| 1 ⭐ | 297,615 | 5.9% | 457 | 58.9% | +53.0% | 📈 |
+| 5 ⭐ | 4,260,809 | 84.1% | 200 | 26.8% | -57.3% | 📉 |
+| 4 ⭐ | 341,479 | 6.7% | 25 | 3.4% | -3.3% | 📉 |
+| 3 ⭐ | 108,225 | 2.1% | 44 | 5.9% | +3.8% | 📈 |
+| 2 ⭐ | 55,363 | 1.1% | 49 | 6.6% | +5.5% | 📈 |
+| 1 ⭐ | 299,088 | 5.9% | 427 | 57.3% | +51.4% | 📈 |
 
 ### Visual Distribution
 
 **Combined — All-Time:**
 ```
-5⭐ ██████████████████████████████████░░░░░░ 84.2%
+5⭐ ██████████████████████████████████░░░░░░ 84.1%
 4⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.7%
 3⭐ █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.1%
 2⭐ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.1%
@@ -67,40 +67,40 @@
 
 **iOS — Last 30 Days:**
 ```
-5⭐ █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░ 32.2%
+5⭐ █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░ 33.1%
 4⭐ █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.5%
-3⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.6%
-2⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.8%
-1⭐ █████████████████████░░░░░░░░░░░░░░░░░░░ 52.9%
+3⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.6%
+2⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.6%
+1⭐ █████████████████████░░░░░░░░░░░░░░░░░░░ 53.2%
 ```
 
 **Android — Last 30 Days:**
 ```
-5⭐ ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 18.9%
-4⭐ █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.9%
-3⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.1%
-2⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.0%
-1⭐ ██████████████████████████░░░░░░░░░░░░░░ 64.2%
+5⭐ ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 21.1%
+4⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.1%
+3⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.2%
+2⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7.5%
+1⭐ ████████████████████████░░░░░░░░░░░░░░░░ 61.1%
 ```
 
 **Combined iOS + Android — Last 30 Days:**
 ```
-5⭐ ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 25.1%
-4⭐ █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.7%
-3⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.3%
-2⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7.0%
-1⭐ ████████████████████████░░░░░░░░░░░░░░░░ 58.9%
+5⭐ ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 26.8%
+4⭐ █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.4%
+3⭐ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.9%
+2⭐ ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.6%
+1⭐ ███████████████████████░░░░░░░░░░░░░░░░░ 57.3%
 ```
 
 ---
 
-## Sentiment Analysis (Combined US Last 30 Days — 776 Reviews)
+## Sentiment Analysis (Combined US Last 30 Days — 745 Reviews)
 
 | Sentiment | Count | % |
 |-----------|-------|---|
-| Positive | 190 | 24.5% |
-| Neutral | 353 | 45.5% |
-| Negative | 233 | 30.0% |
+| Positive | 191 | 25.6% |
+| Neutral | 344 | 46.2% |
+| Negative | 210 | 28.2% |
 
 ---
 
@@ -108,15 +108,15 @@
 
 | Rank | Category | Mentions | % of Reviews | Net Sentiment |
 |------|----------|----------|--------------|---------------|
-| 1 | Print Quality & Functionality | 409 | 52.7% | 🔴 Negative (81P / 135N) |
-| 2 | Mobile App Experience | 381 | 49.1% | 🔴 Negative (91P / 133N) |
-| 3 | Feature Requests & Missing Features | 181 | 23.3% | 🔴 Negative (36P / 60N) |
-| 4 | Value & Pricing | 169 | 21.8% | 🔴 Negative (27P / 71N) |
-| 5 | Connectivity & Setup | 140 | 18.0% | 🔴 Negative (19P / 61N) |
-| 6 | App Reliability & Stability | 120 | 15.5% | 🔴 Critical (8P / 78N) |
-| 7 | Scanning Features | 113 | 14.6% | 🟢 Positive (36P / 29N) |
-| 8 | Updates & Compatibility | 85 | 11.0% | 🔴 Negative (8P / 30N) |
-| 9 | Customer Support & Help | 75 | 9.7% | 🔴 Negative (19P / 26N) |
+| 1 | Print Quality & Functionality | 417 | 56.0% | 🔴 Negative (80P / 134N) |
+| 2 | Mobile App Experience | 360 | 48.3% | 🔴 Negative (93P / 116N) |
+| 3 | Feature Requests & Missing Features | 170 | 22.8% | 🔴 Negative (33P / 55N) |
+| 4 | Value & Pricing | 170 | 22.8% | 🔴 Negative (28P / 66N) |
+| 5 | Connectivity & Setup | 139 | 18.7% | 🔴 Negative (18P / 61N) |
+| 6 | App Reliability & Stability | 108 | 14.5% | 🔴 Critical (7P / 73N) |
+| 7 | Scanning Features | 106 | 14.2% | 🔴 Negative (28P / 30N) |
+| 8 | Updates & Compatibility | 77 | 10.3% | 🔴 Negative (8P / 30N) |
+| 9 | Customer Support & Help | 74 | 9.9% | 🔴 Negative (16P / 30N) |
 
 ---
 
@@ -128,7 +128,7 @@
 | App ID | com.hp.hpsmart (469284907) | com.hp.printercontrol |
 | Current Version | 26.1.3 | N/A |
 | All-Time Avg Rating | 4.74 ⭐ | 4.09 ⭐ |
-| Total Ratings | 4,157,081 | 899,473 |
+| Total Ratings | 4,163,702 | 901,276 |
 | Total Installs | — | 100,000,000+ |
 | Developer | HP Inc. | HP Inc. |
 
@@ -138,10 +138,10 @@
 
 | Data Set | Platform | Count | Source |
 |----------|----------|-------|--------|
-| All-Time iOS Ratings + Histogram | App Store (US) | 4,157,081 ratings | Apple storefront API (fetched 2026-05-29) |
-| All-Time Android Ratings + Histogram | Google Play (US) | 899,473 ratings | google-play-scraper |
-| Last 30 Days iOS Reviews | App Store (US) | 363 reviews | 2026-04-29 – 2026-05-28 |
-| Last 30 Days Android Reviews | Google Play (US) | 413 reviews | 2026-04-29 – 2026-05-28 |
+| All-Time iOS Ratings + Histogram | App Store (US) | 4,163,702 ratings | Apple storefront API (fetched 2026-06-05) |
+| All-Time Android Ratings + Histogram | Google Play (US) | 901,276 ratings | google-play-scraper |
+| Last 30 Days iOS Reviews | App Store (US) | 357 reviews | 2026-05-06 – 2026-06-04 |
+| Last 30 Days Android Reviews | Google Play (US) | 388 reviews | 2026-05-06 – 2026-06-04 |
 
 ---
 *Generated automatically by weekly_friday_scraper.py*

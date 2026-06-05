@@ -1,277 +1,277 @@
 {
-  "generated_at": "2026-05-29T18:34:06.293818",
-  "total_reviews": 914,
+  "generated_at": "2026-06-05T17:56:20.470793",
+  "total_reviews": 898,
   "sentiment_summary": {
-    "neutral": 661,
-    "negative": 147,
-    "positive": 106
+    "neutral": 666,
+    "negative": 124,
+    "positive": 108
   },
   "rating_distribution": {
-    "1": 528,
-    "5": 230,
-    "3": 51,
-    "2": 72,
-    "4": 33
+    "1": 489,
+    "3": 47,
+    "2": 69,
+    "5": 251,
+    "4": 42
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 392,
+      "mention_count": 356,
       "sentiment": {
-        "positive": 45,
-        "negative": 81,
-        "neutral": 266
+        "positive": 49,
+        "negative": 67,
+        "neutral": 240
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Rubbish!!! the only thing that works in this app is how to buy stuff nothing else works no connection no nothing",
+          "snippet": "App continues to have connectivity issues",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Why I can't use my printer which is connected to my local network??? What is this stupid idea??? Are you dumb or what??? I can hear the printer reacti",
+          "snippet": "Impossible de numériser à partir du chargeur de papier. impossible de faire une plus mauvaise application",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 2,
           "title": "",
-          "snippet": "This app crashes constantly. I have to uninstall and reinstall a several times a month to get it to act correctly.",
-          "sentiment": "negative"
+          "snippet": "Es demasiado lenta la app. Imprimir en otras apps me toma 20 segundos, mientras que con hp mas de 3 minutos. Uso un s24 ultra. no creo que el celular ",
+          "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 2,
           "title": "",
-          "snippet": "good app",
-          "sentiment": "positive"
+          "snippet": "die App kommt nicht auf einen Router-Reset klar. kämpfe seit 3 stunden, den Printer wieder zu verbinden. Schwach.",
+          "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "Easy to use!",
-          "sentiment": "positive"
+          "snippet": "GUCKING IDIOTS WE JUST CANT SEE THE BUTTONS ON YOUR PRINTER. YOU MAY KNOW THE ICONS, OTHERS CANT.",
+          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 314,
+      "mention_count": 328,
       "sentiment": {
         "positive": 43,
-        "negative": 20,
-        "neutral": 251
+        "negative": 14,
+        "neutral": 271
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "facile d'utilisation.",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "frustrating",
+          "snippet": "Useless",
           "sentiment": "negative"
         },
         {
+          "rating": 3,
+          "title": "",
+          "snippet": "está bastante bien solo que las impresoras anteriores tenían mas opciones de impresión. te dejaba elegir varias fotos y las acomodaba en plantillas pa",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "falla mucho y lenta",
+          "sentiment": "neutral"
+        },
+        {
           "rating": 5,
           "title": "",
-          "snippet": "Ottimo servizio .",
+          "snippet": "muy buena",
           "sentiment": "neutral"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "et que",
+          "snippet": "paywalled like crazy",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "good",
-          "sentiment": "positive"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 227,
+      "mention_count": 226,
       "sentiment": {
-        "positive": 25,
-        "negative": 70,
-        "neutral": 132
+        "positive": 22,
+        "negative": 66,
+        "neutral": 138
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "Why I can't use my printer which is connected to my local network??? What is this stupid idea??? Are you dumb or what??? I can hear the printer reacti",
+          "snippet": "vá fatal lo mas de lento, lentísimo, se queda pillado al cargar documentos para imprimir. por favor que tengo un galaxy 9, no creo que sea el telefono",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "printing issue",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Worst program ever. Can't find even one of our 3 HP printers in the house, all internet wi-fi and \"approved\" on their list. All connected to the same ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
-          "sentiment": "negative"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "le ultime versioni del software non stampano su alcune stampanti. sono tornato indietro fino alla versione: hp-all-in-one-printer-remote-20-2-0-6106.a",
+          "snippet": "die App kommt nicht auf einen Router-Reset klar. kämpfe seit 3 stunden, den Printer wieder zu verbinden. Schwach.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "fácil y escanea desde el celular nítido. Mejora la apariencia de documentos amarillos por el transcurso del tiempo",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "GUCKING IDIOTS WE JUST CANT SEE THE BUTTONS ON YOUR PRINTER. YOU MAY KNOW THE ICONS, OTHERS CANT.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
           "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 136,
+      "mention_count": 120,
       "sentiment": {
-        "positive": 14,
-        "negative": 34,
-        "neutral": 88
+        "positive": 9,
+        "negative": 26,
+        "neutral": 85
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "",
-          "snippet": "Rubbish!!! the only thing that works in this app is how to buy stuff nothing else works no connection no nothing",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 2,
           "title": "",
-          "snippet": "L'app è in generale buona. una pecca (riscontrata su tutti i dispositivi Android) è che la stampante scompare e sono costretto a riavviare il cellular",
+          "snippet": "Es demasiado lenta la app. Imprimir en otras apps me toma 20 segundos, mientras que con hp mas de 3 minutos. Uso un s24 ultra. no creo que el celular ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Worst program ever. Can't find even one of our 3 HP printers in the house, all internet wi-fi and \"approved\" on their list. All connected to the same ",
-          "sentiment": "negative"
+          "snippet": "Horrific. Also HP 2800 series Deskjet is unuseable. i will never buy another HP product again. The founders would be rolling over in their graves.",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
-          "sentiment": "negative"
+          "snippet": "...finché non ci sono problemi va tutto in automatico 4stelle. Ma se per caso, come è successo a me, va persa la connessione della stampante al wifi..",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "si tienen la oportunidad de comprar una impresora Hp, desaprovechen la, tienes que instalar esta aplicación y la verdad se traba, hace lo que quiere, ",
-          "sentiment": "positive"
+          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
+          "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 108,
+      "mention_count": 107,
       "sentiment": {
-        "positive": 10,
-        "negative": 35,
-        "neutral": 63
+        "positive": 9,
+        "negative": 34,
+        "neutral": 64
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Rubbish!!! the only thing that works in this app is how to buy stuff nothing else works no connection no nothing",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Why I can't use my printer which is connected to my local network??? What is this stupid idea??? Are you dumb or what??? I can hear the printer reacti",
+          "snippet": "App continues to have connectivity issues",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "L'app è in generale buona. una pecca (riscontrata su tutti i dispositivi Android) è che la stampante scompare e sono costretto a riavviare il cellular",
+          "snippet": "die App kommt nicht auf einen Router-Reset klar. kämpfe seit 3 stunden, den Printer wieder zu verbinden. Schwach.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Worst program ever. Can't find even one of our 3 HP printers in the house, all internet wi-fi and \"approved\" on their list. All connected to the same ",
+          "snippet": "...finché non ci sono problemi va tutto in automatico 4stelle. Ma se per caso, come è successo a me, va persa la connessione della stampante al wifi..",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
           "sentiment": "negative"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "funzionamento impeccabile. sono mesi che gestisco tutto da smartphone, anche abbastanza vecchiotto, senza accendere più il PC. utilissima oltre la sta",
+          "snippet": "non si riesce a entrare nelle impostazioni della stampante e aggiornare la pw wifi.",
           "sentiment": "neutral"
         }
       ]
     },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 94,
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 97,
       "sentiment": {
-        "positive": 13,
-        "negative": 29,
-        "neutral": 52
+        "positive": 14,
+        "negative": 18,
+        "neutral": 65
       },
-      "pm_focus": "Product roadmap, feature prioritization",
+      "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "Why I can't use my printer which is connected to my local network??? What is this stupid idea??? Are you dumb or what??? I can hear the printer reacti",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "DO NOT SIGN UP FOR HP Plus Instant ink, literally will make your printer run stupid after you cancel it, they have a chip in the ink and they track ho",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "i travel quit a bit so I take my printer with me and everytime I have to reconnect to wifi its a NIGHTMARE. I've been fumbling with the printer and ap",
+          "snippet": "vá fatal lo mas de lento, lentísimo, se queda pillado al cargar documentos para imprimir. por favor que tengo un galaxy 9, no creo que sea el telefono",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "amazing tool for all you printing and scanning needs",
-          "sentiment": "positive"
+          "snippet": "fácil y escanea desde el celular nítido. Mejora la apariencia de documentos amarillos por el transcurso del tiempo",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "poca claridad de escanear",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Forces to sign in.! No thank you! Why do I have to sign in to print my documents with my printer. It might be optional, but no...",
+          "snippet": "mala aplicación, estoy intentando escanear unos documentos y tarda demasiado en cargar, de igual manera es un formato tosco, cero recomendado",
           "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 94,
+      "mention_count": 88,
       "sentiment": {
-        "positive": 6,
-        "negative": 60,
+        "positive": 4,
+        "negative": 56,
         "neutral": 28
       },
       "pm_focus": "Technical debt, app stability metrics",
@@ -279,157 +279,157 @@
         {
           "rating": 3,
           "title": "",
-          "snippet": "This app crashes constantly. I have to uninstall and reinstall a several times a month to get it to act correctly.",
+          "snippet": "app is too slow 🦥",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "super déçu je viens juste de l'acheter l'imprimante j'ai pu un imprimé une fois et depuis elle veux plus se connecter a ma wifi . j'ai tout fait vérif",
+          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "printing doesn't work for HP ENVY Photo 6234",
+          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Aplicativo cheio de bugs, apresenta poucas opções de configuração da impressão, distorcendo a imagem. Até a interface parece intuitiva, podendo imprim",
+          "snippet": "Long, bugs, fonctionne une fois sur 2 avec un Smartphone où un pc, une vraie galère en Usb en wifi je n essaie même plus . Faut etre connecté ???En 20",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
+          "sentiment": "neutral"
         }
       ]
     },
-    "scanning": {
-      "name": "Scanning Features",
-      "mention_count": 90,
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 80,
       "sentiment": {
-        "positive": 14,
-        "negative": 18,
-        "neutral": 58
+        "positive": 10,
+        "negative": 22,
+        "neutral": 48
       },
-      "pm_focus": "Secondary feature adoption, scan workflow",
+      "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Why I can't use my printer which is connected to my local network??? What is this stupid idea??? Are you dumb or what??? I can hear the printer reacti",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "no sabía que se podía escanear ,asta que lo descubrí muy buena..",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
+          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "si tienen la oportunidad de comprar una impresora Hp, desaprovechen la, tienes que instalar esta aplicación y la verdad se traba, hace lo que quiere, ",
-          "sentiment": "positive"
+          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
+          "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "funzionamento impeccabile. sono mesi che gestisco tutto da smartphone, anche abbastanza vecchiotto, senza accendere più il PC. utilissima oltre la sta",
+          "snippet": "It won't install. My printer was fine till they did a firmware update. 9 months old printer,this is NG need a new printer.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I just came here to leave a 1 star bc i had to create an account on a Windows machine in order to scan a document. So HP gets my full effort for 1 sta",
           "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 64,
+      "mention_count": 59,
       "sentiment": {
-        "positive": 5,
-        "negative": 16,
-        "neutral": 43
+        "positive": 2,
+        "negative": 17,
+        "neutral": 40
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
+          "snippet": "edit: 4 years later still hate this app. The virtual agent as the ONLY means of troubleshooting is disgraceful. You know it's a bad app, when there's ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "entra en mi top 10 de peores apps. está mal optimizada,poca atención al cliente, para cambiar el internet es muy tedioso y rara vez se puede lograr. y",
-          "sentiment": "neutral"
+          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "sentiment": "negative"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "le ultime versioni del software non stampano su alcune stampanti. sono tornato indietro fino alla versione: hp-all-in-one-printer-remote-20-2-0-6106.a",
+          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I got a new Internet service and now I can't connect wirelessly. I just ordered a hard wire for it as there is nothing wrong with the device. I typed ",
+          "snippet": "It won't install. My printer was fine till they did a firmware update. 9 months old printer,this is NG need a new printer.",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "buena aplicación compatible con la impresora, saca de apuros, pero hay que estar cerca y con el aparato prendido, pero tiene otra manera de escaneo si",
+          "snippet": "habe die App schon lange. Hat immer funktioniert. Nach dem Update wird der Drucker zwar angezeigt. Allerdings ist keine Verbindung mehr möglich.",
           "sentiment": "neutral"
         }
       ]
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 42,
+      "mention_count": 40,
       "sentiment": {
         "positive": 3,
         "negative": 11,
-        "neutral": 28
+        "neutral": 26
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Hp App is not working properly. Cloud scans will not upload. I have to use three different phones to get my scan. I don't like the update. Gotta to fi",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Forces to sign in.! No thank you! Why do I have to sign in to print my documents with my printer. It might be optional, but no...",
+          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "It's a terrible app. The app can't even detect its own printer when selecting WiFi setup. Even after adding the serial number, you still have to set u",
+          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "where are my old hp cloud files?",
+          "snippet": "account required to use my own printer? despicable and no thanks",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
+          "rating": 1,
           "title": "",
-          "snippet": "Quando era in funzione la vecchia app si riusciva a stampare anche da fuori casa. Adesso con gli aggiornamenti non si riesce più a registrarla su acco",
+          "snippet": "I just came here to leave a 1 star bc i had to create an account on a Windows machine in order to scan a document. So HP gets my full effort for 1 sta",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "comprei a impressora, fiz o passo a passo! criei a conta, mas, infelizmente não faz login!!!!!",
           "sentiment": "neutral"
         }
       ]

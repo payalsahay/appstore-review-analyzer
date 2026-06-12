@@ -1,184 +1,184 @@
 {
-  "generated_at": "2026-06-05T17:56:20.487043",
+  "generated_at": "2026-06-12T18:08:17.199073",
   "total_reviews": 500,
   "sentiment_summary": {
-    "neutral": 246,
-    "negative": 156,
-    "positive": 98
+    "positive": 110,
+    "neutral": 239,
+    "negative": 151
   },
   "rating_distribution": {
-    "1": 323,
-    "3": 30,
-    "5": 94,
-    "4": 16,
-    "2": 37
+    "5": 107,
+    "1": 311,
+    "4": 21,
+    "3": 29,
+    "2": 32
   },
   "categories": {
-    "mobile_experience": {
-      "name": "Mobile App Experience",
-      "mention_count": 229,
-      "sentiment": {
-        "positive": 39,
-        "negative": 86,
-        "neutral": 104
-      },
-      "pm_focus": "App usability, user satisfaction",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App continues to have connectivity issues",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "GUCKING IDIOTS WE JUST CANT SEE THE BUTTONS ON YOUR PRINTER. YOU MAY KNOW THE ICONS, OTHERS CANT.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "app is too slow 🦥",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 225,
+      "mention_count": 234,
       "sentiment": {
-        "positive": 23,
-        "negative": 80,
-        "neutral": 122
+        "positive": 27,
+        "negative": 87,
+        "neutral": 120
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "GUCKING IDIOTS WE JUST CANT SEE THE BUTTONS ON YOUR PRINTER. YOU MAY KNOW THE ICONS, OTHERS CANT.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
+          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "edit: 4 years later still hate this app. The virtual agent as the ONLY means of troubleshooting is disgraceful. You know it's a bad app, when there's ",
+          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "extremely hard to navigate the hp process - trying to start printer from a reset - lmao what a joke",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I am trying to download a new printer drivers , but all I get is an old printer which is no longer in my possession. i tried the help line but they cu",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "bad app printer not connected",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 225,
+      "sentiment": {
+        "positive": 42,
+        "negative": 86,
+        "neutral": 97
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I am trying to download a new printer drivers , but all I get is an old printer which is no longer in my possession. i tried the help line but they cu",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "Easy to use, even for someone who doesn't know what they're doing!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent App!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "bad app printer not connected",
+          "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 113,
+      "mention_count": 114,
       "sentiment": {
-        "positive": 43,
-        "negative": 21,
-        "neutral": 49
+        "positive": 46,
+        "negative": 15,
+        "neutral": 53
       },
       "pm_focus": "",
       "sample_reviews": [
         {
+          "rating": 5,
+          "title": "",
+          "snippet": "Brilliant",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Very nice",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "Useless",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "paywalled like crazy",
+          "snippet": "can't set up",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "👍",
+          "snippet": "НАЙБІЛЬШ їБУЧА ПРОГРАМА ЯКА Є. принтер не підключається і відмовляється друкувати/сканувати будь-що в 4 з 5 разів коли мені це потрібно. Кожен раз пот",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I love my HP!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "its ok not that good tho",
-          "sentiment": "positive"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 103,
+      "mention_count": 102,
       "sentiment": {
-        "positive": 12,
-        "negative": 34,
-        "neutral": 57
+        "positive": 13,
+        "negative": 37,
+        "neutral": 52
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "very good but need to improve 🙂",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "It won't install. My printer was fine till they did a firmware update. 9 months old printer,this is NG need a new printer.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just came here to leave a 1 star bc i had to create an account on a Windows machine in order to scan a document. So HP gets my full effort for 1 sta",
-          "sentiment": "neutral"
+          "snippet": "Horrible even with the printer plug into the internet the app doesn't recognize the printer. You can input the ip address still doesn't recognize. Con",
+          "sentiment": "negative"
         }
       ]
     },
@@ -186,251 +186,251 @@
       "name": "Value & Pricing",
       "mention_count": 98,
       "sentiment": {
-        "positive": 10,
-        "negative": 36,
-        "neutral": 52
+        "positive": 8,
+        "negative": 40,
+        "neutral": 50
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Horrific. Also HP 2800 series Deskjet is unuseable. i will never buy another HP product again. The founders would be rolling over in their graves.",
+          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 4,
           "title": "",
-          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
-          "sentiment": "neutral"
+          "snippet": "very good but need to improve 🙂",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "extremely hard to navigate the hp process - trying to start printer from a reset - lmao what a joke",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst app , still cant connect or print not matter how much ive trouble shooted, waste of damn money",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I have so many problems keeping my printer printing. I'm in a hugh legal court battle. I have the evidence, but I have lost days, weeks, money it's li",
+          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 89,
+      "mention_count": 93,
       "sentiment": {
-        "positive": 5,
-        "negative": 65,
-        "neutral": 19
+        "positive": 4,
+        "negative": 67,
+        "neutral": 22
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 3,
+          "rating": 1,
           "title": "",
-          "snippet": "app is too slow 🦥",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
+          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
-          "sentiment": "neutral"
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "sentiment": "negative"
         },
         {
-          "rating": 3,
+          "rating": 1,
           "title": "",
-          "snippet": "It randomly fails, mostly depends on how ur day is going. if ur day is bad it wouldn't work, if ur day is good, it wouldn't work",
+          "snippet": "very slow and not responding some time",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Avoid! terrible service! I bought HP printer, I used the printer for a while. then one day it went into a registration error where It think that's not",
           "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 85,
+      "mention_count": 90,
       "sentiment": {
-        "positive": 10,
-        "negative": 39,
-        "neutral": 36
+        "positive": 8,
+        "negative": 45,
+        "neutral": 37
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "App continues to have connectivity issues",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I am trying to download a new printer drivers , but all I get is an old printer which is no longer in my possession. i tried the help line but they cu",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "snippet": "bad app printer not connected",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "useless, I just cannot connect my printer to the WiFi router",
+          "snippet": "Horrible even with the printer plug into the internet the app doesn't recognize the printer. You can input the ip address still doesn't recognize. Con",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
+          "snippet": "worst app , still cant connect or print not matter how much ive trouble shooted, waste of damn money",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Won't Connect to Wifi & there is no text box to write a review",
-          "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 58,
+      "mention_count": 61,
       "sentiment": {
-        "positive": 11,
-        "negative": 18,
-        "neutral": 29
+        "positive": 15,
+        "negative": 23,
+        "neutral": 23
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "I used to have zero problems with this app and I used it all the time to easily scan documents. Suddenly it freezes every time I scan a document now a",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "edit: 4 years later still hate this app. The virtual agent as the ONLY means of troubleshooting is disgraceful. You know it's a bad app, when there's ",
+          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
+          "snippet": "huh. how badly this thing designed. different WiFi - doesn't work, vpn - nope, it won't work. see you printer connected (finally) on app home screen -",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just came here to leave a 1 star bc i had to create an account on a Windows machine in order to scan a document. So HP gets my full effort for 1 sta",
-          "sentiment": "neutral"
+          "snippet": "appallingly slow scan to email and general functions",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Terrible, u chose pdf document to print and after that this dumb app opens ur gallery and tells to chose a photo to print. Why can't i just print my p",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "most bad apps not working wifi scanner and print",
+          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 50,
+      "mention_count": 45,
       "sentiment": {
-        "positive": 3,
-        "negative": 19,
-        "neutral": 28
+        "positive": 2,
+        "negative": 20,
+        "neutral": 23
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "edit: 4 years later still hate this app. The virtual agent as the ONLY means of troubleshooting is disgraceful. You know it's a bad app, when there's ",
+          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since the latest update it takes ages for my phone to connect to my printer, so i can print anything! Every option I choose is lagging and I didn't sp",
+          "snippet": "Horrible even with the printer plug into the internet the app doesn't recognize the printer. You can input the ip address still doesn't recognize. Con",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Could not change print options when I try to print from Google photos. Unistalled this program to try to reinstall it and now it is telling me that is",
+          "snippet": "If I had known that the ONLY way to access the print/ scan feature is through the app (which only works on my phone by the way, not on my laptop or ta",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "cant use. what is compatible?",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "It won't install. My printer was fine till they did a firmware update. 9 months old printer,this is NG need a new printer.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Do not update the app. They will actually brick old printers! I can no longer use my Deskjet from here.",
-          "sentiment": "neutral"
+          "snippet": "doesn't work and is not compatible with new Chromebooks....what year is this, 1989?",
+          "sentiment": "negative"
         }
       ]
     },
-    "account_cloud": {
-      "name": "Account & Cloud Services",
+    "support": {
+      "name": "Customer Support & Help",
       "mention_count": 42,
       "sentiment": {
-        "positive": 1,
-        "negative": 14,
-        "neutral": 27
+        "positive": 6,
+        "negative": 17,
+        "neutral": 19
       },
-      "pm_focus": "Account funnel, cloud integration",
+      "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "login required for basic functions. Use open source app ScanBridge instead! user tracking, data breaches, companies learn nothing HP making it a requi",
+          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "no one litterly no one bad app of this one app I seen ever in my life till now... very bad app always demand to connect internet to even when you scan",
+          "snippet": "I am trying to download a new printer drivers , but all I get is an old printer which is no longer in my possession. i tried the help line but they cu",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Avoid! terrible service! I bought HP printer, I used the printer for a while. then one day it went into a registration error where It think that's not",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "account required to use my own printer? despicable and no thanks",
+          "snippet": "I have so many problems keeping my printer printing. I'm in a hugh legal court battle. I have the evidence, but I have lost days, weeks, money it's li",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just came here to leave a 1 star bc i had to create an account on a Windows machine in order to scan a document. So HP gets my full effort for 1 sta",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "create an account to use the printer i bought? shove it HP",
-          "sentiment": "neutral"
+          "snippet": "unhelpful",
+          "sentiment": "positive"
         }
       ]
     }

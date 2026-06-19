@@ -1,225 +1,225 @@
 {
-  "generated_at": "2026-06-12T18:08:17.182452",
-  "total_reviews": 858,
+  "generated_at": "2026-06-19T17:59:34.438501",
+  "total_reviews": 824,
   "sentiment_summary": {
-    "neutral": 620,
-    "positive": 113,
-    "negative": 125
+    "neutral": 589,
+    "negative": 125,
+    "positive": 110
   },
   "rating_distribution": {
-    "4": 43,
-    "5": 253,
-    "1": 465,
-    "3": 41,
-    "2": 56
+    "1": 442,
+    "5": 254,
+    "2": 47,
+    "4": 39,
+    "3": 42
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 335,
+      "mention_count": 321,
       "sentiment": {
-        "positive": 45,
-        "negative": 76,
-        "neutral": 214
+        "positive": 49,
+        "negative": 71,
+        "neutral": 201
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "n'achetez pas hp une plai limprimante meme a coter de la box capte pas le wifi et ne parlon pas de l applications ou bien meme du serbice client incom",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Connexion impossible 4 fois sur 5. Et déconnexion systématique ce qui fait que l'impression à distance est uen galère !",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "l'arnaque de vos forfaits d'impression.... on paye la cartouche 3 fois minimum et quand on arrête l'abonnement ça ne fonctionne plus. à fuir d'urgence",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this app isn't working at all, holy ...... it won't connect my printer to my network (tried two different ones) because the password ist wrong? And th",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "eu não conseguir instalar a impressora no meu celular, pois não está achando pra poder usar.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 317,
-      "sentiment": {
-        "positive": 47,
-        "negative": 11,
-        "neutral": 259
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "gusta conectar, pero hecho eso, magnifico",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Brilliant",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "good",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "loopt steeds vast",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Very nice",
-          "sentiment": "positive"
-        }
-      ]
-    },
-    "printing": {
-      "name": "Print Quality & Functionality",
-      "mention_count": 223,
-      "sentiment": {
-        "positive": 24,
-        "negative": 72,
-        "neutral": 127
-      },
-      "pm_focus": "Core value proposition, print reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this app isn't working at all, holy ...... it won't connect my printer to my network (tried two different ones) because the password ist wrong? And th",
+          "snippet": "Vollkommen schlecht und nutzlos. Man kann dem Drucker nicht einmal ein neues WLAN beibringen über diese Müll-App. Die Hilfen sind auch Schwachsinn, de",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "automatische doc invoer bij scannen werkt niet en tevens niet mogelijk om e print in te stellen",
+          "snippet": "Keine Option verfügbar wo man Foto Papier auswählen kann (App)",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "snippet": "nulle comme appli je prefere l ancienne hp smart",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Good App",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is the most unfriendly app I have ever used. My heart always sinks when I need to copy and save. Hate it and seriously concidering buying a d",
           "sentiment": "negative"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 301,
+      "sentiment": {
+        "positive": 45,
+        "negative": 9,
+        "neutral": 247
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Super me encanta",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "no puedo conectar mi impresora hace tiempo",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Muy mala aplicación las impresiones no salen en toda la hoja",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "anwender unfreundlich. gar nicht klar",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "very bad",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 206,
+      "sentiment": {
+        "positive": 22,
+        "negative": 69,
+        "neutral": 115
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excelente para imprimir, los colores excelente. El escaneo muy funcional",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is the most unfriendly app I have ever used. My heart always sinks when I need to copy and save. Hate it and seriously concidering buying a d",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "unable to print from mobile",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Not a smart printer",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Could not open printheads cover to install printheads.",
+          "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 122,
+      "mention_count": 116,
       "sentiment": {
         "positive": 11,
-        "negative": 31,
-        "neutral": 80
+        "negative": 32,
+        "neutral": 73
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
+          "snippet": "Vollkommen schlecht und nutzlos. Man kann dem Drucker nicht einmal ein neues WLAN beibringen über diese Müll-App. Die Hilfen sind auch Schwachsinn, de",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
+          "rating": 1,
           "title": "",
-          "snippet": "very good but need to improve 🙂",
+          "snippet": "Worthless. Makes switching wifi nearly impossible. Support doesnt exist.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is the most unfriendly app I have ever used. My heart always sinks when I need to copy and save. Hate it and seriously concidering buying a d",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Could not open printheads cover to install printheads.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I love HP printers, I would not use anything else but HP. My Laptop is HP and I think they are the best choice for any print job that I may have. I lo",
           "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "funkar inte att använda som utskriftsprogram?.............?...................................................... ....................................",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "worst app , still cant connect or print not matter how much ive trouble shooted, waste of damn money",
-          "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 113,
+      "mention_count": 104,
       "sentiment": {
         "positive": 10,
-        "negative": 41,
-        "neutral": 62
+        "negative": 36,
+        "neutral": 58
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "n'achetez pas hp une plai limprimante meme a coter de la box capte pas le wifi et ne parlon pas de l applications ou bien meme du serbice client incom",
+          "snippet": "Worthless. Makes switching wifi nearly impossible. Support doesnt exist.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "this app isn't working at all, holy ...... it won't connect my printer to my network (tried two different ones) because the password ist wrong? And th",
+          "snippet": "Stampante connessa regolarmente al WiFi ma sull'app continua a dire offline. Inutilizzabile",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "snippet": "buy any printer but hp. 3755. switched wifi networks and its impossible to contact. not even listed as supported. absolute scam",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "after upgrade can NOT find my M225dw anymore. HP app fails to find device and NOT allow to discover or add device using IP ...Big disappointment...🤮",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "impossible de se connecter",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I am trying to download a new printer drivers , but all I get is an old printer which is no longer in my possession. i tried the help line but they cu",
+          "snippet": "why do I have to log in to scan a document on my printer?!? why can't I connect directly to it instead of going through servers?!? wish id known that ",
           "sentiment": "neutral"
         }
       ]
@@ -228,209 +228,209 @@
       "name": "Scanning Features",
       "mention_count": 95,
       "sentiment": {
-        "positive": 14,
-        "negative": 20,
-        "neutral": 61
+        "positive": 13,
+        "negative": 18,
+        "neutral": 64
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "Sa fonctionne bien pour scanner, mes sa a du mal quand il faut imprimer",
+          "snippet": "Excelente para imprimir, los colores excelente. El escaneo muy funcional",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "automatische doc invoer bij scannen werkt niet en tevens niet mogelijk om e print in te stellen",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
-          "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Perfecto el escaneo con el móvil",
+          "snippet": "Es una muy buena aplicación, es muy práctica por qué con ella no necesitas tener la computadora para imprimir o escanear igual puedes usar el teléfono",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I love HP printers, I would not use anything else but HP. My Laptop is HP and I think they are the best choice for any print job that I may have. I lo",
           "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "la impresora está encendida durante horas y no se conecta para escanear, imprimir ni nada... aveces funciona aveces no",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "huh. how badly this thing designed. different WiFi - doesn't work, vpn - nope, it won't work. see you printer connected (finally) on app home screen -",
-          "sentiment": "negative"
+          "snippet": "Comme beaucoup d'utilisateurs, malgré la reconnaissance de mon imprimante Photosmart par l'application, une impression d'erreur sous utilisateur linux",
+          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 90,
+      "mention_count": 91,
       "sentiment": {
         "positive": 4,
-        "negative": 58,
-        "neutral": 28
+        "negative": 60,
+        "neutral": 27
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
+          "snippet": "Absolute garbage. A Chimp could have written better software with it's feet. No error checking or handling. Tries to register products already registe",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "after upgrade can NOT find my M225dw anymore. HP app fails to find device and NOT allow to discover or add device using IP ...Big disappointment...🤮",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app never works right. There's always some kind of glitch. It is always unable to sign in to my account which means that I am unable to print. it",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
+          "rating": 4,
           "title": "",
-          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
+          "snippet": "the app and the printer work mostly.. but sometimes there is a bug..",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "very slow and not responding some time",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Avoid! terrible service! I bought HP printer, I used the printer for a while. then one day it went into a registration error where It think that's not",
+          "snippet": "slow, not responsive app",
           "sentiment": "negative"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 78,
+      "mention_count": 70,
       "sentiment": {
-        "positive": 10,
+        "positive": 8,
         "negative": 25,
-        "neutral": 43
+        "neutral": 37
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
+          "snippet": "Keine Option verfügbar wo man Foto Papier auswählen kann (App)",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
+          "rating": 1,
           "title": "",
-          "snippet": "very good but need to improve 🙂",
-          "sentiment": "positive"
+          "snippet": "it does not help when you want to ask for help to sort out issues",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
+          "snippet": "This app is the most unfriendly app I have ever used. My heart always sinks when I need to copy and save. Hate it and seriously concidering buying a d",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
-          "sentiment": "negative"
+          "snippet": "Could not open printheads cover to install printheads.",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Horrible even with the printer plug into the internet the app doesn't recognize the printer. You can input the ip address still doesn't recognize. Con",
+          "snippet": "Absolute garbage. A Chimp could have written better software with it's feet. No error checking or handling. Tries to register products already registe",
           "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 52,
+      "mention_count": 48,
       "sentiment": {
         "positive": 3,
-        "negative": 17,
-        "neutral": 32
+        "negative": 16,
+        "neutral": 29
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "mega useless. features are bugged out and half-time do not work. Update: it is even more stupid and prints color when options set to black and white e",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this app isn't working at all, holy ...... it won't connect my printer to my network (tried two different ones) because the password ist wrong? And th",
+          "snippet": "Worthless. Makes switching wifi nearly impossible. Support doesnt exist.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Horrible even with the printer plug into the internet the app doesn't recognize the printer. You can input the ip address still doesn't recognize. Con",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "If I had known that the ONLY way to access the print/ scan feature is through the app (which only works on my phone by the way, not on my laptop or ta",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "cant use. what is compatible?",
+          "snippet": "buy any printer but hp. 3755. switched wifi networks and its impossible to contact. not even listed as supported. absolute scam",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "after upgrade can NOT find my M225dw anymore. HP app fails to find device and NOT allow to discover or add device using IP ...Big disappointment...🤮",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP ENVY 6455e printer doesn't recognize this replacement app as HP Smart compatible to change Wi-Fi settings via Bluetooth. Family can't print anythin",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "Good update. The app looks like it works better.",
+          "sentiment": "positive"
         }
       ]
     },
-    "account_cloud": {
-      "name": "Account & Cloud Services",
-      "mention_count": 39,
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 35,
       "sentiment": {
-        "positive": 2,
-        "negative": 14,
-        "neutral": 23
+        "positive": 5,
+        "negative": 9,
+        "neutral": 21
       },
-      "pm_focus": "Account funnel, cloud integration",
+      "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "unable to sign in ,all I wish to do is to contact HP so that I can change the amount of ink and paper I have on my standing order ,please contact me o",
+          "snippet": "Worthless. Makes switching wifi nearly impossible. Support doesnt exist.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "this app isn't working at all, holy ...... it won't connect my printer to my network (tried two different ones) because the password ist wrong? And th",
+          "snippet": "it does not help when you want to ask for help to sort out issues",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I try to connect the printer to my network using the password and it doesn't work should I have to connect it using WPS. So then I try adding the prin",
+          "snippet": "buy any printer but hp. 3755. switched wifi networks and its impossible to contact. not even listed as supported. absolute scam",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "can't select the printer I want to use. Have checked all troubleshooting listed still won't select it.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Don't purchase any HP product, their service is pathetic. No cooperation. Please guys i urge don't purchase any hp product. I am helpless",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Avoid! terrible service! I bought HP printer, I used the printer for a while. then one day it went into a registration error where It think that's not",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "não consigo fazer login, muito menos entrar no app, e não consigo suporte 😕",
-          "sentiment": "neutral"
         }
       ]
     }

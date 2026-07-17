@@ -1,436 +1,436 @@
 {
-  "generated_at": "2026-07-10T17:49:01.262557",
+  "generated_at": "2026-07-17T17:12:33.300927",
   "total_reviews": 500,
   "sentiment_summary": {
-    "negative": 149,
-    "positive": 116,
-    "neutral": 235
+    "negative": 152,
+    "neutral": 222,
+    "positive": 126
   },
   "rating_distribution": {
-    "1": 300,
-    "5": 122,
-    "3": 23,
-    "4": 25,
-    "2": 30
+    "1": 288,
+    "4": 28,
+    "5": 132,
+    "2": 30,
+    "3": 22
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 234,
+      "mention_count": 230,
       "sentiment": {
-        "positive": 32,
-        "negative": 87,
-        "neutral": 115
+        "positive": 35,
+        "negative": 88,
+        "neutral": 107
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "As with any HP product the software is utterly useless. You need a degree in Quantum Physics to work it out. Find a printer.... have you got a spare 6",
-          "sentiment": "negative"
+          "snippet": "well when I bought my printer said 3 months free of free ink,seems to be a lie ,because I had to add a paper subscription,I got one month of ink only ",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Terrible!!!! Worst app ever! It messed up everything with my printer, which I can't use at all now!. How you dare releasing such an useless app? So fr",
+          "snippet": "My HP Envy is the biggest POS ever. Sometimes prints sometimes doesn't. You are told to leave it t switched on so it gets updates, but won't print any",
           "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "HP is always a life saver. Ink jet Advantage 3880 is a real advatage anywhere. Home, office, camp, school, anywhere, anytime. Thanks HP.",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the most difficult printer I have ever had to set up, not enough walk through instruction as well as the chat was no help at all",
-          "sentiment": "negative"
+          "snippet": "can't find the brand new printer next to the phone and attached to the same wifi.....yes app is installed and logged in",
+          "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 1,
           "title": "",
-          "snippet": "I bought a second printer for my husband's extra house & can't get them to ship the ink to 2 different addresses based on where each printer is locate",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "I choose HP over all comparable. HP has outstanding PCs & printers. I will soon get the printer I want so I can continue my loyal ratings :)",
+          "snippet": "scan option doest appear in my app and my printer couldn't connect to the wifi even though I followed all the steps provided. Hp Smart Tank 580-590",
           "sentiment": "neutral"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 211,
+      "mention_count": 206,
       "sentiment": {
-        "positive": 42,
-        "negative": 81,
-        "neutral": 88
+        "positive": 44,
+        "negative": 82,
+        "neutral": 80
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 4,
           "title": "",
-          "snippet": "Terrible!!!! Worst app ever! It messed up everything with my printer, which I can't use at all now!. How you dare releasing such an useless app? So fr",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "the most difficult printer I have ever had to set up, not enough walk through instruction as well as the chat was no help at all",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I have to recreate my shortcut for every single document, which makes it completely useless. Doesn't anyone test their apps before they make changes a",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Easy to use!!!",
+          "snippet": "not easy to set up",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "used this app for years, but now it wont work on my older tablet",
+          "snippet": "All time THIRD CLASS APP",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "reorder function extremely difficult with large dox",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "WHY THE HELL DID YOU FORCE THIS UPDATE AND REMOVE HP SMART. THIS APP IS COMPLETE TRASH!! YOU IDIOTS AT HP!!!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "can't find the brand new printer next to the phone and attached to the same wifi.....yes app is installed and logged in",
           "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 116,
+      "mention_count": 119,
       "sentiment": {
-        "positive": 53,
-        "negative": 10,
-        "neutral": 53
+        "positive": 58,
+        "negative": 9,
+        "neutral": 52
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 5,
           "title": "",
-          "snippet": "great",
+          "snippet": "I love",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "very good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "bad software",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good job",
           "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "car",
+          "snippet": "best service",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 113,
+      "sentiment": {
+        "positive": 11,
+        "negative": 48,
+        "neutral": 54
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "well when I bought my printer said 3 months free of free ink,seems to be a lie ,because I had to add a paper subscription,I got one month of ink only ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "TAK BOLEH GUNAAAAAAAAAAA! TAK BOLEH VERIFY AS HUMAN , GAMBAR TK KELUAR",
+          "snippet": "My HP Envy is the biggest POS ever. Sometimes prints sometimes doesn't. You are told to leave it t switched on so it gets updates, but won't print any",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "scan option doest appear in my app and my printer couldn't connect to the wifi even though I followed all the steps provided. Hp Smart Tank 580-590",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "nice",
-          "sentiment": "positive"
+          "snippet": "Rubbish experience, I have the app to interact with a printer scanner for which I have to pay a subscription. Each time I try to use it, face an issue",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "Excellent 👌",
-          "sentiment": "positive"
+          "snippet": "this app is the worst app i have ever had the displeasure of using, zero functionality, impossible to navigate and all about marketing. @HP.. I'm neve",
+          "sentiment": "negative"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 108,
+      "mention_count": 106,
       "sentiment": {
-        "positive": 11,
-        "negative": 44,
-        "neutral": 53
+        "positive": 13,
+        "negative": 47,
+        "neutral": 46
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "As with any HP product the software is utterly useless. You need a degree in Quantum Physics to work it out. Find a printer.... have you got a spare 6",
+          "snippet": "Some odd bugs relating to keyboard made it so I couldn't even login to my HP account.",
           "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "I bought a second printer for my husband's extra house & can't get them to ship the ink to 2 different addresses based on where each printer is locate",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "I choose HP over all comparable. HP has outstanding PCs & printers. I will soon get the printer I want so I can continue my loyal ratings :)",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Keeps saying printer is blocked from printing, especially when performing 2 sided printing. Warnings won't erase. Extremely limited by what settings I",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I'm being talked three different subscriptions.So like every two weeks, I pay nine dollars, and then I buy ink whenever that's needed to.So lord idk h",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "value": {
-      "name": "Value & Pricing",
-      "mention_count": 106,
-      "sentiment": {
-        "positive": 10,
-        "negative": 44,
-        "neutral": 52
-      },
-      "pm_focus": "Monetization, value perception",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "As with any HP product the software is utterly useless. You need a degree in Quantum Physics to work it out. Find a printer.... have you got a spare 6",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Keeps saying printer is blocked from printing, especially when performing 2 sided printing. Warnings won't erase. Extremely limited by what settings I",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I'm being talked three different subscriptions.So like every two weeks, I pay nine dollars, and then I buy ink whenever that's needed to.So lord idk h",
-          "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "It really Works from my (Infinix) Techno Spark 10 Pro Good 4 Editing Creating Moore Photos Good 4 Printing for Me",
-          "sentiment": "positive"
+          "snippet": "well when I bought my printer said 3 months free of free ink,seems to be a lie ,because I had to add a paper subscription,I got one month of ink only ",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Useless. Refuses to connect to printer/scanner after working for years. Printer still works via laptop, but this app is nothing but an advertisement m",
+          "snippet": "scan option doest appear in my app and my printer couldn't connect to the wifi even though I followed all the steps provided. Hp Smart Tank 580-590",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Rubbish experience, I have the app to interact with a printer scanner for which I have to pay a subscription. Each time I try to use it, face an issue",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This does not help! I just want to print a picture off my phone but it's missing a driver. My computer IS MY PHONE! SO all this time & trouble for not",
+          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 97,
+      "mention_count": 93,
       "sentiment": {
         "positive": 3,
-        "negative": 68,
-        "neutral": 26
+        "negative": 66,
+        "neutral": 24
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "As with any HP product the software is utterly useless. You need a degree in Quantum Physics to work it out. Find a printer.... have you got a spare 6",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "I bought a second printer for my husband's extra house & can't get them to ship the ink to 2 different addresses based on where each printer is locate",
+          "snippet": "Some odd bugs relating to keyboard made it so I couldn't even login to my HP account.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I have to recreate my shortcut for every single document, which makes it completely useless. Doesn't anyone test their apps before they make changes a",
+          "snippet": "My HP Envy is the biggest POS ever. Sometimes prints sometimes doesn't. You are told to leave it t switched on so it gets updates, but won't print any",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the app sucks and doesn't work",
+          "snippet": "always not workingggg?!!!!!!! do guys fix this????!!!!!",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "not working properly and timely it's works very badly I'm very 😭 some time it's works was nice my experience with this printer was very 😞",
+          "snippet": "just installed today. have set at best quality printing. runs very very slow and print quality pretty bad. guess it's going back tomorrow.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is practically useless. Anytime I need to print something, it doesn't work or fails to connect. Why do we even need an app to print???",
           "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 87,
+      "mention_count": 90,
       "sentiment": {
         "positive": 10,
-        "negative": 37,
-        "neutral": 40
+        "negative": 38,
+        "neutral": 42
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "garbage always have connection issues",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "not connected to the network",
+          "snippet": "Unable to resolve network connectivity issue.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Repeatedly disconnects from the printer and has to be re-paired... over and over and over and over and over and over and over again! Do not recommend!",
+          "snippet": "can't find the brand new printer next to the phone and attached to the same wifi.....yes app is installed and logged in",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Keeps saying printer is blocked from printing, especially when performing 2 sided printing. Warnings won't erase. Extremely limited by what settings I",
+          "snippet": "scan option doest appear in my app and my printer couldn't connect to the wifi even though I followed all the steps provided. Hp Smart Tank 580-590",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "getting difficulties in connecting to WiFi.",
           "sentiment": "negative"
         },
         {
-          "rating": 5,
+          "rating": 2,
           "title": "",
-          "snippet": "best simply app wireless printer for home use, print, scan, share with ease",
-          "sentiment": "positive"
+          "snippet": "no connect wifi",
+          "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 64,
+      "mention_count": 67,
       "sentiment": {
-        "positive": 15,
-        "negative": 22,
-        "neutral": 27
+        "positive": 18,
+        "negative": 26,
+        "neutral": 23
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "I have to recreate my shortcut for every single document, which makes it completely useless. Doesn't anyone test their apps before they make changes a",
+          "snippet": "scan option doest appear in my app and my printer couldn't connect to the wifi even though I followed all the steps provided. Hp Smart Tank 580-590",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Rubbish experience, I have the app to interact with a printer scanner for which I have to pay a subscription. Each time I try to use it, face an issue",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Keeps saying printer is blocked from printing, especially when performing 2 sided printing. Warnings won't erase. Extremely limited by what settings I",
+          "snippet": "just installed today. have set at best quality printing. runs very very slow and print quality pretty bad. guess it's going back tomorrow.",
           "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Good quality",
+          "snippet": "Best copy and scanner!! Love it",
           "sentiment": "positive"
         },
         {
-          "rating": 5,
+          "rating": 4,
           "title": "",
-          "snippet": "best simply app wireless printer for home use, print, scan, share with ease",
+          "snippet": "need more file sizes for saving documents. there is no A5, half letter or custom options. otherwise good when everything connects up.",
           "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Useless. Refuses to connect to printer/scanner after working for years. Printer still works via laptop, but this app is nothing but an advertisement m",
-          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 48,
+      "mention_count": 50,
       "sentiment": {
-        "positive": 5,
-        "negative": 19,
-        "neutral": 24
+        "positive": 6,
+        "negative": 23,
+        "neutral": 21
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Keeps saying printer is blocked from printing, especially when performing 2 sided printing. Warnings won't erase. Extremely limited by what settings I",
+          "snippet": "taje to long to update",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "WHY THE HELL DID YOU FORCE THIS UPDATE AND REMOVE HP SMART. THIS APP IS COMPLETE TRASH!! YOU IDIOTS AT HP!!!",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Please update for chromebook",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Recently stopped working after update.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Very poor. Still clunky, and the latest version seems to have taken away my ability to choose the paper type. Any suggestions for better apps?",
+          "snippet": "My HP Envy is the biggest POS ever. Sometimes prints sometimes doesn't. You are told to leave it t switched on so it gets updates, but won't print any",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "an update that reduces functionality and has made everything worse. well done (that was sarcastic - due to current idiocy levels I suspect i need to s",
+          "snippet": "This app worked well until the last update. Now it just runs you in circles even with assistant and tech support.",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "can't connect to my phone. so frustrating and a big waste of money & time. Your techs should have left well enough alone, there was no issues with the",
+          "sentiment": "negative"
         }
       ]
     },
-    "account_cloud": {
-      "name": "Account & Cloud Services",
-      "mention_count": 39,
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 41,
       "sentiment": {
-        "positive": 3,
-        "negative": 19,
-        "neutral": 17
+        "positive": 5,
+        "negative": 16,
+        "neutral": 20
       },
-      "pm_focus": "Account funnel, cloud integration",
+      "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 4,
-          "title": "",
-          "snippet": "Have used this for many years, but I don't think you should need an HP account in order to connect/control the printer on my own LAN.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "lackluster features, login outside of app, etc. At the very least, let me print in duplex and change the quality to high or best. PS : At least, this ",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "tremendous technology like I'm using my HP tank 602r downstairs! loving this with wifi lens even just saving to a format and easily scanning in docume",
-          "sentiment": "positive"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "Instructions not clear - why do I have to enter my password THREE times? Overkill.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "simplier??? You're making it more complicated, if you need to change settings it keeps asking for email and password. previous version is better than ",
+          "snippet": "My HP Envy is the biggest POS ever. Sometimes prints sometimes doesn't. You are told to leave it t switched on so it gets updates, but won't print any",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst garbage, not even sure why these people call themselves a company",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This does not help! I just want to print a picture off my phone but it's missing a driver. My computer IS MY PHONE! SO all this time & trouble for not",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this app is the worst app i have ever had the displeasure of using, zero functionality, impossible to navigate and all about marketing. @HP.. I'm neve",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app worked well until the last update. Now it just runs you in circles even with assistant and tech support.",
+          "sentiment": "neutral"
         }
       ]
     }

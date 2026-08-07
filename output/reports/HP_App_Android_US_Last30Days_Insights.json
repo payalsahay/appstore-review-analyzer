@@ -1,365 +1,413 @@
 {
-  "generated_at": "2026-07-31T17:29:56.460246",
-  "total_reviews": 359,
+  "generated_at": "2026-08-07T16:54:44.936075",
+  "total_reviews": 368,
   "sentiment_summary": {
-    "neutral": 168,
-    "positive": 93,
-    "negative": 98
+    "negative": 105,
+    "positive": 98,
+    "neutral": 165
   },
   "rating_distribution": {
-    "1": 204,
-    "5": 92,
-    "4": 20,
-    "3": 21,
-    "2": 22
+    "1": 217,
+    "5": 100,
+    "2": 14,
+    "4": 19,
+    "3": 18
   },
   "categories": {
-    "printing": {
-      "name": "Print Quality & Functionality",
-      "mention_count": 163,
-      "sentiment": {
-        "positive": 31,
-        "negative": 51,
-        "neutral": 81
-      },
-      "pm_focus": "Core value proposition, print reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "you say I will get ink before I run out one or more cartridges are out of ink for days",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "OMG this app has heightened my printing experience 100% and taught me how much more there is to my printer than just printing.. it keeps me stocked up",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "trying to get my printer to work, no help at all.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The app doesn't let me login nor connect my printer. It keeps showing me errors.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 156,
+      "mention_count": 177,
       "sentiment": {
-        "positive": 42,
-        "negative": 53,
-        "neutral": 61
+        "positive": 52,
+        "negative": 62,
+        "neutral": 63
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
+          "snippet": "This is the worst printing experience i've ever had. My printer fails to connect, my print jobs lag and give me an error code, and half the time I hav",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "OMG this app has heightened my printing experience 100% and taught me how much more there is to my printer than just printing.. it keeps me stocked up",
+          "snippet": "seriously the app will constantly disconnect from my wifi and it literally takes me another 2-3 hours before I can get my printer reconnected and by t",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "trash app doesnt even load.",
+          "snippet": "App fails to open",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The app doesn't let me login nor connect my printer. It keeps showing me errors.",
+          "snippet": "very bad experience is my life because when will app using internet but when will be print use wifi how it is possible both at a time how use",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "another hp printer that has stopped printing printer says it is connected to the internet app says it isn't. definitely my last hp printer",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app doesn't want to open properly it has too many bugs and it doesn't do a lot of should do disappointed very disappointed",
-          "sentiment": "negative"
         }
       ]
     },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 86,
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 168,
       "sentiment": {
-        "positive": 38,
-        "negative": 8,
-        "neutral": 40
+        "positive": 32,
+        "negative": 58,
+        "neutral": 78
       },
-      "pm_focus": "",
+      "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
+          "rating": 1,
+          "title": "",
+          "snippet": "This is the worst printing experience i've ever had. My printer fails to connect, my print jobs lag and give me an error code, and half the time I hav",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "seriously the app will constantly disconnect from my wifi and it literally takes me another 2-3 hours before I can get my printer reconnected and by t",
+          "sentiment": "positive"
+        },
+        {
           "rating": 5,
           "title": "",
-          "snippet": "very good. but youtube not much information",
+          "snippet": "first time using this brand and doing the scanner it really helpful no need to go and have someone do it the printer have all that. glad that I purcha",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "does not work.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "👍",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "good",
-          "sentiment": "positive"
+          "snippet": "Slow and stupid and terrible. I cant print without it and its insufferable.",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "bad... you guys are fired...",
+          "snippet": "very bad experience is my life because when will app using internet but when will be print use wifi how it is possible both at a time how use",
           "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 80,
+      "mention_count": 86,
       "sentiment": {
-        "positive": 11,
-        "negative": 22,
-        "neutral": 47
+        "positive": 13,
+        "negative": 25,
+        "neutral": 48
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "cannot connect. I will never buy hp again . support everything about hp sucks. I dont even want to give them 1 star.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The app doesn't let me login nor connect my printer. It keeps showing me errors.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I dont understand what is going on with this app. Everytime I try to do anything it constantly says my printer is not connected to the wifi, but it is",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "I love how convenient the HP All in One Printing Monthly plan allows you to connect to your printer through this App, just as if you were using a lapt",
-          "sentiment": "positive"
-        }
-      ]
-    },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 71,
-      "sentiment": {
-        "positive": 12,
-        "negative": 22,
-        "neutral": 37
-      },
-      "pm_focus": "Product roadmap, feature prioritization",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "cannot connect. I will never buy hp again . support everything about hp sucks. I dont even want to give them 1 star.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "OMG this app has heightened my printing experience 100% and taught me how much more there is to my printer than just printing.. it keeps me stocked up",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app doesn't want to open properly it has too many bugs and it doesn't do a lot of should do disappointed very disappointed",
+          "snippet": "This is the worst printing experience i've ever had. My printer fails to connect, my print jobs lag and give me an error code, and half the time I hav",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I dont understand what is going on with this app. Everytime I try to do anything it constantly says my printer is not connected to the wifi, but it is",
+          "snippet": "seriously the app will constantly disconnect from my wifi and it literally takes me another 2-3 hours before I can get my printer reconnected and by t",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "very bad experience is my life because when will app using internet but when will be print use wifi how it is possible both at a time how use",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "another hp printer that has stopped printing printer says it is connected to the internet app says it isn't. definitely my last hp printer",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "won't connect to my phone, been trying for 2 hours, going back in the box and return",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 78,
+      "sentiment": {
+        "positive": 33,
+        "negative": 8,
+        "neutral": 37
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Disgusting service",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "♥️",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "works nicely",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "awsome",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it's very bad service.",
+          "sentiment": "negative"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 71,
+      "mention_count": 76,
       "sentiment": {
-        "positive": 8,
+        "positive": 12,
         "negative": 30,
-        "neutral": 33
+        "neutral": 34
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "cannot connect. I will never buy hp again . support everything about hp sucks. I dont even want to give them 1 star.",
+          "snippet": "seriously the app will constantly disconnect from my wifi and it literally takes me another 2-3 hours before I can get my printer reconnected and by t",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "first time using this brand and doing the scanner it really helpful no need to go and have someone do it the printer have all that. glad that I purcha",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Appalling pricing model, won't be buying HP again",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "app doesn't want to open properly it has too many bugs and it doesn't do a lot of should do disappointed very disappointed",
+          "snippet": "Temperamental POS. Unreliable printer and app. Can no longer print from mobile without some error or an unresponsive printer. Printing from laptop is ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Hi Hp I'm using your application for many years but what is happening these days driving me crazy I print and the paper comes out empty choose colour ",
+          "snippet": "always trying to take money out of my account",
           "sentiment": "neutral"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 76,
+      "sentiment": {
+        "positive": 17,
+        "negative": 25,
+        "neutral": 34
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "first time using this brand and doing the scanner it really helpful no need to go and have someone do it the printer have all that. glad that I purcha",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I asked gemini for help finding the right wording for a scathing review. It suggested I'd be better off buying a Brother or Epson printer. I have scre",
-          "sentiment": "neutral"
+          "snippet": "Temperamental POS. Unreliable printer and app. Can no longer print from mobile without some error or an unresponsive printer. Printing from laptop is ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worthless app. it's a waste of my time. it should help me get things done faster. but actually, it doesn't work properly. when printing document, you ",
+          "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "It is a Nice app to hp smart to take print out properly with wifi network and We can edit in this app any paper",
-          "sentiment": "positive"
+          "snippet": "always bug fix need fixing",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "fax option isn't working",
+          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 59,
+      "mention_count": 64,
       "sentiment": {
-        "positive": 3,
-        "negative": 39,
-        "neutral": 17
+        "positive": 1,
+        "negative": 47,
+        "neutral": 16
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The app doesn't let me login nor connect my printer. It keeps showing me errors.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "app doesn't want to open properly it has too many bugs and it doesn't do a lot of should do disappointed very disappointed",
+          "snippet": "This is the worst printing experience i've ever had. My printer fails to connect, my print jobs lag and give me an error code, and half the time I hav",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "HP Smart detected my printer, then showed a cartridge error even though I had printed successfully a few minutes earlier using another app. After that",
-          "sentiment": "neutral"
+          "snippet": "App fails to open",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "for some reason it is not letting me connect my printer tried it on 3 different devices and not working anymore",
+          "snippet": "Slow and stupid and terrible. I cant print without it and its insufferable.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Temperamental POS. Unreliable printer and app. Can no longer print from mobile without some error or an unresponsive printer. Printing from laptop is ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This hp software doesn't work. it only prints content length, content type, date host, entirely words and symbols on paper, not the camera image i too",
           "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 46,
+      "mention_count": 44,
       "sentiment": {
-        "positive": 15,
-        "negative": 13,
-        "neutral": 18
+        "positive": 14,
+        "negative": 14,
+        "neutral": 16
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
+          "snippet": "first time using this brand and doing the scanner it really helpful no need to go and have someone do it the printer have all that. glad that I purcha",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I dont understand what is going on with this app. Everytime I try to do anything it constantly says my printer is not connected to the wifi, but it is",
-          "sentiment": "neutral"
+          "snippet": "This hp software doesn't work. it only prints content length, content type, date host, entirely words and symbols on paper, not the camera image i too",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "can't scan",
-          "sentiment": "neutral"
+          "snippet": "worthless app. it's a waste of my time. it should help me get things done faster. but actually, it doesn't work properly. when printing document, you ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I have had HP printers for so many years. Mostly loved them. The last three Office Jets are functional sometimes, so long as one doesn't try to print ",
+          "snippet": "Crashes when I try to scan documents to Google drive, without saving the document",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "every time I want to use printer(which is occasionally), today to scan a doc. printer connected, app says no. unplug and restart everything, phone, ro",
           "sentiment": "neutral"
+        }
+      ]
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 44,
+      "sentiment": {
+        "positive": 6,
+        "negative": 19,
+        "neutral": 19
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "first time using this brand and doing the scanner it really helpful no need to go and have someone do it the printer have all that. glad that I purcha",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "scanner won't connect through desktop app",
-          "sentiment": "neutral"
+          "snippet": "worthless app. it's a waste of my time. it should help me get things done faster. but actually, it doesn't work properly. when printing document, you ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Horrible app. Horrible Customer Service for Insta Ink also. They will continue to send you ink for a printer you no longer have. They say it is by usa",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "This app is so easy to use. It helps me with my documents so much",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "2nd verse, same as the first. I have tried a. couple of times to load my hp 2820e which used to be easy, like 123, now impossible. Rewrite app , one t",
+          "sentiment": "positive"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 41,
+      "mention_count": 32,
       "sentiment": {
-        "positive": 5,
-        "negative": 14,
-        "neutral": 22
+        "positive": 4,
+        "negative": 11,
+        "neutral": 17
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "I hope future updates to the HP app will include more photo printing features. It would be great if we could print photos directly from the app withou",
+          "sentiment": "positive"
+        },
         {
           "rating": 1,
           "title": "",
@@ -382,54 +430,6 @@
           "rating": 3,
           "title": "",
           "snippet": "the app is great when there aren't issues logging in or updates that continuously fail",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "\"Update\" ruined print services - NOT ABLE TO PRINT NOW | Helluva way to FORCE me to buy a DIFFERENT BRAND OF PRINTER | DFs",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "support": {
-      "name": "Customer Support & Help",
-      "mention_count": 36,
-      "sentiment": {
-        "positive": 2,
-        "negative": 17,
-        "neutral": 17
-      },
-      "pm_focus": "Support deflection, self-service success",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The ability to manually resize images and access all gallery albums has been removed. Please put these options back!! 7/30/2026 Still sucks. My printe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "cannot connect. I will never buy hp again . support everything about hp sucks. I dont even want to give them 1 star.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "OMG this app has heightened my printing experience 100% and taught me how much more there is to my printer than just printing.. it keeps me stocked up",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "trying to get my printer to work, no help at all.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I asked gemini for help finding the right wording for a scathing review. It suggested I'd be better off buying a Brother or Epson printer. I have scre",
           "sentiment": "neutral"
         }
       ]

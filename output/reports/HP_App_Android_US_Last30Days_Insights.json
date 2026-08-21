@@ -1,436 +1,436 @@
 {
-  "generated_at": "2026-08-14T16:53:24.157776",
-  "total_reviews": 373,
+  "generated_at": "2026-08-21T16:34:19.736895",
+  "total_reviews": 379,
   "sentiment_summary": {
-    "negative": 107,
-    "neutral": 167,
-    "positive": 99
+    "neutral": 175,
+    "negative": 108,
+    "positive": 96
   },
   "rating_distribution": {
-    "2": 18,
-    "1": 227,
+    "2": 25,
+    "1": 226,
+    "3": 15,
     "5": 94,
-    "4": 17,
-    "3": 17
+    "4": 19
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 184,
+      "mention_count": 188,
       "sentiment": {
-        "positive": 55,
-        "negative": 66,
-        "neutral": 63
+        "positive": 50,
+        "negative": 68,
+        "neutral": 70
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 2,
           "title": "",
-          "snippet": "Exact-size printing shouldn't be this difficult. The HP app displays image dimensions but won't let me type the size I want—only fiddle with drag hand",
+          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "terrible app. even for routine options you have to click on more",
-          "sentiment": "negative"
+          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "wonderfull app",
+          "snippet": "very nice 👍 I'm very happy to have this printer",
           "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "the HP smart app was amazing, HP app wants to charge me an annual weekly or never am I going to pay for it fee.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "1.FREQUENT LOGIN REQUIRED 2. AFTER LOGIN NOT REDIRECTING TO HOME PAGE, CONTINUOUS LOADING 3.CLOSE AND REOPENING OF APP REQUIRED",
-          "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 174,
+      "mention_count": 180,
       "sentiment": {
-        "positive": 33,
-        "negative": 60,
-        "neutral": 81
+        "positive": 27,
+        "negative": 65,
+        "neutral": 88
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 2,
           "title": "",
-          "snippet": "Exact-size printing shouldn't be this difficult. The HP app displays image dimensions but won't let me type the size I want—only fiddle with drag hand",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "the printer itself is excellent HP IS A HORRIBLE COMPANY THEY DON'T PULL THE TRANSACTION AND THEN THEY CHARGED ME EXTRA MONEY AND THEN THEY NOW HAVE M",
+          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I will never purchase another HP printer again worst decision I ever made in life",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I want to talk to a human. I can't set up the printer. I will return it and buy a different brand.",
+          "snippet": "can't even load the instant ink page????",
           "sentiment": "neutral"
         },
         {
+          "rating": 3,
+          "title": "",
+          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
+          "sentiment": "negative"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "bug: last update, scan via printer option is not functioning. Shows loading losing animation or nothing at all. Lags and nothing scans.",
-          "sentiment": "negative"
+          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "very nice 👍 I'm very happy to have this printer",
+          "sentiment": "positive"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 86,
+      "mention_count": 94,
       "sentiment": {
-        "positive": 14,
-        "negative": 25,
-        "neutral": 47
+        "positive": 12,
+        "negative": 29,
+        "neutral": 53
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Took me 3 hours to understand, 40 minutes to connect printer to phone. I usually print from my PC but there is no explanation how to do this! Terrible",
+          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "printer werkt niet ook niet met setupcardridge. printer wil niet verbinden aan wifi, zit ook geen foutmelding in de app dus ik weet niet waarom hij ni",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "will not connect to my WiFi",
+          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 88,
+      "sentiment": {
+        "positive": 35,
+        "negative": 13,
+        "neutral": 40
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Better than adobe",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The app has removed the network option from my settings. I have no way to add the printer to my new router.",
+          "snippet": "Garbage!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "indeed good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "the tech Darwisj was outstanding! He spent allot of time assisting me.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Just straight up non funtional, can't find printer can't set up printer can't print stay away from hp folks",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Absolutely rubbish. This is an absolute shamble of an app. the UI is clunky to say the least (I am trying to not use harsher words). functionality is ",
+          "snippet": "If you don't pay and subscribe , you don't use kind of like your car in the future. It has the capabilities, but if you don't pay for it, you do not g",
           "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 81,
+      "mention_count": 85,
       "sentiment": {
-        "positive": 18,
-        "negative": 26,
-        "neutral": 37
+        "positive": 17,
+        "negative": 30,
+        "neutral": 38
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "Exact-size printing shouldn't be this difficult. The HP app displays image dimensions but won't let me type the size I want—only fiddle with drag hand",
+          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the printer itself is excellent HP IS A HORRIBLE COMPANY THEY DON'T PULL THE TRANSACTION AND THEN THEY CHARGED ME EXTRA MONEY AND THEN THEY NOW HAVE M",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "terrible app. even for routine options you have to click on more",
+          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the HP smart app was amazing, HP app wants to charge me an annual weekly or never am I going to pay for it fee.",
+          "snippet": "quit tying ever thing to phones when I want to scann I should not have to get my phone my old hard wired all in one was twice as fast and far faster t",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I want to talk to a human. I can't set up the printer. I will return it and buy a different brand.",
+          "snippet": "Just want to print",
           "sentiment": "neutral"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 81,
-      "sentiment": {
-        "positive": 32,
-        "negative": 12,
-        "neutral": 37
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "worst",
-          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "JUNK",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "best",
+          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
           "sentiment": "positive"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "ok",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Useful!",
-          "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 77,
+      "mention_count": 78,
       "sentiment": {
-        "positive": 11,
-        "negative": 31,
-        "neutral": 35
+        "positive": 10,
+        "negative": 37,
+        "neutral": 31
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "the printer itself is excellent HP IS A HORRIBLE COMPANY THEY DON'T PULL THE TRANSACTION AND THEN THEY CHARGED ME EXTRA MONEY AND THEN THEY NOW HAVE M",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I will never purchase another HP printer again worst decision I ever made in life",
+          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I want to talk to a human. I can't set up the printer. I will return it and buy a different brand.",
+          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I'm not buying anything!!! I only want to connect the printer!!!!!!",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "The low cartridge warning is way too early. unless the cartridge is less than 5% I don't need to know. Everyone knows the subscription makes it obviou",
+          "snippet": "useless always requires setup and waste time +prints,has problem with connection and printing,hp 2989 seems a scam",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "never use these guys. your subscription will randomly pay at random points and on top of that they will send all your stuff to the wrong address. on t",
-          "sentiment": "neutral"
+          "snippet": "Very very poor service. Please don't buy anyone @HP product.",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 71,
+      "mention_count": 69,
       "sentiment": {
         "positive": 2,
-        "negative": 51,
+        "negative": 49,
         "neutral": 18
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "bug: last update, scan via printer option is not functioning. Shows loading losing animation or nothing at all. Lags and nothing scans.",
-          "sentiment": "negative"
+          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "glitchy kept freezing",
+          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
           "sentiment": "neutral"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "you could easily gain back a star for me if the app wasn't like six gigs for some reason, is this user error on my part?",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Scan feature is not working. Worst app from legacy brand like HP",
+          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "not good. stuck on the printer, no printer rest option from the app.",
-          "sentiment": "positive"
+          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
+          "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 41,
+      "mention_count": 49,
       "sentiment": {
-        "positive": 14,
-        "negative": 12,
-        "neutral": 15
+        "positive": 13,
+        "negative": 17,
+        "neutral": 19
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 3,
           "title": "",
-          "snippet": "Exact-size printing shouldn't be this difficult. The HP app displays image dimensions but won't let me type the size I want—only fiddle with drag hand",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "bug: last update, scan via printer option is not functioning. Shows loading losing animation or nothing at all. Lags and nothing scans.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "The best. Camera scan is truly the amazing . You can add many pages to a file.",
+          "snippet": "Good app... But can't scan below 30. I don't like that",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Scan feature is not working. Worst app from legacy brand like HP",
+          "snippet": "quit tying ever thing to phones when I want to scann I should not have to get my phone my old hard wired all in one was twice as fast and far faster t",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
           "sentiment": "negative"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "Easy to use, great quality",
+          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I dont know why they changed the App cuz now the printer cant connect and it cant scan any of my documents. I just a simple scan and it even do that i",
+          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 41,
+      "mention_count": 38,
       "sentiment": {
-        "positive": 6,
-        "negative": 16,
-        "neutral": 19
+        "positive": 7,
+        "negative": 14,
+        "neutral": 17
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "Doesn't help me.",
+          "snippet": "printer won't even show up anywhere for the app or even on my phone under HP. I followed all directions to the letter. also apparently the warranty ti",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "Is the app under maintenance or something? If it isn't, it should be. NOTHING is loading on it.. to the point that I can't even contact support. My in",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "negative stars!!!!! almost an hour on the phone connected to four different people nothing resolved the apps dont help and the online store takes you ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this printer is giving me so many problems I am about to throw it in the trash. I have only got it to print less than 50 times and have spent hours tr",
+          "snippet": "Anyone else having issues with a HP DESKJET 2910 ? Firstly trying to A) start an account and B) connect to WiFi ? and I've got a constant error 9 flas",
           "sentiment": "negative"
         },
         {
+          "rating": 3,
+          "title": "",
+          "snippet": "worked great at first but now it won't register my phone. Ever. I've tried all the troubleshooting options to no avail",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "refuses to find my printer after changing my internet provider. support is unintelligent on this matter. never using hp again.",
+          "snippet": "the app does not help solve wifi issues",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The printers always have an issue, HP sucks, troubleshooting is horrible. never buying an hp again.",
+          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 33,
+      "mention_count": 29,
       "sentiment": {
-        "positive": 3,
-        "negative": 11,
-        "neutral": 19
+        "positive": 4,
+        "negative": 9,
+        "neutral": 16
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 2,
           "title": "",
-          "snippet": "Exact-size printing shouldn't be this difficult. The HP app displays image dimensions but won't let me type the size I want—only fiddle with drag hand",
+          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "bug: last update, scan via printer option is not functioning. Shows loading losing animation or nothing at all. Lags and nothing scans.",
+          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Is the app under maintenance or something? If it isn't, it should be. NOTHING is loading on it.. to the point that I can't even contact support. My in",
-          "sentiment": "neutral"
+          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Update 2026: upgraded & now have MORE issues. This will be my last HP purchase.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "set-up completed, but when i'm about to print from my cp, it says not connected. tried removing the device (printer) from my hp app, then when i try t",
-          "sentiment": "neutral"
+          "snippet": "It's not \"Smart\" at all! I just purchased an HP printer and I'm wasting all of my ink on Testing papers and not any print jobs! I can print on any nea",
+          "sentiment": "negative"
         }
       ]
     }

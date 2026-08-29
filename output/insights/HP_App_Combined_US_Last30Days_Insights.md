@@ -1,8 +1,8 @@
 # HP_App_Combined_US_Last30Days - Customer Insights Report
 
-**Generated:** 2026-08-21 16:34
+**Generated:** 2026-08-29 00:27
 **Source:** HP_App_Combined_US_Last30Days.json
-**Total Reviews:** 722
+**Total Reviews:** 613
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 722 |
-| Average Rating (from reviews) | 2.53 / 5.0 |
-| Positive Sentiment | 30.2% |
-| Negative Sentiment | 27.8% |
-| 1-Star Reviews | 385 (53.3%) |
-| 5-Star Reviews | 218 (30.2%) |
+| Total Reviews | 613 |
+| Average Rating (from reviews) | 2.46 / 5.0 |
+| Positive Sentiment | 28.7% |
+| Negative Sentiment | 28.5% |
+| 1-Star Reviews | 339 (55.3%) |
+| 5-Star Reviews | 181 (29.5%) |
 
 ---
 
@@ -23,11 +23,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 218 | 30.2% |
-| 4 | 37 | 5.1% |
-| 3 | 38 | 5.3% |
-| 2 | 44 | 6.1% |
-| 1 | 385 | 53.3% |
+| 5 | 181 | 29.5% |
+| 4 | 26 | 4.2% |
+| 3 | 29 | 4.7% |
+| 2 | 38 | 6.2% |
+| 1 | 339 | 55.3% |
 
 ---
 
@@ -35,23 +35,24 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Print Quality & Functionality | 420 | 58.2% |
-| 2 | Mobile App Experience | 374 | 51.8% |
-| 3 | Feature Requests & Missing Features | 168 | 23.3% |
-| 4 | Value & Pricing | 166 | 23.0% |
-| 5 | Connectivity & Setup | 158 | 21.9% |
-| 6 | Other | 121 | 16.8% |
-| 7 | Scanning Features | 115 | 15.9% |
-| 8 | App Reliability & Stability | 108 | 15.0% |
-| 9 | Customer Support & Help | 76 | 10.5% |
-| 10 | Updates & Compatibility | 51 | 7.1% |
+| 1 | Print Quality & Functionality | 344 | 56.1% |
+| 2 | Mobile App Experience | 306 | 49.9% |
+| 3 | Value & Pricing | 149 | 24.3% |
+| 4 | Feature Requests & Missing Features | 139 | 22.7% |
+| 5 | Connectivity & Setup | 130 | 21.2% |
+| 6 | Other | 108 | 17.6% |
+| 7 | Scanning Features | 98 | 16.0% |
+| 8 | App Reliability & Stability | 92 | 15.0% |
+| 9 | Customer Support & Help | 62 | 10.1% |
+| 10 | Updates & Compatibility | 42 | 6.9% |
 
 ---
 
 ## Critical Pain Points
 
-- **Value & Pricing**: 43% negative sentiment (166 mentions)
-- **App Reliability & Stability**: 65% negative sentiment (108 mentions)
+- **Value & Pricing**: 42% negative sentiment (149 mentions)
+- **App Reliability & Stability**: 71% negative sentiment (92 mentions)
+- **Updates & Compatibility**: 40% negative sentiment (42 mentions)
 
 ---
 

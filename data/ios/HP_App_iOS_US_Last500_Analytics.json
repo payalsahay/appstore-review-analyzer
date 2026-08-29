@@ -1,16 +1,17 @@
 {
-  "scrape_date": "2026-08-14T16:53:08.375323",
+  "scrape_date": "2026-08-29T00:26:45.366924",
   "total_reviews": 500,
   "avg_rating": 2.72,
   "rating_distribution": {
     "5": 174,
     "4": 25,
-    "3": 31,
-    "2": 26,
+    "3": 33,
+    "2": 24,
     "1": 244
   },
   "version_distribution": {
-    "26.2.0": 500
+    "26.2.0": 450,
+    "26.3.1": 50
   },
   "one_star_count": 244,
   "one_star_pct": 48.8,
@@ -19,7 +20,7 @@
   "platform": "iOS App Store",
   "country": "US",
   "date_range": {
-    "from": "2026-07-03",
-    "to": "2026-08-13"
+    "from": "2026-07-07",
+    "to": "2026-08-27"
   }
 }

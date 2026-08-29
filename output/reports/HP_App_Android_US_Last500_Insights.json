@@ -1,193 +1,193 @@
 {
-  "generated_at": "2026-08-21T16:34:19.774290",
+  "generated_at": "2026-08-29T00:27:05.832072",
   "total_reviews": 500,
   "sentiment_summary": {
-    "neutral": 223,
+    "positive": 126,
     "negative": 147,
-    "positive": 130
+    "neutral": 227
   },
   "rating_distribution": {
-    "2": 29,
-    "1": 295,
-    "3": 23,
-    "5": 128,
-    "4": 25
+    "5": 125,
+    "1": 299,
+    "2": 35,
+    "4": 23,
+    "3": 18
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 246,
+      "mention_count": 249,
       "sentiment": {
-        "positive": 69,
-        "negative": 91,
+        "positive": 71,
+        "negative": 92,
         "neutral": 86
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 5,
           "title": "",
-          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
-          "sentiment": "neutral"
+          "snippet": "Excellent easy to use.",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
+          "snippet": "counter intuitive doesn't let you choose where to save images and glitches and forgets what you've already scanned",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "very nice 👍 I'm very happy to have this printer",
+          "snippet": "Great app and simple to use",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 235,
+      "mention_count": 239,
       "sentiment": {
-        "positive": 40,
+        "positive": 43,
         "negative": 87,
-        "neutral": 108
+        "neutral": 109
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 2,
-          "title": "",
-          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "can't even load the instant ink page????",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
+          "snippet": "I hate this printer! I can't make decent copies ! I have to take a photo with my phone and send it to the printer. The copies suck!!!",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
-          "sentiment": "neutral"
+          "snippet": "HP ink tank Wireless 419 Not working now days",
+          "sentiment": "negative"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "very nice 👍 I'm very happy to have this printer",
+          "snippet": "pdf scan is incredible",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 118,
+      "mention_count": 120,
       "sentiment": {
-        "positive": 15,
-        "negative": 39,
-        "neutral": 64
+        "positive": 17,
+        "negative": 41,
+        "neutral": 62
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Rubbish. Bought 4300 series printer. Nothing connects to it, nothing prints when it does connect, and the app just white screens upon opeming. Technol",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "printer werkt niet ook niet met setupcardridge. printer wil niet verbinden aan wifi, zit ook geen foutmelding in de app dus ik weet niet waarom hij ni",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
+          "snippet": "HP ink tank Wireless 419 Not working now days",
           "sentiment": "negative"
         },
         {
+          "rating": 2,
+          "title": "",
+          "snippet": "Connectivity issues so common",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
-          "sentiment": "negative"
+          "snippet": "there's nothing good about helping setting up the WiFi on my new printer!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "not connecting properly",
+          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 112,
+      "mention_count": 115,
       "sentiment": {
-        "positive": 45,
-        "negative": 15,
-        "neutral": 52
+        "positive": 42,
+        "negative": 16,
+        "neutral": 57
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 5,
           "title": "",
-          "snippet": "Better than adobe",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Garbage!",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "indeed good",
+          "snippet": "Great",
           "sentiment": "positive"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "the tech Darwisj was outstanding! He spent allot of time assisting me.",
+          "snippet": "not user frienddly",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "If you don't pay and subscribe , you don't use kind of like your car in the future. It has the capabilities, but if you don't pay for it, you do not g",
+          "snippet": "it's so hard to use",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "fake 5 star bot reviews",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Great!!!!!",
+          "sentiment": "positive"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 112,
+      "mention_count": 114,
       "sentiment": {
-        "positive": 22,
-        "negative": 42,
+        "positive": 23,
+        "negative": 43,
         "neutral": 48
       },
       "pm_focus": "Product roadmap, feature prioritization",
@@ -195,167 +195,167 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "quit tying ever thing to phones when I want to scann I should not have to get my phone my old hard wired all in one was twice as fast and far faster t",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "Just want to print",
+          "snippet": "this is the real as app for hp it's not worth paying anything from them to print or get 6 months \"free\" ink when buying a printer I'm not paying them ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
+          "snippet": "I have this app. I should not need to sign in EVERY TIME I used it al home. Anyone in my family should be able to use it without them need to create a",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I've started using this app more often since I got a new printer through HP's All In Plan. It's even more amazing than I previously thought. I used th",
           "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 104,
+      "mention_count": 107,
       "sentiment": {
-        "positive": 13,
-        "negative": 48,
+        "positive": 14,
+        "negative": 50,
         "neutral": 43
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "I'm not buying anything!!! I only want to connect the printer!!!!!!",
+          "snippet": "this is the real as app for hp it's not worth paying anything from them to print or get 6 months \"free\" ink when buying a printer I'm not paying them ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "useless always requires setup and waste time +prints,has problem with connection and printing,hp 2989 seems a scam",
+          "snippet": "the app doesn't work properly",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Very very poor service. Please don't buy anyone @HP product.",
+          "snippet": "It’s incredibly hit and miss — apparently the system decides for itself when it actually feels like working. I’m constantly getting errors for low pap",
           "sentiment": "negative"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "not connecting properly",
+          "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 88,
+      "mention_count": 90,
       "sentiment": {
         "positive": 2,
-        "negative": 64,
-        "neutral": 22
+        "negative": 65,
+        "neutral": 23
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 2,
-          "title": "",
-          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "it now gives me an error saying no internet connection when trying to use the facing service but the rest of the app connects to internet fine???",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "in the last two days i had to keep uninstalling this app. the app will not open to my printer. please fix the bug immediately",
+          "snippet": "HP ink tank Wireless 419 Not working now days",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "It just doesn't work. The idea of being able to check all of this stuff in the printer through the phone is cool, but being forced into it to even be ",
+          "snippet": "counter intuitive doesn't let you choose where to save images and glitches and forgets what you've already scanned",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "the app doesn't work properly",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "doesn't work after many tries",
           "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 65,
+      "mention_count": 66,
       "sentiment": {
-        "positive": 20,
-        "negative": 22,
-        "neutral": 23
+        "positive": 15,
+        "negative": 25,
+        "neutral": 26
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "Good app... But can't scan below 30. I don't like that",
-          "sentiment": "positive"
+          "snippet": "pdf scan is incredible",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "quit tying ever thing to phones when I want to scann I should not have to get my phone my old hard wired all in one was twice as fast and far faster t",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
-          "sentiment": "positive"
+          "snippet": "counter intuitive doesn't let you choose where to save images and glitches and forgets what you've already scanned",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I dont know why they changed the App cuz now the printer cant connect and it cant scan any of my documents. I just a simple scan and it even do that i",
+          "snippet": "we have a multiple page copy tray but it does not work for scanning",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I have this app. I should not need to sign in EVERY TIME I used it al home. Anyone in my family should be able to use it without them need to create a",
           "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 54,
+      "mention_count": 48,
       "sentiment": {
-        "positive": 7,
-        "negative": 23,
+        "positive": 8,
+        "negative": 16,
         "neutral": 24
       },
       "pm_focus": "Support deflection, self-service success",
@@ -363,31 +363,31 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "printer won't even show up anywhere for the app or even on my phone under HP. I followed all directions to the letter. also apparently the warranty ti",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "Anyone else having issues with a HP DESKJET 2910 ? Firstly trying to A) start an account and B) connect to WiFi ? and I've got a constant error 9 flas",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "worked great at first but now it won't register my phone. Ever. I've tried all the troubleshooting options to no avail",
+          "snippet": "there's nothing good about helping setting up the WiFi on my new printer!",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the app does not help solve wifi issues",
+          "snippet": "This app works about as well as an unsupported app that was last updated for a version of Android that came out in 2009. When trying to print, it's a ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The printers always have an issue, HP sucks, troubleshooting is horrible. never buying an hp again.",
+          "snippet": "This app is built for saving HP money and not to help the customer. The app is totally AI customer service that will give you instructions that will d",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "always show file not supported can't even print a page",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "New app causes failed printer setup or printer setup incomplete message. After working over 12 hours with HP Support via FB Messenger (since my warran",
           "sentiment": "negative"
         }
       ]
@@ -396,41 +396,41 @@
       "name": "Updates & Compatibility",
       "mention_count": 42,
       "sentiment": {
-        "positive": 4,
+        "positive": 5,
         "negative": 16,
-        "neutral": 22
+        "neutral": 21
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
+          "rating": 1,
+          "title": "",
+          "snippet": "first they made us get the smart HP smart saying that we had to have a special app to be able to print then they change it back to the name HP, and wi",
+          "sentiment": "negative"
+        },
+        {
           "rating": 2,
           "title": "",
-          "snippet": "As of 8/20/26, since the update/change, the app dies bot work on cell or laptop. The 'think' circle just keeps spinning. FIX THIS!!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Horrible Update!! This was a great app before they decided to fix what wasn't broken, WHY!!! I can't access printer tools anymore, no options are wher",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App not working to my well-functioning All-in-One Envy 4500 printer. Ads keep trying to force me to buy a new printer. Why? My printer is well kept an",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "What have you done?! How can I scan documents with my printer? Why is it all about using my mobile device?! I can't do a simplest task - scan a docume",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "It's not \"Smart\" at all! I just purchased an HP printer and I'm wasting all of my ink on Testing papers and not any print jobs! I can print on any nea",
+          "snippet": "bad compatibility.",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "man my printer just stopped connecting to my wifi and won't let me connect to my wifi or print from my phone. Did the update and now these problems. C",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app works about as well as an unsupported app that was last updated for a version of Android that came out in 2009. When trying to print, it's a ",
+          "sentiment": "neutral"
         }
       ]
     }

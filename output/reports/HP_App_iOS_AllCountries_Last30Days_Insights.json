@@ -1,436 +1,436 @@
 {
-  "generated_at": "2026-08-29T00:27:05.761415",
-  "total_reviews": 596,
+  "generated_at": "2026-09-04T18:52:05.861937",
+  "total_reviews": 753,
   "sentiment_summary": {
-    "neutral": 329,
-    "positive": 154,
-    "negative": 113
+    "positive": 210,
+    "negative": 162,
+    "neutral": 381
   },
   "rating_distribution": {
-    "1": 270,
-    "5": 240,
-    "3": 31,
-    "4": 23,
-    "2": 32
+    "5": 298,
+    "1": 348,
+    "3": 36,
+    "2": 49,
+    "4": 22
   },
   "categories": {
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 399,
+      "sentiment": {
+        "positive": 115,
+        "negative": 122,
+        "neutral": 162
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "DESKJET 4355",
+          "snippet": "Easy to set up. Easy print. Thanks",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Horrible",
+          "snippet": "Printer often doesn’t respond when print jobs are sent. When the printer does cooperate, HP engages in extortion and charges me 2.00 to print on MY BO",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "So far, so good",
+          "snippet": "Just set up today. Set up SUPER easy. Already printing away & all is going great. Day 1 = 0 complaints",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Great printer",
+          "snippet": "This Wi-Fi printer is easy to set up- directions are understandable by a “ not technically inclined “ person. Just take your time between steps. Nice ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Do not buy",
+          "snippet": "After working the first 3 times, the printer stopped working. Waste of money. I would encourage everyone NOT to buy the printer.",
+          "sentiment": "negative"
+        }
+      ]
+    },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 291,
+      "mention_count": 353,
       "sentiment": {
-        "positive": 99,
-        "negative": 59,
-        "neutral": 133
+        "positive": 117,
+        "negative": 87,
+        "neutral": 149
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 5,
-          "title": "Free fax!!??",
-          "snippet": "I can’t believe that I faxed something for free! Super easy too!",
+          "title": "DESKJET 4355",
+          "snippet": "Easy to set up. Easy print. Thanks",
           "sentiment": "positive"
         },
         {
           "rating": 3,
-          "title": "Scan problem with computer",
-          "snippet": "I could never find how to scan to send to someone through the windows laptop app",
+          "title": "Mycket lagg",
+          "snippet": "Vill inte skriva ut från dator/mac. Omstart krävs av både dator och skrivare. Försöker få igång skrivaren. Efter två timmar ger jag upp och försöker s",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Katastrophe",
-          "snippet": "Die App ist wirklich eine Katastrophe. Für jeden Mist wird man auf die Webseite umgeleitet und muss eine Weiterleitung nach der anderen über sich erge",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Your app doesn’t work",
-          "snippet": "It doesn’t connect, when it does it still won’t let me press print and doesn’t tell me why. The whole experience is dreadful every time I have to prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "User friendly",
-          "snippet": "The set up was so easy if my grandparents are still alive, they wouldn’t even have to call me for help.",
-          "sentiment": "positive"
-        }
-      ]
-    },
-    "printing": {
-      "name": "Print Quality & Functionality",
-      "mention_count": 283,
-      "sentiment": {
-        "positive": 82,
-        "negative": 73,
-        "neutral": 128
-      },
-      "pm_focus": "Core value proposition, print reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "Hp junk",
-          "snippet": "Why can I now not scan from my printer?  Why  must I use the camera from my iPad?",
+          "title": "Ya no existe el escaneo de impresora",
+          "snippet": "Que sin sentido tiene pagar por una impresora y que por actualizar la aplicacion ya no me permita ESCANEAR UNA HOJA desde la impresora que he pagado. ",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "10/10",
-          "snippet": "Me facilita al imprimir documentos en pdf",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Bad print quality",
-          "snippet": "The printer quality is really bad",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Needs measurements on the paper.",
-          "snippet": "It’s nice to be able to adjust size. But needs rulers on side and bottom",
+          "title": "So far, so good",
+          "snippet": "Just set up today. Set up SUPER easy. Already printing away & all is going great. Day 1 = 0 complaints",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Your app doesn’t work",
-          "snippet": "It doesn’t connect, when it does it still won’t let me press print and doesn’t tell me why. The whole experience is dreadful every time I have to prin",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Great printer",
+          "snippet": "This Wi-Fi printer is easy to set up- directions are understandable by a “ not technically inclined “ person. Just take your time between steps. Nice ",
+          "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 135,
+      "mention_count": 175,
       "sentiment": {
-        "positive": 28,
-        "negative": 37,
-        "neutral": 70
+        "positive": 32,
+        "negative": 62,
+        "neutral": 81
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "Free fax!!??",
-          "snippet": "I can’t believe that I faxed something for free! Super easy too!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 3,
-          "title": "Scan problem with computer",
-          "snippet": "I could never find how to scan to send to someone through the windows laptop app",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Genialer Drucker",
-          "snippet": "Ein super vielseitiges Produkt und dazu noch zu einem tollen Preis. Die Einrichtung im Netz ging wie von alleine",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Long time trusted by my wife and me.",
-          "snippet": "Keeps updating, and lowering prices. Thank you.",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 1,
-          "title": "The worst experience I’ve ever had an HP printer",
-          "snippet": "My HP envy 6120E has proven to be useless!\nSo far I’ve lots of printed sheets of the condition of the printer and the amount of ink that is left!  To ",
+          "title": "Horrible",
+          "snippet": "Printer often doesn’t respond when print jobs are sent. When the printer does cooperate, HP engages in extortion and charges me 2.00 to print on MY BO",
           "sentiment": "negative"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 110,
-      "sentiment": {
-        "positive": 24,
-        "negative": 6,
-        "neutral": 80
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "Amei",
-          "snippet": "Mil",
-          "sentiment": "neutral"
         },
         {
-          "rating": 5,
-          "title": "Opinión",
-          "snippet": "Excellent y práctica",
-          "sentiment": "positive"
+          "rating": 1,
+          "title": "Do not buy",
+          "snippet": "After working the first 3 times, the printer stopped working. Waste of money. I would encourage everyone NOT to buy the printer.",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
-          "title": "Go",
-          "snippet": "Amazing performance",
+          "rating": 2,
+          "title": "Why did I buy another HP PRINTER",
+          "snippet": "Title really says everything. You will use all your ink reprinting because it never prints what the preview looks like. It doesn’t matter black and wh",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Lenta para cargar",
-          "snippet": "Muy lenta para cargar y más cuando no hay Internet",
+          "title": "HP has done a great job of making their printers a",
+          "snippet": "In an effort to try and extract as much money from us as possible, HP has made their printers a bigger hassle to use.  If you don't subscribe to their",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
-          "title": "HP just works",
-          "snippet": "It simply does the job well easily",
+          "rating": 1,
+          "title": "Erro ao acessar pelo tablet",
+          "snippet": "Estou com um problema para acessar o aplicativo HP pelo tablet. Ao tentar entrar, aparece uma mensagem de erro e não consigo acessar minha conta. Pelo",
           "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 109,
+      "mention_count": 142,
       "sentiment": {
-        "positive": 38,
-        "negative": 18,
-        "neutral": 53
+        "positive": 51,
+        "negative": 28,
+        "neutral": 63
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Hp junk",
-          "snippet": "Why can I now not scan from my printer?  Why  must I use the camera from my iPad?",
+          "title": "Ya no existe el escaneo de impresora",
+          "snippet": "Que sin sentido tiene pagar por una impresora y que por actualizar la aplicacion ya no me permita ESCANEAR UNA HOJA desde la impresora que he pagado. ",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "10/10",
-          "snippet": "Me facilita al imprimir documentos en pdf",
+          "title": "Kamera Scan funktioniert super",
+          "snippet": "Kamera Scan funktioniert super",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
-          "title": "Scan problem with computer",
-          "snippet": "I could never find how to scan to send to someone through the windows laptop app",
+          "rating": 5,
+          "title": "Great printer",
+          "snippet": "This Wi-Fi printer is easy to set up- directions are understandable by a “ not technically inclined “ person. Just take your time between steps. Nice ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Camera to PDF",
+          "snippet": "I pay like $3.99, I literally keep this for the camera scan to PDF. It’s great. I hardly ever print (it’s faster at work).",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Guter Scan, wertlose App",
+          "snippet": "Die Scanqualität ist schon in Ordnung, aber die Bedienung über die App ist viel zu umständlich. Sehr schlechtes user interface.",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Bad print quality",
-          "snippet": "The printer quality is really bad",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "I hate pop ups",
-          "snippet": "The only reason I have one star is because until you rate it these pops keep coming until you do.   Every print,scan or action you make comes with a p",
-          "sentiment": "negative"
         }
       ]
     },
-    "features": {
-      "name": "Feature Requests & Missing Features",
-      "mention_count": 77,
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 126,
       "sentiment": {
-        "positive": 19,
-        "negative": 22,
-        "neutral": 36
+        "positive": 36,
+        "negative": 3,
+        "neutral": 87
       },
-      "pm_focus": "Product roadmap, feature prioritization",
+      "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Scan problem with computer",
-          "snippet": "I could never find how to scan to send to someone through the windows laptop app",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "Permanente Werbung",
+          "snippet": "Ich möchte eine Druckersoftware und keine unendlichen Hinweise Druckerpatronen zu bestellen.",
+          "sentiment": "positive"
         },
         {
-          "rating": 4,
-          "title": "Needs measurements on the paper.",
-          "snippet": "It’s nice to be able to adjust size. But needs rulers on side and bottom",
+          "rating": 5,
+          "title": "Very handy",
+          "snippet": "It works great still and l have it for five years.",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Your app doesn’t work",
-          "snippet": "It doesn’t connect, when it does it still won’t let me press print and doesn’t tell me why. The whole experience is dreadful every time I have to prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Quick fix for WIFI connectivity with IPhone",
-          "snippet": "iPhone can acquire an additional WIFI network, generating duplicate SSID error message. Power down  & power up iPhone fixes it.",
+          "title": "Mal funcionamiento",
+          "snippet": "No conecta de manera inalámbrica",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "HP Smart Scam",
-          "snippet": "After 2 years features suddenly “expire“ and HO tries to force you to subscribe to their paid app to activate them. I found a workaround but it took m",
-          "sentiment": "neutral"
+          "title": "Hp Smart Tank 7602r",
+          "snippet": "Love it!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Great",
+          "snippet": "Amazing Experience",
+          "sentiment": "positive"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 73,
+      "mention_count": 123,
       "sentiment": {
-        "positive": 15,
-        "negative": 24,
-        "neutral": 34
+        "positive": 19,
+        "negative": 52,
+        "neutral": 52
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Terrible!",
-          "snippet": "Not reliable.  Keeps losing connection to my wifi.",
-          "sentiment": "neutral"
+          "rating": 5,
+          "title": "Great printer",
+          "snippet": "This Wi-Fi printer is easy to set up- directions are understandable by a “ not technically inclined “ person. Just take your time between steps. Nice ",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Your app doesn’t work",
-          "snippet": "It doesn’t connect, when it does it still won’t let me press print and doesn’t tell me why. The whole experience is dreadful every time I have to prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Quick fix for WIFI connectivity with IPhone",
-          "snippet": "iPhone can acquire an additional WIFI network, generating duplicate SSID error message. Power down  & power up iPhone fixes it.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Difficult to connect",
-          "snippet": "Why can’t anyone make a printer that connects to your computer and modem with the press of a single button?  Not all of us are tech wizards. I find it",
+          "title": "Only works with WiFi Direct on HP ST 533",
+          "snippet": "Too bad for HP. Printing from iOS 26. Only works with WiFi Direct. App not fancy and usable.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "My printer is trash",
-          "snippet": "Bought it new on Amazon. It never worked correctly, for example, not keeping a signal, stop printing after the 3rd page, hard to get something printed",
+          "title": "HP has done a great job of making their printers a",
+          "snippet": "In an effort to try and extract as much money from us as possible, HP has made their printers a bigger hassle to use.  If you don't subscribe to their",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Pathetic useless app",
+          "snippet": "Can’t connect the printer and can’t print anything. This app is ducking useless. Even if the printer is in setup mode, nothing happens.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Galère",
+          "snippet": "Je ne peux même plus me reconnecter avec mon téléphone. Je regrette cet achat et le déconseille vivement.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 118,
+      "sentiment": {
+        "positive": 28,
+        "negative": 46,
+        "neutral": 44
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "Why did I buy another HP PRINTER",
+          "snippet": "Title really says everything. You will use all your ink reprinting because it never prints what the preview looks like. It doesn’t matter black and wh",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Unethical and deceptive",
+          "snippet": "I loved and only bought hp products for my office until recently I was offered insta ink with the purchase of my new printer however after I decided t",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "HP UTTERLY USELESS",
+          "snippet": "Printer supposed to be “easy set up”\nIT’S NOTHING OF THE SORT ! \nTotally NOT intuitive, confusing and complex\nWill NEVER buy HP again \nWhen it works, ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Adjustments",
+          "snippet": "I cannot enlarge / decrease on my hp app\nOr. My printer. I have a7965 envoy printer brand new. Need help.  .",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "No human contact",
+          "snippet": "Stsyed on phone for an hour waiting to\nSpeak with customer service live person because AI couldn’t help .  This is the worst service i’ve ever experie",
           "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 53,
+      "mention_count": 78,
       "sentiment": {
-        "positive": 12,
-        "negative": 13,
-        "neutral": 28
+        "positive": 21,
+        "negative": 24,
+        "neutral": 33
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Hp junk",
-          "snippet": "Why can I now not scan from my printer?  Why  must I use the camera from my iPad?",
+          "title": "Only works with WiFi Direct on HP ST 533",
+          "snippet": "Too bad for HP. Printing from iOS 26. Only works with WiFi Direct. App not fancy and usable.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Yall are the niggest scammers on the planet",
+          "snippet": "This is the worst print on the planet and then they updated the print to where you cant use use generic ink but they brand of ink is horrible, overpri",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "SCAM!!!!!!!",
+          "snippet": "Never, ever purchase a HP Printer!!! If you cancel your instant ink subscription they will lock you out of your printer and it will not work. I’ve spe",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Działa!!!",
+          "snippet": "Mam iPhone16 pro,padł mi internet i martwiłem się że nie wydrukuje pism przygotowanych na telefonie.\nSprawdziłem,pogrzebałem i POSZŁO!!!\nWszystko dzia",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Problemi dopo agg iOS 26",
-          "snippet": "Dopo L aggiornamento iOS 26 la funzione scanner da app hp non funziona più",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "Freezing update",
-          "snippet": "Freezing update",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 4,
-          "title": "Quick fix for WIFI connectivity with IPhone",
-          "snippet": "iPhone can acquire an additional WIFI network, generating duplicate SSID error message. Power down  & power up iPhone fixes it.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Nach Update größter Schmutz",
-          "snippet": "größter Mist nach dem Update, Drucker wird nicht mehr erkannt",
-          "sentiment": "neutral"
+          "title": "Slow Printing",
+          "snippet": "My iPhone connects very slow and takes for ever to print papers.",
+          "sentiment": "negative"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 47,
+      "mention_count": 76,
       "sentiment": {
-        "positive": 12,
-        "negative": 17,
-        "neutral": 18
+        "positive": 17,
+        "negative": 35,
+        "neutral": 24
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 5,
-          "title": "User friendly",
-          "snippet": "The set up was so easy if my grandparents are still alive, they wouldn’t even have to call me for help.",
+          "title": "Great printer",
+          "snippet": "This Wi-Fi printer is easy to set up- directions are understandable by a “ not technically inclined “ person. Just take your time between steps. Nice ",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "The worst experience I’ve ever had an HP printer",
-          "snippet": "My HP envy 6120E has proven to be useless!\nSo far I’ve lots of printed sheets of the condition of the printer and the amount of ink that is left!  To ",
-          "sentiment": "negative"
+          "title": "Unethical and deceptive",
+          "snippet": "I loved and only bought hp products for my office until recently I was offered insta ink with the purchase of my new printer however after I decided t",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Adjustments",
+          "snippet": "I cannot enlarge / decrease on my hp app\nOr. My printer. I have a7965 envoy printer brand new. Need help.  .",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "A very helpful app",
-          "snippet": "It’s very easy to learn how to use your printing machine and examples are available to help you. overall this helps a lot of people and I’m thankful i",
+          "title": "First wireless printer",
+          "snippet": "Simple setup, easy to follow instructions.. great printer",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "IMPRESSORA SMART TANK 584",
-          "snippet": "ALERTA AOS CONSUMIDORES: Cuidado com as impressoras HP! Não comprem antes de saber disso!\nGente, preciso vir aqui expor um absurdo e um verdadeiro des",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Nutteloos",
-          "snippet": "De app probeert je vooral van alles te verkopen, maar als je wilt weten hoeveel printtegoed je nog hebt, opent hij domweg de browser en moet je het ze",
-          "sentiment": "neutral"
+          "title": "No human contact",
+          "snippet": "Stsyed on phone for an hour waiting to\nSpeak with customer service live person because AI couldn’t help .  This is the worst service i’ve ever experie",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 47,
+      "mention_count": 74,
       "sentiment": {
-        "positive": 9,
-        "negative": 26,
-        "neutral": 12
+        "positive": 14,
+        "negative": 37,
+        "neutral": 23
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 3,
-          "title": "Slow and flimsy",
-          "snippet": "Expected better quality and speed from HP",
-          "sentiment": "negative"
+          "title": "Mycket lagg",
+          "snippet": "Vill inte skriva ut från dator/mac. Omstart krävs av både dator och skrivare. Försöker få igång skrivaren. Efter två timmar ger jag upp och försöker s",
+          "sentiment": "neutral"
         },
         {
-          "rating": 3,
-          "title": "HPApp und HP9130e",
-          "snippet": "In Verbindung  mit dem Vorlageneinzug funktioniert nicht.  Fehlermeldung, dass das Originaldokument nicht eingelegt ist.",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Why did I buy another HP PRINTER",
+          "snippet": "Title really says everything. You will use all your ink reprinting because it never prints what the preview looks like. It doesn’t matter black and wh",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "POS App",
-          "snippet": "Garbage app for a garbage Printer constantly loses itself gives errors.",
+          "title": "HP has done a great job of making their printers a",
+          "snippet": "In an effort to try and extract as much money from us as possible, HP has made their printers a bigger hassle to use.  If you don't subscribe to their",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "HP OfficeJet 5258 Document Feeder Fail",
+          "snippet": "I will never understand how company with resources of Hewlett-Packard cannot manufacture a reliable, robust document feeder.\n\nI scan maybe, 50 pages a",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "Difficult to use",
+          "snippet": "My Deskjet 2800 almost never works and I just got it. The app never connects to my printer and there’s always some kind of error flashing on the print",
           "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Quick fix for WIFI connectivity with IPhone",
-          "snippet": "iPhone can acquire an additional WIFI network, generating duplicate SSID error message. Power down  & power up iPhone fixes it.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Paper size hp instant ink",
-          "snippet": "It’s all a scam. Why are we paying monthly and even when we aren’t using the ink we still have to pay the next month and if for some reason the debit ",
-          "sentiment": "neutral"
         }
       ]
     }

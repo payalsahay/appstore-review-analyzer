@@ -1,435 +1,435 @@
 {
-  "generated_at": "2026-09-04T18:52:05.921632",
-  "total_reviews": 791,
+  "generated_at": "2026-09-11T19:01:20.998361",
+  "total_reviews": 818,
   "sentiment_summary": {
-    "neutral": 557,
-    "negative": 127,
-    "positive": 107
+    "neutral": 581,
+    "negative": 132,
+    "positive": 105
   },
   "rating_distribution": {
-    "5": 239,
-    "1": 431,
-    "2": 51,
-    "4": 36,
-    "3": 34
+    "5": 233,
+    "1": 457,
+    "3": 35,
+    "2": 58,
+    "4": 35
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 320,
+      "mention_count": 342,
       "sentiment": {
-        "positive": 58,
-        "negative": 79,
-        "neutral": 183
+        "positive": 56,
+        "negative": 84,
+        "neutral": 202
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "My printer is not offline! I can print locally using the built-in Android Printing and Mopria! Your stupid app keeps saying my printer is offline even",
+          "snippet": "very beginner user friendly.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it doesn't work struggle to get anything printed it's a sometimes if it wants it'll print this app is supposed to work I just bought a hp printer and ",
+          "snippet": "la peor app del mundo. es inmanejable. nunca se abre bien. continuamente está pidiendo hacer logon. y esta diseñada de pena (si soy elegante)",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "no carga,no es intuitiva, es mucho peor que hpsmart",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "heel gebruikersonvriendelijk",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I can't believe you made me purchase a laser printer and then I bought the toner and drum (which are expensive) and nothing works, it keeps printing w",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "wat een rotding, valt niet mee te werken. Verplichte cartridges waar je je helemaal blauw aan betaald, print expres 'uitlijntemplates' in blauw zodat ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "niet normaal wat een puinhoop gewoon via email klacht indienen en dan hopelijk goede duidelijke uitleg dit is een grote puinhoop.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Appli qui bug H24. que se soit sur ordinateur ou téléphone. 1h pour imprimer un document simple en pdf. HP ce n'est plus ce que c'était auparavant. J'",
-          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 298,
+      "mention_count": 306,
       "sentiment": {
-        "positive": 38,
-        "negative": 13,
-        "neutral": 247
+        "positive": 39,
+        "negative": 11,
+        "neutral": 256
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "ok",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "💯",
+          "snippet": "Barely works.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Péssima. Comprei a 1 ano e não consigo usar . Estava tudo normal . Agora não imprimi mais .",
+          "snippet": "se traba la aplicación",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 3,
           "title": "",
-          "snippet": "gut 👍",
+          "snippet": "farei 3 e se funcionar eu volto Aki e dou até um milhão de estrelas pois hoje e difícil um que preste vamos ver esse.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "comprends rien...",
+          "snippet": "👌",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "más de 2 HRS y no se puede imprimir, soporte de whats no contesta más de 5 HRS, llamadas no enlazan. si pueden no compren impresoras HP.",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 225,
+      "mention_count": 222,
       "sentiment": {
-        "positive": 34,
-        "negative": 78,
-        "neutral": 113
+        "positive": 33,
+        "negative": 77,
+        "neutral": 112
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "trash along with the hp printer",
+          "snippet": "I can't believe you made me purchase a laser printer and then I bought the toner and drum (which are expensive) and nothing works, it keeps printing w",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Failed to connect to new printer and can't change the alias name of the printer",
+          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "My printer is not offline! I can print locally using the built-in Android Printing and Mopria! Your stupid app keeps saying my printer is offline even",
+          "snippet": "I didn't accept the printer cut my scans documents, The auto edit is off",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just purchased aHPDeskJet2935 printer! l haven't been able to print anything! Unless l pay for subscriptions! Which l can't afford now since l used ",
-          "sentiment": "neutral"
+          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "nothing but problems, from one device to another with each days new print sessions. Today the document I am trying to print will not even bring up the",
-          "sentiment": "neutral"
+          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
+          "sentiment": "negative"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 124,
+      "mention_count": 121,
       "sentiment": {
-        "positive": 13,
-        "negative": 40,
-        "neutral": 71
+        "positive": 12,
+        "negative": 42,
+        "neutral": 67
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "I just purchased aHPDeskJet2935 printer! l haven't been able to print anything! Unless l pay for subscriptions! Which l can't afford now since l used ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "nothing but problems, from one device to another with each days new print sessions. Today the document I am trying to print will not even bring up the",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "(Update) More than a year after this review, they somehow made an already garbage process worse. I don't intend on ever using an HP product again afte",
+          "snippet": "I can't believe you made me purchase a laser printer and then I bought the toner and drum (which are expensive) and nothing works, it keeps printing w",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "This app so far is frustrating and unproductive. Dealing with a reputable, large and well known company as HP I was expecting much better results. I h",
+          "snippet": "Con ultima actullzacion en el celular no deja ahora modificar el orden del escaneado de hojas y adicional en la computadora es lo mismo y no deja move",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "cancelled my subscription, now I can't use my printer! HP IS GARBAGE NOW! THIS PRINTER NOW BECOMES TARGET PRACTICE!",
           "sentiment": "negative"
         },
         {
-          "rating": 4,
+          "rating": 1,
           "title": "",
-          "snippet": "La app es buena, pero la impresora tiene mala configuración de WiFi. Demora mucho en hacer la conexión, se desconecta de pronto, etc. Si mejoran eso, ",
+          "snippet": "NON COMPRATE PRODOTTI HP SOLDI BUTTATI...",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "At times I can print from this app to my 2 printers and at times I can't. This is a recent problem I've been having. it's very frustrating. please hel",
+          "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 123,
+      "mention_count": 120,
       "sentiment": {
-        "positive": 11,
-        "negative": 37,
-        "neutral": 75
+        "positive": 10,
+        "negative": 40,
+        "neutral": 70
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's not working. cannot connect to internet or MN use ethernet",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Failed to connect to new printer and can't change the alias name of the printer",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "My printer is not offline! I can print locally using the built-in Android Printing and Mopria! Your stupid app keeps saying my printer is offline even",
+          "snippet": "la impresora no se conecta a mi wifi por más que reinicio",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "(Update) More than a year after this review, they somehow made an already garbage process worse. I don't intend on ever using an HP product again afte",
+          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Constantly crashing and losing connection to printer/cloud. Slowly loading interface with new buttons popping up in the middle without warning when i ",
+          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it's useless it doesn't even connect to my phone.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
           "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 94,
+      "mention_count": 102,
       "sentiment": {
-        "positive": 17,
-        "negative": 21,
-        "neutral": 56
+        "positive": 16,
+        "negative": 24,
+        "neutral": 62
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
+          "rating": 5,
+          "title": "",
+          "snippet": "Das Scannen über W-Lan ist etwas langsam, aber es funktioniert gut, auch mit mehreren Seiten in einer Datei.",
+          "sentiment": "neutral"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "nothing but problems, from one device to another with each days new print sessions. Today the document I am trying to print will not even bring up the",
+          "snippet": "I didn't accept the printer cut my scans documents, The auto edit is off",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Con ultima actullzacion en el celular no deja ahora modificar el orden del escaneado de hojas y adicional en la computadora es lo mismo y no deja move",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "very good scanner",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Appli qui bug H24. que se soit sur ordinateur ou téléphone. 1h pour imprimer un document simple en pdf. HP ce n'est plus ce que c'était auparavant. J'",
+          "snippet": "me resultó muy práctico tanto para imprimir como para escanear.",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "¡¡Urge que arreglen la sección de presentación preliminar, no sirve mas que para dar datos, no te deja modificar la imagen para que quepa completa. Aú",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "very easy to scan files and save in a neat electronic format on your mobile folders. Thanks HP.",
+          "snippet": "Love using the app. Quick and easy to print or scan",
           "sentiment": "positive"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 87,
+      "mention_count": 85,
       "sentiment": {
-        "positive": 15,
-        "negative": 41,
-        "neutral": 31
+        "positive": 16,
+        "negative": 40,
+        "neutral": 29
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it doesn't work struggle to get anything printed it's a sometimes if it wants it'll print this app is supposed to work I just bought a hp printer and ",
+          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I bought a printer. It should be easier to connect with network. You make buying something one click. how about making using it that easy. Ho in heck ",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Issues: Poor color accuracy and ruined dark tones when printing via HP's app App uses standard black ink on premium photo paper Third-party apps fix c",
           "sentiment": "negative"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "niet normaal wat een puinhoop gewoon via email klacht indienen en dan hopelijk goede duidelijke uitleg dit is een grote puinhoop.",
-          "sentiment": "neutral"
+          "snippet": "Managed to get it connected and was working perfectly. However as soon as I wanted to print on a different type of paper the app refused to work. It c",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "(Update) More than a year after this review, they somehow made an already garbage process worse. I don't intend on ever using an HP product again afte",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "This app so far is frustrating and unproductive. Dealing with a reputable, large and well known company as HP I was expecting much better results. I h",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Over engineered printing. Awful printing experience. Getting the thing to print is an art rather than science. Printing should not be this painful in ",
+          "snippet": "this app is so trash, it won't open when you need it the most 😤.",
           "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 84,
+      "mention_count": 81,
       "sentiment": {
-        "positive": 3,
-        "negative": 57,
-        "neutral": 24
+        "positive": 4,
+        "negative": 52,
+        "neutral": 25
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's not working. cannot connect to internet or MN use ethernet",
+          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Failed to connect to new printer and can't change the alias name of the printer",
+          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it doesn't work struggle to get anything printed it's a sometimes if it wants it'll print this app is supposed to work I just bought a hp printer and ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Appli qui bug H24. que se soit sur ordinateur ou téléphone. 1h pour imprimer un document simple en pdf. HP ce n'est plus ce que c'était auparavant. J'",
+          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "pésima aplicación no se puede imprimir y quieres iniciar sesión y aparece error",
-          "sentiment": "neutral"
+          "snippet": "terrible, doesn't work",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "not working in Galaxy Z8",
+          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 49,
+      "mention_count": 47,
       "sentiment": {
-        "positive": 6,
+        "positive": 5,
         "negative": 15,
-        "neutral": 28
+        "neutral": 27
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "nothing but problems, from one device to another with each days new print sessions. Today the document I am trying to print will not even bring up the",
+          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Das letzte Update war ja nur noch ein letzter Schritt in die Tonne. Update 03.09.2026: Nur eine Seite drucken hat fast eine Stunde gekostet. Drucker n",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "(Update) More than a year after this review, they somehow made an already garbage process worse. I don't intend on ever using an HP product again afte",
+          "snippet": "funny how the app just doesn't have USB connection for setup the printer. if you're not provided a service the how pathetic to have a product that onl",
           "sentiment": "negative"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "¡¡Urge que arreglen la sección de presentación preliminar, no sirve mas que para dar datos, no te deja modificar la imagen para que quepa completa. Aú",
+          "snippet": "Soweit bin ich eigentlich ganz zufrieden. Für einfaches drucken und scannen reicht es. Hin und wieder klappt die Verbindung zum Drucker nicht bzw. mir",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the app has gotten no better over time, still drops my printer which is perfectly connected to my network and visible with other apps...but want to sc",
-          "sentiment": "positive"
+          "snippet": "Please add an 8.5 x 13 inches (Long / Folio) size option. Currently, printing on Long paper stretches or rescales the document to fit standard Legal (",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Bei meinem neuen Drucker wurde die Garantie im System fälschlicherweise als abgelaufen angezeigt. Obwohl ich einen aktuellen Kaufbeleg vorlegen konnte",
+          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 36,
+      "mention_count": 38,
       "sentiment": {
         "positive": 5,
         "negative": 7,
-        "neutral": 24
+        "neutral": 26
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "My printer is not offline! I can print locally using the built-in Android Printing and Mopria! Your stupid app keeps saying my printer is offline even",
-          "sentiment": "neutral"
+          "snippet": "At times I can print from this app to my 2 printers and at times I can't. This is a recent problem I've been having. it's very frustrating. please hel",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "wont scan to computer. no help available",
-          "sentiment": "neutral"
+          "snippet": "funny how the app just doesn't have USB connection for setup the printer. if you're not provided a service the how pathetic to have a product that onl",
+          "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "the app has gotten no better over time, still drops my printer which is perfectly connected to my network and visible with other apps...but want to sc",
+          "snippet": "Managed to get it connected and was working perfectly. However as soon as I wanted to print on a different type of paper the app refused to work. It c",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Frustrated. Was easyish to set up then we got fibre, new modem and network. it keeps saying error after following instructions. Uninstalling and buyin",
-          "sentiment": "positive"
+          "snippet": "too many options for stuff I don't want. was just trying to troubleshoot, and now I can't connect to settings without getting \"can't connect due to un",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Does not support usb connectivity to printer. Bloated at 161MB",
+          "snippet": "Please add an 8.5 x 13 inches (Long / Folio) size option. Currently, printing on Long paper stretches or rescales the document to fit standard Legal (",
           "sentiment": "neutral"
         }
       ]

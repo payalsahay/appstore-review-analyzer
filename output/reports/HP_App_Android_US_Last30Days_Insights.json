@@ -1,151 +1,151 @@
 {
-  "generated_at": "2026-09-11T19:01:20.976449",
-  "total_reviews": 370,
+  "generated_at": "2026-09-18T18:55:42.519095",
+  "total_reviews": 397,
   "sentiment_summary": {
-    "neutral": 168,
-    "negative": 115,
-    "positive": 87
+    "neutral": 179,
+    "positive": 99,
+    "negative": 119
   },
   "rating_distribution": {
-    "5": 85,
-    "1": 229,
-    "2": 28,
-    "3": 11,
-    "4": 17
+    "5": 93,
+    "4": 17,
+    "1": 246,
+    "2": 30,
+    "3": 11
   },
   "categories": {
-    "printing": {
-      "name": "Print Quality & Functionality",
-      "mention_count": 183,
-      "sentiment": {
-        "positive": 28,
-        "negative": 73,
-        "neutral": 82
-      },
-      "pm_focus": "Core value proposition, print reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I didn't accept the printer cut my scans documents, The auto edit is off",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
-          "sentiment": "neutral"
-        }
-      ]
-    },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 180,
+      "mention_count": 200,
       "sentiment": {
-        "positive": 45,
-        "negative": 72,
-        "neutral": 63
+        "positive": 46,
+        "negative": 77,
+        "neutral": 77
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
+          "rating": 4,
+          "title": "",
+          "snippet": "great app, however, 1) it would be great if you could add your shortcuts to the top of the page for quick access, 2) a shortcuts android widget for ev",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I swear i hate this apps... Rubbish.. White loading screen forever",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "always hang and stuck at the white screen",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "application not canecting",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Buggy app, slow, and unpredictable, esp desktop",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 189,
+      "sentiment": {
+        "positive": 37,
+        "negative": 68,
+        "neutral": 84
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
           "rating": 5,
           "title": "",
-          "snippet": "very beginner user friendly.",
+          "snippet": "the printer acts like it is printing but nothing comes out",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
+          "snippet": "It's a big hassle to print photos and documents on a Long Size Paper (8.5\" x 13\"). The app doesn't let you customize the paper size and the only way t",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "At times I can print from this app to my 2 printers and at times I can't. This is a recent problem I've been having. it's very frustrating. please hel",
+          "snippet": "Nice, worth buying HP Printers !",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent performance by the HP Smart, especially using mobile. It's gives a big relief. Print and scanning is way beyond my expectations. Thank you t",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP software is always breaking printer discovery. I disabled the app, assigned a local IP address to the printer, and used the default printer service",
           "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 85,
+      "mention_count": 89,
       "sentiment": {
-        "positive": 33,
+        "positive": 37,
         "negative": 10,
         "neutral": 42
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "",
-          "snippet": "Barely works.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "👌",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 5,
           "title": "",
-          "snippet": "Fantastic jobs",
+          "snippet": "HP rocks!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "Good",
           "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "It's good.",
+          "snippet": "fantastic",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "the worst experience you will ever have in your life",
-          "sentiment": "negative"
+          "snippet": "This ROCKS",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "very good",
+          "sentiment": "positive"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 83,
+      "mention_count": 85,
       "sentiment": {
-        "positive": 10,
-        "negative": 38,
+        "positive": 15,
+        "negative": 35,
         "neutral": 35
       },
       "pm_focus": "First-time user experience, connectivity reliability",
@@ -153,283 +153,283 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
+          "snippet": "HP software is always breaking printer discovery. I disabled the app, assigned a local IP address to the printer, and used the default printer service",
           "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "It does not work with direct wifi, please fix this problem and improve the offline usage experience and make the application smooth and fast, whatever",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
-          "sentiment": "negative"
+          "snippet": "This app used to work but now it won't connect with my phone",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's useless it doesn't even connect to my phone.",
-          "sentiment": "negative"
+          "snippet": "Instead of helping me set up my printer and keeping it that way, this app is a complete setup to force you to buy!",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
+          "snippet": "Mobile fax isn't working. Keeps saying Internet connection issues..",
           "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 82,
+      "mention_count": 75,
       "sentiment": {
-        "positive": 16,
-        "negative": 40,
-        "neutral": 26
+        "positive": 15,
+        "negative": 35,
+        "neutral": 25
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 4,
           "title": "",
-          "snippet": "This is the absolute worst printing experience I've ever had. My printer is connected to the internet, and so is my phone, both on the same Wi-Fi netw",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I bought a printer. It should be easier to connect with network. You make buying something one click. how about making using it that easy. Ho in heck ",
+          "snippet": "great app, however, 1) it would be great if you could add your shortcuts to the top of the page for quick access, 2) a shortcuts android widget for ev",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Issues: Poor color accuracy and ruined dark tones when printing via HP's app App uses standard black ink on premium photo paper Third-party apps fix c",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Managed to get it connected and was working perfectly. However as soon as I wanted to print on a different type of paper the app refused to work. It c",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "this app is so trash, it won't open when you need it the most 😤.",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    "value": {
-      "name": "Value & Pricing",
-      "mention_count": 79,
-      "sentiment": {
-        "positive": 10,
-        "negative": 38,
-        "neutral": 31
-      },
-      "pm_focus": "Monetization, value perception",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "cancelled my subscription, now I can't use my printer! HP IS GARBAGE NOW! THIS PRINTER NOW BECOMES TARGET PRACTICE!",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "At times I can print from this app to my 2 printers and at times I can't. This is a recent problem I've been having. it's very frustrating. please hel",
+          "snippet": "HP sucks more than ever. Updates only break functionality, they never fix or improve anything! No more 2-Sided scans from feeder, so that must be done",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "funny how the app just doesn't have USB connection for setup the printer. if you're not provided a service the how pathetic to have a product that onl",
+          "snippet": "HP software is always breaking printer discovery. I disabled the app, assigned a local IP address to the printer, and used the default printer service",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Absolutely pathetic even after choosing the page format it gives you a default image of every scanned page which is required to be cropped fix this ot",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I don't know why printers are still such a nightmarish experience. I'm just trying to buy ink and I clicked the button to do so and it just clocks end",
+          "snippet": "You want to use our app? Download this app we have! Want to use this one then you need to download our other app!",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Recent version throws \"scan unsuccessful\" error with my HP OfficeJet 3830. App is working fine on iOS and macOS. What has improved: - selected export ",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 61,
+      "mention_count": 73,
       "sentiment": {
         "positive": 4,
-        "negative": 42,
-        "neutral": 15
+        "negative": 52,
+        "neutral": 17
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "No matter what settings I make or change, the HP app will not see or connect to my printer on the same network. I've tried everything possible within ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "no phone printing. bulls setup. failure. complete clusterf",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
+          "snippet": "always hang and stuck at the white screen",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "terrible, doesn't work",
+          "snippet": "Buggy app, slow, and unpredictable, esp desktop",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "not working in Galaxy Z8",
+          "snippet": "Recent version throws \"scan unsuccessful\" error with my HP OfficeJet 3830. App is working fine on iOS and macOS. What has improved: - selected export ",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app doesn't work with my HP laser jet M120w",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "it doesn't work it doesn't allow me to connect my printer this is one app that I hate but I love the product but the app is trash!!!!! to the develope",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 72,
+      "sentiment": {
+        "positive": 12,
+        "negative": 30,
+        "neutral": 30
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Nice, worth buying HP Printers !",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP sucks more than ever. Updates only break functionality, they never fix or improve anything! No more 2-Sided scans from feeder, so that must be done",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP software is always breaking printer discovery. I disabled the app, assigned a local IP address to the printer, and used the default printer service",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "App never loads!! WORTHLESS!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Pity and shame. From Windows 2000 I didn't have so much problem with printer untill now. For the years i use everything HP or Dell. This printer,will ",
+          "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 59,
+      "mention_count": 57,
       "sentiment": {
-        "positive": 14,
-        "negative": 22,
-        "neutral": 23
+        "positive": 16,
+        "negative": 17,
+        "neutral": 24
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
+          "rating": 4,
+          "title": "",
+          "snippet": "great app, however, 1) it would be great if you could add your shortcuts to the top of the page for quick access, 2) a shortcuts android widget for ev",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
           "title": "",
-          "snippet": "I didn't accept the printer cut my scans documents, The auto edit is off",
+          "snippet": "It's a big hassle to print photos and documents on a Long Size Paper (8.5\" x 13\"). The app doesn't let you customize the paper size and the only way t",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Love using the app. Quick and easy to print or scan",
+          "snippet": "Excellent performance by the HP Smart, especially using mobile. It's gives a big relief. Print and scanning is way beyond my expectations. Thank you t",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Absolutely pathetic even after choosing the page format it gives you a default image of every scanned page which is required to be cropped fix this ot",
+          "snippet": "HP sucks more than ever. Updates only break functionality, they never fix or improve anything! No more 2-Sided scans from feeder, so that must be done",
           "sentiment": "negative"
         },
         {
-          "rating": 4,
+          "rating": 5,
           "title": "",
-          "snippet": "Great for printing, decent for scanning",
+          "snippet": "I love my scanner printer.",
           "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Issues: Poor color accuracy and ruined dark tones when printing via HP's app App uses standard black ink on premium photo paper Third-party apps fix c",
-          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 32,
+      "mention_count": 43,
       "sentiment": {
-        "positive": 4,
-        "negative": 13,
-        "neutral": 15
+        "positive": 6,
+        "negative": 17,
+        "neutral": 20
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "I thought it was only one printer with this issue. However it is 2 printers, 2 different models and 2 different locations. Jobs sent do not print or o",
+          "snippet": "Don't support 2700 series",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "funny how the app just doesn't have USB connection for setup the printer. if you're not provided a service the how pathetic to have a product that onl",
+          "snippet": "HP sucks more than ever. Updates only break functionality, they never fix or improve anything! No more 2-Sided scans from feeder, so that must be done",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "It does not work with direct wifi, please fix this problem and improve the offline usage experience and make the application smooth and fast, whatever",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "i can't find the information of my printer. the latest version is useless for old printer. Disappointed.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Please add an 8.5 x 13 inches (Long / Folio) size option. Currently, printing on Long paper stretches or rescales the document to fit standard Legal (",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "my hp laptop is not compatible with my hp printer",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "I cannot now print from S22 ultra... they stopped cloud printing, now they don't provide support for phones that is 4 years old !!! even that app keep",
+          "snippet": "not compatible",
           "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 31,
+      "mention_count": 33,
       "sentiment": {
-        "positive": 5,
-        "negative": 7,
-        "neutral": 19
+        "positive": 6,
+        "negative": 6,
+        "neutral": 21
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "",
-          "snippet": "At times I can print from this app to my 2 printers and at times I can't. This is a recent problem I've been having. it's very frustrating. please hel",
-          "sentiment": "negative"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "funny how the app just doesn't have USB connection for setup the printer. if you're not provided a service the how pathetic to have a product that onl",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Managed to get it connected and was working perfectly. However as soon as I wanted to print on a different type of paper the app refused to work. It c",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "too many options for stuff I don't want. was just trying to troubleshoot, and now I can't connect to settings without getting \"can't connect due to un",
+          "snippet": "Don't support 2700 series",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Please add an 8.5 x 13 inches (Long / Folio) size option. Currently, printing on Long paper stretches or rescales the document to fit standard Legal (",
+          "snippet": "Instead of helping me set up my printer and keeping it that way, this app is a complete setup to force you to buy!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "extremely helpful",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "doesn't let me select multiple photos at once to print, and when I manually told it to print a photo, went back, told it to print another, it forgot e",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "have hp 2700 and both the printer and app are abysmall working when they find it fit. never again hp. update it s even worse unable to remove the prin",
           "sentiment": "neutral"
         }
       ]

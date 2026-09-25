@@ -1,183 +1,183 @@
 {
-  "generated_at": "2026-09-18T18:55:42.444824",
-  "total_reviews": 440,
+  "generated_at": "2026-09-25T19:52:47.091851",
+  "total_reviews": 465,
   "sentiment_summary": {
-    "positive": 142,
-    "negative": 116,
-    "neutral": 182
+    "neutral": 180,
+    "positive": 148,
+    "negative": 137
   },
   "rating_distribution": {
-    "1": 221,
-    "5": 156,
+    "1": 243,
+    "5": 155,
     "2": 29,
-    "3": 17,
-    "4": 17
+    "3": 20,
+    "4": 18
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 302,
+      "mention_count": 312,
       "sentiment": {
-        "positive": 77,
-        "negative": 101,
-        "neutral": 124
+        "positive": 78,
+        "negative": 113,
+        "neutral": 121
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Printer",
+          "snippet": "Wow easy to hook up and even input WiFi information \nThe app is well designed \nThanks",
+          "sentiment": "positive"
         },
         {
           "rating": 5,
-          "title": "Little Workhorse",
-          "snippet": "We don’t use our printer often, but it is amazing…so easy to use and copy is perfect. I love this little thing!",
+          "title": "Scanning",
+          "snippet": "So easy to scan with many easy options to work on your document",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Connection issues",
-          "snippet": "Everytime I use my printer it has connection issues",
-          "sentiment": "neutral"
+          "title": "Hp deskjet 2827e",
+          "snippet": "This printer is really horrible like I regret this purchase so much",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "🤦‍♀️",
-          "snippet": "App glitches too much. Does not connect to printer. Can’t speak to anybody through the app and have to reset Wi-Fi connection constantly.",
+          "title": "Pay to Print??",
+          "snippet": "So I spent money on this printer, paid to buy ink from Walmart and it’s telling me I can’t print anything until I update my payment method for ink del",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "Printer",
-          "snippet": "Took forever to print",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Hard to manuver",
+          "snippet": "I need to change the amount of paper used per month. It used to be extremely easy to do this. I’ve messed with this for a while and still can’t figure",
+          "sentiment": "positive"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 188,
+      "mention_count": 207,
       "sentiment": {
-        "positive": 68,
-        "negative": 66,
+        "positive": 76,
+        "negative": 77,
         "neutral": 54
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Doesn’t work",
-          "snippet": "Plain and simple, doesn’t work",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "Little Workhorse",
-          "snippet": "We don’t use our printer often, but it is amazing…so easy to use and copy is perfect. I love this little thing!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "🤦‍♀️",
-          "snippet": "App glitches too much. Does not connect to printer. Can’t speak to anybody through the app and have to reset Wi-Fi connection constantly.",
+          "title": "Not intuitive-cumbersome process",
+          "snippet": "It is ridiculous that you have to use your phone in order to send a fax or essentially scan something that you want to email. You should really be abl",
           "sentiment": "neutral"
         },
         {
+          "rating": 5,
+          "title": "Printer",
+          "snippet": "Wow easy to hook up and even input WiFi information \nThe app is well designed \nThanks",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Scanning",
+          "snippet": "So easy to scan with many easy options to work on your document",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
-          "title": "Worst printer ever",
-          "snippet": "Between needing to have a subscription for ink or something else this printer and app is useless. Never feeds paper right never sends anything to prin",
+          "title": "Crashes",
+          "snippet": "App gets stuck at loading page",
           "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Hard to manuver",
+          "snippet": "I need to change the amount of paper used per month. It used to be extremely easy to do this. I’ve messed with this for a while and still can’t figure",
+          "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 124,
+      "mention_count": 139,
       "sentiment": {
-        "positive": 31,
-        "negative": 44,
-        "neutral": 49
+        "positive": 39,
+        "negative": 49,
+        "neutral": 51
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
+          "title": "Not intuitive-cumbersome process",
+          "snippet": "It is ridiculous that you have to use your phone in order to send a fax or essentially scan something that you want to email. You should really be abl",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Hp deskjet 2827e",
+          "snippet": "This printer is really horrible like I regret this purchase so much",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Worst printer ever",
-          "snippet": "Between needing to have a subscription for ink or something else this printer and app is useless. Never feeds paper right never sends anything to prin",
-          "sentiment": "negative"
+          "title": "Pay to Print??",
+          "snippet": "So I spent money on this printer, paid to buy ink from Walmart and it’s telling me I can’t print anything until I update my payment method for ink del",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Junk!",
-          "snippet": "Called support line for setup assistance to be disconnected. Figured it out I thought, until I authorized a firmware update… now won’t print and scree",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Worst printer ever!",
-          "snippet": "I’ve only had problems ever since I bought this brand of printer! It is soooo unreliable and I’m ready to toss it in the garbage!",
+          "title": "Doesn’t work.",
+          "snippet": "This is the worst printer I’ve ever used. It does not print. It always has a printer error. It’s the worst. Please don’t waste your money",
           "sentiment": "negative"
         },
         {
           "rating": 5,
-          "title": "Life saver",
-          "snippet": "I have so many responsibilities being an advocate for myself and my children as a single mother. Being able to save time and money has is the best com",
-          "sentiment": "positive"
+          "title": "Excelente producto",
+          "snippet": "Muy fácil de usar y práctica",
+          "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 97,
+      "mention_count": 104,
       "sentiment": {
-        "positive": 22,
-        "negative": 41,
-        "neutral": 34
+        "positive": 30,
+        "negative": 39,
+        "neutral": 35
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Worst printer ever",
-          "snippet": "Between needing to have a subscription for ink or something else this printer and app is useless. Never feeds paper right never sends anything to prin",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Junk!",
-          "snippet": "Called support line for setup assistance to be disconnected. Figured it out I thought, until I authorized a firmware update… now won’t print and scree",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Least user friendly experience",
-          "snippet": "This app and the printers are the hardest things I use in my life. Nothing works and nothing is easy. Why do we lock down printers more than the White",
+          "title": "Not intuitive-cumbersome process",
+          "snippet": "It is ridiculous that you have to use your phone in order to send a fax or essentially scan something that you want to email. You should really be abl",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "I love this app",
-          "snippet": "This app is so easy to use, consistent and reliable! I love the options and how quickly it is to navigate. Thank you so much for keeping this product.",
+          "title": "Scanning",
+          "snippet": "So easy to scan with many easy options to work on your document",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Everything Wrong with America",
+          "snippet": "I can’t believe all the rumors are true. Executives at HP should be pulled to testify in front of Congress.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "Hard to manuver",
+          "snippet": "I need to change the amount of paper used per month. It used to be extremely easy to do this. I’ve messed with this for a while and still can’t figure",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Horrendous",
+          "snippet": "I could not fathom in my greatest\ndramas such a terrible app or product. if you locked me in a room and forced me to make a more deceptively simple ye",
           "sentiment": "positive"
         }
       ]
@@ -186,250 +186,250 @@
       "name": "Connectivity & Setup",
       "mention_count": 90,
       "sentiment": {
-        "positive": 11,
-        "negative": 39,
+        "positive": 13,
+        "negative": 37,
         "neutral": 40
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Connection issues",
-          "snippet": "Everytime I use my printer it has connection issues",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "🤦‍♀️",
-          "snippet": "App glitches too much. Does not connect to printer. Can’t speak to anybody through the app and have to reset Wi-Fi connection constantly.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Junk!",
-          "snippet": "Called support line for setup assistance to be disconnected. Figured it out I thought, until I authorized a firmware update… now won’t print and scree",
+          "rating": 5,
+          "title": "Printer",
+          "snippet": "Wow easy to hook up and even input WiFi information \nThe app is well designed \nThanks",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Least user friendly experience",
-          "snippet": "This app and the printers are the hardest things I use in my life. Nothing works and nothing is easy. Why do we lock down printers more than the White",
+          "title": "The connection is always messed up",
+          "snippet": "I can never get the app to work with the printer the first time. I download files and attempt to print and it always gives me different reasons not to",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Takes to long to connect",
+          "snippet": "If you don’t use it all the time it takes forever to connect to your phone and to print.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Slow",
+          "snippet": "Very slow and takes long to connect",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Not printing",
+          "snippet": "Everything is connected. App says ready to print and when i print nothing comes out.",
           "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 81,
+      "mention_count": 84,
       "sentiment": {
-        "positive": 41,
-        "negative": 19,
-        "neutral": 21
+        "positive": 38,
+        "negative": 23,
+        "neutral": 23
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
+          "title": "Not intuitive-cumbersome process",
+          "snippet": "It is ridiculous that you have to use your phone in order to send a fax or essentially scan something that you want to email. You should really be abl",
+          "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Love my HP PRINTER & ink plan",
-          "snippet": "You CANNOT BEAT the quality, the low priced ink plan ,nor the support !  THEY ARE GREAT !!!!",
+          "title": "Scanning",
+          "snippet": "So easy to scan with many easy options to work on your document",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Works Finicky and Colors are SO OFF",
-          "snippet": "This updated version of HP is SO TEMPERAMENTAL! When I try to print my stickers, the app will start loading the image but then immediately disappear a",
-          "sentiment": "neutral"
+          "rating": 5,
+          "title": "OperationPerformance.",
+          "snippet": "Reliable,Consistant with ExcellentQuality.\nMoreFaithful in Performance and in EfficientOperatiom.\n•••••",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Bad Hp",
-          "snippet": "Printer won't scan in color. I'm in Mexico and HP won't help me figure it out. Now the printer print very faded…",
+          "rating": 3,
+          "title": "Difficulty in Setup",
+          "snippet": "Still having issues with getting the scanner to work on this new App.. Can do on iPhone but not Computer..",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Impossible to Read",
-          "snippet": "I have two documents where I cannot get it to print big enough to read. When I go to the screen that says I can change the size it won’t print. When I",
-          "sentiment": "neutral"
+          "rating": 3,
+          "title": "Prints great, Auto Toner Subsc is a rip off",
+          "snippet": "The print quality is great, fairly easy to set up, can print from my phone, the forced subscription to toner or you can’t print is a total rip-off. I ",
+          "sentiment": "positive"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 61,
+      "mention_count": 65,
       "sentiment": {
-        "positive": 10,
-        "negative": 33,
-        "neutral": 18
+        "positive": 9,
+        "negative": 40,
+        "neutral": 16
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
+          "title": "Crashes",
+          "snippet": "App gets stuck at loading page",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Hard to manuver",
+          "snippet": "I need to change the amount of paper used per month. It used to be extremely easy to do this. I’ve messed with this for a while and still can’t figure",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Doesn’t work.",
+          "snippet": "This is the worst printer I’ve ever used. It does not print. It always has a printer error. It’s the worst. Please don’t waste your money",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "🤦‍♀️",
-          "snippet": "App glitches too much. Does not connect to printer. Can’t speak to anybody through the app and have to reset Wi-Fi connection constantly.",
-          "sentiment": "neutral"
+          "title": "Slow",
+          "snippet": "Very slow and takes long to connect",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Terrible",
-          "snippet": "Loved the service when I signed up. Now months in, it’s a pain to print, there’s always a connection or server issue. It takes minutes to print pages ",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Impossible to Read",
-          "snippet": "I have two documents where I cannot get it to print big enough to read. When I go to the screen that says I can change the size it won’t print. When I",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Do not buy HP -both printer and app crashes.",
-          "snippet": "Your printer will become one large paper weight. HP forces you to use an app. The app constantly crashes, preventing you from ever being able to print",
+          "title": "terrible product terrible app plagued with connect",
+          "snippet": "damn",
           "sentiment": "negative"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 53,
+      "mention_count": 57,
       "sentiment": {
-        "positive": 18,
-        "negative": 21,
-        "neutral": 14
+        "positive": 20,
+        "negative": 24,
+        "neutral": 13
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 5,
-          "title": "As Advertised",
-          "snippet": "HP Customer support is. Excellent.",
+          "title": "Dr . Lettica Highsmith DNP",
+          "snippet": "Love it so convenient and helpful!!!",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Junk!",
-          "snippet": "Called support line for setup assistance to be disconnected. Figured it out I thought, until I authorized a firmware update… now won’t print and scree",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Love my HP PRINTER & ink plan",
-          "snippet": "You CANNOT BEAT the quality, the low priced ink plan ,nor the support !  THEY ARE GREAT !!!!",
-          "sentiment": "positive"
+          "title": "Horrible Interface",
+          "snippet": "I had a prior HP envy and it was so easy to print . I have done so many troubleshooting that the only one left to do is throw it in the trash",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Only works once in a while, not worth the hassle .",
-          "snippet": "At first it will work. Then it will have issues sensing paper, tell you it’s jammed, out of ink, whatever. Support isn’t helpful. This is my second pr",
+          "title": "It Works When It Wants to..zero stars.",
+          "snippet": "Horrible! I hate I spent all this money on a printer that does not work when I need. I have to troubleshoot for EVERY print job. And the printer is of",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Printer will not run",
+          "snippet": "Need assistance",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Bad Hp",
-          "snippet": "Printer won't scan in color. I'm in Mexico and HP won't help me figure it out. Now the printer print very faded…",
+          "title": "Too complicated",
+          "snippet": "It’s too complicated to use. I don’t understand why some functions are operated by your phone. I don’t like that I have to keep my subscription to con",
           "sentiment": "negative"
-        }
-      ]
-    },
-    "updates": {
-      "name": "Updates & Compatibility",
-      "mention_count": 51,
-      "sentiment": {
-        "positive": 14,
-        "negative": 17,
-        "neutral": 20
-      },
-      "pm_focus": "Release management, OS compatibility",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "It works different than it used to",
-          "snippet": "Edit Sept 2026. Have two 8025e. One on subscription plan, other using generic cartridges; both suck. Wasting pages due to imaginary errors that print ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "As Advertised",
-          "snippet": "HP Customer support is. Excellent.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Junk!",
-          "snippet": "Called support line for setup assistance to be disconnected. Figured it out I thought, until I authorized a firmware update… now won’t print and scree",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Love my HP PRINTER & ink plan",
-          "snippet": "You CANNOT BEAT the quality, the low priced ink plan ,nor the support !  THEY ARE GREAT !!!!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Only works once in a while, not worth the hassle .",
-          "snippet": "At first it will work. Then it will have issues sensing paper, tell you it’s jammed, out of ink, whatever. Support isn’t helpful. This is my second pr",
-          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 44,
+      "mention_count": 51,
       "sentiment": {
-        "positive": 22,
-        "negative": 0,
-        "neutral": 22
+        "positive": 23,
+        "negative": 2,
+        "neutral": 26
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "function and nice to use",
-          "snippet": "good",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "hard to use",
-          "snippet": "extremely hard to use until explained in full by google",
+          "rating": 1,
+          "title": "Mala calidad",
+          "snippet": "Llevo dos días que compré la impresora y ya no tiene tinta no imprime bien todo borroso",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Hp",
-          "snippet": "Good",
+          "title": "Excited",
+          "snippet": "I love this",
           "sentiment": "positive"
         },
         {
           "rating": 5,
-          "title": "Wow!!!",
-          "snippet": "Great service",
+          "title": "Review",
+          "snippet": "The best",
           "sentiment": "positive"
         },
         {
+          "rating": 5,
+          "title": "Hp",
+          "snippet": "The best",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Magic wonders!!",
+          "snippet": "Extremely Reliable!!",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 47,
+      "sentiment": {
+        "positive": 12,
+        "negative": 17,
+        "neutral": 18
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
           "rating": 1,
-          "title": "I’m mad",
-          "snippet": "Mad",
+          "title": "Pay to Print??",
+          "snippet": "So I spent money on this printer, paid to buy ink from Walmart and it’s telling me I can’t print anything until I update my payment method for ink del",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Mobile app is great",
+          "snippet": "Seems to work flawlessly. The pc version will not work though.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "Difficulty in Setup",
+          "snippet": "Still having issues with getting the scanner to work on this new App.. Can do on iPhone but not Computer..",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "Printer HP OfficeJet Pro 830e series",
+          "snippet": "Llevo varios semanas con problemas con mi printer. Concuerdan desde que Apple empezó con una serie de actualizaciónes nueva. Por favor verifiquen pues",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Difficult photo printing",
+          "snippet": "It is difficult to pick how large your photo will print. It would be great if it let you adjust the size of the photo instead of having you drag the c",
           "sentiment": "neutral"
         }
       ]

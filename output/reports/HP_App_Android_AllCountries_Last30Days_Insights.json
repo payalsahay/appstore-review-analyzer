@@ -1,226 +1,226 @@
 {
-  "generated_at": "2026-09-25T19:52:47.199813",
-  "total_reviews": 876,
+  "generated_at": "2026-10-02T20:24:42.198047",
+  "total_reviews": 915,
   "sentiment_summary": {
-    "neutral": 628,
-    "negative": 136,
-    "positive": 112
+    "neutral": 666,
+    "positive": 105,
+    "negative": 144
   },
   "rating_distribution": {
-    "1": 472,
-    "5": 266,
-    "3": 32,
-    "2": 67,
+    "2": 75,
+    "1": 509,
+    "5": 256,
+    "3": 36,
     "4": 39
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 368,
+      "mention_count": 400,
       "sentiment": {
-        "positive": 46,
-        "negative": 84,
-        "neutral": 238
+        "positive": 51,
+        "negative": 93,
+        "neutral": 256
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "Ich will einfach nur ein Dokument scannen. Ich will dafür weder diese App, noch andere Hilfsmittel. Ich habe noch nie so viel Lebenszeit gebraucht um ",
+          "snippet": "Excelente app",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "quand je veux mettre l'application elle s'ouvre c'est tous blanc faut faire une mise à jour",
+          "snippet": "I tried to connect many times HP server failed to connect Nokoprint app more easy and fast",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "au début, il était facile d'accéder et de gérer son compte. Aujourd'hui, l'application ne sert à rien, le tableau de bord et la modification des optio",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Doet wat het moet doen, gemakkelijke interface",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "un desastre de app",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "application nulle vous pouvez continuer",
+          "snippet": "son empresa de ratas, cuando me di de bajo por un tiempo y me sobró tinta quise imprimir y se me bloqueo los cartuchos, gracias por un pésimo servicio",
           "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 321,
+      "mention_count": 318,
       "sentiment": {
-        "positive": 46,
-        "negative": 8,
-        "neutral": 267
+        "positive": 34,
+        "negative": 7,
+        "neutral": 277
       },
       "pm_focus": "",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "fa schifo",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "me encanta muy útil",
+          "snippet": "Esta funcionando mal.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "es wird immer schlimmer, verbindet sich nicht mit WLAN, die ganze Zeit geht es, Zeit an Tinte voll, trotzdem leer",
+          "snippet": "péssimo desconecta toda hora da conta Hp e fica atrapalhando a usar a impressora péssimo melhorem",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "buen servicio.",
+          "snippet": "Non funziona per nulla non trova la stampante in nessun modo sul cellulare",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "Alles gut",
+          "snippet": "works well",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "show",
           "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 213,
+      "mention_count": 228,
       "sentiment": {
-        "positive": 32,
-        "negative": 68,
-        "neutral": 113
+        "positive": 34,
+        "negative": 72,
+        "neutral": 122
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
+          "snippet": "had a subscription and I cancelled it due to the fact that I paid for a service that didn't send me ink or printer paper when I ran out and yet Hp too",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The update is nothing but a great pain. The signed in account expires?. Now!! You can't even use it when you're not connected to any wifi (even if you",
+          "snippet": "I tried to connect many times HP server failed to connect Nokoprint app more easy and fast",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Because we have HP printers: Envy 6420e, LaserJet 110w, and it's impossible to print.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "application pas du tout pratique. Nous ne parvenons pas à numériser du tout (soit disant imprimante pas connectée alors que l on parvient à imprimer !",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "printer is recognised but unable to print to the device no connection",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "l'application fonctionne quand elle en a envie beaucoup de bugs avec ma tablette Lenovo même après avoir désinstaller et réinstaller et vider le cache",
+          "snippet": "printer goes in and out randomly. awful experience",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Think twice before buying hp product",
+          "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 123,
+      "mention_count": 133,
       "sentiment": {
-        "positive": 11,
-        "negative": 32,
-        "neutral": 80
+        "positive": 12,
+        "negative": 37,
+        "neutral": 84
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
+          "snippet": "never works properly always having issue",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "the worst experience of setting up any electronic product I've had in my life",
+          "snippet": "had a subscription and I cancelled it due to the fact that I paid for a service that didn't send me ink or printer paper when I ran out and yet Hp too",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Think twice before buying hp product",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Useless app, it seems to difficult to align a picture. Or to connect to a printer. Or, if it finally works, remember a printer. Or to actually notice ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Please don't buy this product, very worst service.",
+          "snippet": "How is a HP app not compatible with a HP Chromebook? This is ridiculous. Leaning towards not buying anymore HP products.",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "application pas du tout pratique. Nous ne parvenons pas à numériser du tout (soit disant imprimante pas connectée alors que l on parvient à imprimer !",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Vergognoso che serva accedere con un profilo per scansionare un foglio con la stampante. A cosa serve accedere al profilo se non per permettere ad hp ",
-          "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 115,
+      "mention_count": 117,
       "sentiment": {
         "positive": 14,
-        "negative": 34,
-        "neutral": 67
+        "negative": 37,
+        "neutral": 66
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
+          "snippet": "impossible de se connecter à cette maudite machine mon ancien imprimante en 2 secondes j'étais connecté celle-là il y a pas moyen ça m'énerve",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "imprimante très difficile a connecter Au wifi",
+          "snippet": "I tried to connect many times HP server failed to connect Nokoprint app more easy and fast",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Auch bei mir wird der Drucker als offline angezeigt obwohl er es nicht ist. Bitte behebt den Fehler schnell. Man muss auch mal dringende Dokumente aus",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The update is nothing but a great pain. The signed in account expires?. Now!! You can't even use it when you're not connected to any wifi (even if you",
-          "sentiment": "neutral"
+          "snippet": "Useless app, it seems to difficult to align a picture. Or to connect to a printer. Or, if it finally works, remember a printer. Or to actually notice ",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "horrivel impressora hp series 580 590 não consigo sair do offline",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Um estresse quando preciso trocar a senha do wi-fi cadastrado na impressora. Ela não reseta, seguindo o passo a passo que ela própria orienta a fazer.",
-          "sentiment": "neutral"
+          "snippet": "This app hardly ever works properly. It usually takes multiple tries to get it to connect to my printer and actually print anything. I often have to c",
+          "sentiment": "negative"
         }
       ]
     },
@@ -228,209 +228,209 @@
       "name": "Scanning Features",
       "mention_count": 102,
       "sentiment": {
-        "positive": 13,
-        "negative": 14,
-        "neutral": 75
+        "positive": 16,
+        "negative": 16,
+        "neutral": 70
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "Ich will einfach nur ein Dokument scannen. Ich will dafür weder diese App, noch andere Hilfsmittel. Ich habe noch nie so viel Lebenszeit gebraucht um ",
+          "snippet": "great scanner, but the requirement to sign into an account to use any of the available programs is very irritating",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Schön wenn es neue Möglichkeiten in der App gibt...aber wenn sich die App im Büro nicht öffnen lässt wenn man ein Dokument mit dem Handy \"scannen\" möc",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
+          "snippet": "You no longer allow me to scan from the printer?? You are forcing me to scan using my phone camera?",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "🤎 the app on the phone. The upgrades seem constant, and repeated reintroductions that are also required are frustrating, but when I get into the sweet",
-          "sentiment": "negative"
+          "snippet": "Absolutely Amazing Scan! HP Scan in your boket",
+          "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "Es comodísimo escanear con esta aplicación",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "can't do flip or mirror image, load of rubbish",
+          "snippet": "scan what I want. patterns and other things.",
           "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 92,
+      "mention_count": 95,
       "sentiment": {
-        "positive": 5,
-        "negative": 63,
-        "neutral": 24
+        "positive": 6,
+        "negative": 60,
+        "neutral": 29
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "not working",
-          "sentiment": "negative"
+          "snippet": "I tried to connect many times HP server failed to connect Nokoprint app more easy and fast",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Ok got a new printer and it is not easy to use. Everything I buy shouldn't try to sell me a subscription. Each newer technology item I buy has more gl",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "bugue constamment",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Die Scan App wird immer schlechter, jetzt kann man Seiten nicht mehr sortieren. Wenn der Screen während eines Vorlageneinzugsscans über die App ausgeh",
+          "snippet": "MOBILE FAXING NO LONGER WORKING. it now gives me an error saying no internet connection when trying to use the faxing service but the rest of the app ",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "l'application fonctionne quand elle en a envie beaucoup de bugs avec ma tablette Lenovo même après avoir désinstaller et réinstaller et vider le cache",
-          "sentiment": "negative"
+          "snippet": "la descargo en un celular android y ahora me aparece un error en conexión osea no me deja iniciar sesión",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "application bug et annuler",
-          "sentiment": "negative"
+          "snippet": "Launching app brings up a blank screen that is completely unresponsive.",
+          "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 65,
+      "mention_count": 73,
       "sentiment": {
-        "positive": 12,
-        "negative": 25,
-        "neutral": 28
+        "positive": 14,
+        "negative": 22,
+        "neutral": 37
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
+          "snippet": "had a subscription and I cancelled it due to the fact that I paid for a service that didn't send me ink or printer paper when I ran out and yet Hp too",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "I wish I could give no stars. I can never get this to connect or print. the ink dries up before I print anything because I can never get it to connect",
+          "snippet": "au début, il était facile d'accéder et de gérer son compte. Aujourd'hui, l'application ne sert à rien, le tableau de bord et la modification des optio",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Nightmare. Don't waste your time with an HP printer, this was by far the longest, most tedious, and non-functional printer setup I've ever endured in ",
+          "snippet": "This app hardly ever works properly. It usually takes multiple tries to get it to connect to my printer and actually print anything. I often have to c",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App fails to open It happened already 3 times in one month I hope they will fix this as I saw other reviews saying the same thing",
-          "sentiment": "negative"
+          "snippet": "CANT GET PRINTER TO WORK NOW ! NEED TO GET A NEW PRINTER ! WILL NOT BE A HP ONE",
+          "sentiment": "neutral"
         },
         {
-          "rating": 1,
+          "rating": 5,
           "title": "",
-          "snippet": "stupid thay you have to download an app and set up an account just to use the printer. I dont want your app, I dont want an account, I will 100000% NO",
+          "snippet": "I don't need to go to have my paperwork fax. I can do it in my HP machine.",
           "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 55,
+      "mention_count": 63,
       "sentiment": {
-        "positive": 9,
-        "negative": 15,
-        "neutral": 31
+        "positive": 7,
+        "negative": 18,
+        "neutral": 38
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's losing connection with the printer pretty often review update this is a crapp app, doesnt't tell you if an update is needed and loose Time to sca",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "🤎 the app on the phone. The upgrades seem constant, and repeated reintroductions that are also required are frustrating, but when I get into the sweet",
+          "snippet": "How is a HP app not compatible with a HP Chromebook? This is ridiculous. Leaning towards not buying anymore HP products.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "",
-          "snippet": "The update is nothing but a great pain. The signed in account expires?. Now!! You can't even use it when you're not connected to any wifi (even if you",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Immer wieder diese Verschlimmerung , mal geht eine Funktion, mal nicht, dann wird eine Ersetzt, dann gestrichen, was soll das? Originale Patronen werd",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 5,
           "title": "",
-          "snippet": "I love this printer. Hps support not so much",
-          "sentiment": "positive"
+          "snippet": "es una pasada estoy muy contenta. puedo hacer todo para mis estudios. muchísimas gracias por hacerlo tan facil",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "L’application présente des lenteurs récurrentes, tant sur mobile que sur ordinateur. Par ailleurs, l'imprimante acquise est défectueuse et l’absence d",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "m140 Drucker werden trotz IP im gleichen WLAN netz nicht gefunden. die qualität die HP hier den Kunden an den Kopf schmeißt ist schon lange nicht mehr",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Preferirá morir antes que abrir esta asquerosa aplicación. Cuando compramos la impresora, fallaba un poquito, pero era funcional, a día de hoy yo no s",
+          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 34,
+      "mention_count": 41,
       "sentiment": {
-        "positive": 8,
-        "negative": 8,
-        "neutral": 18
+        "positive": 9,
+        "negative": 10,
+        "neutral": 22
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "Immer wieder diese Verschlimmerung , mal geht eine Funktion, mal nicht, dann wird eine Ersetzt, dann gestrichen, was soll das? Originale Patronen werd",
+          "snippet": "L’application présente des lenteurs récurrentes, tant sur mobile que sur ordinateur. Par ailleurs, l'imprimante acquise est défectueuse et l’absence d",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "Simple enough for me to use without looking up tutorials!",
+          "sentiment": "positive"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "I love this printer. Hps support not so much",
+          "snippet": "this app used to be great but not sure why I'm having problems now when I try to load it up it goes to a white screen maybe someone can help me",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Worthless. I thought it would connect my printer to computer. Nope. Worthless garbage. No info or help about my printer.",
-          "sentiment": "negative"
+          "snippet": "m140 Drucker werden trotz IP im gleichen WLAN netz nicht gefunden. die qualität die HP hier den Kunden an den Kopf schmeißt ist schon lange nicht mehr",
+          "sentiment": "neutral"
         },
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "the worse thing Hp done. They have always been customer service. No rollin for people like me over 40 years experience. shut my printers down and can ",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "This app is useless. It doesn't work. It doesn't have any instructions, and can't connect my printer",
-          "sentiment": "negative"
+          "snippet": "this app does very basic printing. I desperately wish there was a way to change \"pages per sheet\" within the app, and adjust margins manually. my cano",
+          "sentiment": "neutral"
         }
       ]
     }

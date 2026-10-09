@@ -1,436 +1,436 @@
 {
-  "generated_at": "2026-10-02T20:24:42.087018",
-  "total_reviews": 478,
+  "generated_at": "2026-10-09T20:35:52.729057",
+  "total_reviews": 493,
   "sentiment_summary": {
-    "neutral": 177,
-    "negative": 145,
-    "positive": 156
+    "positive": 168,
+    "neutral": 185,
+    "negative": 140
   },
   "rating_distribution": {
-    "3": 25,
-    "1": 249,
-    "5": 160,
+    "5": 174,
     "4": 20,
-    "2": 24
+    "1": 243,
+    "2": 29,
+    "3": 27
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 329,
+      "mention_count": 319,
       "sentiment": {
-        "positive": 93,
-        "negative": 118,
+        "positive": 94,
+        "negative": 107,
         "neutral": 118
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Hp smart tank 615",
-          "snippet": "i bought my printer for just over a year but it has been bugging down already…technician had come and check on it for 4 to 5 times but after he left, ",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Easy of scanning",
+          "snippet": "With my HP OfficeJet Pro 6978, it is easy to scan documents single or double sided using the HP App from computer or document feeder.  Would recommend",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Don’t get",
-          "snippet": "Horrible app as well as horrible company printer stop working because it need a subscription now",
-          "sentiment": "negative"
+          "title": "HP4300",
+          "snippet": "This printer was not very easy to install. There were a lot of errors & problems connecting to my phone and/or computer. I had to disconnect printer f",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Scanning",
+          "snippet": "Very easy to scan documents from my scanner to my phone.",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Hp printers are the worst",
-          "snippet": "So hard to get this printer to print",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Hp",
-          "snippet": "Difficulty getting printer to connect to internet. I have done everything I know to do. At times it will connect after waiting a while, other times wi",
+          "title": "Difficult printer",
+          "snippet": "Returning this week not worth the hassle of figuring it out, most difficult one I have tried to date while testing multiple brands.",
           "sentiment": "negative"
         },
         {
           "rating": 5,
-          "title": "HP Printer",
-          "snippet": "I love it so easy to use",
+          "title": "Easy peasy",
+          "snippet": "Once you download the app, it makes it so easy to use from your smart phone. I can scan from my phone print from my phone. It’s so convenient.",
           "sentiment": "positive"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 223,
+      "mention_count": 240,
       "sentiment": {
-        "positive": 88,
-        "negative": 79,
-        "neutral": 56
+        "positive": 101,
+        "negative": 75,
+        "neutral": 64
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 3,
-          "title": "Se traba la App",
-          "snippet": "Se des configura y se traba muy fácil el equipo y no hay buena comunicación entre la app y mi equipo",
-          "sentiment": "neutral"
+          "rating": 5,
+          "title": "Easy of scanning",
+          "snippet": "With my HP OfficeJet Pro 6978, it is easy to scan documents single or double sided using the HP App from computer or document feeder.  Would recommend",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Don’t get",
-          "snippet": "Horrible app as well as horrible company printer stop working because it need a subscription now",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Hp",
-          "snippet": "Difficulty getting printer to connect to internet. I have done everything I know to do. At times it will connect after waiting a while, other times wi",
-          "sentiment": "negative"
+          "title": "HP4300",
+          "snippet": "This printer was not very easy to install. There were a lot of errors & problems connecting to my phone and/or computer. I had to disconnect printer f",
+          "sentiment": "positive"
         },
         {
           "rating": 5,
-          "title": "HP Printer",
-          "snippet": "I love it so easy to use",
+          "title": "Love this app",
+          "snippet": "This app is very easy to use with its interface, from its how-to videos to specific questions you might have",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Scanning",
+          "snippet": "Very easy to scan documents from my scanner to my phone.",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Can’t print without connectivity",
-          "snippet": "Do you love troubleshooting printers.. well look no further.  HP has created a new infuriating failure path.  The printer must have connectivity to HP",
-          "sentiment": "positive"
+          "title": "Difficult printer",
+          "snippet": "Returning this week not worth the hassle of figuring it out, most difficult one I have tried to date while testing multiple brands.",
+          "sentiment": "negative"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 143,
+      "mention_count": 145,
       "sentiment": {
-        "positive": 41,
-        "negative": 54,
-        "neutral": 48
+        "positive": 51,
+        "negative": 50,
+        "neutral": 44
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Don’t get",
-          "snippet": "Horrible app as well as horrible company printer stop working because it need a subscription now",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Easy of scanning",
+          "snippet": "With my HP OfficeJet Pro 6978, it is easy to scan documents single or double sided using the HP App from computer or document feeder.  Would recommend",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Can’t print without connectivity",
-          "snippet": "Do you love troubleshooting printers.. well look no further.  HP has created a new infuriating failure path.  The printer must have connectivity to HP",
+          "rating": 4,
+          "title": "Good product",
+          "snippet": "Just very satisfied",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Pay to play?",
-          "snippet": "For the life of me I’m not sure why I would have to pay to use my (the one I purchased in full wit my money) in order to print a document. If I don’t ",
+          "title": "HP4300",
+          "snippet": "This printer was not very easy to install. There were a lot of errors & problems connecting to my phone and/or computer. I had to disconnect printer f",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Difficult printer",
+          "snippet": "Returning this week not worth the hassle of figuring it out, most difficult one I have tried to date while testing multiple brands.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Rip off",
-          "snippet": "HP is a total rip off. They does rip you off and making you buy stuff that you can’t use so it’s a ripoff. I don’t recommend.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Muito Ruim",
-          "snippet": "Lento trava muito era perfeito mudaram ficou muito lento, e so da  erro nunca tive problema para encontrar minha hp 5822 agora so resetando ai encontr",
-          "sentiment": "neutral"
+          "rating": 3,
+          "title": "Barely adequate",
+          "snippet": "It does the basic things you want, but the UI is confusing with no clear overall mental model fir doing what it is doing. The app appears to be trying",
+          "sentiment": "negative"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 110,
+      "mention_count": 112,
       "sentiment": {
-        "positive": 34,
-        "negative": 39,
-        "neutral": 37
+        "positive": 37,
+        "negative": 30,
+        "neutral": 45
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Don’t get",
-          "snippet": "Horrible app as well as horrible company printer stop working because it need a subscription now",
+          "rating": 2,
+          "title": "It’s ok",
+          "snippet": "Needs some work on how it works",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "Barely adequate",
+          "snippet": "It does the basic things you want, but the UI is confusing with no clear overall mental model fir doing what it is doing. The app appears to be trying",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Pay to play?",
-          "snippet": "For the life of me I’m not sure why I would have to pay to use my (the one I purchased in full wit my money) in order to print a document. If I don’t ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Photos",
-          "snippet": "My biggest wish is a way to put multiple images on the same page and create sizes like 4x6 and 5x7, otherwise it’s easy and friendly.",
+          "rating": 5,
+          "title": "Printing from my phone",
+          "snippet": "I am not a techy person so being able to print from my phone for the first time is quite an accomplishment. I did have a few things to work out but it",
           "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Login to print?",
-          "snippet": "Insane that I need an account and to login to print from my phone. Absolutely absurd business choice.",
+          "rating": 3,
+          "title": "App always requires update and printer added when ",
+          "snippet": "I don’t often print from my phone, but when I do it always seems like the App requires an update and it never remembers the printer so I have to relin",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Printing",
-          "snippet": "I finally got my printer to print what I need after spending time on the phone with so many people to help me the only way I can print is by having th",
-          "sentiment": "neutral"
+          "title": "HP LaserJet Pro",
+          "snippet": "Love my HP printer! Been with the company for years. The models generally  stay the same with some simple upgrades. There’s need to reinvent the wheel",
+          "sentiment": "positive"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 93,
+      "mention_count": 86,
       "sentiment": {
-        "positive": 41,
-        "negative": 29,
+        "positive": 36,
+        "negative": 27,
         "neutral": 23
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
-          "rating": 4,
-          "title": "Scanning issues",
-          "snippet": "Cell phone and scanning unit don’t always connect easily scanner asks for password which we don’t have then 10 mins later lets you scan frustration",
-          "sentiment": "neutral"
+          "rating": 5,
+          "title": "Easy of scanning",
+          "snippet": "With my HP OfficeJet Pro 6978, it is easy to scan documents single or double sided using the HP App from computer or document feeder.  Would recommend",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Pay to play?",
-          "snippet": "For the life of me I’m not sure why I would have to pay to use my (the one I purchased in full wit my money) in order to print a document. If I don’t ",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Scanning",
+          "snippet": "Very easy to scan documents from my scanner to my phone.",
+          "sentiment": "positive"
         },
         {
-          "rating": 4,
-          "title": "Photos",
-          "snippet": "My biggest wish is a way to put multiple images on the same page and create sizes like 4x6 and 5x7, otherwise it’s easy and friendly.",
+          "rating": 5,
+          "title": "Easy peasy",
+          "snippet": "Once you download the app, it makes it so easy to use from your smart phone. I can scan from my phone print from my phone. It’s so convenient.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Simple and smooth",
+          "snippet": "The app has a clearer visual interface and nice step-by-step instructions for scanning.  Easy set up for my printer, and use from mobile phone.",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Bad connection for scanning",
-          "snippet": "Really bad connection when it comes to scanning with cell app",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Unable to scan from machine!",
-          "snippet": "It’s pathetic when it comes to scan using machine or app! I mean when we have physical machine, why we are forced to scan with app!!?? All the steps a",
+          "title": "Didn’t Work",
+          "snippet": "The app never printed the document.  It simply cycled paper through the printer either without printing anything on any page or printing one line of c",
           "sentiment": "negative"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 91,
+      "mention_count": 86,
       "sentiment": {
-        "positive": 13,
-        "negative": 40,
-        "neutral": 38
+        "positive": 15,
+        "negative": 36,
+        "neutral": 35
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Hp",
-          "snippet": "Difficulty getting printer to connect to internet. I have done everything I know to do. At times it will connect after waiting a while, other times wi",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "Scanning issues",
-          "snippet": "Cell phone and scanning unit don’t always connect easily scanner asks for password which we don’t have then 10 mins later lets you scan frustration",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Can’t print without connectivity",
-          "snippet": "Do you love troubleshooting printers.. well look no further.  HP has created a new infuriating failure path.  The printer must have connectivity to HP",
+          "title": "HP4300",
+          "snippet": "This printer was not very easy to install. There were a lot of errors & problems connecting to my phone and/or computer. I had to disconnect printer f",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Bad connection for scanning",
-          "snippet": "Really bad connection when it comes to scanning with cell app",
+          "title": "WiFi connection",
+          "snippet": "Horrible WiFi connection",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Print connection",
-          "snippet": "Sometimes I have to turn the printer off or I have to turn the phone off to connect it back to my phone\nThe old printer I had from HP worked perfectly",
+          "title": "Terrible",
+          "snippet": "Long, arduous setup. Awful interface. Took 2 hours with tons of network problems.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Time consuming",
+          "snippet": "Requires reentering the network password for every print job",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Setup",
+          "snippet": "Fatika was awesome and did video chat to help set everything up. it was such an easy and fantastic experience!!",
           "sentiment": "positive"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 62,
+      "mention_count": 57,
       "sentiment": {
-        "positive": 9,
-        "negative": 42,
-        "neutral": 11
+        "positive": 10,
+        "negative": 33,
+        "neutral": 14
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Hp smart tank 615",
-          "snippet": "i bought my printer for just over a year but it has been bugging down already…technician had come and check on it for 4 to 5 times but after he left, ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Can’t print without connectivity",
-          "snippet": "Do you love troubleshooting printers.. well look no further.  HP has created a new infuriating failure path.  The printer must have connectivity to HP",
+          "title": "HP4300",
+          "snippet": "This printer was not very easy to install. There were a lot of errors & problems connecting to my phone and/or computer. I had to disconnect printer f",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "App broken again IPAD only",
-          "snippet": "Now on my ipad I cannot display the number of pages that I have printed.  It worked this morning but now this afternoon it is broken.  Did all the tro",
+          "title": "Won't let sign in",
+          "snippet": "I just got a new printer and tried to install this app but kept giving me an error!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Time consuming",
+          "snippet": "We constantly receive errors and have to reset the printer. This printer is only a year old and rarely used. Its replacement will not be HP",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "For work",
+          "snippet": "Fast and easy .. user friendly and never fails me",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Least favorite app",
+          "snippet": "This app crashes constantly, the text will be white so you can’t see which printer is chosen or what pages are printing unless you click on it, it doe",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 55,
+      "sentiment": {
+        "positive": 20,
+        "negative": 4,
+        "neutral": 31
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "Extraordinary",
+          "snippet": "Lo mejor del mundo",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Excelente",
+          "snippet": "Excelente",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Excelente",
+          "snippet": "Excelente",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "horrible",
+          "snippet": "horrible",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Slow",
-          "snippet": "It takes forever to be able to print jobs take long to send!",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "Great printer/Scanner",
-          "snippet": "I just got it on 9/27/26. Installing was super easy and the quality of the prints and scans are great. Hopefully this printer isn't going to fail me d",
+          "title": "Hp smart tank 210",
+          "snippet": "Very inconsistent and not reliable!",
           "sentiment": "positive"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 52,
+      "mention_count": 54,
       "sentiment": {
-        "positive": 21,
+        "positive": 20,
         "negative": 18,
-        "neutral": 13
+        "neutral": 16
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Can’t print without connectivity",
-          "snippet": "Do you love troubleshooting printers.. well look no further.  HP has created a new infuriating failure path.  The printer must have connectivity to HP",
+          "title": "DON'T SUPPORT HP",
+          "snippet": "Horrible business, but if you have to get this app, it's already too late...",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Simple and smooth",
+          "snippet": "The app has a clearer visual interface and nice step-by-step instructions for scanning.  Easy set up for my printer, and use from mobile phone.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Setup",
+          "snippet": "Fatika was awesome and did video chat to help set everything up. it was such an easy and fantastic experience!!",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "No assistance",
-          "snippet": "Can’t get help doing anything",
-          "sentiment": "neutral"
+          "title": "Don’t use hp",
+          "snippet": "Hp are one of the most horrible printers get anything but a hp printer and they suck the promoting is horrible and customer service sucks donke balls",
+          "sentiment": "negative"
         },
         {
-          "rating": 5,
-          "title": "Angelo was the best!!!",
-          "snippet": "Angelo helped me out today and he was wonderful!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Printing",
-          "snippet": "I finally got my printer to print what I need after spending time on the phone with so many people to help me the only way I can print is by having th",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Work horse",
-          "snippet": "This app helps me and make the job pleasant to perform. Very happy with my HP.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 45,
-      "sentiment": {
-        "positive": 18,
-        "negative": 2,
-        "neutral": 25
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "Increíble",
-          "snippet": "Excelente calidad",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "It sucks",
-          "snippet": "It’s a POS",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Se",
-          "snippet": "This is excellent i am impressed",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Week",
-          "snippet": "Review",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Me encanta",
-          "snippet": "Muy buena aplicación y sobre todo gratis 🤭",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Finding information on how and what size to print",
+          "snippet": "I feel like everything I have chosen to print out a label has been wrong. I can’t get the size right there’s nothing that helps. It’s just upsetting. ",
+          "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 41,
+      "mention_count": 45,
       "sentiment": {
         "positive": 13,
-        "negative": 14,
-        "neutral": 14
+        "negative": 15,
+        "neutral": 17
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "App broken again IPAD only",
-          "snippet": "Now on my ipad I cannot display the number of pages that I have printed.  It worked this morning but now this afternoon it is broken.  Did all the tro",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "/:",
-          "snippet": "Printers hate me, maybe partly iPhone?",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Terrible",
-          "snippet": "I used to subscribe to HP’s Instant Ink program but stopped over a year ago as I don’t print enough documents to need a monthly subscription. I recent",
+          "title": "DON'T SUPPORT HP",
+          "snippet": "Horrible business, but if you have to get this app, it's already too late...",
           "sentiment": "negative"
         },
         {
           "rating": 3,
-          "title": "Making changes",
-          "snippet": "So when I first got a printer that required HP I was very frustrated half the time the printer didn’t work and then two years later it was outdated an",
+          "title": "App always requires update and printer added when ",
+          "snippet": "I don’t often print from my phone, but when I do it always seems like the App requires an update and it never remembers the printer so I have to relin",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Installation",
-          "snippet": "Needed Customer Support to get past a software hiccup. Great support and easy walkthrough.",
+          "title": "HP LaserJet Pro",
+          "snippet": "Love my HP printer! Been with the company for years. The models generally  stay the same with some simple upgrades. There’s need to reinvent the wheel",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Poor Connectivity",
+          "snippet": "Repeatedly will not connect with my PC, at times difficult to scan from iPhone, which is my workaround.  The ink policy is, of course a joke.\n\nThis is",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Is it an app or just linking to an external websit",
+          "snippet": "I wish the app had more functions natively, instead of being directed to an external website to see the page count for Instant Ink. It makes it slow, ",
+          "sentiment": "negative"
         }
       ]
     }

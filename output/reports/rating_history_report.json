@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-10-09T20:35:53.292112",
-  "generated_date": "2026-10-09",
+  "generated_at": "2026-10-16T19:22:14.479970",
+  "generated_date": "2026-10-16",
   "summary": {
     "ios": {
-      "current_rating": 4.73196,
-      "rating_count": 4226154,
+      "current_rating": 4.7317,
+      "rating_count": 4232940,
       "current_version": "26.4.0",
-      "current_version_rating": 4.73196,
+      "current_version_rating": 4.7317,
       "histogram": [
-        150452,
-        34745,
-        83202,
-        277158,
-        3746694
+        150922,
+        34824,
+        83372,
+        277444,
+        3752263
       ]
     },
     "android": {
-      "current_rating": 4.130522,
-      "rating_count": 933995,
+      "current_rating": 4.134401,
+      "rating_count": 935885,
       "installs": "100,000,000+",
       "histogram": [
-        155562,
-        21951,
-        26478,
-        70995,
-        658990
+        155140,
+        21806,
+        26157,
+        71768,
+        660995
       ]
     }
   },
   "trends": {
     "ios": {
       "30_day": {
-        "current": 4.73196,
-        "oldest": 4.7331,
+        "current": 4.7317,
+        "oldest": 4.73278,
         "change": -0.0,
         "trend": "stable",
         "entries": 5,
         "avg_rating": 4.73,
-        "min_rating": 4.73196,
-        "max_rating": 4.7331
+        "min_rating": 4.7317,
+        "max_rating": 4.73278
       },
       "90_day": {
-        "current": 4.73196,
-        "oldest": 4.73515,
+        "current": 4.7317,
+        "oldest": 4.73496,
         "change": -0.0,
         "trend": "stable",
         "entries": 13,
         "avg_rating": 4.73,
-        "min_rating": 4.73196,
-        "max_rating": 4.73515
+        "min_rating": 4.7317,
+        "max_rating": 4.73496
       }
     },
     "android": {
       "30_day": {
-        "current": 4.130522,
-        "oldest": 4.1109595,
-        "change": 0.02,
+        "current": 4.134401,
+        "oldest": 4.119497,
+        "change": 0.01,
         "trend": "stable",
         "entries": 5,
-        "avg_rating": 4.12,
-        "min_rating": 4.1109595,
-        "max_rating": 4.130522
+        "avg_rating": 4.13,
+        "min_rating": 4.119497,
+        "max_rating": 4.134401
       },
       "90_day": {
-        "current": 4.130522,
-        "oldest": 4.091034,
-        "change": 0.04,
+        "current": 4.134401,
+        "oldest": 4.088195,
+        "change": 0.05,
         "trend": "stable",
         "entries": 13,
         "avg_rating": 4.11,
         "min_rating": 4.088195,
-        "max_rating": 4.130522
+        "max_rating": 4.134401
       }
     }
   },
@@ -1636,6 +1636,21 @@
           83202,
           277158,
           3746694
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "timestamp": "2026-10-16T19:20:12.735395",
+        "country": "us",
+        "rating": 4.7317,
+        "rating_count": 4232940,
+        "current_version_rating": 4.7317,
+        "histogram": [
+          150922,
+          34824,
+          83372,
+          277444,
+          3752263
         ]
       }
     ],
@@ -3454,11 +3469,26 @@
           70995,
           658990
         ]
+      },
+      {
+        "date": "2026-10-16",
+        "timestamp": "2026-10-16T19:20:12.735395",
+        "country": "us",
+        "rating": 4.134401,
+        "rating_count": 935885,
+        "installs": "100,000,000+",
+        "histogram": [
+          155140,
+          21806,
+          26157,
+          71768,
+          660995
+        ]
       }
     ]
   },
   "data_points": {
-    "ios_count": 120,
-    "android_count": 121
+    "ios_count": 121,
+    "android_count": 122
   }
 }

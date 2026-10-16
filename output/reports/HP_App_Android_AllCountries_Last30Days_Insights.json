@@ -1,109 +1,109 @@
 {
-  "generated_at": "2026-10-09T20:35:52.822362",
-  "total_reviews": 870,
+  "generated_at": "2026-10-16T19:22:14.018238",
+  "total_reviews": 817,
   "sentiment_summary": {
-    "neutral": 630,
-    "negative": 135,
-    "positive": 105
+    "neutral": 607,
+    "negative": 113,
+    "positive": 97
   },
   "rating_distribution": {
-    "1": 471,
-    "5": 252,
-    "3": 38,
-    "2": 70,
-    "4": 39
+    "1": 441,
+    "3": 40,
+    "2": 55,
+    "5": 238,
+    "4": 43
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 376,
+      "mention_count": 333,
       "sentiment": {
-        "positive": 50,
-        "negative": 82,
-        "neutral": 244
+        "positive": 46,
+        "negative": 62,
+        "neutral": 225
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Frustrante a dir poco. Dopo un poco che non si usa (una app di questo genere non si usa tutti i giorni) richiede tutte le credenziali con doppia auten",
+          "snippet": "o app e um exercício em paciência",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "my printer now tells me to load the paper tray since the last update even though it has plenty of paper in it but reloaded with more A4 paper hoping t",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "one of the most diabolically evil and selfish companies ever. forcing you to pay a regular subscription for your own printer and linking it to this st",
+          "snippet": "Se volevano spingermi a cambiare marca di stampante ci stanno riuscendo alla perfezione! La vecchia app non era una scheggia e spesso si impuntava 10 ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "super App",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Doesn't work anymore since the last update! The same goes for the Windows pc app!",
+          "snippet": "I have been trying to restore the wify on my printer but it's not working . Hp app is not working and unable complet the installation. very disappoint",
           "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Seit dem letzten Update geht nicht mehr drucken in der App fehlen einige Sachen obwohl neu installiert .",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "on ne devrait pas avoir à passer par là et juste l'application. Autre chose, j'avais payé ma cartouche en centre commercial et avec votre système, je ",
-          "sentiment": "neutral"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 304,
+      "mention_count": 292,
       "sentiment": {
-        "positive": 36,
+        "positive": 34,
         "negative": 9,
-        "neutral": 259
+        "neutral": 249
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "non si apre",
+          "snippet": "kan niet direct naar Outlook .",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
           "title": "",
-          "snippet": "ok haber tengo mi choromebook plus,entonces no me deja imprimir solo me deja en la tablet asi que es buena aplicacion solo arreglen eso que siento que",
+          "snippet": "excelente muy encantado",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 4,
           "title": "",
-          "snippet": "exelente",
+          "snippet": "Super !",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "esperienza bruttissima esperienza bruttissima",
+          "snippet": "impossible de faire une connexion",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
+          "rating": 4,
           "title": "",
-          "snippet": "almost never works right, very frustrating",
-          "sentiment": "negative"
+          "snippet": "use full",
+          "sentiment": "neutral"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 212,
+      "mention_count": 199,
       "sentiment": {
-        "positive": 32,
-        "negative": 62,
+        "positive": 29,
+        "negative": 52,
         "neutral": 118
       },
       "pm_focus": "Core value proposition, print reliability",
@@ -111,41 +111,41 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "Frustrante a dir poco. Dopo un poco che non si usa (una app di questo genere non si usa tutti i giorni) richiede tutte le credenziali con doppia auten",
+          "snippet": "HP is the worst. I made a payment on my printer or at least I thought I did. my payment went on someone else's account and calling them is ridiculous.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "my printer now tells me to load the paper tray since the last update even though it has plenty of paper in it but reloaded with more A4 paper hoping t",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "one of the most diabolically evil and selfish companies ever. forcing you to pay a regular subscription for your own printer and linking it to this st",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 3,
-          "title": "",
-          "snippet": "The printer i am using is disappointing me a lot since bought. too many errors and printing started printing badly.",
+          "snippet": "I have been trying to restore the wify on my printer but it's not working . Hp app is not working and unable complet the installation. very disappoint",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "complicado para usar y las copias de papel normal me salen sin color casi blancas",
+          "snippet": "can get my device for scan, send me to internet when I choose my printer.",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 5,
           "title": "",
-          "snippet": "Pas mal mais vraiment pénible de ne pas pouvoir imprimer plusieurs pages sur une.",
-          "sentiment": "neutral"
+          "snippet": "Able to print fromy phone, communicates well with the printer. A lot of helpful functions.",
+          "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 120,
+      "mention_count": 117,
       "sentiment": {
-        "positive": 12,
-        "negative": 28,
+        "positive": 10,
+        "negative": 27,
         "neutral": 80
       },
       "pm_focus": "Monetization, value perception",
@@ -153,158 +153,158 @@
         {
           "rating": 1,
           "title": "",
-          "snippet": "one of the most diabolically evil and selfish companies ever. forcing you to pay a regular subscription for your own printer and linking it to this st",
+          "snippet": "app repeatedly disconnects. requires constant re-set up. and often takes multiple attempts to get it to function at all. spend your money. and time! o",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The first time the\"ink was low\", we started having problems with the printer. Even after buying new HP ink cartridges from Target, the printer has nev",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Sul mio tablet Samsung appena la apro si ruota direttamente in modalità orizzontale, e la modalità verticale sembra non essere supportata, il che è un",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Nach dem Update auf die neueste Version lässt sich die App gar nicht mehr öffnen; zuvor hatte sie bereits Probleme bereitet.",
+          "snippet": "Ich würde mir nie wieder einen HP kaufen.Erst wird einem viel versprochen, vonwegen günstige Druckerpatronen und monatliche Lieferung.Dann wird statt ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App is terrible, it's a matter of luck whether it works or not and it mostly isn't working, just like HP Smart didn't, even though printer's Webserver",
-          "sentiment": "negative"
+          "snippet": "HP mit seinen Druckermodellen ohne Display, WLAN und Scaneinheit sind mit dieser App nicht nutzbar, da die App immer wieder eine Anmeldung zum HP-Kont",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "très bien affiche s'y il y a un problème",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I dnt normally rate but unfortunately the annoying problem did lead me to rate this. When i open a pdf and try to print any document , the first docum",
+          "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 105,
+      "mention_count": 101,
       "sentiment": {
-        "positive": 13,
-        "negative": 30,
-        "neutral": 62
+        "positive": 11,
+        "negative": 23,
+        "neutral": 67
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 2,
           "title": "",
-          "snippet": "Don't have ability to change my WiFi supplier.",
+          "snippet": "dopo gli aggiornamenti non riesco più a configurare la stampante alla wifi",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Mit 5 G Router kann ich den Drucker in den Müll schmeißen nach 1 Jahr DANKESCHÖN",
+          "snippet": "app repeatedly disconnects. requires constant re-set up. and often takes multiple attempts to get it to function at all. spend your money. and time! o",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "sometimes works great. sometimes it shows my printer as connected but nothing works. very frustrating when it doesn't work.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "The new printers are amazing and connect right into your phone and make things so easy. This new printer has been such a help and the app is very easy",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "constantly disconnects after reinstalling app and print 1 document....!!!!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "what is, check that the device has a network co...",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "deben arreglar el scanner desde el cristal de scanear no se puede scanear sale cada rato sale fuera de línea está conectada a red de cable Router .. e",
+          "snippet": "I dnt normally rate but unfortunately the annoying problem did lead me to rate this. When i open a pdf and try to print any document , the first docum",
           "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 99,
+      "mention_count": 80,
       "sentiment": {
-        "positive": 12,
-        "negative": 14,
-        "neutral": 73
+        "positive": 11,
+        "negative": 11,
+        "neutral": 58
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "on ne devrait pas avoir à passer par là et juste l'application. Autre chose, j'avais payé ma cartouche en centre commercial et avec votre système, je ",
+          "snippet": "can get my device for scan, send me to internet when I choose my printer.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Ich kann nicht mehr Scannen. Ging sonst immer .",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Muy buenas las opciones de edición y correción automática de documentos escaneados. Además de la practicidad y velocidad para imprimir archivos de man",
+          "snippet": "De app werkt niet op een dektop van HP, jammer te meer omdat de printer op geen enkele manier met de Smart funties geinstallerd kan worden dus scannen",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The first time the\"ink was low\", we started having problems with the printer. Even after buying new HP ink cartridges from Target, the printer has nev",
+          "snippet": "HP mit seinen Druckermodellen ohne Display, WLAN und Scaneinheit sind mit dieser App nicht nutzbar, da die App immer wieder eine Anmeldung zum HP-Kont",
           "sentiment": "neutral"
         },
         {
-          "rating": 5,
+          "rating": 1,
           "title": "",
-          "snippet": "really useful app to have. loving the scan from camera and being able to print from my phone.",
+          "snippet": "I dnt normally rate but unfortunately the annoying problem did lead me to rate this. When i open a pdf and try to print any document , the first docum",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "kein scan mit Handy mehr möglich !",
           "sentiment": "neutral"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 85,
+      "mention_count": 70,
       "sentiment": {
         "positive": 4,
-        "negative": 57,
-        "neutral": 24
+        "negative": 41,
+        "neutral": 25
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Doesn't work anymore since the last update! The same goes for the Windows pc app!",
+          "snippet": "I have been trying to restore the wify on my printer but it's not working . Hp app is not working and unable complet the installation. very disappoint",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Don't have ability to change my WiFi supplier.",
+          "snippet": "Só vive dando bug",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "muy mala aplicación, ni en celular ni en computadora, tengo una impresora smart tank 580 y es imposible poder corregir un error de impresión, aunque a",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "L'app presenta degli errori di login sulla dashboard impossibile accedere..",
           "sentiment": "neutral"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "The printer i am using is disappointing me a lot since bought. too many errors and printing started printing badly.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "bugs at login",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "for whatever reason this app doesn't work. I am unable to sign in.",
-          "sentiment": "negative"
+          "snippet": "sometimes works great. sometimes it shows my printer as connected but nothing works. very frustrating when it doesn't work.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -313,124 +313,124 @@
       "mention_count": 61,
       "sentiment": {
         "positive": 11,
-        "negative": 14,
-        "neutral": 36
+        "negative": 13,
+        "neutral": 37
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "",
-          "snippet": "one of the most diabolically evil and selfish companies ever. forcing you to pay a regular subscription for your own printer and linking it to this st",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Don't have ability to change my WiFi supplier.",
-          "sentiment": "neutral"
-        },
-        {
           "rating": 3,
           "title": "",
-          "snippet": "Still learning how to navigate through its features. All in all very useful app.",
+          "snippet": "my printer now tells me to load the paper tray since the last update even though it has plenty of paper in it but reloaded with more A4 paper hoping t",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "It is unfortunate that we are getting to a point where a printer in a home needs an app simply to print. On top of having to constantly sign in, the a",
+          "snippet": "Se volevano spingermi a cambiare marca di stampante ci stanno riuscendo alla perfezione! La vecchia app non era una scheggia e spesso si impuntava 10 ",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "right now not happy. it want print when I send it to printer. been acting stupid for a good bit",
+          "snippet": "required a credit card \" you will not be charged\". just want a printer I can plug into my pc and use like the last ones I've owned",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Works well and shows ink levels but could be improved. Chat in WhatsApp good but should be in app...13/9/25 don't like the recent update to the app. D",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "real rubbish. all i want is to see how much ink i have in my hp printer, which is an old version.",
+          "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 58,
+      "mention_count": 48,
       "sentiment": {
-        "positive": 7,
-        "negative": 18,
-        "neutral": 33
+        "positive": 6,
+        "negative": 10,
+        "neutral": 32
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
-          "rating": 1,
+          "rating": 3,
           "title": "",
-          "snippet": "Doesn't work anymore since the last update! The same goes for the Windows pc app!",
-          "sentiment": "negative"
+          "snippet": "my printer now tells me to load the paper tray since the last update even though it has plenty of paper in it but reloaded with more A4 paper hoping t",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Seit dem letzten Update geht nicht mehr drucken in der App fehlen einige Sachen obwohl neu installiert .",
+          "snippet": "Se volevano spingermi a cambiare marca di stampante ci stanno riuscendo alla perfezione! La vecchia app non era una scheggia e spesso si impuntava 10 ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app repeatedly disconnects. requires constant re-set up. and often takes multiple attempts to get it to function at all. spend your money. and time! o",
           "sentiment": "neutral"
         },
         {
           "rating": 2,
           "title": "",
-          "snippet": "Sul mio tablet Samsung appena la apro si ruota direttamente in modalità orizzontale, e la modalità verticale sembra non essere supportata, il che è un",
+          "snippet": "previously it was good, but now only shows 2 prints in que,1 is printing and another is in queue, no matter how many prints are actually in the que, s",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Nach dem Update auf die neueste Version lässt sich die App gar nicht mehr öffnen; zuvor hatte sie bereits Probleme bereitet.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Durch Updates unbrauchbar geworden. Die App findet meinen Drucker nicht. Auf einen anderen mobil Telefon funktioniert es noch weil die Updates nicht i",
+          "snippet": "I dnt normally rate but unfortunately the annoying problem did lead me to rate this. When i open a pdf and try to print any document , the first docum",
           "sentiment": "neutral"
         }
       ]
     },
-    "support": {
-      "name": "Customer Support & Help",
-      "mention_count": 37,
+    "account_cloud": {
+      "name": "Account & Cloud Services",
+      "mention_count": 34,
       "sentiment": {
-        "positive": 9,
-        "negative": 12,
-        "neutral": 16
+        "positive": 2,
+        "negative": 9,
+        "neutral": 23
       },
-      "pm_focus": "Support deflection, self-service success",
+      "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "one of the most diabolically evil and selfish companies ever. forcing you to pay a regular subscription for your own printer and linking it to this st",
+          "snippet": "HP is the worst. I made a payment on my printer or at least I thought I did. my payment went on someone else's account and calling them is ridiculous.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "L'app presenta degli errori di login sulla dashboard impossibile accedere..",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The first time the\"ink was low\", we started having problems with the printer. Even after buying new HP ink cartridges from Target, the printer has nev",
+          "snippet": "struggling to re set printer after a password change on router",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Sul mio tablet Samsung appena la apro si ruota direttamente in modalità orizzontale, e la modalità verticale sembra non essere supportata, il che è un",
-          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App is terrible, it's a matter of luck whether it works or not and it mostly isn't working, just like HP Smart didn't, even though printer's Webserver",
+          "snippet": "Forgot EWS password. It's unable to change. Now I can't connect the printer to Wifi. HP printers are the worst.",
           "sentiment": "negative"
         },
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "Insufficient instructions on how to print from phone. Had to ask my son for help. Copies are poorly centered because thay are photos of the document",
-          "sentiment": "negative"
+          "snippet": "o aplicativo não funciona na tab samsung, com erro absurdo de novatos, quando abre o app ele não cabe na tela, fica desalinhado no canto da tela e não",
+          "sentiment": "neutral"
         }
       ]
     }

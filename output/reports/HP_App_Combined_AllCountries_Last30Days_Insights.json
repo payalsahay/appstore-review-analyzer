@@ -1,435 +1,435 @@
 {
-  "generated_at": "2026-10-30T20:27:37.850903",
-  "total_reviews": 1593,
+  "generated_at": "2026-11-06T21:19:21.844696",
+  "total_reviews": 1568,
   "sentiment_summary": {
-    "neutral": 1019,
-    "negative": 267,
-    "positive": 307
+    "neutral": 1000,
+    "positive": 308,
+    "negative": 260
   },
   "rating_distribution": {
-    "1": 786,
-    "2": 112,
-    "5": 539,
-    "3": 83,
-    "4": 73
+    "2": 110,
+    "5": 512,
+    "1": 793,
+    "3": 86,
+    "4": 67
   },
   "categories": {
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 660,
+      "mention_count": 665,
       "sentiment": {
-        "positive": 156,
-        "negative": 140,
-        "neutral": 364
+        "positive": 153,
+        "negative": 138,
+        "neutral": 374
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
           "rating": 2,
-          "title": "Manca la dark mode",
-          "snippet": "Bene la nuova app ma nel 2026 la modalità scura è necessaria, sia su Mobile che su Desktop, troppi punti di bianco all’apertura",
+          "title": "Problem regarding paper sizes",
+          "snippet": "I’m not able to access all paper sizes, I want to print on a5 paper but the app does not show the a5 printing option what can I do for that",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "WiFi connectivity never works",
-          "snippet": "Printer drops connectivity when you try to use it on the app",
+          "rating": 2,
+          "title": "No longer connects to printers",
+          "snippet": "This app was OK quite some time back, but updates starting many months ago broke the connection to my printers. Though it would seem like the fault is",
           "sentiment": "neutral"
         },
         {
+          "rating": 5,
+          "title": "Smooth functioning great UI",
+          "snippet": "First time I see an app or a site from a big company so fluid and well-designed, good job HP",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
-          "title": "Sucks!",
-          "snippet": "This is the most difficult app to save pdfs in you other file than the exclusive hp location",
+          "title": "Impresión lenta",
+          "snippet": "Jamás en mi vida había tardado tanto en imprimir un documento, es absurdamente inútil la aplicación, no se para que cuál es el propósito de la aplicac",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "La app es horrible",
+          "snippet": "La impresora muy bien, pero la app está pésima, cada que se requiere imprimir tengo que sincronizar la impresora y es molesto y tardado",
           "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "All products great",
-          "snippet": "So far for me I’ve used epson canon and hp. They’re all good but the hp products are fast dependable and easy to use",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Helping in a good way.",
-          "snippet": "This app has been a great resource for me to send faxes and I appreciate it thank you.",
-          "sentiment": "positive"
         }
       ]
     },
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 581,
+      "mention_count": 585,
       "sentiment": {
-        "positive": 135,
+        "positive": 140,
         "negative": 182,
-        "neutral": 264
+        "neutral": 263
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "WiFi connectivity never works",
-          "snippet": "Printer drops connectivity when you try to use it on the app",
+          "rating": 2,
+          "title": "Problem regarding paper sizes",
+          "snippet": "I’m not able to access all paper sizes, I want to print on a5 paper but the app does not show the a5 printing option what can I do for that",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "No longer connects to printers",
+          "snippet": "This app was OK quite some time back, but updates starting many months ago broke the connection to my printers. Though it would seem like the fault is",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Printing",
-          "snippet": "It took so long to set up and it takes just as long every time",
+          "title": "Impresión lenta",
+          "snippet": "Jamás en mi vida había tardado tanto en imprimir un documento, es absurdamente inútil la aplicación, no se para que cuál es el propósito de la aplicac",
           "sentiment": "neutral"
         },
         {
-          "rating": 1,
-          "title": "I hate my printer",
-          "snippet": "I think it’s so stupid that I have to pay a monthly subscription to print. I have connectivity issues all the time . Would not recommend this printer ",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Best printer",
+          "snippet": "I am so happy with my HP. I love the monthly subscription. I’m never disappointed. I highly recommend.",
+          "sentiment": "positive"
         },
         {
-          "rating": 1,
-          "title": "Don’t Bother buying",
-          "snippet": "The printer heads dry almost automatically after you install them. The Instant Ink subscription is pretty much mandatory and printing quality is so po",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Not working",
-          "snippet": "Can never connect printer as can’t find it",
-          "sentiment": "negative"
+          "rating": 5,
+          "title": "Best printer",
+          "snippet": "I love this new printer is was so easy to set up",
+          "sentiment": "positive"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 483,
+      "mention_count": 468,
       "sentiment": {
-        "positive": 75,
+        "positive": 80,
         "negative": 20,
-        "neutral": 388
+        "neutral": 368
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Pérdida de conectividad",
-          "snippet": "Llevo 2 años con mi impresora pero apenas este mes presentó fallas. \nPrimero no me dejaba imprimir nada desde mi móvil, luego solo dejaba de mi laptop",
+          "title": "Mad.",
+          "snippet": "No good",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Dependable",
+          "snippet": "Consistent",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Great",
-          "snippet": "Great",
+          "title": "Faxed Docs",
+          "snippet": "Worked great!",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "Impression galére",
-          "snippet": "Imprimante non reconnu ! Une perte de tps considérable",
+          "title": "No puedo cambiar la forma a horizontal",
+          "snippet": "No puedo cambiar la forma a horizontal",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Einfach nur Genial",
-          "snippet": "Sehr Einfach und unkompliziert zu bedienen!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Дуже крута программа",
-          "snippet": "Можно печатать много печатей через это приложение",
-          "sentiment": "neutral"
+          "title": "Perfect",
+          "snippet": "Perfetto in tutto.",
+          "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 299,
+      "mention_count": 312,
       "sentiment": {
-        "positive": 56,
-        "negative": 95,
-        "neutral": 148
+        "positive": 46,
+        "negative": 96,
+        "neutral": 170
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "I hate my printer",
-          "snippet": "I think it’s so stupid that I have to pay a monthly subscription to print. I have connectivity issues all the time . Would not recommend this printer ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Don’t Bother buying",
-          "snippet": "The printer heads dry almost automatically after you install them. The Instant Ink subscription is pretty much mandatory and printing quality is so po",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "All products great",
-          "snippet": "So far for me I’ve used epson canon and hp. They’re all good but the hp products are fast dependable and easy to use",
-          "sentiment": "positive"
-        },
-        {
           "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
+          "title": "Problem regarding paper sizes",
+          "snippet": "I’m not able to access all paper sizes, I want to print on a5 paper but the app does not show the a5 printing option what can I do for that",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Impresión lenta",
+          "snippet": "Jamás en mi vida había tardado tanto en imprimir un documento, es absurdamente inútil la aplicación, no se para que cuál es el propósito de la aplicac",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Es interesante, pero se des actualiza con la impre",
-          "snippet": "Me gustaría que cada vez que quieren imprimir, no me encuentre con problemas por temas de actualizaciones o no sé por qué pasa seguido, y eso cuando e",
+          "title": "Best printer",
+          "snippet": "I am so happy with my HP. I love the monthly subscription. I’m never disappointed. I highly recommend.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "Nonsense",
+          "snippet": "The whole set up is atrocious. Completely unnecessary pages and pages to link a printer to the WiFi. This product and the app has made it a hassle on ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Don’t buy",
+          "snippet": "Hard to setup and makes you reset every time",
           "sentiment": "neutral"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 212,
+      "mention_count": 219,
       "sentiment": {
-        "positive": 37,
-        "negative": 66,
-        "neutral": 109
+        "positive": 39,
+        "negative": 64,
+        "neutral": 116
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "WiFi connectivity never works",
-          "snippet": "Printer drops connectivity when you try to use it on the app",
+          "rating": 2,
+          "title": "No longer connects to printers",
+          "snippet": "This app was OK quite some time back, but updates starting many months ago broke the connection to my printers. Though it would seem like the fault is",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "I hate my printer",
-          "snippet": "I think it’s so stupid that I have to pay a monthly subscription to print. I have connectivity issues all the time . Would not recommend this printer ",
+          "title": "Unreliable",
+          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Not working",
-          "snippet": "Can never connect printer as can’t find it",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 3,
-          "title": "Small office printer",
-          "snippet": "It disconnects frequently and often times It jams or doesn’t detect paper.",
+          "rating": 2,
+          "title": "Nonsense",
+          "snippet": "The whole set up is atrocious. Completely unnecessary pages and pages to link a printer to the WiFi. This product and the app has made it a hassle on ",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
-          "title": "Connexion à l’imprimante instable",
-          "snippet": "L’imprimante indique être connecté au réseau wi-fi de la maison avec une qualité très bonne, mais l’application ne détecte pas toujours l’imprimante s",
+          "rating": 1,
+          "title": "Don’t buy",
+          "snippet": "Hard to setup and makes you reset every time",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Never again",
+          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
           "sentiment": "neutral"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 209,
+      "mention_count": 211,
       "sentiment": {
-        "positive": 50,
-        "negative": 44,
-        "neutral": 115
+        "positive": 55,
+        "negative": 40,
+        "neutral": 116
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Patronen zu teuer",
-          "snippet": "Die Patronen sind viel zu teuer, das man nicht nachfüllen kann ist Umweltfeindlich und unwirtschaftlich. Daher benutze ich nur noch den Scanner.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Don’t Bother buying",
-          "snippet": "The printer heads dry almost automatically after you install them. The Instant Ink subscription is pretty much mandatory and printing quality is so po",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "Scanning issues",
-          "snippet": "For multi page scan scanning stops abruptly with ‘scanner busy’ message after flipping pages. Sometimes scan shown empty pages when it is not empty. N",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
+          "title": "Impresión lenta",
+          "snippet": "Jamás en mi vida había tardado tanto en imprimir un documento, es absurdamente inútil la aplicación, no se para que cuál es el propósito de la aplicac",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Es interesante, pero se des actualiza con la impre",
-          "snippet": "Me gustaría que cada vez que quieren imprimir, no me encuentre con problemas por temas de actualizaciones o no sé por qué pasa seguido, y eso cuando e",
+          "title": "Scannen",
+          "snippet": "Zuverlässig und einfach bei der Bedienung.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Avoid",
+          "snippet": "This app sucks. Scanned files won’t email. The paper feeder on the printer is also constantly failing to load properly. The entire product is a hassle",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "The Color quality is not good!",
+          "snippet": "Color is not bold enough and definition is not good!",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "Scanning",
+          "snippet": "Hö proram funkar perfeft",
           "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 186,
+      "mention_count": 180,
       "sentiment": {
-        "positive": 47,
-        "negative": 57,
-        "neutral": 82
+        "positive": 50,
+        "negative": 59,
+        "neutral": 71
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 2,
-          "title": "Scanning issues",
-          "snippet": "For multi page scan scanning stops abruptly with ‘scanner busy’ message after flipping pages. Sometimes scan shown empty pages when it is not empty. N",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
+          "title": "Problem regarding paper sizes",
+          "snippet": "I’m not able to access all paper sizes, I want to print on a5 paper but the app does not show the a5 printing option what can I do for that",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Vergognosa",
-          "snippet": "Provi a stampare dal dialogo di sistema e non succede niente. Allora apri questa terribile app e sei obbligato ad accettare di addestrare la loro ia c",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Remote Printing is wow",
-          "snippet": "The ability to print remotely is amazing",
-          "sentiment": "positive"
+          "title": "Smart tank 5104",
+          "snippet": "Do not buy. They took printing at home and made it as maddening and difficult as possible. The whole team should be fired",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "HP Deskjet 2800",
-          "snippet": "Terrible printer. Always need to reconnect to the wifi. Doesn’t print anything unless it’s downloaded and using the app. Scanning documents is a painf",
+          "title": "Never again",
+          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
           "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Don’t recommend",
+          "snippet": "So slow don’t recommend paying for monthly subscription when sometimes it wants to print and other times it doesn’t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Maybe the worst",
+          "snippet": "Absolutely horrible app and printer. It will just decide when it wants to print.dont get if your business relies on printing",
+          "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 144,
+      "mention_count": 153,
       "sentiment": {
         "positive": 17,
-        "negative": 72,
-        "neutral": 55
+        "negative": 79,
+        "neutral": 57
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Not working",
-          "snippet": "Can never connect printer as can’t find it",
-          "sentiment": "negative"
-        },
-        {
           "rating": 2,
-          "title": "Scanning issues",
-          "snippet": "For multi page scan scanning stops abruptly with ‘scanner busy’ message after flipping pages. Sometimes scan shown empty pages when it is not empty. N",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
+          "title": "No longer connects to printers",
+          "snippet": "This app was OK quite some time back, but updates starting many months ago broke the connection to my printers. Though it would seem like the fault is",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "From excellent to awful",
-          "snippet": "What used to work flawlessly now fails to work at all",
+          "title": "Unreliable",
+          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Honestly the the reviews for this app must be bots",
-          "snippet": "This app is horrible. De-syncing with printers with no way to resync, useless “processing” screens that never resolve. Half the feature in it never wo",
+          "title": "Avoid",
+          "snippet": "This app sucks. Scanned files won’t email. The paper feeder on the printer is also constantly failing to load properly. The entire product is a hassle",
           "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Don’t recommend",
+          "snippet": "So slow don’t recommend paying for monthly subscription when sometimes it wants to print and other times it doesn’t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Impossible to print photos",
+          "snippet": "Impossible to print photos , I always get an error ! Very disappointed !",
+          "sentiment": "neutral"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 105,
+      "mention_count": 94,
       "sentiment": {
-        "positive": 17,
-        "negative": 33,
-        "neutral": 55
+        "positive": 15,
+        "negative": 31,
+        "neutral": 48
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
+          "rating": 2,
+          "title": "No longer connects to printers",
+          "snippet": "This app was OK quite some time back, but updates starting many months ago broke the connection to my printers. Though it would seem like the fault is",
+          "sentiment": "neutral"
+        },
+        {
           "rating": 1,
-          "title": "iPhone Duo ???",
-          "snippet": "Elle est où la mise à jour ??",
+          "title": "Never again",
+          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
           "sentiment": "neutral"
         },
         {
-          "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "New App undated is horrible!",
+          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
+          "sentiment": "negative"
         },
         {
-          "rating": 2,
-          "title": "Recto-Verso impossible",
-          "snippet": "Pas de possibilité de numériser en recto-verso avec un iPad",
+          "rating": 3,
+          "title": "Issues",
+          "snippet": "The fact that this printer is an upgrade from my last HP printer… still having issues with the app or printer🤦🏾‍♀️",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "Installation",
-          "snippet": "It’s easier to setup on iPhone than on computer",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "No imprime, mala calidad",
-          "snippet": "Salen los folios en blanco, pero te cobran. Me paso a otra marca fijo.",
-          "sentiment": "neutral"
+          "title": "So Easy",
+          "snippet": "I have been trying to print off a document all day from my iPad using my wireless printer. As soon as I added the HP printer app, I was able to print ",
+          "sentiment": "positive"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 98,
+      "mention_count": 90,
       "sentiment": {
-        "positive": 28,
-        "negative": 35,
-        "neutral": 35
+        "positive": 26,
+        "negative": 31,
+        "neutral": 33
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
+          "rating": 5,
+          "title": "Trouble with my printer",
+          "snippet": "January was so great helping me out,I give her a 5 starts.she was so lovely and she took her time to try to set up and activate my printer.thank you s",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
-          "title": "Don’t Bother buying",
-          "snippet": "The printer heads dry almost automatically after you install them. The Instant Ink subscription is pretty much mandatory and printing quality is so po",
+          "title": "Never again",
+          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Low Ink",
+          "snippet": "I’ve been waiting months for a colour cartridge - unable to reach customer service.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "New App undated is horrible!",
+          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "DISGRACEFUL!",
-          "snippet": "9 hours to try to install 2 Smart TANKS. After more hours of agonizing they finally let us out of our 3 year contract. And the billed my credit card!!",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Helping in a good way.",
-          "snippet": "This app has been a great resource for me to send faxes and I appreciate it thank you.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 2,
-          "title": "Print Setting Problem",
-          "snippet": "Using my iPhone17, the HP printer keeps messaging “Paper Mismatch”. Also the Double Side feature does NOT work even if I change the setting to ON/Long",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Hate you",
-          "snippet": "This printer is like operating the nasa space station if it was manufactured by temu with a user manual in Linear A.",
+          "title": "Just awful",
+          "snippet": "I just bought a brand new OfficeJet Pro 8120. I did research to find a printer that would be easily set up and AirPrint capable. I have spent an hour ",
           "sentiment": "negative"
         }
       ]

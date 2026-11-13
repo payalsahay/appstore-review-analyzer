@@ -1,393 +1,393 @@
 {
-  "generated_at": "2026-11-06T21:19:21.716663",
+  "generated_at": "2026-11-13T21:50:22.464769",
   "total_reviews": 500,
   "sentiment_summary": {
-    "positive": 154,
-    "negative": 148,
-    "neutral": 198
+    "neutral": 192,
+    "positive": 149,
+    "negative": 159
   },
   "rating_distribution": {
-    "5": 158,
-    "1": 262,
-    "2": 45,
-    "4": 15,
-    "3": 20
+    "2": 42,
+    "5": 155,
+    "1": 271,
+    "3": 19,
+    "4": 13
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 346,
+      "mention_count": 358,
       "sentiment": {
-        "positive": 99,
-        "negative": 122,
+        "positive": 100,
+        "negative": 133,
         "neutral": 125
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "Best printer",
-          "snippet": "I am so happy with my HP. I love the monthly subscription. I’m never disappointed. I highly recommend.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Best printer",
-          "snippet": "I love this new printer is was so easy to set up",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Trouble with my printer",
-          "snippet": "January was so great helping me out,I give her a 5 starts.she was so lovely and she took her time to try to set up and activate my printer.thank you s",
-          "sentiment": "positive"
+          "rating": 2,
+          "title": "Problems",
+          "snippet": "Can no longer print directly from iphone without going through HP app!",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Unreliable",
-          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
+          "title": "The mandated update",
+          "snippet": "I don’t like that I’m mandated to use only HP Cartridges. Also why is it taking so long between pressing print and the document actually printing? Thi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "The extras provided",
+          "snippet": "Printables don’t work always an error message. Print from anywhere chooses when to work. If you chose to end subscription they track the ink and block",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "Downhill quality",
+          "snippet": "Have been a loyal user of the HP OfficeJet printer for many years.    Just purchased a new one this week and it has been very difficult to set up and ",
           "sentiment": "negative"
         },
         {
           "rating": 5,
-          "title": "Review",
-          "snippet": "So far it’s a great printer",
+          "title": "Best printer ever",
+          "snippet": "This has been the best wireless printer I’ve ever owned.",
           "sentiment": "positive"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 243,
+      "mention_count": 241,
       "sentiment": {
-        "positive": 88,
-        "negative": 80,
-        "neutral": 75
+        "positive": 84,
+        "negative": 85,
+        "neutral": 72
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "Best printer",
-          "snippet": "I am so happy with my HP. I love the monthly subscription. I’m never disappointed. I highly recommend.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "Best printer",
-          "snippet": "I love this new printer is was so easy to set up",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Unreliable",
-          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
-          "sentiment": "negative"
-        },
-        {
           "rating": 2,
-          "title": "Nonsense",
-          "snippet": "The whole set up is atrocious. Completely unnecessary pages and pages to link a printer to the WiFi. This product and the app has made it a hassle on ",
+          "title": "Problems",
+          "snippet": "Can no longer print directly from iphone without going through HP app!",
           "sentiment": "neutral"
         },
         {
           "rating": 5,
-          "title": "All in one printer",
-          "snippet": "Love this printer and the app. I can print from any of my devices. It doesn’t get better than that.",
+          "title": "Great app A+++",
+          "snippet": "I love HP",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Inconsistent design on upgrade version",
+          "snippet": "Their app version upgrade totally changes the layout that does not give me any benefit but full of confusion on the function I wanted to use. Their ap",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "Downhill quality",
+          "snippet": "Have been a loyal user of the HP OfficeJet printer for many years.    Just purchased a new one this week and it has been very difficult to set up and ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Awesome printer",
+          "snippet": "Easy to use. Love the simplicity. Perfect except for the high price of ink",
           "sentiment": "positive"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 158,
+      "mention_count": 156,
       "sentiment": {
-        "positive": 38,
-        "negative": 65,
-        "neutral": 55
+        "positive": 30,
+        "negative": 64,
+        "neutral": 62
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "Best printer",
-          "snippet": "I am so happy with my HP. I love the monthly subscription. I’m never disappointed. I highly recommend.",
-          "sentiment": "positive"
-        },
-        {
           "rating": 2,
-          "title": "Nonsense",
-          "snippet": "The whole set up is atrocious. Completely unnecessary pages and pages to link a printer to the WiFi. This product and the app has made it a hassle on ",
+          "title": "Problems",
+          "snippet": "Can no longer print directly from iphone without going through HP app!",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Don’t buy",
-          "snippet": "Hard to setup and makes you reset every time",
+          "title": "The extras provided",
+          "snippet": "Printables don’t work always an error message. Print from anywhere chooses when to work. If you chose to end subscription they track the ink and block",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "Avoid",
-          "snippet": "This app sucks. Scanned files won’t email. The paper feeder on the printer is also constantly failing to load properly. The entire product is a hassle",
+          "title": "Inconsistent design on upgrade version",
+          "snippet": "Their app version upgrade totally changes the layout that does not give me any benefit but full of confusion on the function I wanted to use. Their ap",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Never again",
-          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
-          "sentiment": "neutral"
+          "rating": 2,
+          "title": "Downhill quality",
+          "snippet": "Have been a loyal user of the HP OfficeJet printer for many years.    Just purchased a new one this week and it has been very difficult to set up and ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Awesome printer",
+          "snippet": "Easy to use. Love the simplicity. Perfect except for the high price of ink",
+          "sentiment": "positive"
         }
       ]
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 116,
+      "mention_count": 119,
       "sentiment": {
         "positive": 28,
-        "negative": 40,
-        "neutral": 48
+        "negative": 46,
+        "neutral": 45
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
         {
+          "rating": 5,
+          "title": "Best printer ever",
+          "snippet": "This has been the best wireless printer I’ve ever owned.",
+          "sentiment": "positive"
+        },
+        {
           "rating": 1,
-          "title": "Unreliable",
-          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
+          "title": "Bob",
+          "snippet": "Horrible connecting to printer. Every hp printer have horrible connection and setup",
           "sentiment": "negative"
         },
         {
-          "rating": 2,
-          "title": "Nonsense",
-          "snippet": "The whole set up is atrocious. Completely unnecessary pages and pages to link a printer to the WiFi. This product and the app has made it a hassle on ",
-          "sentiment": "neutral"
+          "rating": 1,
+          "title": "Set up too complicated",
+          "snippet": "The system times out before the wifi connects and restarting doesn’t help.  Make it plug and play!!",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Don’t buy",
-          "snippet": "Hard to setup and makes you reset every time",
-          "sentiment": "neutral"
+          "title": "Horrible printer",
+          "snippet": "Constantly having to shut down to reconnect WiFi.  No support center because warranty ran out.  Scam to buy another HP printer.",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Never again",
-          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Will not connect to print",
-          "snippet": "Every time I try to print from my phone which is where it’s set up to print from it says that the set up is incomplete and I’ve tried everything that ",
-          "sentiment": "neutral"
+          "title": "Awful",
+          "snippet": "I have 2 printers in my house, each on different wi-fi and I STILL have to try numerous different ways to print something. I literally have to share t",
+          "sentiment": "negative"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 115,
+      "mention_count": 111,
       "sentiment": {
-        "positive": 37,
-        "negative": 37,
-        "neutral": 41
+        "positive": 34,
+        "negative": 41,
+        "neutral": 36
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Never again",
-          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "Don’t recommend",
-          "snippet": "So slow don’t recommend paying for monthly subscription when sometimes it wants to print and other times it doesn’t",
+          "title": "Inconsistent design on upgrade version",
+          "snippet": "Their app version upgrade totally changes the layout that does not give me any benefit but full of confusion on the function I wanted to use. Their ap",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Maybe the worst",
-          "snippet": "Absolutely horrible app and printer. It will just decide when it wants to print.dont get if your business relies on printing",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Cant Print Black And White If A Single Color Ink C",
-          "snippet": "Like the title says. Really dumb. Missing one color cripples the machines. Stupid.",
+          "rating": 5,
+          "title": "Such a relief!",
+          "snippet": "How is it that my phone handles the scan option better than my new computer?! On my computer I can’t install the HO App at all.",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
-          "title": "Great app but FAX could be fixed",
-          "snippet": "One thing with Fax is the sent document you send wether uploaded scammed etc should be allowed to Save to HP app and Files App  etc to retain a comple",
+          "rating": 5,
+          "title": "Just perfect Covience",
+          "snippet": "Totally love this app and my printer. I can fax or print from anywhere. It would cost me almost $9 to send 5 pages using an Office Depot. \n\nWith all t",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Ink!!!",
+          "snippet": "It will not print in draft mode on regular print option and then I don’t notice the draft setting is any different on the app. It is eating up ink!!",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "Wonderful Printer",
+          "snippet": "Love this printer and App! It’s perfect for all my needs.",
           "sentiment": "positive"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 87,
+      "mention_count": 93,
       "sentiment": {
-        "positive": 41,
-        "negative": 26,
-        "neutral": 20
+        "positive": 38,
+        "negative": 28,
+        "neutral": 27
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Avoid",
-          "snippet": "This app sucks. Scanned files won’t email. The paper feeder on the printer is also constantly failing to load properly. The entire product is a hassle",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 2,
-          "title": "The Color quality is not good!",
-          "snippet": "Color is not bold enough and definition is not good!",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Scan and email documents",
-          "snippet": "Not receiving documents that are being sent from printer to my email. Not sure why such a basic job can not be easily performed.",
+          "title": "The mandated update",
+          "snippet": "I don’t like that I’m mandated to use only HP Cartridges. Also why is it taking so long between pressing print and the document actually printing? Thi",
           "sentiment": "neutral"
         },
         {
-          "rating": 4,
-          "title": "Great app but FAX could be fixed",
-          "snippet": "One thing with Fax is the sent document you send wether uploaded scammed etc should be allowed to Save to HP app and Files App  etc to retain a comple",
-          "sentiment": "positive"
+          "rating": 2,
+          "title": "Downhill quality",
+          "snippet": "Have been a loyal user of the HP OfficeJet printer for many years.    Just purchased a new one this week and it has been very difficult to set up and ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "Such a relief!",
+          "snippet": "How is it that my phone handles the scan option better than my new computer?! On my computer I can’t install the HO App at all.",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "New App undated is horrible!",
-          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
+          "title": "Disappointed",
+          "snippet": "My printer is never consistent and the app doesn’t help. 1 out of 10 is prints goes smoothly. The print job is always faded and poor quality even when",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Worst printer ever!!",
+          "snippet": "Worst printer I have ever had! Can’t get it to scan to my computer! I have to use my phone to scan and then email it to my computer! So fricken frustr",
           "sentiment": "negative"
         }
       ]
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 63,
+      "mention_count": 64,
       "sentiment": {
-        "positive": 11,
-        "negative": 34,
-        "neutral": 18
+        "positive": 8,
+        "negative": 37,
+        "neutral": 19
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Unreliable",
-          "snippet": "This is the most difficult printer I’ve ever had. Always a connection issue or a paper error.",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Avoid",
-          "snippet": "This app sucks. Scanned files won’t email. The paper feeder on the printer is also constantly failing to load properly. The entire product is a hassle",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Don’t recommend",
-          "snippet": "So slow don’t recommend paying for monthly subscription when sometimes it wants to print and other times it doesn’t",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "It takes a lot of time to print",
-          "snippet": "Paper gets stuck and it takes a lot of time to print",
+          "title": "The extras provided",
+          "snippet": "Printables don’t work always an error message. Print from anywhere chooses when to work. If you chose to end subscription they track the ink and block",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "New App undated is horrible!",
-          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
+          "title": "Inconsistent design on upgrade version",
+          "snippet": "Their app version upgrade totally changes the layout that does not give me any benefit but full of confusion on the function I wanted to use. Their ap",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Fax broken",
+          "snippet": "Fax won’t work after update.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Set up too complicated",
+          "snippet": "The system times out before the wifi connects and restarting doesn’t help.  Make it plug and play!!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Last update",
+          "snippet": "The connection from my laptop to printer has slowed considerably since removing the HP Smart app.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 58,
+      "sentiment": {
+        "positive": 14,
+        "negative": 26,
+        "neutral": 18
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "Set up too complicated",
+          "snippet": "The system times out before the wifi connects and restarting doesn’t help.  Make it plug and play!!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Disappointed",
+          "snippet": "My printer is never consistent and the app doesn’t help. 1 out of 10 is prints goes smoothly. The print job is always faded and poor quality even when",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "PDF file",
+          "snippet": "This app helps in numerous ways especially with efficiency of getting the documents sent out for legal or professional and personal reasons. It is tru",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "Horrible printer",
+          "snippet": "Constantly having to shut down to reconnect WiFi.  No support center because warranty ran out.  Scam to buy another HP printer.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "Horrible",
+          "snippet": "It is difficult to summarize how much I dislike my HP DeskJet 2900 series. Sadly, we are too far down the road to look at a swap. Nothing is intuitive",
           "sentiment": "negative"
         }
       ]
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 62,
+      "mention_count": 54,
       "sentiment": {
-        "positive": 19,
-        "negative": 7,
-        "neutral": 36
+        "positive": 16,
+        "negative": 6,
+        "neutral": 32
       },
       "pm_focus": "",
       "sample_reviews": [
         {
           "rating": 1,
-          "title": "Mad.",
-          "snippet": "No good",
+          "title": "Espanto",
+          "snippet": "Orrible",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 4,
+          "title": "Great",
+          "snippet": "GREAT SO FAR",
           "sentiment": "positive"
         },
         {
           "rating": 5,
-          "title": "Dependable",
-          "snippet": "Consistent",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Faxed Docs",
-          "snippet": "Worked great!",
+          "title": "Excellent Service",
+          "snippet": "Wendy in hp all in plan was most excellent and respond effectively",
           "sentiment": "positive"
         },
         {
           "rating": 1,
-          "title": "No puedo cambiar la forma a horizontal",
-          "snippet": "No puedo cambiar la forma a horizontal",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "Sense Counseling LLC",
-          "snippet": "Thank you HP now, I’m a better Sense Counseling LLC because of your attachments",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "support": {
-      "name": "Customer Support & Help",
-      "mention_count": 51,
-      "sentiment": {
-        "positive": 14,
-        "negative": 22,
-        "neutral": 15
-      },
-      "pm_focus": "Support deflection, self-service success",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "Trouble with my printer",
-          "snippet": "January was so great helping me out,I give her a 5 starts.she was so lovely and she took her time to try to set up and activate my printer.thank you s",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "Never again",
-          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "New App undated is horrible!",
-          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
+          "title": "Terrible",
+          "snippet": "Do better! Make it work consistently without constant resetting.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
-          "title": "Just awful",
-          "snippet": "I just bought a brand new OfficeJet Pro 8120. I did research to find a printer that would be easily set up and AirPrint capable. I have spent an hour ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "Not properly printing",
-          "snippet": "The quality of the printing is not exactly what I am setting up in my app for a printer it’s not printing at all anything even the cour are messing up",
+          "rating": 5,
+          "title": "Hi",
+          "snippet": "This is noice",
           "sentiment": "neutral"
         }
       ]
@@ -396,40 +396,40 @@
       "name": "Updates & Compatibility",
       "mention_count": 44,
       "sentiment": {
-        "positive": 7,
+        "positive": 6,
         "negative": 22,
-        "neutral": 15
+        "neutral": 16
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
-          "rating": 1,
-          "title": "Never again",
-          "snippet": "This product makes it next to impossible to set up to print. When I went online to ask for help they offered a technical support person who would char",
+          "rating": 2,
+          "title": "Problems",
+          "snippet": "Can no longer print directly from iphone without going through HP app!",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
-          "title": "New App undated is horrible!",
-          "snippet": "Ever since the new app update, I haven’t been able to use my printer properly. The printer scanning option disappeared, and the app only allows me to ",
+          "title": "The mandated update",
+          "snippet": "I don’t like that I’m mandated to use only HP Cartridges. Also why is it taking so long between pressing print and the document actually printing? Thi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "Inconsistent design on upgrade version",
+          "snippet": "Their app version upgrade totally changes the layout that does not give me any benefit but full of confusion on the function I wanted to use. Their ap",
           "sentiment": "negative"
         },
         {
-          "rating": 3,
-          "title": "Issues",
-          "snippet": "The fact that this printer is an upgrade from my last HP printer… still having issues with the app or printer🤦🏾‍♀️",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "So Easy",
-          "snippet": "I have been trying to print off a document all day from my iPad using my wireless printer. As soon as I added the HP printer app, I was able to print ",
-          "sentiment": "positive"
+          "rating": 1,
+          "title": "Fax broken",
+          "snippet": "Fax won’t work after update.",
+          "sentiment": "negative"
         },
         {
           "rating": 1,
-          "title": "Update is trash",
-          "snippet": "Really don’t appreciate how you took my Symplr scan application and turned it into a convoluted mess. Usability sucks.",
+          "title": "Horrible printer",
+          "snippet": "Constantly having to shut down to reconnect WiFi.  No support center because warranty ran out.  Scam to buy another HP printer.",
           "sentiment": "negative"
         }
       ]

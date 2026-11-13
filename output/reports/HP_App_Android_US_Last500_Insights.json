@@ -1,268 +1,268 @@
 {
-  "generated_at": "2026-11-06T21:19:21.756745",
+  "generated_at": "2026-11-13T21:50:22.510417",
   "total_reviews": 500,
   "sentiment_summary": {
-    "positive": 137,
-    "negative": 144,
-    "neutral": 219
+    "neutral": 214,
+    "negative": 145,
+    "positive": 141
   },
   "rating_distribution": {
-    "5": 123,
-    "1": 299,
-    "2": 25,
-    "4": 20,
-    "3": 33
+    "1": 293,
+    "3": 30,
+    "4": 24,
+    "5": 130,
+    "2": 23
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 239,
+      "mention_count": 223,
       "sentiment": {
-        "positive": 43,
-        "negative": 79,
-        "neutral": 117
+        "positive": 39,
+        "negative": 78,
+        "neutral": 106
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "very convenient! I love it! had my printer for years no problems at all",
-          "sentiment": "positive"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "The app has a lot of problems with printing photos, including freezing and frequent errors.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Having a freakin app just to print is such bull $hit. Not to mention it keeps trying to tie you in to a fee that'll stop you from printing if you don'",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The worst app I own. Trying to connect this to a printer is nonstop problems. Because of this app, I will never purchase another HP product. That's a ",
+          "snippet": "cannot install the app, 3 days of trying, wiping previous attempts, switching security off, removing security, trying different downloads from differe",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Garbage app and garbage printers!",
+          "snippet": "simply does not work. The print quality tools and the ink levels never sync to HP servers so I often cannot run diagnostics from the app.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I spent an hour and a half trying to get this to work. what a complete waste of time. thanks hp. I installed and uninstalled three times. I power cycl",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "we love our printer.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "App Is Underperforming. It will waste paper printing information concerning the printer just fine but won't print actual documents needed. It's very f",
           "sentiment": "negative"
         }
       ]
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 217,
+      "mention_count": 210,
       "sentiment": {
-        "positive": 62,
-        "negative": 73,
-        "neutral": 82
+        "positive": 60,
+        "negative": 72,
+        "neutral": 78
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "nice app",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Love this App!",
-          "sentiment": "positive"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "All I get is a blank screen. This POS app doesn't work!",
+          "snippet": "cannot install the app, 3 days of trying, wiping previous attempts, switching security off, removing security, trying different downloads from differe",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "The app has a lot of problems with printing photos, including freezing and frequent errors.",
+          "snippet": "simply does not work. The print quality tools and the ink levels never sync to HP servers so I often cannot run diagnostics from the app.",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Having a freakin app just to print is such bull $hit. Not to mention it keeps trying to tie you in to a fee that'll stop you from printing if you don'",
+          "snippet": "HP all-in. not billing my account on the automatic payment until it's a week late and then their billing me for a late payment at the same time. gasli",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "not good app",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "the app is very useful",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 122,
+      "sentiment": {
+        "positive": 56,
+        "negative": 17,
+        "neutral": 49
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 4,
+          "title": "",
+          "snippet": "nice",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "amazing 😍😍😍😍😍🤩🤩🤩🤩🤩",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "How do you exist?",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Έχω τον 2810e. Τόσο με αυτόν όσο και με προηγούμενο μοντέλο έχω διαρκώς τεράστιο πρόβλημα συνδεσιμότητας της εφαρμογής με τους εκτυπωτές. Βασανίζομαι ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Don't trust HP.",
           "sentiment": "neutral"
         }
       ]
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 113,
+      "mention_count": 112,
       "sentiment": {
         "positive": 15,
-        "negative": 41,
-        "neutral": 57
+        "negative": 42,
+        "neutral": 55
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
         {
-          "rating": 5,
-          "title": "",
-          "snippet": "very convenient! I love it! had my printer for years no problems at all",
-          "sentiment": "positive"
-        },
-        {
           "rating": 1,
           "title": "",
-          "snippet": "The app has a lot of problems with printing photos, including freezing and frequent errors.",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Having a freakin app just to print is such bull $hit. Not to mention it keeps trying to tie you in to a fee that'll stop you from printing if you don'",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The worst app I own. Trying to connect this to a printer is nonstop problems. Because of this app, I will never purchase another HP product. That's a ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "worst scanning experience. also app often laga and it rarely works properly",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    "uncategorized": {
-      "name": "uncategorized",
-      "mention_count": 109,
-      "sentiment": {
-        "positive": 51,
-        "negative": 12,
-        "neutral": 46
-      },
-      "pm_focus": "",
-      "sample_reviews": [
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "vary good 👍",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "unable to install",
-          "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "nice...",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "If you can figure out the workarounds, it is a good little worker machine.",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "warst hp my holl life i am no parchas yeni thing in hp foock",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    "connectivity": {
-      "name": "Connectivity & Setup",
-      "mention_count": 89,
-      "sentiment": {
-        "positive": 13,
-        "negative": 34,
-        "neutral": 42
-      },
-      "pm_focus": "First-time user experience, connectivity reliability",
-      "sample_reviews": [
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "The worst app I own. Trying to connect this to a printer is nonstop problems. Because of this app, I will never purchase another HP product. That's a ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Every few weeks HP does something that causes us to lose connectivity with our printer. I am about to trash this printer and never purchase from this ",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "new printer, followed instructions and still won't connect with this app, useless",
+          "snippet": "cannot install the app, 3 days of trying, wiping previous attempts, switching security off, removing security, trying different downloads from differe",
           "sentiment": "negative"
         },
         {
           "rating": 3,
           "title": "",
-          "snippet": "I've been using it for the past year so that I can print with just using my phone, and it's been working great. But suddenly tonight, when I tried pri",
-          "sentiment": "positive"
+          "snippet": "not work properly",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "App layout is not useful. the settings does not link and states there is error in connection. therefore you cannot change preference such as default f",
+          "snippet": "I will never buy another hp product again.... customer service is all AI ... terrible",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "It's amazing how bad this app is. The irony of showing a million ads for hp+ when the core functionality doesn't work is lost on the developers.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "An app made by people who must enjoy the suffering of other people. In an age when customer service means everything, this app and the Envy Inspire 79",
           "sentiment": "neutral"
         }
       ]
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 89,
+      "mention_count": 90,
       "sentiment": {
-        "positive": 20,
-        "negative": 26,
-        "neutral": 43
+        "positive": 18,
+        "negative": 30,
+        "neutral": 42
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "no one to speak to I need assistance with my desktop computer cannot access anything",
+          "snippet": "HP all-in. not billing my account on the automatic payment until it's a week late and then their billing me for a late payment at the same time. gasli",
           "sentiment": "neutral"
         },
         {
-          "rating": 3,
+          "rating": 1,
           "title": "",
-          "snippet": "Have Always Loved Until This... Recently had to change paper size from letter to legal...but after when needing to go back to letter I am not given ad",
+          "snippet": "I spent an hour and a half trying to get this to work. what a complete waste of time. thanks hp. I installed and uninstalled three times. I power cycl",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "HP = Horrible Printing. Printer requires this app to work. (Stupid) App no longer works on (new) devices. (Stupider) Cue doom loop of HP not being abl",
+          "snippet": "App Is Underperforming. It will waste paper printing information concerning the printer just fine but won't print actual documents needed. It's very f",
           "sentiment": "negative"
         },
         {
-          "rating": 3,
+          "rating": 4,
           "title": "",
-          "snippet": "The app should allow users to freely resize and stretch pictures when printing photos.",
+          "snippet": "good feature but its very slow need to boost a spped",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "right off the bat just like I expected they try to sell all of your data and get you to subscribe with these multi-month plans for ink, unsubscribe to",
+          "snippet": "It's amazing how bad this app is. The irony of showing a million ads for hp+ when the core functionality doesn't work is lost on the developers.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 85,
+      "sentiment": {
+        "positive": 12,
+        "negative": 34,
+        "neutral": 39
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "I spent an hour and a half trying to get this to work. what a complete waste of time. thanks hp. I installed and uninstalled three times. I power cycl",
           "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Was a decent app but the latest update made it so either my printer isn't connected or I can't sign in, either way it's literally useless at the momen",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "this app is atrocious and doesn't work. it continues to clock and never load up so I can connect my printer and get ink cartridge replacements. I'll b",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Very handy app to connect with multiple HP printers and scanning.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I have a HP smart 2752 printer. I got a laptop to connect and I can isolate one page to print. A cellphone will print both pages - you can't control h",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -270,166 +270,166 @@
       "name": "App Reliability & Stability",
       "mention_count": 77,
       "sentiment": {
-        "positive": 4,
-        "negative": 49,
-        "neutral": 24
+        "positive": 5,
+        "negative": 50,
+        "neutral": 22
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "All I get is a blank screen. This POS app doesn't work!",
-          "sentiment": "negative"
+          "snippet": "I spent an hour and a half trying to get this to work. what a complete waste of time. thanks hp. I installed and uninstalled three times. I power cycl",
+          "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Scan function not working anymore.",
+          "snippet": "doesn't work at all. never opens.",
           "sentiment": "negative"
         },
         {
-          "rating": 1,
+          "rating": 4,
           "title": "",
-          "snippet": "The app has a lot of problems with printing photos, including freezing and frequent errors.",
+          "snippet": "good feature but its very slow need to boost a spped",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "it's so slow",
+          "snippet": "It's amazing how bad this app is. The irony of showing a million ads for hp+ when the core functionality doesn't work is lost on the developers.",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "worst scanning experience. also app often laga and it rarely works properly",
+          "snippet": "SOOOOOO SLOW",
           "sentiment": "negative"
         }
       ]
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 64,
+      "mention_count": 57,
       "sentiment": {
-        "positive": 16,
-        "negative": 20,
-        "neutral": 28
+        "positive": 15,
+        "negative": 19,
+        "neutral": 23
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "Scan function not working anymore.",
-          "sentiment": "negative"
+          "snippet": "simply does not work. The print quality tools and the ink levels never sync to HP servers so I often cannot run diagnostics from the app.",
+          "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "worst scanning experience. also app often laga and it rarely works properly",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "App sucks. I keep trying to scan something and I am never able to save the file. It just crashes",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 4,
-          "title": "",
-          "snippet": "great on tablet poor on phone image always ends up too saturated and big on tablet the colors and size is perfect",
+          "snippet": "I spent an hour and a half trying to get this to work. what a complete waste of time. thanks hp. I installed and uninstalled three times. I power cycl",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Since the last update the camera scan doesn't work, which is completely useless and it is not fit for purpose. I would have expected HP to have an app",
+          "snippet": "App Is Underperforming. It will waste paper printing information concerning the printer just fine but won't print actual documents needed. It's very f",
           "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "too often won't pick up the scanner. At least was able to scan from my photo gallery with it",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Very handy app to connect with multiple HP printers and scanning.",
+          "sentiment": "neutral"
         }
       ]
     },
     "support": {
       "name": "Customer Support & Help",
-      "mention_count": 49,
+      "mention_count": 48,
       "sentiment": {
-        "positive": 13,
+        "positive": 12,
         "negative": 18,
         "neutral": 18
       },
       "pm_focus": "Support deflection, self-service success",
       "sample_reviews": [
         {
-          "rating": 2,
+          "rating": 1,
           "title": "",
-          "snippet": "no one to speak to I need assistance with my desktop computer cannot access anything",
+          "snippet": "HP all-in. not billing my account on the automatic payment until it's a week late and then their billing me for a late payment at the same time. gasli",
           "sentiment": "neutral"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "really poor experience with this printer. extremely slow and zero real support from this company, just a number of steps that lead to the same result ",
+          "snippet": "I will never buy another hp product again.... customer service is all AI ... terrible",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "new printer, followed instructions and still won't connect with this app, useless",
-          "sentiment": "negative"
+          "snippet": "An app made by people who must enjoy the suffering of other people. In an age when customer service means everything, this app and the Envy Inspire 79",
+          "sentiment": "neutral"
         },
         {
-          "rating": 4,
+          "rating": 5,
           "title": "",
-          "snippet": "it's very helpful",
+          "snippet": "helped a ton with making sure all my personal prints turned out perfectly!",
           "sentiment": "positive"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "This company is so pathetic that when cancelling service because their printer WON'T STAY ONLINE, they charge the full price of the subscription inste",
+          "snippet": "When I open the app, it prompts me to sign in. When I click Sign In, it prompts me to sign in on the browser. It does not open a new tab to do so and ",
           "sentiment": "negative"
         }
       ]
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 33,
+      "mention_count": 31,
       "sentiment": {
-        "positive": 5,
-        "negative": 17,
-        "neutral": 11
+        "positive": 3,
+        "negative": 18,
+        "neutral": 10
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
         {
           "rating": 1,
           "title": "",
-          "snippet": "really poor experience with this printer. extremely slow and zero real support from this company, just a number of steps that lead to the same result ",
+          "snippet": "Incompatible with Chromebook.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP all-in. not billing my account on the automatic payment until it's a week late and then their billing me for a late payment at the same time. gasli",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Was a decent app but the latest update made it so either my printer isn't connected or I can't sign in, either way it's literally useless at the momen",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "Since the last update the camera scan doesn't work, which is completely useless and it is not fit for purpose. I would have expected HP to have an app",
+          "snippet": "When I open the app, it prompts me to sign in. When I click Sign In, it prompts me to sign in on the browser. It does not open a new tab to do so and ",
           "sentiment": "negative"
         },
         {
           "rating": 1,
           "title": "",
-          "snippet": "since the most recent update, the app has significantly longer loading times, keeps getting stuck on the loading screen, and won't print unless the ap",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "Most Functions Not Working they open a website with an error message so you can't even update print quality settings and the cart creator doesn't do a",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "These Hillbilly Posers DOFUKINNOT have support on the weekends worth a damn!!!! AI is useless!!! And if you have a printer that is a few years old lik",
+          "snippet": "My 15 yr old Hp Envy 120e printer still struggles to print following the earlier HP update that I believe was back around May, before then I never had",
           "sentiment": "negative"
         }
       ]

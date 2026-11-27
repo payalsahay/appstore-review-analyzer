@@ -1,8 +1,8 @@
 # HP_App_Combined_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-11-20 22:31
+**Generated:** 2026-11-27 23:57
 **Source:** HP_App_Combined_AllCountries_Last30Days.json
-**Total Reviews:** 1527
+**Total Reviews:** 1514
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1527 |
+| Total Reviews | 1514 |
 | Average Rating (from reviews) | 2.70 / 5.0 |
-| Positive Sentiment | 17.7% |
-| Negative Sentiment | 17.4% |
-| 1-Star Reviews | 747 (48.9%) |
-| 5-Star Reviews | 539 (35.3%) |
+| Positive Sentiment | 18.4% |
+| Negative Sentiment | 17.7% |
+| 1-Star Reviews | 740 (48.9%) |
+| 5-Star Reviews | 544 (35.9%) |
 
 ---
 
@@ -23,11 +23,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 539 | 35.3% |
-| 4 | 66 | 4.3% |
-| 3 | 71 | 4.6% |
-| 2 | 104 | 6.8% |
-| 1 | 747 | 48.9% |
+| 5 | 544 | 35.9% |
+| 4 | 52 | 3.4% |
+| 3 | 64 | 4.2% |
+| 2 | 114 | 7.5% |
+| 1 | 740 | 48.9% |
 
 ---
 
@@ -35,22 +35,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 661 | 43.3% |
-| 2 | Print Quality & Functionality | 548 | 35.9% |
-| 3 | Other | 451 | 29.5% |
-| 4 | Value & Pricing | 294 | 19.3% |
-| 5 | Scanning Features | 213 | 13.9% |
-| 6 | Connectivity & Setup | 191 | 12.5% |
-| 7 | Feature Requests & Missing Features | 179 | 11.7% |
-| 8 | App Reliability & Stability | 152 | 10.0% |
-| 9 | Customer Support & Help | 101 | 6.6% |
-| 10 | Updates & Compatibility | 97 | 6.4% |
+| 1 | Mobile App Experience | 662 | 43.7% |
+| 2 | Print Quality & Functionality | 528 | 34.9% |
+| 3 | Other | 449 | 29.7% |
+| 4 | Value & Pricing | 280 | 18.5% |
+| 5 | Scanning Features | 203 | 13.4% |
+| 6 | Connectivity & Setup | 196 | 12.9% |
+| 7 | Feature Requests & Missing Features | 170 | 11.2% |
+| 8 | App Reliability & Stability | 144 | 9.5% |
+| 9 | Customer Support & Help | 107 | 7.1% |
+| 10 | Updates & Compatibility | 100 | 6.6% |
 
 ---
 
 ## Critical Pain Points
 
-- **App Reliability & Stability**: 60% negative sentiment (152 mentions)
+- **App Reliability & Stability**: 67% negative sentiment (144 mentions)
 
 ---
 
